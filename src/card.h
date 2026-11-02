@@ -14,14 +14,13 @@ public:
     int getEff(); //returns poison and healval as array
     bool getExclusive(); //returns if card is exclusive
     int getCost(); //returns energy cost
+    int iD(); //returns id
     std::string getname(); //returns cardname
 private:
     /* data */
     std::string name;
-    int eCost, attackVal, attackType, defVal, poisonVal, healVal; //all of these should initialise to 0
+    int id, eCost, attackVal, attackType, defVal, poisonVal, healVal; //all of these should initialise to 0
     bool isEnemyExclusive;
-protected:
-    int id; //protected so other cards can read and find this
 };
 
 #endif //EE2010_CW_CARD_H
