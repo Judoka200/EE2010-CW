@@ -1,7 +1,34 @@
 #include <iostream>
-// test
+#include "card.h"
+
+
+
+class uiBlock
+{
+private:
+  /* data */
+public:
+  uiBlock(/* args */);
+  ~uiBlock();
+};
+
+uiBlock::uiBlock(/* args */)
+{
+}
+
+uiBlock::~uiBlock()
+{
+}
+
+
+
 
 int main() {
 
-  std::cout << "\e[32;41m ISAC" << std::endl;
+  card testCard("stab", 4, ATKTYPE::slash);
+
+  std::cout<<testCard.name;
+
 }
+
+
