@@ -6,8 +6,6 @@ void stillTesting() {
 }
 
 
-using namespace std;
-
 int main(){
     cout << "Test" << endl;
 
