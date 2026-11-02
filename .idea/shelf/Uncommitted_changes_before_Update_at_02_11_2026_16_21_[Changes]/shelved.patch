@@ -1,0 +1,56 @@
+Index: src/Card.h
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>//\r\n// Created by benre on 02/11/2026.\r\n//\r\n\r\n#ifndef EE2010_CW_CARD_H\r\n#define EE2010_CW_CARD_H\r\n\r\n\r\nclass Card {\r\npublic:\r\n    card(std::string, int, bool);\r\n    void addEffect(int,int);\r\n    void addAttack(int, int);\r\n    void addDef(int);\r\n    int getAttack();\r\n    int getDef();\r\n    int getEff();\r\n    bool getExclusive();\r\n    int getCost();\r\n    std::string getname();\r\nprivate:\r\n    std::string name;\r\n    int eCost, attackVal, attackType, defVal, poisonVal, healVal;\r\n    bool isEnemyExclusive;\r\nprotected:\r\n    int id;\r\n};\r\n\r\n\r\n#endif //EE2010_CW_CARD_H\r\n
+===================================================================
+diff --git a/src/Card.h b/src/Card.h
+--- a/src/Card.h	(revision 511b4158a6e784ba781409e9832b805339644398)
++++ b/src/Card.h	(date 1793634561192)
+@@ -1,30 +1,26 @@
+-//
+-// Created by benre on 02/11/2026.
+-//
++#include <string>
++#include "arcaneKnowledgeRepository.h"
+ 
+-#ifndef EE2010_CW_CARD_H
+-#define EE2010_CW_CARD_H
+ 
+-
+-class Card {
++class Card
++{
+ public:
+-    card(std::string, int, bool);
+-    void addEffect(int,int);
+-    void addAttack(int, int);
+-    void addDef(int);
+-    int getAttack();
+-    int getDef();
+-    int getEff();
+-    bool getExclusive();
+-    int getCost();
+-    std::string getname();
++    card(int,std::string,int, bool); //id,name,cost,exclusive
++    void addEffect(int,int); //poison,heal
++    void addAttack(int,int); //damage,type
++    void addDef(int); //block
++    int getAttack(); //returns attack and type as array
++    int getDef(); //returns def
++    int getEff(); //returns poison and healval as array
++    bool getExclusive(); //returns if card is exclusive
++    int getCost(); //returns energy cost
++    int iD(); //returns id
++    std::string getname(); //returns cardname
+ private:
++    /* data */
+     std::string name;
+-    int eCost, attackVal, attackType, defVal, poisonVal, healVal;
++    int id, eCost, attackVal, attackType, defVal, poisonVal, healVal; //all of these should initialise to 0
+     bool isEnemyExclusive;
+-protected:
+-    int id;
+ };
+-
+ 
+ #endif //EE2010_CW_CARD_H

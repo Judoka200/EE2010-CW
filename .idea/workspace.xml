@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
+  </component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="23deca65-a634-4148-b459-0a7f0f1752da" name="Changes" comment="changes made">
+      <change beforePath="$PROJECT_DIR$/src/card.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/card.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/card.h" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="reuben" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="INCOMING_COMMITS_CHECK_STRATEGY" value="FETCH" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;kreuben-1234&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Judoka200/EE2010-CW.git&quot;,
+    &quot;accountId&quot;: &quot;dc4741ad-8381-4917-8499-554c06785d96&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/benre/CLionProjects/EE2010-CW/src/card.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://diff.h" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="dqGNXh1P" />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000000001435516" />
+      <entry key="S5" value="1.0002717397482894" />
+      <entry key="S10" value="1.0599708697273715" />
+      <entry key="S30" value="5.20391598468554" />
+      <entry key="S60" value="15.876641553590385" />
+      <entry key="M2" value="37.09603884608756" />
+      <entry key="M5" value="129.84573819999713" />
+      <entry key="M10" value="291.8980306870306" />
+      <entry key="M15" value="414.5750970678366" />
+      <entry key="M30" value="631.9755847522082" />
+      <entry key="H1" value="810.0301415872265" />
+      <entry key="H2" value="927.8240063073705" />
+      <entry key="H4" value="996.1897871188872" />
+      <entry key="D1" value="1058.80694334306" />
+      <entry key="W1" value="1070.101038695413" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.0011857371917920374" />
+      <entry key="MS500" value="0.2598948587938197" />
+      <entry key="S2" value="0.7140019899859005" />
+      <entry key="S5" value="0.8742078642099973" />
+      <entry key="S10" value="0.9947927091036237" />
+      <entry key="S30" value="5.179219484933356" />
+      <entry key="S60" value="15.85657594675405" />
+      <entry key="M2" value="37.07712265815672" />
+      <entry key="M5" value="129.83070875213994" />
+      <entry key="M10" value="291.8856218069771" />
+      <entry key="M15" value="414.5642561721242" />
+      <entry key="M30" value="631.9677321086943" />
+      <entry key="H1" value="810.0251537597895" />
+      <entry key="H2" value="927.8211472033677" />
+      <entry key="H4" value="996.1882492439305" />
+      <entry key="D1" value="1058.8066702563378" />
+      <entry key="W1" value="1070.100999247442" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3LXzE2gFK5vqzsr18ZMGBb7RVbL" />
+  <component name="ProjectStatusUIService">{
+  &quot;uiKindId&quot;: &quot;Widget&quot;
+}</component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "CidrDebugProfileConversion": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "reuben",
+    "git.auto.fetch.suggestion.counter": "1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true"
+  }
+}]]></component>
+  <component name="SelectedDebugProfileService">{
+  &quot;profileIdByStamp&quot;: [],
+  &quot;modificationCount&quot;: 1
+}</component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="23deca65-a634-4148-b459-0a7f0f1752da" name="Changes" comment="" />
+      <created>1793615087643</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1793615087643</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="reuben" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="text">
+                    <value>
+                      <list>
+                        <option value="git " />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&#9;modified:   .gitignore&#10;&#9;new file:   CMakeLists.txt&#10;    modified:   src/main.cpp" />
+    <MESSAGE value="test" />
+    <MESSAGE value="first header finished" />
+    <MESSAGE value="notes added to header and minor changes made" />
+    <MESSAGE value="minor changes made" />
+    <MESSAGE value="playerDeck headers defined." />
+    <MESSAGE value="playerDeck headers defined and commented" />
+    <MESSAGE value="changes made" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes made" />
+    <option name="LAST_CHUNK_COMMIT_MESSAGE" value="&#9;modified:   .gitignore&#10;&#9;new file:   CMakeLists.txt&#10;    modified:   src/main.cpp" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/playerDeck.h</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
