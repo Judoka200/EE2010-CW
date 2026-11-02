@@ -5,7 +5,7 @@
 class Card
 {
 public:
-    card(ind,std::string,int, bool); //id,name,cost,exclusive
+    card(int,std::string,int, bool); //id,name,cost,exclusive
     void addEffect(int,int); //poison,heal
     void addAttack(int,int); //damage,type
     void addDef(int); //block
@@ -21,7 +21,7 @@ private:
     int eCost, attackVal, attackType, defVal, poisonVal, healVal; //all of these should initialise to 0
     bool isEnemyExclusive;
 protected:
-    int id; //protected so other cards can read and findthis
+    int id; //protected so other cards can read and find this
 };
 
 #endif //EE2010_CW_CARD_H
