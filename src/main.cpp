@@ -3,5 +3,5 @@
 
 int main() {
 
-  cout << "Isaac asked!!!" << endl;
+  std::cout << "Isaac asked!!!" << std::endl;
 }
