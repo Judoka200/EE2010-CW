@@ -5,8 +5,10 @@
 #ifndef EE2010_CW_PLAYERDECK_H
 #define EE2010_CW_PLAYERDECK_H
 #include "card.h"
+#include <vector>
 
 class playerDeck {
+
     public:
     void addCard(int); //takes card id and adds it to drawpile. throws error message if card does not exist
     void removeCard(int); //removes card reference from drawpile. if not in drawpile check hand. if not in either throw error
@@ -15,11 +17,12 @@ class playerDeck {
     void clearhand(); //puts entire hand in drawpile for easier referencing.
     void drawCard(); //draws one random card from drawpile to hand. does noting if drawpile is empty
     card* getCard(int); //returns pointer to card.
-    card* getHand(); //returns array of pointers to hand
-    card* getDeck(); //returns array of pointers to entire deck
+    card* getHand(); //returns array/vector of pointers to hand
+    card* getDeck(); //returns array/vector of pointers to entire deck
+
     private:
-    card* drawpile[]; //drawpile array definition
-    card* hand[]; //hand array definition
+    vector<card*> drawpile;
+    vector<card*> hand; //vector of class pointers
 };
 
 
