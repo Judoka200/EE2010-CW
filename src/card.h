@@ -5,29 +5,23 @@
 class Card
 {
 public:
-    card(std::string, int, bool);
-    void addEffect(int,int);
-    void addAttack(int, int);
-    void addDef(int);
-    int getAttack();
-    int getDef();
-    int getEff();
-    bool getExclusive();
-    int getCost();
-    std::string getname();
+    card(ind,std::string,int, bool); //id,name,cost,exclusive
+    void addEffect(int,int); //poison,heal
+    void addAttack(int,int); //damage,type
+    void addDef(int); //block
+    int getAttack(); //returns attack and type as array
+    int getDef(); //returns def
+    int getEff(); //returns poison and healval as array
+    bool getExclusive(); //returns if card is exclusive
+    int getCost(); //returns energy cost
+    std::string getname(); //returns cardname
 private:
     /* data */
     std::string name;
-    int eCost, attackVal, attackType, defVal, poisonVal, healVal;
+    int eCost, attackVal, attackType, defVal, poisonVal, healVal; //all of these should initialise to 0
     bool isEnemyExclusive;
 protected:
-    int id;
+    int id; //protected so other cards can read and findthis
 };
-
-card::card(std::string cname, int ccost, ATKTYPE ctype){
-    name = cname;
-    enCost = ccost;
-    type = ctype;
-}
 
 #endif //EE2010_CW_CARD_H
