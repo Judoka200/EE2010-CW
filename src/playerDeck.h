@@ -10,6 +10,7 @@
 class playerDeck {
 
     public:
+    playerDeck(); //constructor initialises drawpile and hand
     void addCard(int); //takes card id and adds it to drawpile. throws error message if card does not exist
     void removeCard(int); //removes card reference from drawpile. if not in drawpile check hand. if not in either throw error
     void addCardToHand(int); //adds card to hand from drawpile. throw error message if card is not in drawpile
