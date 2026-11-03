@@ -23,4 +23,4 @@ private:
     bool isEnemyExclusive;
 };
 
-#endif //EE2010_CW_CARD_H
+
