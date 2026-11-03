@@ -3,22 +3,7 @@
 
 
 
-class uiBlock
-{
-private:
-  /* data */
-public:
-  uiBlock(/* args */);
-  ~uiBlock();
-};
 
-uiBlock::uiBlock(/* args */)
-{
-}
-
-uiBlock::~uiBlock()
-{
-}
 
 
 
