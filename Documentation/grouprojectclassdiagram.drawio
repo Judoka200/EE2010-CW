@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="q2iqAD_tB0g1iQCsBc3R">
-    <mxGraphModel dx="1493" dy="-140" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1776" dy="55" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -100,16 +100,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="HAOcWdD5C0crJ14V23hl-66" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Player" vertex="1">
-          <mxGeometry height="180" width="190" x="100" y="1790" as="geometry" />
+          <mxGeometry height="160" width="190" x="100" y="1790" as="geometry" />
         </mxCell>
-        <mxCell id="HAOcWdD5C0crJ14V23hl-67" parent="HAOcWdD5C0crJ14V23hl-66" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- deck: Player deck&lt;div&gt;- energy: int&lt;/div&gt;" vertex="1">
-          <mxGeometry height="44" width="190" y="26" as="geometry" />
+        <mxCell id="HAOcWdD5C0crJ14V23hl-67" parent="HAOcWdD5C0crJ14V23hl-66" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;- energy: int&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="190" y="26" as="geometry" />
         </mxCell>
         <mxCell id="HAOcWdD5C0crJ14V23hl-68" parent="HAOcWdD5C0crJ14V23hl-66" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
-          <mxGeometry height="8" width="190" y="70" as="geometry" />
+          <mxGeometry height="8" width="190" y="56" as="geometry" />
         </mxCell>
-        <mxCell id="HAOcWdD5C0crJ14V23hl-69" parent="HAOcWdD5C0crJ14V23hl-66" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ removenergy(value: int): void&lt;/div&gt;&lt;div&gt;+ setenergy(value: int): void&lt;/div&gt;&lt;div&gt;+ getenergy(): int&lt;/div&gt;&lt;div&gt;+ turnstart(): void&lt;/div&gt;&lt;div&gt;+ getdeck(): Player Deck&lt;/div&gt;&lt;div&gt;+ getHand(): Card&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="102" width="190" y="78" as="geometry" />
+        <mxCell id="HAOcWdD5C0crJ14V23hl-69" parent="HAOcWdD5C0crJ14V23hl-66" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&amp;lt;&amp;lt;constructor&amp;gt;&amp;gt; Player(health: int)&lt;/div&gt;&lt;div&gt;+ removenergy(value: int): void&lt;/div&gt;&lt;div&gt;+ setenergy(value: int): void&lt;/div&gt;&lt;div&gt;+ getenergy(): int&lt;/div&gt;&lt;div&gt;+ turnstart(): void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="96" width="190" y="64" as="geometry" />
         </mxCell>
         <mxCell id="HAOcWdD5C0crJ14V23hl-70" edge="1" parent="1" source="HAOcWdD5C0crJ14V23hl-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;startArrow=diamondThin;startFill=1;endArrow=none;endFill=0;strokeWidth=4;exitX=0.476;exitY=1.012;exitDx=0;exitDy=0;exitPerimeter=0;" target="HAOcWdD5C0crJ14V23hl-47">
           <mxGeometry relative="1" x="-0.2139" as="geometry">
@@ -138,7 +138,7 @@
         <mxCell id="HAOcWdD5C0crJ14V23hl-76" parent="HAOcWdD5C0crJ14V23hl-74" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
           <mxGeometry height="8" width="170" y="73" as="geometry" />
         </mxCell>
-        <mxCell id="HAOcWdD5C0crJ14V23hl-77" parent="HAOcWdD5C0crJ14V23hl-74" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&amp;lt;&amp;lt;constructor&amp;gt;&amp;gt; Card(health: int)&lt;/div&gt;+ heal(value: int): void&lt;div&gt;+ damage(value: int): void&lt;/div&gt;&lt;div&gt;+ sethealth(value:int): void&lt;/div&gt;&lt;div&gt;+ activateturnstart(): void&lt;/div&gt;&lt;div&gt;+ addpoison(value: int): void&lt;/div&gt;&lt;div&gt;+ addblock(int): void&lt;/div&gt;&lt;div&gt;+ gethealth(): int&lt;/div&gt;&lt;div&gt;+ getpoison(): int&lt;/div&gt;&lt;div&gt;+ getblock(): int&lt;/div&gt;" vertex="1">
+        <mxCell id="HAOcWdD5C0crJ14V23hl-77" parent="HAOcWdD5C0crJ14V23hl-74" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&amp;lt;&amp;lt;constructor&amp;gt;&amp;gt; Info(health: int)&lt;/div&gt;+ heal(value: int): void&lt;div&gt;+ damage(value: int): void&lt;/div&gt;&lt;div&gt;+ sethealth(value:int): void&lt;/div&gt;&lt;div&gt;+ activateturnstart(): void&lt;/div&gt;&lt;div&gt;+ addpoison(value: int): void&lt;/div&gt;&lt;div&gt;+ addblock(int): void&lt;/div&gt;&lt;div&gt;+ gethealth(): int&lt;/div&gt;&lt;div&gt;+ getpoison(): int&lt;/div&gt;&lt;div&gt;+ getblock(): int&lt;/div&gt;" vertex="1">
           <mxGeometry height="169" width="170" y="81" as="geometry" />
         </mxCell>
         <mxCell id="HAOcWdD5C0crJ14V23hl-78" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="scene" vertex="1">
