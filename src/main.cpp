@@ -4,13 +4,18 @@
 
 
 int main() {
-card testCard(1,"slashsd", 4, false);
-std::cout<<(testCard.getName())<<std::endl;
+card testCard(1,"slashsd", 4);
 
 playerDeck deck;
 
-    deck.addCard(deck.getHand(),&testCard);
+    card test2(2,"stabs",3);
+    deck.addCard(&testCard);
+    // deck.show();
+    deck.addCard(&test2);
     deck.show();
+
+    deck.addCardToHand(&test2);
+
 }
 
 

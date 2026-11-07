@@ -22,9 +22,14 @@ std::string card::getName(){
     return name;
 }
 
+void card::addAttack(int damage, ATKTYPE type){
+    attackType = type;
+    attackVal = damage;
+}
+
 int card::getAttack() { return attackVal; }
 int card::getDef()    { return defVal; }
-int card::getEff()    { return poisonVal; }   // see note below
+int card::getEff()    { return poisonVal; }   
 bool card::getExclusive() { return isEnemyExclusive; }
 int card::getCost()   { return eCost; }
 int card::iD()        { return id; }

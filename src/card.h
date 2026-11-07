@@ -8,7 +8,7 @@ class card
 public:
     card(int id,std::string name,int cost, bool exclusive = false); //id,name,cost,exclusive to enemy
     void addEffect(int,int); //poison,heal
-    void addAttack(int damage, ATKTYPE type); //damage,type
+    void addAttack(int , ATKTYPE ); //damage,type
     void addDef(int); //block
     int getAttack(); //returns attack and type as array
     int getDef(); //returns def
