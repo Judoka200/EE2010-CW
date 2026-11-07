@@ -1,33 +1,20 @@
 #include <iostream>
 #include "card.h"
-
-
-
-class uiBlock
-{
-private:
-  /* data */
-public:
-  uiBlock(/* args */);
-  ~uiBlock();
-};
-
-uiBlock::uiBlock(/* args */)
-{
-}
-
-uiBlock::~uiBlock()
-{
-}
-
-
+#include "playerDeck.h"
 
 
 int main() {
+card testCard(1,"slashsd", 4);
 
-  card testCard("stab", 4, ATKTYPE::slash);
+playerDeck deck;
 
-  std::cout<<testCard.name;
+    card test2(2,"stabs",3);
+    deck.addCard(&testCard);
+    // deck.show();
+    deck.addCard(&test2);
+    deck.show();
+
+    deck.addCardToHand(&test2);
 
 }
 
