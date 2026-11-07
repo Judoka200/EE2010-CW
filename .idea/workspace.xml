@@ -17,8 +17,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23deca65-a634-4148-b459-0a7f0f1752da" name="Changes" comment="constructor added to playerDeck">
-      <change beforePath="$PROJECT_DIR$/src/info.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/info.h" afterDir="false" />
+    <list default="true" id="23deca65-a634-4148-b459-0a7f0f1752da" name="Changes" comment="enemy header completed.">
+      <change afterPath="$PROJECT_DIR$/src/Player.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Player.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,61 +73,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0004745458366908" />
-      <entry key="S2" value="1.3071082422149485" />
-      <entry key="S5" value="3.0826608331232124" />
-      <entry key="S10" value="6.750210649098972" />
-      <entry key="S30" value="21.705763505921954" />
-      <entry key="S60" value="33.181243841488296" />
-      <entry key="M2" value="43.10753523711615" />
-      <entry key="M5" value="81.99744060522299" />
-      <entry key="M10" value="199.24142804825007" />
-      <entry key="M15" value="315.77092876349656" />
-      <entry key="M30" value="557.0369220905324" />
-      <entry key="H1" value="776.8950983813461" />
-      <entry key="H2" value="930.5521971304611" />
-      <entry key="H4" value="1022.2863164007856" />
-      <entry key="D1" value="1107.8071160889756" />
-      <entry key="W1" value="1123.3777358363477" />
+      <entry key="MS100" value="1.0000277389840477" />
+      <entry key="MS500" value="1.213349712847057" />
+      <entry key="S2" value="2.1765085748951867" />
+      <entry key="S5" value="4.035976219262874" />
+      <entry key="S10" value="10.827153392898651" />
+      <entry key="S30" value="47.83712926885634" />
+      <entry key="S60" value="91.39249429951515" />
+      <entry key="M2" value="138.14223391732898" />
+      <entry key="M5" value="185.96999374592707" />
+      <entry key="M10" value="208.41609050766775" />
+      <entry key="M15" value="220.32747256669364" />
+      <entry key="M30" value="284.97470343306355" />
+      <entry key="H1" value="499.85874583840155" />
+      <entry key="H2" value="829.1527299553278" />
+      <entry key="H4" value="1129.4746801893648" />
+      <entry key="D1" value="1497.3801663533068" />
+      <entry key="W1" value="1574.654727806556" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="0.0" />
-      <entry key="S60" value="0.0" />
-      <entry key="M2" value="0.0" />
-      <entry key="M5" value="0.0" />
-      <entry key="M10" value="0.0" />
-      <entry key="M15" value="0.0" />
-      <entry key="M30" value="0.0" />
-      <entry key="H1" value="0.0" />
-      <entry key="H2" value="0.0" />
-      <entry key="H4" value="0.0" />
-      <entry key="D1" value="0.0" />
-      <entry key="W1" value="0.0" />
+      <entry key="MS500" value="7.858493559378014E-219" />
+      <entry key="S2" value="2.9773838298669095E-55" />
+      <entry key="S5" value="1.5471553739471417E-22" />
+      <entry key="S10" value="1.2438470058440249E-11" />
+      <entry key="S30" value="2.3169801957132827E-4" />
+      <entry key="S60" value="0.015221629990619554" />
+      <entry key="M2" value="0.12337597006961903" />
+      <entry key="M5" value="0.43300432291392243" />
+      <entry key="M10" value="0.6580306397987296" />
+      <entry key="M15" value="0.7565379948721387" />
+      <entry key="M30" value="0.8697919261939252" />
+      <entry key="H1" value="0.9326263593711717" />
+      <entry key="H2" value="0.9657258199774782" />
+      <entry key="H4" value="0.9827134984203013" />
+      <entry key="D1" value="0.9970979428569083" />
+      <entry key="W1" value="0.999584903851163" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="8.073180464111755E-12" />
-      <entry key="MS500" value="0.006171101180998789" />
-      <entry key="S2" value="0.5416196479205164" />
-      <entry key="S5" value="2.612700155181203" />
-      <entry key="S10" value="6.445893283750805" />
-      <entry key="S30" value="21.543519057637997" />
-      <entry key="S60" value="33.07742794995306" />
-      <entry key="M2" value="43.045234504812264" />
-      <entry key="M5" value="81.96518131630215" />
-      <entry key="M10" value="199.22008855307215" />
-      <entry key="M15" value="315.7537901685513" />
-      <entry key="M30" value="557.0254238379249" />
-      <entry key="H1" value="776.8879962776817" />
-      <entry key="H2" value="930.5481636753655" />
-      <entry key="H4" value="1022.2841536706358" />
-      <entry key="D1" value="1107.8067327237043" />
-      <entry key="W1" value="1123.3776804706854" />
+      <entry key="MS100" value="0.00715557355009604" />
+      <entry key="MS500" value="0.5509790145834904" />
+      <entry key="S2" value="1.9038172717172104" />
+      <entry key="S5" value="3.9091573496085417" />
+      <entry key="S10" value="10.755269407161434" />
+      <entry key="S30" value="47.79354633951848" />
+      <entry key="S60" value="91.36349891713023" />
+      <entry key="M2" value="138.2160108683218" />
+      <entry key="M5" value="186.35891531965922" />
+      <entry key="M10" value="209.0435406180306" />
+      <entry key="M15" value="221.06088255819017" />
+      <entry key="M30" value="285.8298316656308" />
+      <entry key="H1" value="500.7810390558449" />
+      <entry key="H2" value="830.1113790870392" />
+      <entry key="H4" value="1130.453050060209" />
+      <entry key="D1" value="1498.3763831551935" />
+      <entry key="W1" value="1575.654182216989" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -141,29 +142,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "CidrDebugProfileConversion": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.RadMigrateCodeStyle": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "reuben",
-    "git.auto.fetch.suggestion.counter": "1",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;CidrDebugProfileConversion&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;reuben&quot;,
+    &quot;git.auto.fetch.suggestion.counter&quot;: &quot;1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SelectedDebugProfileService">{
   &quot;profileIdByStamp&quot;: [],
   &quot;modificationCount&quot;: 1
@@ -226,7 +227,9 @@
     <MESSAGE value="playerDeck headers defined and commented" />
     <MESSAGE value="changes made" />
     <MESSAGE value="constructor added to playerDeck" />
-    <option name="LAST_COMMIT_MESSAGE" value="constructor added to playerDeck" />
+    <MESSAGE value="info header completed" />
+    <MESSAGE value="enemy header completed." />
+    <option name="LAST_COMMIT_MESSAGE" value="enemy header completed." />
     <option name="LAST_CHUNK_COMMIT_MESSAGE" value="&#9;modified:   .gitignore&#10;&#9;new file:   CMakeLists.txt&#10;    modified:   src/main.cpp" />
   </component>
   <component name="XDebuggerManager">
