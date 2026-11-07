@@ -3,3 +3,28 @@
 //
 
 #include "card.h"
+
+card::card(int id, std::string name, int cost, bool exclusive)
+: id(id),
+name(name),
+eCost(cost),
+isEnemyExclusive(exclusive),
+attackVal(0),
+attackType(0),
+defVal(0),
+poisonVal(0),
+healVal(0)
+{
+    
+}
+
+std::string card::getName(){
+    return name;
+}
+
+int card::getAttack() { return attackVal; }
+int card::getDef()    { return defVal; }
+int card::getEff()    { return poisonVal; }   // see note below
+bool card::getExclusive() { return isEnemyExclusive; }
+int card::getCost()   { return eCost; }
+int card::iD()        { return id; }
