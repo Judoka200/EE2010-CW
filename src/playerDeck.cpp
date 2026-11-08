@@ -35,9 +35,8 @@ void playerDeck::returnCardToDeck(card* cd){
 }
 
 void playerDeck::clearHand(){
-    for(card* c : hand){
-        returnCardToDeck(c);
-    }
+    drawpile.insert(drawpile.end(), hand.begin(), hand.end());
+    hand.clear();
 }
 
 std::vector<card*> playerDeck::getHand(){
