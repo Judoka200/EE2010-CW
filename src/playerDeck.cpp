@@ -7,6 +7,7 @@
 
 
 
+// append a card to the end of the drawpile vector
 void playerDeck::addCard(card* cd) { drawpile.push_back(cd); }
 
 
@@ -22,6 +23,7 @@ void playerDeck::removeCard(card* cd) {
     std::cout << "removeCard: card not in deck\n";
 }
 
+
 void playerDeck::addCardToHand(card* cd){
     if(!moveCard(drawpile,hand,cd)){
         std::cout << "addCardToHand: card not in drawpile\n";
@@ -34,6 +36,7 @@ void playerDeck::returnCardToDeck(card* cd){
     }
 }
 
+//return all cards from the hand to the drawpile
 void playerDeck::clearHand(){
     drawpile.insert(drawpile.end(), hand.begin(), hand.end());
     hand.clear();
@@ -43,6 +46,7 @@ std::vector<card*> playerDeck::getHand(){
         return hand;
     }
 
+//returns vector<card*> of the drawpile and hand
 std::vector<card*> playerDeck::getDeck(){
     std::vector<card*> deck = drawpile;
     deck.insert(deck.end(),hand.begin(),hand.end());
@@ -50,7 +54,7 @@ std::vector<card*> playerDeck::getDeck(){
 }
 
 
-
+// show all current cards within the drawpile and hand 
 void playerDeck::show(){
     std::cout<<"drawpile:\n";
     for(card* c : drawpile){
@@ -61,6 +65,7 @@ void playerDeck::show(){
         std::cout << c-> getName()<<std::endl;
     }
 }
+
 
 bool playerDeck::moveCard(std::vector<card*>& from, std::vector<card*>& to, card* cd) {
     for (int c = 0; c < from.size(); c++) {

@@ -13,13 +13,13 @@ class info {
     void damage(int); //performs damage calc to find remaining health
     void setHealth(int); //sets health to a specific value
     void activateTurnStart(); //activates start of turn effects e.g. poison, removal of block etc
-    void addPoison(); //adds poison to total poison
-    void addBlock(); //adds block to blockTotal
+    void addPoison(int); //adds poison to total poison
+    void addBlock(int); //adds block to blockTotal
     int getHealth(); //returns health total
     int getPoison(); //returns poison total
     int getBlock(); //returns block total
     private:
-    int health,poison,block; //all default to 0
+    int maxHealth, health, poison,block; //all default to 0
 };
 
 
