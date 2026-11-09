@@ -1,0 +1,32 @@
+[Card]
+ID: 1
+Name: Fireball
+Cost: 3
+Exclusive: false
+Attack: 8
+AttackType: FIRE
+Defence: 0
+Poison: 0
+Heal: 0
+
+[Card]
+ID: 2
+Name: PoisonDart
+Cost: 2
+Exclusive: false
+Attack: 3
+AttackType: SLASH
+Defence: 0
+Poison: 5
+Heal: 0
+
+[Card]
+ID: 3
+Name: HealingLight
+Cost: 4
+Exclusive: false
+Attack: 0
+AttackType: NONE
+Defence: 0
+Poison: 0
+Heal: 10

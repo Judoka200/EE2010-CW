@@ -4,6 +4,18 @@
 
 #include "playerDeck.h"
 #include "card.h"
+#include "card_generation.h"
+
+
+
+void playerDeck::loadDeck(std::string filename){
+    cardStorage = loadCards(filename);
+    
+    for (card& c : cardStorage){
+        drawpile.push_back(&c);
+    }
+
+}
 
 
 
@@ -28,6 +40,17 @@ void playerDeck::addCardToHand(card* cd){
     if(!moveCard(drawpile,hand,cd)){
         std::cout << "addCardToHand: card not in drawpile\n";
     }
+}
+void playerDeck::addCardToHand(std::string cardName) {
+    for (size_t i = 0; i < drawpile.size(); i++) {
+        if (drawpile[i]->getName() == cardName) {
+            hand.push_back(drawpile[i]);
+            drawpile.erase(drawpile.begin() + i);
+            return;
+        }
+    }
+
+    std::cout << "Card not found: " << cardName << std::endl;
 }
 
 void playerDeck::returnCardToDeck(card* cd){
@@ -56,11 +79,11 @@ std::vector<card*> playerDeck::getDeck(){
 
 // show all current cards within the drawpile and hand 
 void playerDeck::show(){
-    std::cout<<"drawpile:\n";
+    std::cout<<"\ndrawpile:\n";
     for(card* c : drawpile){
         std::cout<< c-> getName()<<std::endl;
     }
-    std::cout<< "hand\n";
+    std::cout<< "\nhand\n";
     for (card* c : hand){
         std::cout << c-> getName()<<std::endl;
     }

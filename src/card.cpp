@@ -34,6 +34,14 @@ void card::addAttack(int damage, ATKTYPE type){
     attackVal = damage;
 }
 
+void card::addDef(int defence) {
+    defVal = defence;
+}
+
+void card::addEffect(int poison, int heal) {
+    poisonVal = poison;
+    healVal = heal;
+}
 int card::getAttack() { return attackVal; }
 int card::getDef()    { return defVal; }
 int card::getEff()    { return poisonVal; }   

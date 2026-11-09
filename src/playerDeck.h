@@ -12,9 +12,11 @@ class playerDeck {
 
     public:
     // playerDeck(); //constructor initialises drawpile and hand
+    void loadDeck(std::string);
     void addCard(card* ); //takes card id and adds it to drawpile. throws error message if card does not exist
     void removeCard(card* ); //removes card reference from drawpile. if not in drawpile check hand. if not in either throw error
     void addCardToHand(card* ); //adds card to hand from drawpile. throw error message if card is not in drawpile
+    void addCardToHand(std::string cardName);
     void returnCardToDeck(card* ); //add card to drawpile from hand. throw error message if card is not in hand
     void clearHand(); //puts entire hand in drawpile for easier referencing.
     void drawCard(); //draws one random card from drawpile to hand. does noting if drawpile is empty
@@ -25,6 +27,7 @@ class playerDeck {
     void show();
 
     private:
+    std::vector<card> cardStorage;
     bool moveCard(std::vector<card*>& from, std::vector<card*>& to, card* );
     std::vector<card*> drawpile;
     std::vector<card*> hand; //vector of class pointers
