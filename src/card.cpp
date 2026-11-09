@@ -5,15 +5,16 @@
 #include "card.h"
 
 card::card(int id, std::string name, int cost, bool exclusive)
-: id(id),
+: 
 name(name),
+id(id),
 eCost(cost),
-isEnemyExclusive(exclusive),
 attackVal(0),
 attackType(0),
 defVal(0),
 poisonVal(0),
-healVal(0)
+healVal(0),
+isEnemyExclusive(exclusive)
 {
     
 }
@@ -39,3 +40,7 @@ int card::getEff()    { return poisonVal; }
 bool card::getExclusive() { return isEnemyExclusive; }
 int card::getCost()   { return eCost; }
 int card::iD()        { return id; }
+
+std::string card::getName(){
+    return name;
+}

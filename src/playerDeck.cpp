@@ -5,9 +5,7 @@
 #include "playerDeck.h"
 #include "card.h"
 
-std::vector<card*> playerDeck::getHand(){
-    return hand;
-}
+
 
 // append a card to the end of the drawpile vector
 void playerDeck::addCard(card* cd) { drawpile.push_back(cd); }
@@ -40,9 +38,8 @@ void playerDeck::returnCardToDeck(card* cd){
 
 //return all cards from the hand to the drawpile
 void playerDeck::clearHand(){
-    for(card* c : hand){
-        returnCardToDeck(c);
-    }
+    drawpile.insert(drawpile.end(), hand.begin(), hand.end());
+    hand.clear();
 }
 
 std::vector<card*> playerDeck::getHand(){
@@ -53,6 +50,7 @@ std::vector<card*> playerDeck::getHand(){
 std::vector<card*> playerDeck::getDeck(){
     std::vector<card*> deck = drawpile;
     deck.insert(deck.end(),hand.begin(),hand.end());
+    return deck;
 }
 
 
