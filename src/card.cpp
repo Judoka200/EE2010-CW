@@ -18,11 +18,16 @@ healVal(0)
     
 }
 
+//returns given name of card
 std::string card::getName(){
     return name;
 }
-// slash will be (3,slash) etc 
-// poison would be (0,poison) if we handle poisoin damage seperatley 
+
+
+/* Adds an attack to a card with a set damage and type 
+ slash will be (3,slash) etc 
+ poison would be (0,poison) if we handle poisoin damage seperatley 
+ */
 void card::addAttack(int damage, ATKTYPE type){
     attackType = type;
     attackVal = damage;
