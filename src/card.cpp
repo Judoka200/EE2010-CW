@@ -21,7 +21,8 @@ healVal(0)
 std::string card::getName(){
     return name;
 }
-
+// slash will be (3,slash) etc 
+// poison would be (0,poison) if we handle poisoin damage seperatley 
 void card::addAttack(int damage, ATKTYPE type){
     attackType = type;
     attackVal = damage;
