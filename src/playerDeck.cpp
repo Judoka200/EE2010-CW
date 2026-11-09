@@ -35,14 +35,16 @@ void playerDeck::removeCard(card* cd) {
     std::cout << "removeCard: card not in deck\n";
 }
 
-
+//ADD CARD TO HAND FROM OBJECT 
 void playerDeck::addCardToHand(card* cd){
     if(!moveCard(drawpile,hand,cd)){
         std::cout << "addCardToHand: card not in drawpile\n";
     }
 }
+
+//ADD CARD TO HAND FROM CARD NAME 
 void playerDeck::addCardToHand(std::string cardName) {
-    for (size_t i = 0; i < drawpile.size(); i++) {
+    for (size_t i = 0; i < drawpile.size(); i++) {  // loop through drawpile and find card with correct name string 
         if (drawpile[i]->getName() == cardName) {
             hand.push_back(drawpile[i]);
             drawpile.erase(drawpile.begin() + i);
@@ -53,6 +55,7 @@ void playerDeck::addCardToHand(std::string cardName) {
     std::cout << "Card not found: " << cardName << std::endl;
 }
 
+// MOVE CARD FROM HAND TO DRAWPILE 
 void playerDeck::returnCardToDeck(card* cd){
     if(!moveCard(hand,drawpile,cd)){
         std::cout<< "returnCardToDeck: card not in hand";

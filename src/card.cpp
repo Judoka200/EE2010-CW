@@ -49,6 +49,3 @@ bool card::getExclusive() { return isEnemyExclusive; }
 int card::getCost()   { return eCost; }
 int card::iD()        { return id; }
 
-std::string card::getName(){
-    return name;
-}
