@@ -2,6 +2,7 @@
 #include <fstream>
 #include <sstream>
 #include <map>
+#include "arcaneKnowledgeRepository.h"
 
 using namespace std;
 
@@ -10,11 +11,13 @@ vector<card> loadCards(string filename)
     vector<card> cards;
     ifstream file(filename);
 
-    if (!file.is_open())
+    //check file opened 
+    if (!file.is_open()) 
         return cards;
 
-    string line;
-    map<string, string> data;
+    string line;              // stores each line from text file
+    map<string, string> data; // key:value pair. "ID: 1" etc
+
 
     while (getline(file, line))
     {
@@ -23,7 +26,7 @@ vector<card> loadCards(string filename)
         {
             if (!data.empty())
             {
-                // Create card from collected data
+                // Create card object from collected data
                 card c(
                     stoi(data["ID"]),
                     data["Name"],
@@ -31,12 +34,12 @@ vector<card> loadCards(string filename)
                     data["Exclusive"] == "true"
                 );
 
-
+                c.addAttack(stoi(data["Attack"])); 
 
                 c.addDef(stoi(data["Defence"]));
 
                 c.addEffect(
-                    stoi(data["Poison"]),
+                    stoi(data["Poison"]), 
                     stoi(data["Heal"])
                 );
 
@@ -70,6 +73,8 @@ vector<card> loadCards(string filename)
             stoi(data["Cost"]),
             data["Exclusive"] == "true"
         );
+
+        c.addAttack(stoi(data["Attack"])); 
 
         c.addDef(stoi(data["Defence"]));
 

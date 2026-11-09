@@ -10,7 +10,6 @@ name(name),
 id(id),
 eCost(cost),
 attackVal(0),
-attackType(0),
 defVal(0),
 poisonVal(0),
 healVal(0),
@@ -29,8 +28,7 @@ std::string card::getName(){
  slash will be (3,slash) etc 
  poison would be (0,poison) if we handle poisoin damage seperatley 
  */
-void card::addAttack(int damage, ATKTYPE type){
-    attackType = type;
+void card::addAttack(int damage){
     attackVal = damage;
 }
 
