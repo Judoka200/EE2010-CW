@@ -10,7 +10,8 @@ playerDeck deck;
 
     card test2(2,"stabs",3);
     deck.addCard(&testCard);
-    // deck.show();
+    deck.show();
+
     deck.addCard(&test2);
     deck.show();
 

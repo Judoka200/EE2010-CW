@@ -19,10 +19,7 @@ isEnemyExclusive(exclusive)
     
 }
 
-//returns given name of card
-std::string card::getName(){
-    return name;
-}
+
 
 
 /* Adds an attack to a card with a set damage and type 
