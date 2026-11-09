@@ -30,3 +30,80 @@ AttackType: NONE
 Defence: 0
 Poison: 0
 Heal: 10
+
+[Card]
+ID: 4
+Name: IceBlast
+Cost: 3
+Exclusive: false
+Attack: 6
+AttackType: ICE
+Defence: 2
+Poison: 0
+Heal: 0
+
+[Card]
+ID: 5
+Name: ShieldBash
+Cost: 2
+Exclusive: false
+Attack: 4
+AttackType: BLUNT
+Defence: 5
+Poison: 0
+Heal: 0
+
+[Card]
+ID: 6
+Name: VenomStrike
+Cost: 3
+Exclusive: false
+Attack: 5
+AttackType: SLASH
+Defence: 0
+Poison: 8
+Heal: 0
+
+[Card]
+ID: 7
+Name: HolyProtection
+Cost: 4
+Exclusive: true
+Attack: 0
+AttackType: NONE
+Defence: 12
+Poison: 0
+Heal: 0
+
+[Card]
+ID: 8
+Name: VampiricBite
+Cost: 3
+Exclusive: false
+Attack: 6
+AttackType: SLASH
+Defence: 0
+Poison: 0
+Heal: 4
+
+[Card]
+ID: 9
+Name: ThunderStrike
+Cost: 5
+Exclusive: true
+Attack: 12
+AttackType: LIGHTNING
+Defence: 0
+Poison: 0
+Heal: 0
+
+[Card]
+ID: 10
+Name: Regeneration
+Cost: 2
+Exclusive: false
+Attack: 0
+AttackType: NONE
+Defence: 3
+Poison: 0
+Heal: 6
