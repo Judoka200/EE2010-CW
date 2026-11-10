@@ -1,5 +1,10 @@
 - card hover animation
+- round card textures / make gray
+- fix card text placement w image placements on it (square sprites)
 - card placement animation
 - health bar drain/add animation
-- battle log
-- code CHANGEs
+- battle log (clear space to the side)
+- fix ugly black panel behind cards
+- make energy circle actually work
+- update start turn rectangle to show turn progress
+- code CHANGEs (backend ctrl f CHANGE into the ui)
