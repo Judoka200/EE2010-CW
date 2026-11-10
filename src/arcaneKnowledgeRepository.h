@@ -1,3 +1,5 @@
+#pragma once
+
 enum ATKTYPE {
     strike,
     slash,
@@ -9,3 +11,4 @@ enum colours{
     Default,    black,    red,    green,    yellow,
     blue,    magenta,    cyan,    white,    RESET
 };
+

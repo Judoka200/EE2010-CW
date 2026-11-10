@@ -5,3 +5,26 @@
 
 
 ![image](Documentation/classDiagram.png)
+
+
+09/11/26: TASK LIST
+
+**vivek:** 
+*drafting turn flow*
+- what happens where in the turn 
+- death checks, card draws etc
+
+**mason & laurie:**
+*sfml exmaple*
+- layout of ui 
+- click detection 
+- hover detection?
+- opening window to view deck
+
+**Diya:**
+*final classes*
+- complete player and enemy class cpp files 
+
+**Reuben**
+*card designs (not garphical)*
+- make list of cards 

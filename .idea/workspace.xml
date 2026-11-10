@@ -17,8 +17,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23deca65-a634-4148-b459-0a7f0f1752da" name="Changes" comment="constructor added to playerDeck">
-      <change beforePath="$PROJECT_DIR$/src/info.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/info.h" afterDir="false" />
+    <list default="true" id="23deca65-a634-4148-b459-0a7f0f1752da" name="Changes" comment="Player header completed.">
+      <change afterPath="$PROJECT_DIR$/src/cards.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cardtemplate.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +31,19 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
     <favorite-branches>
       <branch-storage>
         <map>
@@ -45,7 +60,7 @@
     <option name="INCOMING_COMMITS_CHECK_STRATEGY" value="FETCH" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="reuben" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -72,61 +87,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0004745458366908" />
-      <entry key="S2" value="1.3071082422149485" />
-      <entry key="S5" value="3.0826608331232124" />
-      <entry key="S10" value="6.750210649098972" />
-      <entry key="S30" value="21.705763505921954" />
-      <entry key="S60" value="33.181243841488296" />
-      <entry key="M2" value="43.10753523711615" />
-      <entry key="M5" value="81.99744060522299" />
-      <entry key="M10" value="199.24142804825007" />
-      <entry key="M15" value="315.77092876349656" />
-      <entry key="M30" value="557.0369220905324" />
-      <entry key="H1" value="776.8950983813461" />
-      <entry key="H2" value="930.5521971304611" />
-      <entry key="H4" value="1022.2863164007856" />
-      <entry key="D1" value="1107.8071160889756" />
-      <entry key="W1" value="1123.3777358363477" />
+      <entry key="MS100" value="1.0000212307140317" />
+      <entry key="MS500" value="1.1777692995278897" />
+      <entry key="S2" value="3.1055434274709786" />
+      <entry key="S5" value="5.240646841024379" />
+      <entry key="S10" value="7.6979419244438025" />
+      <entry key="S30" value="31.132814562425818" />
+      <entry key="S60" value="72.06374704729019" />
+      <entry key="M2" value="123.77978595745853" />
+      <entry key="M5" value="181.31714555884636" />
+      <entry key="M10" value="209.20616249194242" />
+      <entry key="M15" value="223.21783041087087" />
+      <entry key="M30" value="289.6541069579545" />
+      <entry key="H1" value="504.9419844798215" />
+      <entry key="H2" value="834.7318092206862" />
+      <entry key="H4" value="1135.8250598935288" />
+      <entry key="D1" value="1505.0155237380268" />
+      <entry key="W1" value="1582.5999436312215" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="0.0" />
-      <entry key="S60" value="0.0" />
-      <entry key="M2" value="0.0" />
-      <entry key="M5" value="0.0" />
-      <entry key="M10" value="0.0" />
-      <entry key="M15" value="0.0" />
-      <entry key="M30" value="0.0" />
-      <entry key="H1" value="0.0" />
-      <entry key="H2" value="0.0" />
-      <entry key="H4" value="0.0" />
-      <entry key="D1" value="0.0" />
-      <entry key="W1" value="0.0" />
+      <entry key="MS500" value="4.254408274682743E-237" />
+      <entry key="S2" value="8.07625069031034E-60" />
+      <entry key="S5" value="2.3061306955591475E-24" />
+      <entry key="S10" value="1.5185949741649864E-12" />
+      <entry key="S30" value="1.1494250368859803E-4" />
+      <entry key="S60" value="0.010721124180261981" />
+      <entry key="M2" value="0.10354286156110404" />
+      <entry key="M5" value="0.4036900686451953" />
+      <entry key="M10" value="0.635366090254428" />
+      <entry key="M15" value="0.7390650895145204" />
+      <entry key="M30" value="0.859688949280215" />
+      <entry key="H1" value="0.9271941270738376" />
+      <entry key="H2" value="0.9629091998074577" />
+      <entry key="H4" value="0.9812793688891287" />
+      <entry key="D1" value="0.9968552749960053" />
+      <entry key="W1" value="0.9995501469224629" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="8.073180464111755E-12" />
-      <entry key="MS500" value="0.006171101180998789" />
-      <entry key="S2" value="0.5416196479205164" />
-      <entry key="S5" value="2.612700155181203" />
-      <entry key="S10" value="6.445893283750805" />
-      <entry key="S30" value="21.543519057637997" />
-      <entry key="S60" value="33.07742794995306" />
-      <entry key="M2" value="43.045234504812264" />
-      <entry key="M5" value="81.96518131630215" />
-      <entry key="M10" value="199.22008855307215" />
-      <entry key="M15" value="315.7537901685513" />
-      <entry key="M30" value="557.0254238379249" />
-      <entry key="H1" value="776.8879962776817" />
-      <entry key="H2" value="930.5481636753655" />
-      <entry key="H4" value="1022.2841536706358" />
-      <entry key="D1" value="1107.8067327237043" />
-      <entry key="W1" value="1123.3776804706854" />
+      <entry key="MS100" value="0.9794408057420614" />
+      <entry key="MS500" value="1.1721712995786506" />
+      <entry key="S2" value="3.083182140301309" />
+      <entry key="S5" value="5.213837507310246" />
+      <entry key="S10" value="7.671421850587634" />
+      <entry key="S30" value="31.103690071626197" />
+      <entry key="S60" value="72.03934190080633" />
+      <entry key="M2" value="123.83965123032907" />
+      <entry key="M5" value="181.67890168935992" />
+      <entry key="M10" value="209.81158104152155" />
+      <entry key="M15" value="223.93402090121884" />
+      <entry key="M30" value="290.4991618792229" />
+      <entry key="H1" value="505.8588352523242" />
+      <entry key="H2" value="835.6876271545718" />
+      <entry key="H4" value="1136.8019843606464" />
+      <entry key="D1" value="1506.0114951503722" />
+      <entry key="W1" value="1583.5993628698016" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -154,11 +169,13 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "reuben",
+    "git-widget-placeholder": "main",
     "git.auto.fetch.suggestion.counter": "1",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "python.packages.toolwindow.project.migrated.to.right.top.v2": "true"
@@ -197,7 +214,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="reuben" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
@@ -226,17 +243,10 @@
     <MESSAGE value="playerDeck headers defined and commented" />
     <MESSAGE value="changes made" />
     <MESSAGE value="constructor added to playerDeck" />
-    <option name="LAST_COMMIT_MESSAGE" value="constructor added to playerDeck" />
+    <MESSAGE value="info header completed" />
+    <MESSAGE value="enemy header completed." />
+    <MESSAGE value="Player header completed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Player header completed." />
     <option name="LAST_CHUNK_COMMIT_MESSAGE" value="&#9;modified:   .gitignore&#10;&#9;new file:   CMakeLists.txt&#10;    modified:   src/main.cpp" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/playerDeck.h</url>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

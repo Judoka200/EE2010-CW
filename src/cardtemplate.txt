@@ -1,0 +1,21 @@
+int
+name
+energy cost
+attack val
+attack type
+defval
+poisonval
+healval
+exclusive
+
+int
+name
+energy cost
+attack val
+attack type
+defval
+poisonval
+healval
+exclusive
+
+etc...
