@@ -1,4 +1,5 @@
 - card hover animation
+- card size increase on hover
 - round card textures / make gray
 - fix card text placement w image placements on it (square sprites)
 - card placement animation
