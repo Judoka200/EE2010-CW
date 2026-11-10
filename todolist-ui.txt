@@ -3,6 +3,7 @@
 - card size increase on hover
 (done!)
 - round card textures / make gray
+(done!)
 - fix card text placement w image placements on it (square sprites)
 - card placement animation
 - health bar drain animation
