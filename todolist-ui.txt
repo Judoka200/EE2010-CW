@@ -1,0 +1,5 @@
+- card hover animation
+- card placement animation
+- health bar drain/add animation
+- battle log
+- code CHANGEs
