@@ -3,6 +3,7 @@
 #include <algorithm>
 #include <cmath>
 #include <iostream>
+#include <map>
 #include <optional>
 #include <string>
 #include <vector>
@@ -11,6 +12,92 @@
 //-1 card = your action slot is empty
 //-1 target = the enemy action slot is empty
 //duh
+#include <SFML/Graphics.hpp>
+#include <cmath>
+
+//big ups https://gist.github.com/Wesxdz/e8667fb20ce5864f758d39685d6547ce
+class RoundedRectangle : public sf::Shape {
+public:
+    explicit RoundedRectangle(const sf::Vector2f& size = {0.0f, 0.0f}, float radius = 0.0f, unsigned int cornerPointCount = 2)
+        : m_size(size), m_radius(radius), m_cornerPointCount(cornerPointCount) {
+        m_anglePerPoint = 90.0f / static_cast<float>(cornerPointCount);
+        update();
+    }
+
+    void setSize(const sf::Vector2f& size) {
+        m_size = size;
+        update();
+    }
+
+    sf::Vector2f getSize() const {
+        return m_size;
+    }
+
+    void setRadius(float radius) {
+        m_radius = radius;
+        update();
+    }
+
+    float getRadius() const {
+        return m_radius;
+    }
+
+    void setCornerPointCount(unsigned int points) {
+        m_cornerPointCount = points;
+        m_anglePerPoint = 90.0f / static_cast<float>(points);
+        update();
+    }
+
+    virtual std::size_t getPointCount() const override {
+        return m_cornerPointCount * 4;
+    }
+
+    virtual sf::Vector2f getPoint(std::size_t index) const override {
+        if (m_cornerPointCount == 0 || m_radius == 0.0f) {
+            sf::RectangleShape rect(m_size);
+            return rect.getPoint(index % 4);
+        }
+
+        std::size_t corner = index / m_cornerPointCount;
+        float angle = 0.0f;
+        bool isLastPointOnCorner = (index % m_cornerPointCount == m_cornerPointCount - 1);
+
+        if (isLastPointOnCorner) {
+            angle = 90.0f;
+        } else {
+            angle = static_cast<float>(index % m_cornerPointCount) * m_anglePerPoint;
+        }
+
+        sf::Vector2f centerOffset;
+        switch (corner) {
+        case 0:
+            centerOffset = {m_radius, m_radius};
+            angle -= 180.0f;
+            break;
+        case 1:
+            centerOffset = {m_size.x - m_radius, m_radius};
+            angle -= 90.0f;
+            break;
+        case 2:
+            centerOffset = {m_size.x - m_radius, m_size.y - m_radius};
+            break;
+        case 3:
+        default:
+            centerOffset = {m_radius, m_size.y - m_radius};
+            angle += 90.0f;
+            break;
+        }
+
+        float rad = angle * static_cast<float>(M_PI) / 180.0f;
+        return centerOffset + sf::Vector2f(std::cos(rad) * m_radius, std::sin(rad) * m_radius);
+    }
+
+private:
+    sf::Vector2f m_size;
+    float m_radius;
+    unsigned int m_cornerPointCount;
+    float m_anglePerPoint;
+};
 
 //hi vivek =.)
 struct Slot {
@@ -20,7 +107,7 @@ struct Slot {
 };
 
 //determining card slot size (80x80 square u can adapt it)
-static const sf::Vector2f kSlotSize(80.f, 80.f); //every slot uses this
+static const sf::Vector2f kSlotSize(80.f, 80.f); //every slot uses this : )
 
 //centering the text onto a still point for cards
 //so its in the middle of the card
@@ -47,7 +134,7 @@ static int slotAt(const std::vector<Slot>& slots, sf::Vector2f p) {
 //i feel like i wrote my code pretty clearly
 //like is all this necessary
 static void drawHealthBar(sf::RenderWindow& window, const sf::Font& font,
-                          sf::Vector2f topLeft, float width, int hp, int maxHp) {
+                          sf::Vector2f topLeft, float width, int hp, float shownHp, int maxHp) {
     const float height = 22.f;
 
     //creates a black rectangle that is black
@@ -58,6 +145,14 @@ static void drawHealthBar(sf::RenderWindow& window, const sf::Font& font,
     back.setOutlineThickness(2.f);
     back.setOutlineColor(sf::Color::Black);
     window.draw(back);
+
+    //red ghost bar = the hp you just lost (gradual drain)
+    //shownHp chases the real hp
+    //(see the animate section in the loop)
+    sf::RectangleShape trail({width * (shownHp / static_cast<float>(maxHp)), height});
+    trail.setPosition(topLeft);
+    trail.setFillColor(sf::Color(230, 80, 80));
+    window.draw(trail);
 
     //ratio = % of the bar i fill with color
     //represents % hp of total hp
@@ -88,7 +183,7 @@ static void drawHealthBar(sf::RenderWindow& window, const sf::Font& font,
 //remove this when the actual drawings for the character are made and sub those in
 static void drawCharacter(sf::RenderWindow& window, const sf::Font& font,
                           sf::Vector2f topLeft, sf::Color colour,
-                          const std::string& name, int hp, int maxHp) {
+                          const std::string& name, int hp, float shownHp, int maxHp) {
     const sf::Vector2f size(140.f, 220.f);
     sf::RectangleShape box(size);
     box.setPosition(topLeft);
@@ -110,7 +205,7 @@ static void drawCharacter(sf::RenderWindow& window, const sf::Font& font,
     //draws the health bar
     //makes the heath bar a litte wider than the character asw
     //keep this part i like it
-    drawHealthBar(window, font, {topLeft.x - 10.f, topLeft.y + size.y + 42.f}, size.x + 20.f, hp, maxHp);
+    drawHealthBar(window, font, {topLeft.x - 10.f, topLeft.y + size.y + 42.f}, size.x + 20.f, hp, shownHp, maxHp);
 }
 
 //is it pingu or pengu?
@@ -255,11 +350,15 @@ int main() {
 
     //CHANGE to real backend values later
     //isaac and vivek n diya this where u do it
+    //backend unite!
+    //sorry
     int energy = 4;
     int maxEnergy = 4;
     int turnNumber = 1;
     int playerHp = 80, playerMaxHp = 100;
     int enemyHp = 45, enemyMaxHp = 60;
+    float playerShownHp = static_cast<float>(playerHp);  //ghost bars start full
+    float enemyShownHp = static_cast<float>(enemyHp);
 
     // character positions
     const sf::Vector2f playerPos(180.f, 240.f);
@@ -329,11 +428,30 @@ int main() {
     energyCircle.setOutlineThickness(4.f);
     energyCircle.setOutlineColor(sf::Color(30, 30, 30));
 
+    //card lift animation
+    //each card (by id) remembers the raise height its @
+    //every frame it moves a fraction of the way to where it should be
+    std::map<int, float> liftAmount;
+    const float cardAnimSpeed = 18.f;  //increase num for faster //duh
+    sf::Clock clock;
+
     while (window.isOpen()) {
         //events
         while (const std::optional event = window.pollEvent()) {
             if (event->is<sf::Event::Closed>()) {
                 window.close();
+            }
+            //CHANGE
+            //test keys for the health bar drain
+            //DELETE THESE WHEN U LINK IT UP TO REAL DAMAGE
+            //D = damages enemy, A = damage player, H = restores both 2 full
+            if (const auto* key = event->getIf<sf::Event::KeyPressed>()) {
+                if (key->code == sf::Keyboard::Key::D) enemyHp = std::max(0, enemyHp - 10);
+                if (key->code == sf::Keyboard::Key::A) playerHp = std::max(0, playerHp - 10);
+                if (key->code == sf::Keyboard::Key::H) {
+                    enemyHp = enemyMaxHp;
+                    playerHp = playerMaxHp;
+                }
             }
             if (const auto* click = event->getIf<sf::Event::MouseButtonPressed>()) {
                 sf::Vector2f m = window.mapPixelToCoords(click->position);
@@ -403,6 +521,27 @@ int main() {
             int h = slotAt(playerSlots, mouse);
             if (h != -1 && playerSlots[h].card == -1) hoveredPlayerSlot = h;
         }
+
+        //animate card lift
+        float dt = std::min(clock.restart().asSeconds(), 0.05f);  //clamped so a lag spike doesnt jump
+        float blend = 1.f - std::exp(-cardAnimSpeed * dt);        //frame rate independent easing
+        for (int i = 0; i < static_cast<int>(hand.size()); ++i) {
+            bool raisedNow = (i == hoveredCard || i == selectedCard);
+            float liftTarget = raisedNow ? cardLift : 0.f;
+            float& current = liftAmount[hand[i]];  //starts at 0 the first time a card is seen
+            current += (liftTarget - current) * blend;
+        }
+
+        //animate health bar drain
+        //green bar drops instantly, red ghost bar eases down behind it
+        auto drain = [&](float& shown, int hp) {
+            if (shown < hp) shown = static_cast<float>(hp);       //healing: ghost snaps up
+            shown += (hp - shown) * (1.f - std::exp(-3.f * dt));  //damage: ghost eases down (3 = speed)
+            if (std::abs(shown - hp) < 0.05f) shown = static_cast<float>(hp);
+        };
+        drain(playerShownHp, playerHp);
+        drain(enemyShownHp, enemyHp);
+
         window.clear(sf::Color::Black);
         window.draw(cave);
 
@@ -421,8 +560,8 @@ int main() {
         window.draw(hintText);
 
         //drawing characters
-        drawCharacter(window, font, playerPos, blue, "Player", playerHp, playerMaxHp);
-        drawCharacter(window, font, enemyPos, red, "Enemy", enemyHp, enemyMaxHp);
+        drawCharacter(window, font, playerPos, blue, "Player", playerHp, playerShownHp, playerMaxHp);
+        drawCharacter(window, font, enemyPos, red, "Enemy", enemyHp, enemyShownHp, enemyMaxHp);
 
         //action slots
         for (int i = 0; i < 3; ++i) {
@@ -434,7 +573,7 @@ int main() {
         window.draw(bottomPanel);
 
         //your hand
-        //normal cards < selected card < hovered card
+        //show order normal cards < selected card < hovered card
         float startX = handStartX();
         for (int pass = 0; pass < 3; ++pass) {
             for (int i = 0; i < static_cast<int>(hand.size()); ++i) {
@@ -444,14 +583,22 @@ int main() {
                 if (priority != pass) continue;
 
                 bool raised = isHovered || isSelected;
-                float y = raised ? handY - cardLift : handY;
+                float y = handY - liftAmount[hand[i]];  //animated height instead of a hard jump
 
-                sf::RectangleShape card(cardSize);
-                card.setPosition({startX + i * cardStep, y});
+                //card grows up to 10% bigger as it rises
+                //grows upwards so the bottom edge stays put
+                float t = liftAmount[hand[i]] / cardLift;  //0 = resting, 1 = fully raised
+                float scale = 1.f + 0.1f * t;
+                sf::Vector2f size = cardSize * scale;
+                float top = y - (size.y - cardSize.y);
+                //rounded corners (size, corner radius, points per corner)
+                RoundedRectangle card(size, 5.f, 8);
+                card.setPosition({startX + i * cardStep - (size.x - cardSize.x) / 2.f, top});
                 if (isSelected) {
-                    card.setFillColor(sf::Color(255, 245, 190));  // selected cards are tinted
+                    card.setFillColor(sf::Color(205, 203, 190));  // selected cards are tinted
                 } else {
-                    card.setFillColor(isHovered ? sf::Color(255, 250, 230) : sf::Color(225, 220, 205));
+                    //washed out gray, a bit lighter when hovered
+                    card.setFillColor(isHovered ? sf::Color(195, 195, 200) : sf::Color(168, 168, 174));
                 }
                 card.setOutlineThickness(isSelected ? 6.f : (isHovered ? 5.f : 3.f));
                 card.setOutlineColor(raised ? sf::Color(255, 200, 40) : sf::Color(30, 30, 30));
@@ -459,7 +606,7 @@ int main() {
 
                 sf::Text label(font, "Card " + std::to_string(hand[i]), 20);
                 label.setFillColor(sf::Color::Black);
-                centerText(label, {startX + i * cardStep + cardSize.x / 2.f, y + 25.f});
+                centerText(label, {startX + i * cardStep + cardSize.x / 2.f, top + 25.f});
                 window.draw(label);
             }
         }
