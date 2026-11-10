@@ -26,5 +26,6 @@
 - complete player and enemy class cpp files 
 
 **Reuben**
-*card designs (not garphical)*
+*card designs (not garphical)* 
+garphical lol
 - make list of cards 
