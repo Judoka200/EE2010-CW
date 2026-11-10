@@ -1,9 +1,12 @@
 - card hover animation
+(done!)
 - card size increase on hover
+(done!)
 - round card textures / make gray
 - fix card text placement w image placements on it (square sprites)
 - card placement animation
-- health bar drain/add animation
+- health bar drain animation
+(done!)
 - battle log (clear space to the side)
 - fix ugly black panel behind cards
 - make energy circle actually work
