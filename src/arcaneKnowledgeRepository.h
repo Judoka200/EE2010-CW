@@ -3,7 +3,8 @@
 enum ATKTYPE {
     strike,
     slash,
-    stab
+    stab,
+    null
 };
 
 
