@@ -1,0 +1,12 @@
+characters
+- idle 1
+- idle 2
+- talking
+- take damage
+- heal damage
+- weakened/status affected
+- fainted
+- shielding
+- attacking 1 (stab)
+- attacking 2 (pierce/strike)
+- attacking 3 (slash)
