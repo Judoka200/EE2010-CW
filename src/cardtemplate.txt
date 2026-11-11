@@ -1,5 +1,5 @@
-ID,Name,Exclusive,EnergyCost,AttackVal,AttackRange,AttackType,PoisonVal,MadnessVal,BurningVal,BleedingVal,SpecialProperty,SpecialPropertyVal // attackType can bbe strike,slash,stab or def
-ID,Name,Exclusive,EnergyCost,AttackVal,AttackRange,AttackType,PoisonVal,MadnessVal,BurningVal,BleedingVal,SpecialProperty,SpecialPropertyVal
+ID,Name,Exclusive,EnergyCost,AttackVal,AttackRange,Type,PoisonVal,MadnessVal,BurningVal,BleedingVal,SpecialProperty,SpecialPropertyVal // Type can bbe strike,slash,stab or def
+ID,Name,Exclusive,EnergyCost,AttackVal,AttackRange,Type,PoisonVal,MadnessVal,BurningVal,BleedingVal,SpecialProperty,SpecialPropertyVal
 etc...
 
 Special Property List
