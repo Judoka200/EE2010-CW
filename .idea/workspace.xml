@@ -17,10 +17,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23deca65-a634-4148-b459-0a7f0f1752da" name="Changes" comment="Player header completed.">
-      <change afterPath="$PROJECT_DIR$/src/cards.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cardtemplate.txt" afterDir="false" />
+    <list default="true" id="23deca65-a634-4148-b459-0a7f0f1752da" name="Changes" comment="template for cards done">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_11_2026_15_25_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_11_2026_15_25__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_11_2026_16_24_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_11_2026_16_24__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/info.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/info.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,61 +90,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000212307140317" />
-      <entry key="MS500" value="1.1777692995278897" />
-      <entry key="S2" value="3.1055434274709786" />
-      <entry key="S5" value="5.240646841024379" />
-      <entry key="S10" value="7.6979419244438025" />
-      <entry key="S30" value="31.132814562425818" />
-      <entry key="S60" value="72.06374704729019" />
-      <entry key="M2" value="123.77978595745853" />
-      <entry key="M5" value="181.31714555884636" />
-      <entry key="M10" value="209.20616249194242" />
-      <entry key="M15" value="223.21783041087087" />
-      <entry key="M30" value="289.6541069579545" />
-      <entry key="H1" value="504.9419844798215" />
-      <entry key="H2" value="834.7318092206862" />
-      <entry key="H4" value="1135.8250598935288" />
-      <entry key="D1" value="1505.0155237380268" />
-      <entry key="W1" value="1582.5999436312215" />
+      <entry key="MS100" value="1.5523401397357417" />
+      <entry key="MS500" value="3.421081980438035" />
+      <entry key="S2" value="5.899795538948832" />
+      <entry key="S5" value="11.000922992891429" />
+      <entry key="S10" value="19.196376747757004" />
+      <entry key="S30" value="40.65633572703631" />
+      <entry key="S60" value="64.28678211243599" />
+      <entry key="M2" value="112.91114202145215" />
+      <entry key="M5" value="229.2797493677089" />
+      <entry key="M10" value="328.8061138316042" />
+      <entry key="M15" value="379.6899895348649" />
+      <entry key="M30" value="485.03322896687024" />
+      <entry key="H1" value="714.3443416928769" />
+      <entry key="H2" value="1056.5032466747532" />
+      <entry key="H4" value="1372.9220528184317" />
+      <entry key="D1" value="1766.2613979285945" />
+      <entry key="W1" value="1849.586720016135" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="4.254408274682743E-237" />
-      <entry key="S2" value="8.07625069031034E-60" />
-      <entry key="S5" value="2.3061306955591475E-24" />
-      <entry key="S10" value="1.5185949741649864E-12" />
-      <entry key="S30" value="1.1494250368859803E-4" />
-      <entry key="S60" value="0.010721124180261981" />
-      <entry key="M2" value="0.10354286156110404" />
-      <entry key="M5" value="0.4036900686451953" />
-      <entry key="M10" value="0.635366090254428" />
-      <entry key="M15" value="0.7390650895145204" />
-      <entry key="M30" value="0.859688949280215" />
-      <entry key="H1" value="0.9271941270738376" />
-      <entry key="H2" value="0.9629091998074577" />
-      <entry key="H4" value="0.9812793688891287" />
-      <entry key="D1" value="0.9968552749960053" />
-      <entry key="W1" value="0.9995501469224629" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="7.942015570731963E-139" />
+      <entry key="S5" value="5.754032276424744E-56" />
+      <entry key="S10" value="2.398756402060197E-28" />
+      <entry key="S30" value="6.213391452030349E-10" />
+      <entry key="S60" value="2.4926675374045282E-5" />
+      <entry key="M2" value="0.004992662153004664" />
+      <entry key="M5" value="0.12004190299206745" />
+      <entry key="M10" value="0.3464706379941445" />
+      <entry key="M15" value="0.4932998202208941" />
+      <entry key="M30" value="0.7023530595226988" />
+      <entry key="H1" value="0.8380650687880367" />
+      <entry key="H2" value="0.9154589388869624" />
+      <entry key="H4" value="0.9567961846114029" />
+      <entry key="D1" value="0.9926662105345762" />
+      <entry key="W1" value="0.9989490078355275" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9794408057420614" />
-      <entry key="MS500" value="1.1721712995786506" />
-      <entry key="S2" value="3.083182140301309" />
-      <entry key="S5" value="5.213837507310246" />
-      <entry key="S10" value="7.671421850587634" />
-      <entry key="S30" value="31.103690071626197" />
-      <entry key="S60" value="72.03934190080633" />
-      <entry key="M2" value="123.83965123032907" />
-      <entry key="M5" value="181.67890168935992" />
-      <entry key="M10" value="209.81158104152155" />
-      <entry key="M15" value="223.93402090121884" />
-      <entry key="M30" value="290.4991618792229" />
-      <entry key="H1" value="505.8588352523242" />
-      <entry key="H2" value="835.6876271545718" />
-      <entry key="H4" value="1136.8019843606464" />
-      <entry key="D1" value="1506.0114951503722" />
-      <entry key="W1" value="1583.5993628698016" />
+      <entry key="MS100" value="1.4708015593742483" />
+      <entry key="MS500" value="3.3832268687745075" />
+      <entry key="S2" value="5.883568558004156" />
+      <entry key="S5" value="10.98069891369924" />
+      <entry key="S10" value="19.163604681555988" />
+      <entry key="S30" value="40.62288903503221" />
+      <entry key="S60" value="64.26150933301683" />
+      <entry key="M2" value="112.89543420201791" />
+      <entry key="M5" value="229.3760843445782" />
+      <entry key="M10" value="329.1295020054238" />
+      <entry key="M15" value="380.16320780268694" />
+      <entry key="M30" value="485.72104465234105" />
+      <entry key="H1" value="715.1717193058141" />
+      <entry key="H2" value="1057.4112821781562" />
+      <entry key="H4" value="1373.874258777453" />
+      <entry key="D1" value="1767.2531262141297" />
+      <entry key="W1" value="1850.5855299295476" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -156,31 +159,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "CidrDebugProfileConversion": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.RadMigrateCodeStyle": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "git.auto.fetch.suggestion.counter": "1",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;CidrDebugProfileConversion&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git.auto.fetch.suggestion.counter&quot;: &quot;1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\benre\CLionProjects\EE2010-CW\src" />
+    </key>
+  </component>
   <component name="SelectedDebugProfileService">{
   &quot;profileIdByStamp&quot;: [],
   &quot;modificationCount&quot;: 1
@@ -246,7 +254,8 @@
     <MESSAGE value="info header completed" />
     <MESSAGE value="enemy header completed." />
     <MESSAGE value="Player header completed." />
-    <option name="LAST_COMMIT_MESSAGE" value="Player header completed." />
+    <MESSAGE value="template for cards done" />
+    <option name="LAST_COMMIT_MESSAGE" value="template for cards done" />
     <option name="LAST_CHUNK_COMMIT_MESSAGE" value="&#9;modified:   .gitignore&#10;&#9;new file:   CMakeLists.txt&#10;    modified:   src/main.cpp" />
   </component>
 </project>
