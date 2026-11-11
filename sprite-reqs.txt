@@ -6,7 +6,6 @@ characters
 - heal damage
 - weakened/status affected
 - fainted
-- shielding
-- attacking 1 (stab)
-- attacking 2 (pierce/strike)
-- attacking 3 (slash)
+- attacking 1 (shielding)
+- attacking 2 (stab/slash/pierce)
+- attacking 3 (heavy attack)
