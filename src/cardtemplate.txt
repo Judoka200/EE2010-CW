@@ -1,21 +1,3 @@
-int
-name
-energy cost
-attack val
-attack type
-defval
-poisonval
-healval
-exclusive
-
-int
-name
-energy cost
-attack val
-attack type
-defval
-poisonval
-healval
-exclusive
-
+ID,Name,Exclusive,EnergyCost,AttackVal,AttackRange,AttackType,PoisonVal,MadnessVal,BurningVal,BleedingVal,SpecialProperty,SpecialPropertyVal
+ID,Name,Exclusive,EnergyCost,AttackVal,AttackRange,AttackType,PoisonVal,MadnessVal,BurningVal,BleedingVal,SpecialProperty,SpecialPropertyVal
 etc...
