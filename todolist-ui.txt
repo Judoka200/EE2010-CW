@@ -10,5 +10,6 @@
 - battle log (clear space to the side)
 - fix ugly black panel behind cards
 - make energy circle actually work
+- display card energy in corner
 - update start turn rectangle to show turn progress
 - code CHANGEs (backend ctrl f CHANGE into the ui)
