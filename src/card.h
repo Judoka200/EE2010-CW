@@ -6,21 +6,19 @@
 class card
 {
 public:
-    card(int id,std::string name,int cost, bool exclusive = false); //id,name,cost,exclusive to enemy
-    void addEffect(int,int); //poison,heal
-    void addAttack(int , ATKTYPE ); //damage,type
-    void addDef(int); //block
-    int getAttack(); //returns attack and type as array
-    int getDef(); //returns def
-    int getEff(); //returns poison and healval as array
-    bool getExclusive(); //returns if card is exclusive
-    int getCost(); //returns energy cost
-    int iD(); //returns id
-    std::string getName(); //returns cardname
+    card(int id,std::string name,int cost, bool exclusive = false, int attackVal, int attackRange, ATKTYPE attackType, int poisonVal, int madnessVal, int burningVal, int bleedingVal, int specialProperty, int specialPropertyVal); //id,name,cost,exclusive to enemy
+    int getAttack() const; //returns attack and range as array
+    int getType() const; //returns type: slash,strike,stab,def
+    int getEff() const; //returns Effects as array
+    bool getExclusive() const; //returns if card is exclusive
+    int getCost() const; //returns energy cost
+    int iD() const; //returns id
+    std::string getName() const; //returns cardname
+    int getProperty() const; //returns specialProperty and specialPropertyVal
 private:
     /* data */
     std::string name;
-    int id, eCost, attackVal, attackType, defVal, poisonVal, healVal; //all of these should initialise to 0
+    int id, eCost, attackVal, attackRange, attackType, poisonVal, madnessVal, burningVal, bleedingVal, specialProperty, specialPropertyVal; //all of these should initialise to 0
     bool isEnemyExclusive;
 };
 
