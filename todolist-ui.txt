@@ -12,4 +12,7 @@
 - make energy circle actually work
 - display card energy in corner
 - update start turn rectangle to show turn progress
+- move hp bar above character icon and name above hp bar (leave space below)
+- change character placeholder rects to placeholder images
+- status icons below the hp bar
 - code CHANGEs (backend ctrl f CHANGE into the ui)
