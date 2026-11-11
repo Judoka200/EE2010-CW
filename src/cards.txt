@@ -1,0 +1,16 @@
+1,Strike,False,1,3,3,strike,0,0,0,0,0,0
+2,Thrust,False,1,3,3,stab,0,0,0,0,0,0
+3,Rend,False,1,3,3,slash,0,0,0,0,0,0
+4,Defend,False,1,4,3,def,0,0,0,0,0,0
+5,Consedeo,False,2,5,5,def,0,0,0,0,5,2
+6,Ammorsus,False,1,5,3,strike,0,0,4,0,2,2
+7,Protero,False,0,4,2,strike,0,0,3,0,0,0
+8,Saevio,True,3,7,4,strike,0,0,5,0,2,6
+9,Disseminate Infection,False,1,7,1,def,6,0,0,0,2,1
+10,Catalyse,False,1,2,2,stab,9,0,0,0,0,0
+11,Amputate,False,2,4,7,slash,3,0,0,0,4,3
+12,Cure-All,True,1,1,1,stab,2,0,0,0,6,1
+13,Still Life,False,2,1,11,stab,0,4,0,0,3,1
+14,Impress,False,2,4,6,strike,0,9,0,0,1,-5
+15,Surreality,False,2,4,6,def,0,3,0,0,2,3
+16,Grotesque,True,4,6,10,strike,0,5,0,0,3,3
