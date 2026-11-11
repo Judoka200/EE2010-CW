@@ -4,7 +4,7 @@ enum ATKTYPE {
     strike,
     slash,
     stab,
-    null
+    def
 };
 
 
