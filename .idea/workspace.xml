@@ -17,10 +17,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23deca65-a634-4148-b459-0a7f0f1752da" name="Changes" comment="info header edited.&#10;activateStatus(int) &#10;void addMadness(int)&#10;void addBurning(int)&#10;void addBleed(int)&#10;int getMadness()&#10;int getBurning()&#10;int getBleed() added&#10;health private variable added as apposed to maxHealth">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/card.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/card.h" afterDir="false" />
-    </list>
+    <list default="true" id="23deca65-a634-4148-b459-0a7f0f1752da" name="Changes" comment="card header edited.&#10;constructor fields added&#10;&quot;add&quot; functions removed&#10;getDef removed&#10;getEff edited&#10;getAttack edited&#10;getType added&#10;getProperty added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,61 +83,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0031075643994025" />
-      <entry key="MS500" value="1.322156232685902" />
-      <entry key="S2" value="2.238608714071603" />
-      <entry key="S5" value="3.906117439686055" />
-      <entry key="S10" value="7.031719387816206" />
-      <entry key="S30" value="17.488460441177864" />
-      <entry key="S60" value="29.560500699726596" />
-      <entry key="M2" value="54.950381776697604" />
-      <entry key="M5" value="147.31537268900757" />
-      <entry key="M10" value="291.55462313877155" />
-      <entry key="M15" value="393.78938989976166" />
-      <entry key="M30" value="583.3311488218691" />
-      <entry key="H1" value="862.7025959763959" />
-      <entry key="H2" value="1243.0993650163955" />
-      <entry key="H4" value="1596.1120722508992" />
-      <entry key="D1" value="2041.9691071141813" />
-      <entry key="W1" value="2137.4488623767734" />
+      <entry key="MS100" value="1.0069441744187853" />
+      <entry key="MS500" value="1.4111841748454157" />
+      <entry key="S2" value="2.4364570437472732" />
+      <entry key="S5" value="3.1660489603444253" />
+      <entry key="S10" value="3.5376371329101395" />
+      <entry key="S30" value="4.3726834893937365" />
+      <entry key="S60" value="7.4540948456281875" />
+      <entry key="M2" value="20.085543363025103" />
+      <entry key="M5" value="87.7788300375105" />
+      <entry key="M10" value="222.00295131802633" />
+      <entry key="M15" value="330.45514896311596" />
+      <entry key="M30" value="542.3620899097244" />
+      <entry key="H1" value="840.7848997775615" />
+      <entry key="H2" value="1237.2523324145452" />
+      <entry key="H4" value="1605.475029947517" />
+      <entry key="D1" value="2073.051504611535" />
+      <entry key="W1" value="2173.5632943610567" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="2.9117097882182752E-280" />
-      <entry key="S5" value="1.5334133310524186E-112" />
-      <entry key="S10" value="1.2383106763055956E-56" />
-      <entry key="S30" value="2.3135374773416834E-19" />
-      <entry key="S60" value="4.809924612030494E-10" />
-      <entry key="M2" value="2.1931540329011257E-5" />
-      <entry key="M5" value="0.013690763045156986" />
-      <entry key="M10" value="0.11700753413843581" />
-      <entry key="M15" value="0.23922646231723352" />
-      <entry key="M30" value="0.489107822792924" />
-      <entry key="H1" value="0.6993624402217516" />
-      <entry key="H2" value="0.8362789248939343" />
-      <entry key="H4" value="0.9144828729363413" />
-      <entry key="D1" value="0.9852110239162756" />
-      <entry key="W1" value="0.9978737745869017" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="4.3293928439112216E-134" />
+      <entry key="S10" value="2.080719309256112E-67" />
+      <entry key="S30" value="5.925675055163146E-23" />
+      <entry key="S60" value="7.697840642130169E-12" />
+      <entry key="M2" value="2.774498268539762E-6" />
+      <entry key="M5" value="0.005987889581864959" />
+      <entry key="M10" value="0.07738145502551022" />
+      <entry key="M15" value="0.18158972088029704" />
+      <entry key="M30" value="0.42613345430779964" />
+      <entry key="H1" value="0.6527889814540374" />
+      <entry key="H2" value="0.8079535762988114" />
+      <entry key="H4" value="0.8988623789539653" />
+      <entry key="D1" value="0.9823860812821492" />
+      <entry key="W1" value="0.9974645212319587" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.975698559061053" />
-      <entry key="MS500" value="1.3152786347782743" />
-      <entry key="S2" value="2.2356953068814653" />
-      <entry key="S5" value="3.9039103625649796" />
-      <entry key="S10" value="7.029499717216035" />
-      <entry key="S30" value="17.484895546755236" />
-      <entry key="S60" value="29.552679765985793" />
-      <entry key="M2" value="54.931238464737646" />
-      <entry key="M5" value="147.3011682921265" />
-      <entry key="M10" value="291.64441283696124" />
-      <entry key="M15" value="394.00385412168305" />
-      <entry key="M30" value="583.8013968617422" />
-      <entry key="H1" value="863.3883247847517" />
-      <entry key="H2" value="1243.9264126709236" />
-      <entry key="H4" value="1597.0209190904461" />
-      <entry key="D1" value="2042.9531757441077" />
-      <entry key="W1" value="2138.4465669068895" />
+      <entry key="MS100" value="0.9861745838065106" />
+      <entry key="MS500" value="1.4048168233098832" />
+      <entry key="S2" value="2.433655134146657" />
+      <entry key="S5" value="3.1646070591446644" />
+      <entry key="S10" value="3.5368347916837317" />
+      <entry key="S30" value="4.37123657925512" />
+      <entry key="S60" value="7.444699219083064" />
+      <entry key="M2" value="20.063660647443864" />
+      <entry key="M5" value="87.75386775500837" />
+      <entry key="M10" value="222.049740091585" />
+      <entry key="M15" value="330.6086779231169" />
+      <entry key="M30" value="542.7666793755543" />
+      <entry key="H1" value="841.4222774854458" />
+      <entry key="H2" value="1238.0499910491865" />
+      <entry key="H4" value="1606.3676558450675" />
+      <entry key="D1" value="2074.032634253882" />
+      <entry key="W1" value="2174.560572917556" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -252,7 +249,8 @@
     <MESSAGE value="Player header completed." />
     <MESSAGE value="template for cards done" />
     <MESSAGE value="info header edited.&#10;activateStatus(int) &#10;void addMadness(int)&#10;void addBurning(int)&#10;void addBleed(int)&#10;int getMadness()&#10;int getBurning()&#10;int getBleed() added&#10;health private variable added as apposed to maxHealth" />
-    <option name="LAST_COMMIT_MESSAGE" value="info header edited.&#10;activateStatus(int) &#10;void addMadness(int)&#10;void addBurning(int)&#10;void addBleed(int)&#10;int getMadness()&#10;int getBurning()&#10;int getBleed() added&#10;health private variable added as apposed to maxHealth" />
+    <MESSAGE value="card header edited.&#10;constructor fields added&#10;&quot;add&quot; functions removed&#10;getDef removed&#10;getEff edited&#10;getAttack edited&#10;getType added&#10;getProperty added" />
+    <option name="LAST_COMMIT_MESSAGE" value="card header edited.&#10;constructor fields added&#10;&quot;add&quot; functions removed&#10;getDef removed&#10;getEff edited&#10;getAttack edited&#10;getType added&#10;getProperty added" />
     <option name="LAST_CHUNK_COMMIT_MESSAGE" value="&#9;modified:   .gitignore&#10;&#9;new file:   CMakeLists.txt&#10;    modified:   src/main.cpp" />
   </component>
 </project>

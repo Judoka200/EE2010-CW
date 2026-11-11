@@ -8,7 +8,7 @@
 
 class info {
     public:
-    info(int); //initialises with fixed amount of health
+    info(int); //initialises with fixed amount of health, health = maxHealth
     void heal(int); //heal by adding to health added amount
     void damage(int); //performs damage calc to find remaining health
     void setHealth(int); //sets health to a specific value
@@ -19,14 +19,14 @@ class info {
     void addBurning(int); //adds burning to total burning
     void addBleed(int); //adds bleed to total bleed
     void addBlock(int); //adds block to blockTotal
-    int getHealth(); //returns health total
-    int getPoison(); //returns poison total
-    int getMadness(); //returns madness total
-    int getBurning(); //returns burning total
-    int getBleed(); //returns bleed total
-    int getBlock(); //returns block total
+    int getHealth() const; //returns health total
+    int getPoison() const; //returns poison total
+    int getMadness() const; //returns madness total
+    int getBurning() const; //returns burning total
+    int getBleed() const; //returns bleed total
+    int getBlock() const; //returns block total
     private:
-    int health, maxHealth, health, poison, madness, burning, bleeding, block; //all default to except maxhealth.
+    int health, maxHealth, health, poison, madness, burning, bleeding, block; //all default to 0 except maxhealth and health.
 };
 
 
