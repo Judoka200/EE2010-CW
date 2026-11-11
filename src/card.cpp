@@ -43,6 +43,7 @@ void card::addEffect(int poison, int heal) {
 int card::getAttack() { return attackVal; }
 int card::getDef()    { return defVal; }
 int card::getEff()    { return poisonVal; }   
+int card::getHeal(){return healVal;}
 bool card::getExclusive() { return isEnemyExclusive; }
 int card::getCost()   { return eCost; }
 int card::iD()        { return id; }
