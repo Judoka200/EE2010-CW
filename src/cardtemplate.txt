@@ -1,3 +1,12 @@
 ID,Name,Exclusive,EnergyCost,AttackVal,AttackRange,AttackType,PoisonVal,MadnessVal,BurningVal,BleedingVal,SpecialProperty,SpecialPropertyVal
 ID,Name,Exclusive,EnergyCost,AttackVal,AttackRange,AttackType,PoisonVal,MadnessVal,BurningVal,BleedingVal,SpecialProperty,SpecialPropertyVal
 etc...
+
+Special Property List
+0 - None
+1 - Heal X
+2 - Draw X Cards
+3 - Trigger Madness X times.
+4 - Target Strength -X
+5 - User Strength +X
+6 - Do damage equal to X status  (1 ~ 4 for Poison through to Bleed)
