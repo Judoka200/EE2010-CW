@@ -13,6 +13,7 @@ public:
     int getAttack(); //returns attack and type as array
     int getDef(); //returns def
     int getEff(); //returns poison and healval as array
+    int getHeal();
     bool getExclusive(); //returns if card is exclusive
     int getCost(); //returns energy cost
     int iD(); //returns id
