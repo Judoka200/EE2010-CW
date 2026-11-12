@@ -6,7 +6,7 @@
 class card
 {
 public:
-    card(int id,std::string name,int cost, bool exclusive = false, int attackVal, int attackRange, ATKTYPE attackType, int poisonVal, int madnessVal, int burningVal, int bleedingVal, int specialProperty, int specialPropertyVal); //id,name,cost,exclusive to enemy
+    card(int id,std::string name,int cost, bool exclusive = false, int atkval, int atkrange, ATKTYPE atktype, int poison, int madness, int burning, int bleeding, int specialP, int specialPVal); //id,name,cost,exclusive to enemy
     int getAttack() const; //returns attack
     int getRange() const; //returns range
     int getAttackType() const; //returns type: slash,strike,stab,def
@@ -20,7 +20,8 @@ public:
 private:
     /* data */
     std::string name;
-    int id, eCost, attackVal, attackRange, attackType, poisonVal, madnessVal, burningVal, bleedingVal, specialProperty, specialPropertyVal; //all of these should initialise to 0
+    ATKTYPE attackType;
+    int id, eCost, attackVal, attackRange, poisonVal, madnessVal, burningVal, bleedingVal, specialProperty, specialPropertyVal; //all of these should initialise to 0
     bool isEnemyExclusive;
 };
 
