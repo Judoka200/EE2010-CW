@@ -20,13 +20,14 @@ class info {
     void addBleed(int); //adds bleed to total bleed
     void addBlock(int); //adds block to blockTotal
     int getHealth() const; //returns health total
+    int getMaxHealth() const; //returns maxHealth
     int getPoison() const; //returns poison total
     int getMadness() const; //returns madness total
     int getBurning() const; //returns burning total
     int getBleed() const; //returns bleed total
     int getBlock() const; //returns block total
     private:
-    int health, maxHealth, health, poison, madness, burning, bleeding, block; //all default to 0 except maxhealth and health.
+    int health, maxHealth, poison, madness, burning, bleeding, block; //all default to 0 except maxhealth and health.
 };
 
 
