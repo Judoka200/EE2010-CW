@@ -31,8 +31,6 @@ Special Property List
 0 - None
 1 - Heal X
 2 - Draw X Cards
-3 - Trigger Madness.
+3 - Trigger Madness + x damage.
 4 - Do damage equal to X status  (1 ~ 4 for Poison through to Bleed)
-5 - Remove enemy block
-6 - cut enemy health in half
 X is specialPropertyVal
