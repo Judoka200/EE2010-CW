@@ -4,9 +4,9 @@
 
 #include "card.h"
 
-card::card(int id, std::string name, int cost, bool exclusive, int atkval = 0, int atkrange, ATKTYPE atktype, int poison , int madness , int burning, int bleeding, int specialP, int specialPVal) :
-    name(name),
+    card::card(int id, std::string name, int cost, int atkval, int atkrange, ATKTYPE atktype, int poison , int madness , int burning, int bleeding, int specialP, int specialPVal,bool exclusive) :
     id(id),
+    name(name),
     eCost(cost),
     attackVal(atkval),
     attackRange(atkrange),

@@ -1,223 +1,224 @@
-1
-Strike
-False
-1
-3
-3
-strike
-0
-0
-0
-0
-0
-0
-
-2
-Thrust
-False
-1
-3
-3
-stab
-0
-0
-0
-0
-0
-0
-
-3
-Rend
-False
-1
-3
-3
-slash
-0
-0
-0
-0
-0
-0
-
-4
-Defend
-False
-1
-4
-3
-def
-0
-0
-0
-0
-0
-0
-
-5
-Consedeo
-False
-2
-5
-5
-def
-0
-0
-0
-0
-5
-2
-
-6
-Ammorsus
-False
-1
-5
-3
-strike
-0
-0
-4
-0
-2
-2
-
-7
-Protero
-False
-0
-4
-2
-strike
-0
-0
-3
-0
-0
-0
-
-8
-Saevio
-True
-3
-7
-4
-strike
-0
-0
-5
-0
-2
-6
-
-9
-Disseminate Infection
-False
-1
-7
-1
-def
-6
-0
-0
-0
-2
-1
-
-10
-Catalyse
-False
-1
-2
-2
-stab
-9
-0
-0
-0
-0
-0
-
-11
-Amputate
-False
-2
-4
-7
-slash
-3
-0
-0
-0
-4
-3
-
-12
-Cure-All
-True
-1
-1
-1
-stab
-2
-0
-0
-0
-6
-1
-
-13
-Still Life
-False
-2
-1
-11
-stab
-0
-4
-0
-0
-3
-1
-
-14
-Impress
-False
-2
-4
-6
-strike
-0
-9
-0
-0
-1
--5
-
-15
-Surreality
-False
-2
-4
-6
-def
-0
-3
-0
-0
-2
-3
-
-16
-Grotesque
-True
-4
-6
-10
-strike
-0
-5
-0
-0
-3
-3
+[card]
+ID	1
+Name	Strike
+Exclusive	FALSE
+EnergyCost	1
+AttackVal	3
+AttackRange	3
+attackType // attackType can bbe strike,slash,stab or def	strike
+PoisonVal	0
+MadnessVal	0
+BurningVal	0
+BleedingVal	0
+SpecialProperty	0
+SpecialPropertyVal	0
+[card]
+ID	2
+Name	Thrust
+Exclusive	FALSE
+EnergyCost	1
+AttackVal	3
+AttackRange	3
+attackType // attackType can bbe strike,slash,stab or def	stab
+PoisonVal	0
+MadnessVal	0
+BurningVal	0
+BleedingVal	0
+SpecialProperty	0
+SpecialPropertyVal	0
+[card]
+ID	3
+Name	Rend
+Exclusive	FALSE
+EnergyCost	1
+AttackVal	3
+AttackRange	3
+attackType // attackType can bbe strike,slash,stab or def	slash
+PoisonVal	0
+MadnessVal	0
+BurningVal	0
+BleedingVal	0
+SpecialProperty	0
+SpecialPropertyVal	0
+[card]
+ID	4
+Name	Defend
+Exclusive	FALSE
+EnergyCost	1
+AttackVal	4
+AttackRange	3
+attackType // attackType can bbe strike,slash,stab or def	def
+PoisonVal	0
+MadnessVal	0
+BurningVal	0
+BleedingVal	0
+SpecialProperty	0
+SpecialPropertyVal	0
+[card]
+ID	5
+Name	Consedeo
+Exclusive	FALSE
+EnergyCost	2
+AttackVal	5
+AttackRange	5
+attackType // attackType can bbe strike,slash,stab or def	def
+PoisonVal	0
+MadnessVal	0
+BurningVal	0
+BleedingVal	0
+SpecialProperty	1
+SpecialPropertyVal	4
+[card]
+ID	6
+Name	Ammorsus
+Exclusive	FALSE
+EnergyCost	1
+AttackVal	5
+AttackRange	3
+attackType // attackType can bbe strike,slash,stab or def	strike
+PoisonVal	0
+MadnessVal	0
+BurningVal	4
+BleedingVal	0
+SpecialProperty	2
+SpecialPropertyVal	2
+[card]
+ID	7
+Name	Protero
+Exclusive	FALSE
+EnergyCost	0
+AttackVal	4
+AttackRange	2
+attackType // attackType can bbe strike,slash,stab or def	strike
+PoisonVal	0
+MadnessVal	0
+BurningVal	3
+BleedingVal	0
+SpecialProperty	2
+SpecialPropertyVal	1
+[card]
+ID	8
+Name	Saevio
+Exclusive	TRUE
+EnergyCost	3
+AttackVal	7
+AttackRange	5
+attackType // attackType can bbe strike,slash,stab or def	strike
+PoisonVal	0
+MadnessVal	0
+BurningVal	5
+BleedingVal	0
+SpecialProperty	2
+SpecialPropertyVal	6
+[card]
+ID	9
+Name	Disseminate Infection
+Exclusive	FALSE
+EnergyCost	1
+AttackVal	7
+AttackRange	1
+attackType // attackType can bbe strike,slash,stab or def	def
+PoisonVal	6
+MadnessVal	0
+BurningVal	0
+BleedingVal	0
+SpecialProperty	2
+SpecialPropertyVal	1
+[card]
+ID	10
+Name	Catalyse
+Exclusive	FALSE
+EnergyCost	1
+AttackVal	2
+AttackRange	2
+attackType // attackType can bbe strike,slash,stab or def	stab
+PoisonVal	9
+MadnessVal	0
+BurningVal	0
+BleedingVal	0
+SpecialProperty	0
+SpecialPropertyVal	0
+[card]
+ID	11
+Name	Amputate
+Exclusive	FALSE
+EnergyCost	2
+AttackVal	4
+AttackRange	7
+attackType // attackType can bbe strike,slash,stab or def	slash
+PoisonVal	3
+MadnessVal	0
+BurningVal	0
+BleedingVal	0
+SpecialProperty	4
+SpecialPropertyVal	3
+[card]
+ID	12
+Name	Cure-All
+Exclusive	TRUE
+EnergyCost	1
+AttackVal	1
+AttackRange	1
+attackType // attackType can bbe strike,slash,stab or def	stab
+PoisonVal	2
+MadnessVal	0
+BurningVal	0
+BleedingVal	0
+SpecialProperty	4
+SpecialPropertyVal	1
+[card]
+ID	13
+Name	Still Life
+Exclusive	FALSE
+EnergyCost	2
+AttackVal	1
+AttackRange	11
+attackType // attackType can bbe strike,slash,stab or def	stab
+PoisonVal	0
+MadnessVal	4
+BurningVal	0
+BleedingVal	0
+SpecialProperty	3
+SpecialPropertyVal	1
+[card]
+ID	14
+Name	Impress
+Exclusive	FALSE
+EnergyCost	2
+AttackVal	4
+AttackRange	6
+attackType // attackType can bbe strike,slash,stab or def	strike
+PoisonVal	0
+MadnessVal	9
+BurningVal	0
+BleedingVal	0
+SpecialProperty	1
+SpecialPropertyVal	-5
+[card]
+ID	15
+Name	Surreality
+Exclusive	FALSE
+EnergyCost	2
+AttackVal	4
+AttackRange	6
+attackType // attackType can bbe strike,slash,stab or def	def
+PoisonVal	0
+MadnessVal	3
+BurningVal	0
+BleedingVal	0
+SpecialProperty	2
+SpecialPropertyVal	3
+[card]
+ID	16
+Name	Grotesque
+Exclusive	TRUE
+EnergyCost	4
+AttackVal	6
+AttackRange	10
+attackType // attackType can bbe strike,slash,stab or def	strike
+PoisonVal	0
+MadnessVal	5
+BurningVal	0
+BleedingVal	0
+SpecialProperty	3
+SpecialPropertyVal	10
