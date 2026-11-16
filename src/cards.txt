@@ -1,3 +1,4 @@
+[card]
 ID	1
 Name	Strike
 Exclusive	FALSE
@@ -11,7 +12,7 @@ BurningVal	0
 BleedingVal	0
 SpecialProperty	0
 SpecialPropertyVal	0
-	
+[card]
 ID	2
 Name	Thrust
 Exclusive	FALSE
@@ -25,7 +26,7 @@ BurningVal	0
 BleedingVal	0
 SpecialProperty	0
 SpecialPropertyVal	0
-	
+[card]
 ID	3
 Name	Rend
 Exclusive	FALSE
@@ -39,7 +40,7 @@ BurningVal	0
 BleedingVal	0
 SpecialProperty	0
 SpecialPropertyVal	0
-	
+[card]
 ID	4
 Name	Defend
 Exclusive	FALSE
@@ -53,7 +54,7 @@ BurningVal	0
 BleedingVal	0
 SpecialProperty	0
 SpecialPropertyVal	0
-	
+[card]
 ID	5
 Name	Consedeo
 Exclusive	FALSE
@@ -67,7 +68,7 @@ BurningVal	0
 BleedingVal	0
 SpecialProperty	1
 SpecialPropertyVal	4
-	
+[card]
 ID	6
 Name	Ammorsus
 Exclusive	FALSE
@@ -81,7 +82,7 @@ BurningVal	4
 BleedingVal	0
 SpecialProperty	2
 SpecialPropertyVal	2
-	
+[card]
 ID	7
 Name	Protero
 Exclusive	FALSE
@@ -95,7 +96,7 @@ BurningVal	3
 BleedingVal	0
 SpecialProperty	2
 SpecialPropertyVal	1
-	
+[card]
 ID	8
 Name	Saevio
 Exclusive	TRUE
@@ -109,7 +110,7 @@ BurningVal	5
 BleedingVal	0
 SpecialProperty	2
 SpecialPropertyVal	6
-	
+[card]
 ID	9
 Name	Disseminate Infection
 Exclusive	FALSE
@@ -123,7 +124,7 @@ BurningVal	0
 BleedingVal	0
 SpecialProperty	2
 SpecialPropertyVal	1
-	
+[card]
 ID	10
 Name	Catalyse
 Exclusive	FALSE
@@ -137,7 +138,7 @@ BurningVal	0
 BleedingVal	0
 SpecialProperty	0
 SpecialPropertyVal	0
-	
+[card]
 ID	11
 Name	Amputate
 Exclusive	FALSE
@@ -151,7 +152,7 @@ BurningVal	0
 BleedingVal	0
 SpecialProperty	4
 SpecialPropertyVal	3
-	
+[card]
 ID	12
 Name	Cure-All
 Exclusive	TRUE
@@ -165,7 +166,7 @@ BurningVal	0
 BleedingVal	0
 SpecialProperty	4
 SpecialPropertyVal	1
-	
+[card]
 ID	13
 Name	Still Life
 Exclusive	FALSE
@@ -179,7 +180,7 @@ BurningVal	0
 BleedingVal	0
 SpecialProperty	3
 SpecialPropertyVal	1
-	
+[card]
 ID	14
 Name	Impress
 Exclusive	FALSE
@@ -193,7 +194,7 @@ BurningVal	0
 BleedingVal	0
 SpecialProperty	1
 SpecialPropertyVal	-5
-	
+[card]
 ID	15
 Name	Surreality
 Exclusive	FALSE
@@ -207,7 +208,7 @@ BurningVal	0
 BleedingVal	0
 SpecialProperty	2
 SpecialPropertyVal	3
-	
+[card]
 ID	16
 Name	Grotesque
 Exclusive	TRUE
