@@ -6,7 +6,7 @@
 class card
 {
 public:
-    card(int id,std::string name,int cost, bool exclusive = false, int atkval, int atkrange, ATKTYPE atktype, int poison, int madness, int burning, int bleeding, int specialP, int specialPVal); //id,name,cost,exclusive to enemy
+    card(int id,std::string name,int cost, int atkval, int atkrange, ATKTYPE atktype, int poison=0, int madness=0, int burning=0, int bleeding=0, int specialP=0, int specialPVal=0,bool exclusive = false); //id,name,cost,exclusive to enemy
     int getAttack() const; //returns attack
     int getRange() const; //returns range
     int getAttackType() const; //returns type: slash,strike,stab,def
