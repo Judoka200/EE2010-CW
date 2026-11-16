@@ -4,7 +4,7 @@
 
 #include "card.h"
 
-card::card(int id, std::string name, int cost, bool exclusive, int atkval = 0, int atkrange, ATKTYPE atktype, int poison , int madness , int burning, int bleeding, int specialP, int specialPVal) :
+card::card(int id, std::string name, int cost, int atkval = 0, int atkrange, ATKTYPE atktype, int poison , int madness , int burning, int bleeding, int specialP, int specialPVal, bool exclusive) :
     name(name),
     id(id),
     eCost(cost),
