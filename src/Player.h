@@ -1,6 +1,4 @@
 //
-// Created by benre on 04/11/2026.
-//
 
 #ifndef EE2010_CW_PLAYER_H
 #define EE2010_CW_PLAYER_H
