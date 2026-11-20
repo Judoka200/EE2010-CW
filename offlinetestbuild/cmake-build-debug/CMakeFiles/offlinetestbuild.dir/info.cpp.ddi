@@ -1,0 +1,11 @@
+{
+"rules": [
+{
+"primary-output": "CMakeFiles/offlinetestbuild.dir/info.cpp.o",
+"requires": [
+]
+}
+],
+"version": 0,
+"revision": 0
+}

@@ -1,0 +1,3 @@
+C:/Users/benre/CLionProjects/offlinetestbuild/cmake-build-debug/CMakeFiles/offlinetestbuild.dir
+C:/Users/benre/CLionProjects/offlinetestbuild/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/benre/CLionProjects/offlinetestbuild/cmake-build-debug/CMakeFiles/rebuild_cache.dir

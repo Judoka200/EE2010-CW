@@ -1,0 +1,38 @@
+[
+{
+  "directory": "C:/Users/benre/CLionProjects/offlinetestbuild/cmake-build-debug",
+  "command": "C:\\Users\\benre\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\c++.exe -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\offlinetestbuild.dir\\main.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\offlinetestbuild.dir\\main.cpp.obj -c C:\\Users\\benre\\CLionProjects\\offlinetestbuild\\main.cpp",
+  "file": "C:/Users/benre/CLionProjects/offlinetestbuild/main.cpp",
+  "output": "C:/Users/benre/CLionProjects/offlinetestbuild/cmake-build-debug/CMakeFiles/offlinetestbuild.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/benre/CLionProjects/offlinetestbuild/cmake-build-debug",
+  "command": "C:\\Users\\benre\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\c++.exe -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\offlinetestbuild.dir\\card.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\offlinetestbuild.dir\\card.cpp.obj -c C:\\Users\\benre\\CLionProjects\\offlinetestbuild\\card.cpp",
+  "file": "C:/Users/benre/CLionProjects/offlinetestbuild/card.cpp",
+  "output": "C:/Users/benre/CLionProjects/offlinetestbuild/cmake-build-debug/CMakeFiles/offlinetestbuild.dir/card.cpp.obj"
+},
+{
+  "directory": "C:/Users/benre/CLionProjects/offlinetestbuild/cmake-build-debug",
+  "command": "C:\\Users\\benre\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\c++.exe -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\offlinetestbuild.dir\\enemy.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\offlinetestbuild.dir\\enemy.cpp.obj -c C:\\Users\\benre\\CLionProjects\\offlinetestbuild\\enemy.cpp",
+  "file": "C:/Users/benre/CLionProjects/offlinetestbuild/enemy.cpp",
+  "output": "C:/Users/benre/CLionProjects/offlinetestbuild/cmake-build-debug/CMakeFiles/offlinetestbuild.dir/enemy.cpp.obj"
+},
+{
+  "directory": "C:/Users/benre/CLionProjects/offlinetestbuild/cmake-build-debug",
+  "command": "C:\\Users\\benre\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\c++.exe -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\offlinetestbuild.dir\\info.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\offlinetestbuild.dir\\info.cpp.obj -c C:\\Users\\benre\\CLionProjects\\offlinetestbuild\\info.cpp",
+  "file": "C:/Users/benre/CLionProjects/offlinetestbuild/info.cpp",
+  "output": "C:/Users/benre/CLionProjects/offlinetestbuild/cmake-build-debug/CMakeFiles/offlinetestbuild.dir/info.cpp.obj"
+},
+{
+  "directory": "C:/Users/benre/CLionProjects/offlinetestbuild/cmake-build-debug",
+  "command": "C:\\Users\\benre\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\c++.exe -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\offlinetestbuild.dir\\player.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\offlinetestbuild.dir\\player.cpp.obj -c C:\\Users\\benre\\CLionProjects\\offlinetestbuild\\player.cpp",
+  "file": "C:/Users/benre/CLionProjects/offlinetestbuild/player.cpp",
+  "output": "C:/Users/benre/CLionProjects/offlinetestbuild/cmake-build-debug/CMakeFiles/offlinetestbuild.dir/player.cpp.obj"
+},
+{
+  "directory": "C:/Users/benre/CLionProjects/offlinetestbuild/cmake-build-debug",
+  "command": "C:\\Users\\benre\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\c++.exe -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\offlinetestbuild.dir\\playerDeck.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\offlinetestbuild.dir\\playerDeck.cpp.obj -c C:\\Users\\benre\\CLionProjects\\offlinetestbuild\\playerDeck.cpp",
+  "file": "C:/Users/benre/CLionProjects/offlinetestbuild/playerDeck.cpp",
+  "output": "C:/Users/benre/CLionProjects/offlinetestbuild/cmake-build-debug/CMakeFiles/offlinetestbuild.dir/playerDeck.cpp.obj"
+}
+]
