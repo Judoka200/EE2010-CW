@@ -1,8 +1,20 @@
 #include <iostream>
 #include<string>
 #include "card.h"
+#include <vector>
+#include <fstream> //library to read from file system
 using namespace std;
+vector<card*> list;
 int main() {
+    string myText;
+    // Read from the text file
+    ifstream MyReadFile("filename.txt");
+
+    // Use a while loop together with the getline() function to read the file line by line
+    while (getline (MyReadFile, myText)) {
+        // Output the text from the file
+        cout << myText;
+    }
     card card1(1,"new",1,20,3,def,0,5,8,6,2,4,false);
     cout << card1.getAttack() << endl;
     cout << card1.getAttackType() << endl;

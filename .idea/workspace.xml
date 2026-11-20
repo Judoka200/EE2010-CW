@@ -17,8 +17,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23deca65-a634-4148-b459-0a7f0f1752da" name="Changes" comment="reformatted text files and added exceptions to activateStatus(int)">
-      <change beforePath="$PROJECT_DIR$/src/cards.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/cards.txt" afterDir="false" />
+    <list default="true" id="23deca65-a634-4148-b459-0a7f0f1752da" name="Changes" comment="card test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +60,7 @@
     <option name="INCOMING_COMMITS_CHECK_STRATEGY" value="FETCH" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="reuben" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -85,61 +87,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000424897658295" />
-      <entry key="S2" value="1.1875701673268482" />
-      <entry key="S5" value="3.001867909212394" />
-      <entry key="S10" value="6.215615354346247" />
-      <entry key="S30" value="12.544560425449546" />
-      <entry key="S60" value="17.305422288820786" />
-      <entry key="M2" value="23.357254985428426" />
-      <entry key="M5" value="39.476140218176305" />
-      <entry key="M10" value="60.988763971766225" />
-      <entry key="M15" value="86.52992894880795" />
-      <entry key="M30" value="213.27637377026878" />
-      <entry key="H1" value="540.0039341114044" />
-      <entry key="H2" value="1081.5644840780785" />
-      <entry key="H4" value="1672.5691609733012" />
-      <entry key="D1" value="2537.5813838210806" />
-      <entry key="W1" value="2739.4289625792258" />
+      <entry key="MS100" value="1.0000000000558364" />
+      <entry key="MS500" value="1.0088998701517573" />
+      <entry key="S2" value="1.3091835168195312" />
+      <entry key="S5" value="1.707510589857432" />
+      <entry key="S10" value="2.0794998427617886" />
+      <entry key="S30" value="3.1627309315405316" />
+      <entry key="S60" value="7.350185468687161" />
+      <entry key="M2" value="18.000070872962723" />
+      <entry key="M5" value="44.628359617716804" />
+      <entry key="M10" value="75.35834533517406" />
+      <entry key="M15" value="103.73191683511541" />
+      <entry key="M30" value="225.66122038204418" />
+      <entry key="H1" value="543.4819739831217" />
+      <entry key="H2" value="1085.0839201144931" />
+      <entry key="H4" value="1686.7690636873667" />
+      <entry key="D1" value="2579.240761670396" />
+      <entry key="W1" value="2788.987287728502" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="5.8660311397267144E-92" />
-      <entry key="S5" value="3.2161607498769084E-37" />
-      <entry key="S10" value="5.671634404576482E-19" />
-      <entry key="S30" value="9.050632426197183E-7" />
-      <entry key="S60" value="0.0014470152939076066" />
-      <entry key="M2" value="0.07609551770066454" />
-      <entry key="M5" value="0.9329414414905152" />
-      <entry key="M10" value="2.471644355175761" />
-      <entry key="M15" value="3.8128723032659706" />
-      <entry key="M30" value="7.007353922322606" />
-      <entry key="H1" value="10.790658353428345" />
-      <entry key="H2" value="14.046186408227964" />
-      <entry key="H4" value="16.253470324245892" />
-      <entry key="D1" value="18.498464707518846" />
-      <entry key="W1" value="18.927184846318998" />
+      <entry key="S2" value="1.950704408475101E-160" />
+      <entry key="S5" value="1.306401252279961E-64" />
+      <entry key="S10" value="1.143082691097561E-32" />
+      <entry key="S30" value="2.4630245121690177E-11" />
+      <entry key="S60" value="7.5486280181147296E-6" />
+      <entry key="M2" value="0.005496124066751227" />
+      <entry key="M5" value="0.326086910175667" />
+      <entry key="M10" value="1.461253184517829" />
+      <entry key="M15" value="2.685830414363777" />
+      <entry key="M30" value="5.881217170723675" />
+      <entry key="H1" value="9.885633926803889" />
+      <entry key="H2" value="13.444254297656512" />
+      <entry key="H4" value="15.901395814327056" />
+      <entry key="D1" value="18.43106976078142" />
+      <entry key="W1" value="18.917318445757147" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9659363289248456" />
-      <entry key="MS500" value="0.9931346939681375" />
-      <entry key="S2" value="1.1855257065581377" />
-      <entry key="S5" value="2.99945694355547" />
-      <entry key="S10" value="6.212530435313045" />
-      <entry key="S30" value="12.542173960477776" />
-      <entry key="S60" value="17.304560217728145" />
-      <entry key="M2" value="23.421412892240483" />
-      <entry key="M5" value="40.368322868140496" />
-      <entry key="M10" value="63.41169086866954" />
-      <entry key="M15" value="90.29398754717471" />
-      <entry key="M30" value="220.23840298779456" />
-      <entry key="H1" value="550.7573585941782" />
-      <entry key="H2" value="1095.5842275130403" />
-      <entry key="H4" value="1688.8061381221196" />
-      <entry key="D1" value="2556.0764303776864" />
-      <entry key="W1" value="2758.3556386510368" />
+      <entry key="MS100" value="0.9395227492319274" />
+      <entry key="MS500" value="0.9946908548601697" />
+      <entry key="S2" value="1.288991921229393" />
+      <entry key="S5" value="1.6904621099027761" />
+      <entry key="S10" value="2.0668549802197744" />
+      <entry key="S30" value="3.155960078905532" />
+      <entry key="S60" value="7.340369726359857" />
+      <entry key="M2" value="17.98645480201095" />
+      <entry key="M5" value="44.920967143751945" />
+      <entry key="M10" value="76.77727279151877" />
+      <entry key="M15" value="106.37324571784747" />
+      <entry key="M30" value="231.49871691322588" />
+      <entry key="H1" value="553.3304866702575" />
+      <entry key="H2" value="1098.5013149648757" />
+      <entry key="H4" value="1702.6535373705756" />
+      <entry key="D1" value="2597.668293091452" />
+      <entry key="W1" value="2807.9040786764995" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -154,40 +156,98 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;CidrDebugProfileConversion&quot;: &quot;true&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;git.auto.fetch.suggestion.counter&quot;: &quot;1&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "C/C++ File.main.cpp.executor": "Run",
+    "CidrDebugProfileConversion": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "card-test",
+    "git.auto.fetch.suggestion.counter": "1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\benre\CLionProjects\EE2010-CW\src" />
     </key>
   </component>
-  <component name="SelectedDebugProfileService">{
-  &quot;profileIdByStamp&quot;: [],
-  &quot;modificationCount&quot;: 1
-}</component>
+  <component name="RunManager">
+    <configuration name="main.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="EE2010-CW" TARGET_NAME="main.cpp" CONFIG_NAME="main.cpp">
+      <option name="sourceFile" value="src\main.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <module name="" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="C/C++ File.main.cpp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SelectedDebugProfileService"><![CDATA[{
+  "profileIdByStamp": [
+    {
+      "first": {
+        "##RUN_CONFIGURATION##": "C/C++ File.main.cpp"
+      },
+      "second": "6e0d31eb-0219-4387-86d1-18362768e1e3"
+    }
+  ],
+  "modificationCount": 5
+}]]></component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="23deca65-a634-4148-b459-0a7f0f1752da" name="Changes" comment="" />
@@ -256,7 +316,8 @@
     <MESSAGE value="Info.cpp updated to fit new info.h&#10;info.h new funcion added: &#10;getMaxHealth()&#10;card.h new functions added:&#10;getRange()&#10;getPropertyVal()" />
     <MESSAGE value="card.cpp change to reflect card.h changes" />
     <MESSAGE value="reformatted text files and added exceptions to activateStatus(int)" />
-    <option name="LAST_COMMIT_MESSAGE" value="reformatted text files and added exceptions to activateStatus(int)" />
+    <MESSAGE value="card test" />
+    <option name="LAST_COMMIT_MESSAGE" value="card test" />
     <option name="LAST_CHUNK_COMMIT_MESSAGE" value="&#9;modified:   .gitignore&#10;&#9;new file:   CMakeLists.txt&#10;    modified:   src/main.cpp" />
   </component>
 </project>
