@@ -1,19 +1,10 @@
-cmake_minimum_required(VERSION 4.3)
-project(week7sys)
+cmake_minimum_required(VERSION 3.10.0)
 
+project(TextDungeon VERSION 1.0 LANGUAGES C CXX)
 set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-add_executable(EE2010-CW main.cpp
-        arcaneKnowledgeRepository.h
-        card.cpp
-        card.h
-        enemy.cpp
-        enemy.h
-        info.cpp
-        info.h
-        Player.cpp
-        Player.h
-        playerDeck.cpp
-        playerDeck.h
-)
+
+file(GLOB SOURCES CONFIGURE_DEPENDS src/*.cpp)
+add_executable(main ${SOURCES})
 
