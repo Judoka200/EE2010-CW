@@ -1,0 +1,57 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "C:/Users/ZPEE016/CLionProjects/EE2010-CW/cmake-build-debug",
+	"dir-cur-src" : "C:/Users/ZPEE016/CLionProjects/EE2010-CW",
+	"dir-top-bld" : "C:/Users/ZPEE016/CLionProjects/EE2010-CW/cmake-build-debug",
+	"dir-top-src" : "C:/Users/ZPEE016/CLionProjects/EE2010-CW",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "C:/Users/ZPEE016/CLionProjects/EE2010-CW/cmake-build-debug/CMakeFiles/EE2010_CW.dir",
+	"sources" : 
+	{
+		"CMakeFiles/EE2010_CW.dir/Player.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/ZPEE016/CLionProjects/EE2010-CW/Player.cpp"
+		},
+		"CMakeFiles/EE2010_CW.dir/card.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/ZPEE016/CLionProjects/EE2010-CW/card.cpp"
+		},
+		"CMakeFiles/EE2010_CW.dir/cardGeneration.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/ZPEE016/CLionProjects/EE2010-CW/cardGeneration.cpp"
+		},
+		"CMakeFiles/EE2010_CW.dir/enemy.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/ZPEE016/CLionProjects/EE2010-CW/enemy.cpp"
+		},
+		"CMakeFiles/EE2010_CW.dir/info.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/ZPEE016/CLionProjects/EE2010-CW/info.cpp"
+		},
+		"CMakeFiles/EE2010_CW.dir/main.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/ZPEE016/CLionProjects/EE2010-CW/main.cpp"
+		},
+		"CMakeFiles/EE2010_CW.dir/playerDeck.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/ZPEE016/CLionProjects/EE2010-CW/playerDeck.cpp"
+		}
+	}
+}
