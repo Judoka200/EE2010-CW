@@ -4,8 +4,14 @@
 
 #include "playerDeck.h"
 #include "card.h"
+#include "cardGeneration.h"
 
-
+void playerDeck::load(const std::string& filename) {
+    for (card& c : loadCards(filename)) {              // :: = the global function, not this method
+        owned.push_back(std::make_unique<card>(c));      // deck now owns a copy
+        drawpile.push_back(owned.back().get());          // drawpile just points at it
+    }
+}
 
 // append a card to the end of the drawpile vector
 void playerDeck::addCard(card* cd) { drawpile.push_back(cd); }

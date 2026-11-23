@@ -15,17 +15,17 @@ int main() {
 
 
 
-    std::vector<card> allCards = loadCards("src/cards.txt");  
-    for (card& c : allCards) {
-        p.addCard(&c);
-    }
+    // std::vector<card> allCards = loadCards("src/cards.txt");  
+    // for (card& c : allCards) {
+        // p.addCard(&c);
+    // }
 
-     
-
+     p.load("src/cards.txt");
+    e.load("src/enemyCards.txt");
 
 
     
-    p.show();
+    e.show();
 }
 
 
