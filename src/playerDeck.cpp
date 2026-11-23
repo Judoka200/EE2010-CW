@@ -88,6 +88,7 @@ void playerDeck::show(){
     for (card* c : hand){
         std::cout << c-> getName()<<std::endl;
     }
+    std::cout<<"\e[0m";
 }
 
 
