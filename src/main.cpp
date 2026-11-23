@@ -23,9 +23,19 @@ int main() {
      p.load("src/cards.txt");
     e.load("src/enemyCards.txt");
 
-
     
-    e.show();
+
+
+
+    while(e.getHealth()){
+
+        p.turnStart();
+        p.show();
+        e.showInfo();
+        p.playCard(p.getHand()[0],e);
+        p.playCard(p.getHand()[0],e);
+        e.showInfo();
+    }
 }
 
 
