@@ -2,8 +2,6 @@
 
 - fix card text placement w image placements on it (square sprites)
 
-- card placement animation
-
 - make energy circle actually work
 
 - display card energy in corner of cards
