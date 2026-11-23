@@ -17,13 +17,13 @@ static int toInt(std::map<std::string, std::string>& data, const std::string& ke
 // !!! change these names to match your ATKTYPE enum in arcaneKnowledgeRepository.h !!!
 
 // build one card from the collected key:value data
-static card makeEnemy(std::map<std::string, std::string>& data)
+static enemy makeEnemy(std::map<std::string, std::string>& data)
 {
     // file says TRUE/FALSE, so lowercase it before comparing
     std::string ex = data["Exclusive"];
     std::transform(ex.begin(), ex.end(), ex.begin(), ::tolower);
 
-    return card(
+    return enemy(
         toInt(data, "ID"),
         data["Name"],
         toInt(data, "EnergyCost"),
