@@ -1,6 +1,6 @@
 
 #include "Player.h"
-
+#include "playerDeck.h"
 // constructor - sets player health and starting energy
 Player::Player(int health) : info(health) {
     energy = 3;
@@ -29,16 +29,9 @@ void Player::turnStart() {
 }
 
 void Player::drawCard(){
-    if (drawpile.empty()){      // check to see if drawpile empty first to stop accessing a card that doesnt exist
-        std::cout<<"drawpile empty\n";
-        return;
-    }
-    std::srand(12); //temporary seed
-
     // move 5 random cards from the drawpile to the hand
     for (int i=0; i<5; i++) {
-        int randomIndex = rand() % drawpile.size();
-        moveCard(drawpile, hand, drawpile[randomIndex]);
+        playerDeck::drawCard();
     }
 }
 
