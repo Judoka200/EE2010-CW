@@ -28,6 +28,7 @@ if ((health-value) > 0) {
 } else {
     health = 0;
 }
+}
 
 //overwrites current health value ignoring maximum
 //- will get limited to maximum on heal()
