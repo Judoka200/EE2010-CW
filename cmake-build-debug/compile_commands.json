@@ -1,44 +1,50 @@
 [
 {
-  "directory": "C:/Users/ZPEE016/CLionProjects/EE2010-CW/cmake-build-debug",
-  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~2.1\\bin\\mingw\\bin\\C__~1.EXE -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\EE2010_CW.dir\\main.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\EE2010_CW.dir\\main.cpp.obj -c C:\\Users\\ZPEE016\\CLionProjects\\EE2010-CW\\main.cpp",
-  "file": "C:/Users/ZPEE016/CLionProjects/EE2010-CW/main.cpp",
-  "output": "C:/Users/ZPEE016/CLionProjects/EE2010-CW/cmake-build-debug/CMakeFiles/EE2010_CW.dir/main.cpp.obj"
+  "directory": "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/cmake-build-debug",
+  "command": "C:\\Users\\benre\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\c++.exe -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\EE2010_CW.dir\\main.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\EE2010_CW.dir\\main.cpp.obj -c C:\\Users\\benre\\Downloads\\EE2010-CW-clion-ver\\EE2010-CW-clion-ver\\main.cpp",
+  "file": "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/main.cpp",
+  "output": "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/cmake-build-debug/CMakeFiles/EE2010_CW.dir/main.cpp.obj"
 },
 {
-  "directory": "C:/Users/ZPEE016/CLionProjects/EE2010-CW/cmake-build-debug",
-  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~2.1\\bin\\mingw\\bin\\C__~1.EXE -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\EE2010_CW.dir\\card.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\EE2010_CW.dir\\card.cpp.obj -c C:\\Users\\ZPEE016\\CLionProjects\\EE2010-CW\\card.cpp",
-  "file": "C:/Users/ZPEE016/CLionProjects/EE2010-CW/card.cpp",
-  "output": "C:/Users/ZPEE016/CLionProjects/EE2010-CW/cmake-build-debug/CMakeFiles/EE2010_CW.dir/card.cpp.obj"
+  "directory": "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/cmake-build-debug",
+  "command": "C:\\Users\\benre\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\c++.exe -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\EE2010_CW.dir\\card.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\EE2010_CW.dir\\card.cpp.obj -c C:\\Users\\benre\\Downloads\\EE2010-CW-clion-ver\\EE2010-CW-clion-ver\\card.cpp",
+  "file": "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/card.cpp",
+  "output": "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/cmake-build-debug/CMakeFiles/EE2010_CW.dir/card.cpp.obj"
 },
 {
-  "directory": "C:/Users/ZPEE016/CLionProjects/EE2010-CW/cmake-build-debug",
-  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~2.1\\bin\\mingw\\bin\\C__~1.EXE -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\EE2010_CW.dir\\cardGeneration.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\EE2010_CW.dir\\cardGeneration.cpp.obj -c C:\\Users\\ZPEE016\\CLionProjects\\EE2010-CW\\cardGeneration.cpp",
-  "file": "C:/Users/ZPEE016/CLionProjects/EE2010-CW/cardGeneration.cpp",
-  "output": "C:/Users/ZPEE016/CLionProjects/EE2010-CW/cmake-build-debug/CMakeFiles/EE2010_CW.dir/cardGeneration.cpp.obj"
+  "directory": "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/cmake-build-debug",
+  "command": "C:\\Users\\benre\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\c++.exe -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\EE2010_CW.dir\\cardGeneration.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\EE2010_CW.dir\\cardGeneration.cpp.obj -c C:\\Users\\benre\\Downloads\\EE2010-CW-clion-ver\\EE2010-CW-clion-ver\\cardGeneration.cpp",
+  "file": "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/cardGeneration.cpp",
+  "output": "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/cmake-build-debug/CMakeFiles/EE2010_CW.dir/cardGeneration.cpp.obj"
 },
 {
-  "directory": "C:/Users/ZPEE016/CLionProjects/EE2010-CW/cmake-build-debug",
-  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~2.1\\bin\\mingw\\bin\\C__~1.EXE -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\EE2010_CW.dir\\enemy.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\EE2010_CW.dir\\enemy.cpp.obj -c C:\\Users\\ZPEE016\\CLionProjects\\EE2010-CW\\enemy.cpp",
-  "file": "C:/Users/ZPEE016/CLionProjects/EE2010-CW/enemy.cpp",
-  "output": "C:/Users/ZPEE016/CLionProjects/EE2010-CW/cmake-build-debug/CMakeFiles/EE2010_CW.dir/enemy.cpp.obj"
+  "directory": "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/cmake-build-debug",
+  "command": "C:\\Users\\benre\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\c++.exe -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\EE2010_CW.dir\\enemy.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\EE2010_CW.dir\\enemy.cpp.obj -c C:\\Users\\benre\\Downloads\\EE2010-CW-clion-ver\\EE2010-CW-clion-ver\\enemy.cpp",
+  "file": "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/enemy.cpp",
+  "output": "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/cmake-build-debug/CMakeFiles/EE2010_CW.dir/enemy.cpp.obj"
 },
 {
-  "directory": "C:/Users/ZPEE016/CLionProjects/EE2010-CW/cmake-build-debug",
-  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~2.1\\bin\\mingw\\bin\\C__~1.EXE -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\EE2010_CW.dir\\info.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\EE2010_CW.dir\\info.cpp.obj -c C:\\Users\\ZPEE016\\CLionProjects\\EE2010-CW\\info.cpp",
-  "file": "C:/Users/ZPEE016/CLionProjects/EE2010-CW/info.cpp",
-  "output": "C:/Users/ZPEE016/CLionProjects/EE2010-CW/cmake-build-debug/CMakeFiles/EE2010_CW.dir/info.cpp.obj"
+  "directory": "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/cmake-build-debug",
+  "command": "C:\\Users\\benre\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\c++.exe -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\EE2010_CW.dir\\info.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\EE2010_CW.dir\\info.cpp.obj -c C:\\Users\\benre\\Downloads\\EE2010-CW-clion-ver\\EE2010-CW-clion-ver\\info.cpp",
+  "file": "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/info.cpp",
+  "output": "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/cmake-build-debug/CMakeFiles/EE2010_CW.dir/info.cpp.obj"
 },
 {
-  "directory": "C:/Users/ZPEE016/CLionProjects/EE2010-CW/cmake-build-debug",
-  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~2.1\\bin\\mingw\\bin\\C__~1.EXE -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\EE2010_CW.dir\\Player.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\EE2010_CW.dir\\Player.cpp.obj -c C:\\Users\\ZPEE016\\CLionProjects\\EE2010-CW\\Player.cpp",
-  "file": "C:/Users/ZPEE016/CLionProjects/EE2010-CW/Player.cpp",
-  "output": "C:/Users/ZPEE016/CLionProjects/EE2010-CW/cmake-build-debug/CMakeFiles/EE2010_CW.dir/Player.cpp.obj"
+  "directory": "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/cmake-build-debug",
+  "command": "C:\\Users\\benre\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\c++.exe -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\EE2010_CW.dir\\Player.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\EE2010_CW.dir\\Player.cpp.obj -c C:\\Users\\benre\\Downloads\\EE2010-CW-clion-ver\\EE2010-CW-clion-ver\\Player.cpp",
+  "file": "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/Player.cpp",
+  "output": "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/cmake-build-debug/CMakeFiles/EE2010_CW.dir/Player.cpp.obj"
 },
 {
-  "directory": "C:/Users/ZPEE016/CLionProjects/EE2010-CW/cmake-build-debug",
-  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~2.1\\bin\\mingw\\bin\\C__~1.EXE -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\EE2010_CW.dir\\playerDeck.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\EE2010_CW.dir\\playerDeck.cpp.obj -c C:\\Users\\ZPEE016\\CLionProjects\\EE2010-CW\\playerDeck.cpp",
-  "file": "C:/Users/ZPEE016/CLionProjects/EE2010-CW/playerDeck.cpp",
-  "output": "C:/Users/ZPEE016/CLionProjects/EE2010-CW/cmake-build-debug/CMakeFiles/EE2010_CW.dir/playerDeck.cpp.obj"
+  "directory": "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/cmake-build-debug",
+  "command": "C:\\Users\\benre\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\c++.exe -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\EE2010_CW.dir\\playerDeck.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\EE2010_CW.dir\\playerDeck.cpp.obj -c C:\\Users\\benre\\Downloads\\EE2010-CW-clion-ver\\EE2010-CW-clion-ver\\playerDeck.cpp",
+  "file": "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/playerDeck.cpp",
+  "output": "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/cmake-build-debug/CMakeFiles/EE2010_CW.dir/playerDeck.cpp.obj"
+},
+{
+  "directory": "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/cmake-build-debug",
+  "command": "C:\\Users\\benre\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\c++.exe -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\EE2010_CW.dir\\enemyGeneration.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\EE2010_CW.dir\\enemyGeneration.cpp.obj -c C:\\Users\\benre\\Downloads\\EE2010-CW-clion-ver\\EE2010-CW-clion-ver\\enemyGeneration.cpp",
+  "file": "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/enemyGeneration.cpp",
+  "output": "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/cmake-build-debug/CMakeFiles/EE2010_CW.dir/enemyGeneration.cpp.obj"
 }
 ]

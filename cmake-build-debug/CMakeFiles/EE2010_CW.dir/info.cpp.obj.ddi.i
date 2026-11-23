@@ -1,14 +1,14 @@
-# 0 "C:/Users/ZPEE016/CLionProjects/EE2010-CW/info.cpp"
-# 1 "C:\\Users\\ZPEE016\\CLionProjects\\EE2010-CW\\cmake-build-debug//"
+# 0 "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/info.cpp"
+# 1 "C:\\Users\\benre\\Downloads\\EE2010-CW-clion-ver\\EE2010-CW-clion-ver\\cmake-build-debug//"
 # 0 "<built-in>"
 # 0 "<command-line>"
-# 1 "C:/Users/ZPEE016/CLionProjects/EE2010-CW/info.cpp"
+# 1 "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/info.cpp"
 
 
 
 
-# 1 "C:/Users/ZPEE016/CLionProjects/EE2010-CW/info.h" 1
-# 9 "C:/Users/ZPEE016/CLionProjects/EE2010-CW/info.h"
+# 1 "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/info.h" 1
+# 9 "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/info.h"
 class info {
 public:
     info(int);
@@ -16,7 +16,7 @@ public:
     void damage(int);
     void setHealth(int);
     void activateTurnStart();
-    void activateStatus();
+    void activateStatus(int);
     void addPoison(int);
     void addMadness(int);
     void addBurning(int);
@@ -32,7 +32,7 @@ public:
 private:
     int health, maxHealth, poison, madness, burning, bleeding, block;
 };
-# 6 "C:/Users/ZPEE016/CLionProjects/EE2010-CW/info.cpp" 2
+# 6 "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/info.cpp" 2
 
 info::info(int base_Health){
 
@@ -69,13 +69,13 @@ void info::setHealth(int value){
 
 void info::activateTurnStart(){
 
-    activateStatus();
+    activateStatus(0);
 
     block = 0;
 }
 
-void info::activateStatus() {
-    if (poison) {
+void info::activateStatus(int type) {
+    if (type == 0) {
         damage(poison);
         poison -= 1;
         if(poison < 0){
@@ -83,7 +83,7 @@ void info::activateStatus() {
         }
     }
 
-    if (bleeding) {
+    if (type == 1) {
         damage(bleeding);
         bleeding -= 1;
         if(bleeding < 0){
@@ -91,15 +91,12 @@ void info::activateStatus() {
         }
     }
 
-    if (madness) {
-        damage(madness);
-        madness -= 1;
-        if(madness < 0){
-            madness = 0;
-        }
+    if (type == 2) {
+        damage((madness * 2));
+        madness = 0;
     }
 
-    if (burning) {
+    if (type == 3) {
         damage(burning);
         burning -= 1;
         if(burning < 0){

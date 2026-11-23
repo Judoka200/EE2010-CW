@@ -10,10 +10,8 @@
 
 class enemy : public info, public playerDeck {
 public:
-    enemy(std::string,int); //name,startingHealth
-    card* enemyact(); // returns a pointer to the random card the enemy is using
+    enemy(std::string,int,std::string); //name,startingHealth, cardsource
     std::string getname(); //returns the name of the enemy
-    void addcard(card* card); //adds a card pointer to the enemy's deck array
 
 private:
     playerDeck Edeck;

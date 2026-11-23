@@ -1,14 +1,16 @@
-EC1.txt
+[ENEMY]
+FILENAME: EC1.txt
 NAME: grunt
 HEALTH: 5
 
-EC2.txt
+[ENEMY]
+FILENAME: EC2.txt
 NAME: not a grunt
 HEALTH: 50
 
-EC3.txt
+[ENEMY]
+FILENAME: EC3.txt
 NAME: punchingBag
 HEALTH: 2000
-
 
 EOF

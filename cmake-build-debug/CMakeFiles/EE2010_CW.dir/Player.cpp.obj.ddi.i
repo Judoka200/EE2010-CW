@@ -1,16 +1,16 @@
-# 0 "C:/Users/ZPEE016/CLionProjects/EE2010-CW/Player.cpp"
-# 1 "C:\\Users\\ZPEE016\\CLionProjects\\EE2010-CW\\cmake-build-debug//"
+# 0 "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/Player.cpp"
+# 1 "C:\\Users\\benre\\Downloads\\EE2010-CW-clion-ver\\EE2010-CW-clion-ver\\cmake-build-debug//"
 # 0 "<built-in>"
 # 0 "<command-line>"
-# 1 "C:/Users/ZPEE016/CLionProjects/EE2010-CW/Player.cpp"
+# 1 "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/Player.cpp"
 
-# 1 "C:/Users/ZPEE016/CLionProjects/EE2010-CW/Player.h" 1
-
-
+# 1 "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/Player.h" 1
 
 
-# 1 "C:/Users/ZPEE016/CLionProjects/EE2010-CW/info.h" 1
-# 9 "C:/Users/ZPEE016/CLionProjects/EE2010-CW/info.h"
+
+
+# 1 "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/info.h" 1
+# 9 "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/info.h"
 class info {
 public:
     info(int);
@@ -18,7 +18,7 @@ public:
     void damage(int);
     void setHealth(int);
     void activateTurnStart();
-    void activateStatus();
+    void activateStatus(int);
     void addPoison(int);
     void addMadness(int);
     void addBurning(int);
@@ -34,28 +34,28 @@ public:
 private:
     int health, maxHealth, poison, madness, burning, bleeding, block;
 };
-# 6 "C:/Users/ZPEE016/CLionProjects/EE2010-CW/Player.h" 2
-# 1 "C:/Users/ZPEE016/CLionProjects/EE2010-CW/playerDeck.h" 1
+# 6 "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/Player.h" 2
+# 1 "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/playerDeck.h" 1
 
 
 
        
 
 
-# 1 "C:/Users/ZPEE016/CLionProjects/EE2010-CW/card.h" 1
+# 1 "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/card.h" 1
        
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string" 1 3
-# 40 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/requires_hosted.h" 1 3
-# 31 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/requires_hosted.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h" 1 3
-# 37 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string" 1 3
+# 40 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/requires_hosted.h" 1 3
+# 31 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/requires_hosted.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h" 1 3
+# 37 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h" 3
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wvariadic-macros"
 
 #pragma GCC diagnostic ignored "-Wc++11-extensions"
 #pragma GCC diagnostic ignored "-Wc++23-extensions"
-# 336 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h" 3
+# 336 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h" 3
 namespace std
 {
   typedef long long unsigned int size_t;
@@ -76,7 +76,7 @@ namespace std
   }
 #pragma GCC visibility pop
 }
-# 369 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h" 3
+# 369 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h" 3
 namespace std
 {
   inline namespace __cxx11 __attribute__((__abi_tag__ ("cxx11"))) { }
@@ -85,7 +85,7 @@ namespace __gnu_cxx
 {
   inline namespace __cxx11 __attribute__((__abi_tag__ ("cxx11"))) { }
 }
-# 573 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h" 3
+# 573 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h" 3
 namespace std
 {
 #pragma GCC visibility push(default)
@@ -109,7 +109,7 @@ namespace std
   }
 #pragma GCC visibility pop
 }
-# 617 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h" 3
+# 617 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h" 3
 namespace std
 {
 #pragma GCC visibility push(default)
@@ -122,37 +122,37 @@ namespace std
   noexcept;
 #pragma GCC visibility pop
 }
-# 727 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h" 1 3
-# 728 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h" 2 3
+# 727 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h" 1 3
+# 728 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h" 2 3
 
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h" 1 3
-# 731 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h" 2 3
-# 887 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h" 1 3
+# 731 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h" 2 3
+# 887 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h" 3
 namespace __gnu_cxx
 {
   typedef __decltype(0.0bf16) __bfloat16_t;
 }
-# 949 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/pstl/pstl_config.h" 1 3
-# 950 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h" 2 3
+# 949 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/pstl/pstl_config.h" 1 3
+# 950 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h" 2 3
 
 
 
 #pragma GCC diagnostic pop
-# 32 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/requires_hosted.h" 2 3
-# 41 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string" 2 3
+# 32 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/requires_hosted.h" 2 3
+# 41 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string" 2 3
 
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stringfwd.h" 1 3
-# 42 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stringfwd.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/memoryfwd.h" 1 3
-# 52 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/memoryfwd.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stringfwd.h" 1 3
+# 42 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stringfwd.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/memoryfwd.h" 1 3
+# 52 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/memoryfwd.h" 3
 namespace std
 {
 
-# 66 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/memoryfwd.h" 3
+# 66 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/memoryfwd.h" 3
   template<typename>
     class allocator;
 
@@ -172,7 +172,7 @@ namespace std
 
 
 }
-# 43 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stringfwd.h" 2 3
+# 43 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stringfwd.h" 2 3
 
 namespace std
 {
@@ -231,31 +231,31 @@ namespace __cxx11 {
 
 
 }
-# 44 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string" 2 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/char_traits.h" 1 3
-# 44 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/char_traits.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/postypes.h" 1 3
-# 42 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/postypes.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cwchar" 1 3
-# 49 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cwchar" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 1 3
-# 9 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/corecrt.h" 1 3
-# 10 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/corecrt.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 10 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/_mingw.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h" 1 3
-# 108 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h" 3
+# 44 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/char_traits.h" 1 3
+# 44 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/char_traits.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/postypes.h" 1 3
+# 42 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/postypes.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cwchar" 1 3
+# 49 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cwchar" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 1 3
+# 9 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt.h" 1 3
+# 10 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 10 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h" 1 3
+# 108 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h" 3
              
-# 117 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h" 3
+# 117 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h" 3
              
-# 326 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h" 3
+# 326 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h" 3
        
-# 405 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h" 3
+# 405 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h" 3
        
-# 11 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/_mingw.h" 2 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h" 1 3
-# 44 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h" 3
+# 11 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw.h" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h" 1 3
+# 44 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h" 3
 extern "C++" {
 template <bool __test, typename __dsttype>
   struct __if_array;
@@ -264,15 +264,15 @@ template <typename __dsttype>
     typedef __dsttype __type;
 };
 }
-# 12 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/_mingw.h" 2 3
-# 306 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/_mingw.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/vadefs.h" 1 3
-# 9 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/vadefs.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 685 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/_mingw.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h" 1 3
-# 686 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/_mingw.h" 2 3
-# 10 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/vadefs.h" 2 3
+# 12 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw.h" 2 3
+# 306 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/vadefs.h" 1 3
+# 9 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/vadefs.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 685 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h" 1 3
+# 686 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw.h" 2 3
+# 10 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/vadefs.h" 2 3
 
 
 
@@ -295,16 +295,16 @@ extern "C" {
 
 
   typedef __gnuc_va_list va_list;
-# 99 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/vadefs.h" 3
+# 99 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/vadefs.h" 3
 }
 
 
 
 #pragma pack(pop)
-# 307 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/_mingw.h" 2 3
-# 592 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/_mingw.h" 3
+# 307 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw.h" 2 3
+# 592 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw.h" 3
 extern "C" {
-# 604 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/_mingw.h" 3
+# 604 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw.h" 3
 void __attribute__((__cdecl__)) __debugbreak(void);
 extern __inline__ __attribute__((__always_inline__,__gnu_inline__)) void __attribute__((__cdecl__)) __debugbreak(void)
 {
@@ -318,7 +318,7 @@ extern __inline__ __attribute__((__always_inline__,__gnu_inline__)) void __attri
 
 
 }
-# 625 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/_mingw.h" 3
+# 625 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw.h" 3
 void __attribute__((__cdecl__)) __attribute__ ((__noreturn__)) __fastfail(unsigned int code);
 extern __inline__ __attribute__((__always_inline__,__gnu_inline__)) void __attribute__((__cdecl__)) __attribute__ ((__noreturn__)) __fastfail(unsigned int code)
 {
@@ -335,20 +335,20 @@ extern __inline__ __attribute__((__always_inline__,__gnu_inline__)) void __attri
 
   __builtin_unreachable();
 }
-# 665 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/_mingw.h" 3
+# 665 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw.h" 3
 const char *__mingw_get_crt_info (void);
 
 
 }
-# 11 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/corecrt.h" 2 3
+# 11 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt.h" 2 3
 
 
 
 
 #pragma pack(push,_CRT_PACKING)
-# 35 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/corecrt.h" 3
+# 35 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt.h" 3
 __extension__ typedef unsigned long long size_t;
-# 45 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/corecrt.h" 3
+# 45 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt.h" 3
 __extension__ typedef long long ssize_t;
 
 
@@ -357,13 +357,13 @@ __extension__ typedef long long ssize_t;
 
 
 typedef size_t rsize_t;
-# 62 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/corecrt.h" 3
+# 62 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt.h" 3
 __extension__ typedef long long intptr_t;
-# 75 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/corecrt.h" 3
+# 75 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt.h" 3
 __extension__ typedef unsigned long long uintptr_t;
-# 88 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/corecrt.h" 3
+# 88 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt.h" 3
 __extension__ typedef long long ptrdiff_t;
-# 106 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/corecrt.h" 3
+# 106 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt.h" 3
 typedef unsigned short wint_t;
 typedef unsigned short wctype_t;
 
@@ -382,13 +382,13 @@ typedef long __time32_t;
 
 
 __extension__ typedef long long __time64_t;
-# 138 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/corecrt.h" 3
+# 138 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt.h" 3
 typedef __time64_t time_t;
-# 157 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/corecrt.h" 3
+# 157 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt.h" 3
 __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _invalid_parameter_noinfo(void);
 __attribute__ ((__dllimport__)) __attribute__ ((__noreturn__)) void __attribute__((__cdecl__)) _invalid_parameter_noinfo_noreturn(void);
 __attribute__ ((__dllimport__)) __attribute__ ((__noreturn__)) void __attribute__((__cdecl__)) _invoke_watson(const wchar_t *expression, const wchar_t *function_name, const wchar_t *file_name, unsigned int line_number, uintptr_t reserved);
-# 437 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/corecrt.h" 3
+# 437 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt.h" 3
 struct threadlocaleinfostruct;
 struct threadmbcinfostruct;
 typedef struct threadlocaleinfostruct *pthreadlocinfo;
@@ -442,21 +442,21 @@ typedef struct threadlocaleinfostruct {
   struct __lc_time_data *lc_time_curr;
 
 } threadlocinfo;
-# 508 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/corecrt.h" 3
+# 508 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt.h" 3
 #pragma pack(pop)
-# 10 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 2 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h" 1 3
-# 13 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h" 3
+# 10 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h" 1 3
+# 13 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h" 3
 extern "C" {
 
 
 unsigned long long* __attribute__((__cdecl__)) __local_stdio_printf_options(void);
 unsigned long long* __attribute__((__cdecl__)) __local_stdio_scanf_options(void);
-# 39 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h" 3
+# 39 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h" 3
 }
-# 11 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 2 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h" 1 3
-# 12 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h" 3
+# 11 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h" 1 3
+# 12 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h" 3
 extern "C" {
 
 
@@ -497,19 +497,19 @@ extern "C" {
 
 
 }
-# 12 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 2 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/corecrt_wctype.h" 1 3
-# 12 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/corecrt_wctype.h" 3
+# 12 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt_wctype.h" 1 3
+# 12 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt_wctype.h" 3
 extern "C" {
-# 31 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/corecrt_wctype.h" 3
+# 31 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt_wctype.h" 3
   __attribute__ ((__dllimport__)) const unsigned short* __pctype_func(void);
-# 45 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/corecrt_wctype.h" 3
+# 45 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt_wctype.h" 3
   extern const unsigned short ** __imp__wctype;
 
 
 
   __attribute__ ((__dllimport__)) const wctype_t * __attribute__((__cdecl__)) __pwctype_func(void);
-# 72 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/corecrt_wctype.h" 3
+# 72 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt_wctype.h" 3
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) iswalpha(wint_t _C);
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) iswupper(wint_t _C);
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) iswlower(wint_t _C);
@@ -560,15 +560,15 @@ extern "C" {
 
 
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) is_wctype(wint_t _C,wctype_t _Type);
-# 161 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/corecrt_wctype.h" 3
+# 161 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt_wctype.h" 3
 }
-# 13 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 2 3
-# 27 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 3
+# 13 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 2 3
+# 27 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 3
 #pragma pack(push,_CRT_PACKING)
 
 
 extern "C" {
-# 43 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 3
+# 43 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 3
   struct _iobuf {
 
 
@@ -590,7 +590,7 @@ extern "C" {
 __attribute__ ((__dllimport__)) FILE *__attribute__((__cdecl__)) __acrt_iob_func(unsigned index);
 
   __attribute__ ((__dllimport__)) FILE *__attribute__((__cdecl__)) __iob_func(void);
-# 75 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 3
+# 75 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 3
   typedef unsigned long _fsize_t;
 
 
@@ -631,10 +631,10 @@ __attribute__ ((__dllimport__)) FILE *__attribute__((__cdecl__)) __acrt_iob_func
     __extension__ long long size;
     wchar_t name[260];
   };
-# 173 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 3
+# 173 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 3
   __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wgetcwd(wchar_t *_DstBuf,int _SizeInWords);
   __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wgetdcwd(int _Drive,wchar_t *_DstBuf,int _SizeInWords);
-# 183 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 3
+# 183 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 3
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wchdir(const wchar_t *_Path);
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wmkdir(const wchar_t *_Path);
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wrmdir(const wchar_t *_Path);
@@ -665,7 +665,7 @@ __attribute__ ((__dllimport__)) FILE *__attribute__((__cdecl__)) __acrt_iob_func
 
 
   __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wsetlocale(int _Category,const wchar_t *_Locale);
-# 222 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 3
+# 222 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 3
   __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _wexecl(const wchar_t *_Filename,const wchar_t *_ArgList,...);
   __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _wexecle(const wchar_t *_Filename,const wchar_t *_ArgList,...);
   __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _wexeclp(const wchar_t *_Filename,const wchar_t *_ArgList,...);
@@ -711,7 +711,7 @@ __attribute__ ((__dllimport__)) FILE *__attribute__((__cdecl__)) __acrt_iob_func
 
 
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h" 1 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h" 1 3
 
 
 
@@ -727,11 +727,11 @@ __attribute__ ((__dllimport__)) FILE *__attribute__((__cdecl__)) __acrt_iob_func
   __extension__ typedef long long _off64_t;
 
   __extension__ typedef long long off64_t;
-# 26 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h" 3
+# 26 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h" 3
 typedef off32_t off_t;
-# 268 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 2 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/_mingw_stat64.h" 1 3
-# 29 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/_mingw_stat64.h" 3
+# 268 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw_stat64.h" 1 3
+# 29 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw_stat64.h" 3
   struct _stat32 {
     _dev_t st_dev;
    _ino_t st_ino;
@@ -787,7 +787,7 @@ typedef off32_t off_t;
     __time64_t st_mtime;
     __time64_t st_ctime;
   };
-# 269 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 2 3
+# 269 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 2 3
 
 
 
@@ -796,14 +796,14 @@ typedef off32_t off_t;
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wstat32i64(const wchar_t *_Name,struct _stat32i64 *_Stat);
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wstat64i32(const wchar_t *_Name,struct _stat64i32 *_Stat);
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wstat64(const wchar_t *_Name,struct _stat64 *_Stat);
-# 287 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 3
+# 287 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 3
   __attribute__ ((__dllimport__)) wchar_t *_cgetws(wchar_t *_Buffer) ;
   __attribute__ ((__dllimport__)) wint_t __attribute__((__cdecl__)) _getwch(void);
   __attribute__ ((__dllimport__)) wint_t __attribute__((__cdecl__)) _getwche(void);
   __attribute__ ((__dllimport__)) wint_t __attribute__((__cdecl__)) _putwch(wchar_t _WCh);
   __attribute__ ((__dllimport__)) wint_t __attribute__((__cdecl__)) _ungetwch(wint_t _WCh);
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _cputws(const wchar_t *_String);
-# 372 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 3
+# 372 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 3
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _cwprintf(const wchar_t * __restrict__ _Format,...);
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _cwscanf(const wchar_t * __restrict__ _Format,...) ;
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _cwscanf_l(const wchar_t * __restrict__ _Format,_locale_t _Locale,...) ;
@@ -815,7 +815,7 @@ typedef off32_t off_t;
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _vcwprintf_l(const wchar_t * __restrict__ _Format,_locale_t _Locale,va_list _ArgList);
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _cwprintf_p_l(const wchar_t * __restrict__ _Format,_locale_t _Locale,...);
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _vcwprintf_p_l(const wchar_t * __restrict__ _Format,_locale_t _Locale,va_list _ArgList);
-# 400 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 3
+# 400 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 3
                                                      __attribute__ ((__nonnull__ (2)))
   int __attribute__((__cdecl__)) __mingw_swscanf(const wchar_t * __restrict__ _Src,const wchar_t * __restrict__ _Format,...);
                                                      __attribute__ ((__nonnull__ (2)))
@@ -891,7 +891,7 @@ typedef off32_t off_t;
                                                      __attribute__ ((__nonnull__ (3)))
   int __attribute__((__cdecl__)) __ms_vsnwprintf(wchar_t * __restrict__ , size_t, const wchar_t * __restrict__ , va_list)
   ;
-# 488 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 3
+# 488 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 3
                                                      __attribute__ ((__nonnull__ (2)))
 int swscanf(const wchar_t *__source, const wchar_t *__format, ...)
 __asm__("__mingw_swscanf");
@@ -953,7 +953,7 @@ __asm__("__mingw_snwprintf");
                                                       __attribute__ ((__nonnull__ (3)))
 int vsnwprintf (wchar_t *__stream, size_t __n, const wchar_t *__format, __builtin_va_list __local_argv)
 __asm__("__mingw_vsnwprintf");
-# 587 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 3
+# 587 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 3
   __attribute__ ((__dllimport__)) FILE *__attribute__((__cdecl__)) _wfsopen(const wchar_t *_Filename,const wchar_t *_Mode,int _ShFlag);
 
 
@@ -981,7 +981,7 @@ __asm__("__mingw_vsnwprintf");
 
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _snwprintf(wchar_t * __restrict__ _Dest,size_t _Count,const wchar_t * __restrict__ _Format,...) ;
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _vsnwprintf(wchar_t * __restrict__ _Dest,size_t _Count,const wchar_t * __restrict__ _Format,va_list _Args) ;
-# 896 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 3
+# 896 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 3
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _fwprintf_p(FILE * __restrict__ _File,const wchar_t * __restrict__ _Format,...);
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wprintf_p(const wchar_t * __restrict__ _Format,...);
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _vfwprintf_p(FILE * __restrict__ _File,const wchar_t * __restrict__ _Format,va_list _ArgList);
@@ -1015,8 +1015,8 @@ __asm__("__mingw_vsnwprintf");
 
 
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl" 1 3
-# 12 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl" 1 3
+# 12 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl" 3
 extern "C++" {
 
                                                       __attribute__ ((__nonnull__ (2)))
@@ -1026,8 +1026,8 @@ int vswprintf (wchar_t *__stream, const wchar_t *__format, __builtin_va_list __l
 int swprintf (wchar_t *__stream, const wchar_t *__format, ...) __asm__("_swprintf");
 
 }
-# 930 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 2 3
-# 943 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 3
+# 930 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 2 3
+# 943 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 3
   __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wtempnam(const wchar_t *_Directory,const wchar_t *_FilePrefix);
 
 
@@ -1056,7 +1056,7 @@ int swprintf (wchar_t *__stream, const wchar_t *__format, ...) __asm__("_swprint
 
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wremove(const wchar_t *_Filename);
   __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wtmpnam(wchar_t *_Buffer);
-# 999 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 3
+# 999 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 3
   __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _itow(int _Value,wchar_t *_Dest,int _Radix) ;
   __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _ltow(long _Value,wchar_t *_Dest,int _Radix) ;
   __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _ultow(unsigned long _Value,wchar_t *_Dest,int _Radix) ;
@@ -1107,7 +1107,7 @@ int swprintf (wchar_t *__stream, const wchar_t *__format, ...) __asm__("_swprint
   __extension__ __attribute__ ((__dllimport__)) long long __attribute__((__cdecl__)) _wcstoi64_l(const wchar_t *_Str,wchar_t **_EndPtr,int _Radix,_locale_t _Locale);
   __extension__ __attribute__ ((__dllimport__)) unsigned long long __attribute__((__cdecl__)) _wcstoui64(const wchar_t *_Str,wchar_t **_EndPtr,int _Radix);
   __extension__ __attribute__ ((__dllimport__)) unsigned long long __attribute__((__cdecl__)) _wcstoui64_l(const wchar_t *_Str,wchar_t **_EndPtr,int _Radix,_locale_t _Locale);
-# 1058 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 3
+# 1058 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 3
   __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wfullpath(wchar_t *_FullPath,const wchar_t *_Path,size_t _SizeInWords);
 
 
@@ -1120,7 +1120,7 @@ int swprintf (wchar_t *__stream, const wchar_t *__format, ...) __asm__("_swprint
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wputenv(const wchar_t *_EnvString);
   __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _wsearchenv(const wchar_t *_Filename,const wchar_t *_EnvVar,wchar_t *_ResultPath) ;
   __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _wsplitpath(const wchar_t *_FullPath,wchar_t *_Drive,wchar_t *_Dir,wchar_t *_Filename,wchar_t *_Ext) ;
-# 1079 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 3
+# 1079 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 3
   __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wcsdup(const wchar_t *_Str);
 
 
@@ -1228,9 +1228,9 @@ int swprintf (wchar_t *__stream, const wchar_t *__format, ...) __asm__("_swprint
 
 
   wchar_t *__attribute__((__cdecl__)) _wctime(const time_t *_Time) __asm__("_wctime64") ;
-# 1194 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 3
+# 1194 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 3
   errno_t __attribute__((__cdecl__)) _wctime_s (wchar_t *_Buffer,size_t _SizeInWords,const time_t *_Time) __asm__("_wctime64_s");
-# 1209 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 3
+# 1209 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 3
   typedef int mbstate_t;
 
   typedef wchar_t _Wint_t;
@@ -1258,11 +1258,11 @@ int swprintf (wchar_t *__stream, const wchar_t *__format, ...) __asm__("_swprint
 
   void *__attribute__((__cdecl__)) memmove(void *_Dst,const void *_Src,size_t _MaxCount);
   void *__attribute__((__cdecl__)) memcpy(void * __restrict__ _Dst,const void * __restrict__ _Src,size_t _MaxCount) ;
-# 1284 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 3
+# 1284 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 3
 int __attribute__((__cdecl__)) __mingw_str_wide_utf8 (const wchar_t * const wptr, char **mbptr, size_t * buflen);
-# 1298 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 3
+# 1298 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 3
 int __attribute__((__cdecl__)) __mingw_str_utf8_wide (const char *const mbptr, wchar_t ** wptr, size_t * buflen);
-# 1307 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 3
+# 1307 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 3
 void __attribute__((__cdecl__)) __mingw_str_free(void *ptr);
 
 
@@ -1273,11 +1273,11 @@ void __attribute__((__cdecl__)) __mingw_str_free(void *ptr);
 
 #pragma pack(pop)
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/sec_api/wchar_s.h" 1 3
-# 9 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/sec_api/wchar_s.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 1 3
-# 10 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/sec_api/wchar_s.h" 2 3
-# 21 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/sec_api/wchar_s.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sec_api/wchar_s.h" 1 3
+# 9 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sec_api/wchar_s.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 1 3
+# 10 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sec_api/wchar_s.h" 2 3
+# 21 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sec_api/wchar_s.h" 3
 extern "C" {
 
 
@@ -1302,7 +1302,7 @@ extern "C" {
 
   __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _getws_s(wchar_t *_Str,size_t _SizeInWords);
   extern "C++" { template <size_t __size> inline wchar_t* __attribute__((__cdecl__)) _getws_s(wchar_t (&_DstBuf)[__size]) { return _getws_s(_DstBuf,__size); } }
-# 270 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/sec_api/wchar_s.h" 3
+# 270 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sec_api/wchar_s.h" 3
   int __attribute__((__cdecl__)) fwprintf_s(FILE *_File,const wchar_t *_Format,...);
   int __attribute__((__cdecl__)) wprintf_s(const wchar_t *_Format,...);
   int __attribute__((__cdecl__)) vfwprintf_s(FILE *_File,const wchar_t *_Format,va_list _ArgList);
@@ -1398,7 +1398,7 @@ extern "C" {
   __attribute__((dllimport)) errno_t __attribute__((__cdecl__)) _wstrdate_s (wchar_t *_Buf,size_t _SizeInWords);
   __attribute__((dllimport)) errno_t __attribute__((__cdecl__)) _wstrtime_s (wchar_t *_Buf,size_t _SizeInWords);
   __attribute__((dllimport)) errno_t __attribute__((__cdecl__)) _wctime64_s (wchar_t *_Buf,size_t _SizeInWords,const __time64_t *_Time);
-# 375 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/sec_api/wchar_s.h" 3
+# 375 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sec_api/wchar_s.h" 3
   __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) mbsrtowcs_s(size_t *_Retval,wchar_t *_Dst,size_t _SizeInWords,const char **_PSrc,size_t _N,mbstate_t *_State);
   extern "C++" { template <size_t __size> inline errno_t __attribute__((__cdecl__)) mbsrtowcs_s(size_t* _Retval, wchar_t (&_Dst)[__size], const char** _PSrc, size_t _N, mbstate_t _State) { return mbsrtowcs_s(_Retval, _Dst, __size, _PSrc, _N, _State); } }
 
@@ -1414,14 +1414,14 @@ extern "C" {
 
 
 }
-# 1318 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 2 3
-# 50 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cwchar" 2 3
-# 64 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cwchar" 3
+# 1318 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/wchar.h" 2 3
+# 50 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cwchar" 2 3
+# 64 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cwchar" 3
 namespace std
 {
   using ::mbstate_t;
 }
-# 137 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cwchar" 3
+# 137 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cwchar" 3
 extern "C++"
 {
 namespace std
@@ -1539,7 +1539,7 @@ namespace __gnu_cxx
 
 
   using ::wcstold;
-# 262 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cwchar" 3
+# 262 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cwchar" 3
   using ::wcstoll;
   using ::wcstoull;
 
@@ -1551,7 +1551,7 @@ namespace std
   using ::__gnu_cxx::wcstoll;
   using ::__gnu_cxx::wcstoull;
 }
-# 282 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cwchar" 3
+# 282 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cwchar" 3
 namespace std
 {
 
@@ -1573,17 +1573,17 @@ namespace std
   using std::wcstoull;
 
 }
-# 43 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/postypes.h" 2 3
+# 43 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/postypes.h" 2 3
 
 namespace std
 {
 
-# 55 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/postypes.h" 3
+# 55 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/postypes.h" 3
  
-# 55 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/postypes.h" 3
+# 55 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/postypes.h" 3
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wlong-long"
-# 66 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/postypes.h" 3
+# 66 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/postypes.h" 3
   typedef long long int streamoff;
 
 
@@ -1592,7 +1592,7 @@ namespace std
 
 
   typedef ptrdiff_t streamsize;
-# 86 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/postypes.h" 3
+# 86 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/postypes.h" 3
   template<typename _StateT>
     class fpos
     {
@@ -1607,7 +1607,7 @@ namespace std
 
       fpos()
       : _M_off(0), _M_state() { }
-# 108 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/postypes.h" 3
+# 108 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/postypes.h" 3
       fpos(streamoff __off)
       : _M_off(__off), _M_state() { }
 
@@ -1727,7 +1727,7 @@ namespace std
 
 
 }
-# 45 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/char_traits.h" 2 3
+# 45 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/char_traits.h" 2 3
 
 
 
@@ -1735,10 +1735,10 @@ namespace std
 
 
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 1 3
-# 66 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/version.h" 1 3
-# 67 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 1 3
+# 66 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/version.h" 1 3
+# 67 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 2 3
 
 extern "C++"
 {
@@ -1748,7 +1748,7 @@ namespace std
 
   template<typename _Tp>
     class reference_wrapper;
-# 91 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 91 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
   template<typename _Tp, _Tp __v>
     struct integral_constant
     {
@@ -1761,7 +1761,7 @@ namespace std
       constexpr value_type operator()() const noexcept { return value; }
 
     };
-# 111 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 111 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
   template<bool __v>
     using __bool_constant = integral_constant<bool, __v>;
 
@@ -2079,7 +2079,7 @@ namespace std
   template<>
     struct __is_integral_helper<unsigned __int128>
     : public true_type { };
-# 465 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 465 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
   template<typename _Tp>
     struct is_integral
     : public __is_integral_helper<__remove_cv_t<_Tp>>::type
@@ -2101,7 +2101,7 @@ namespace std
   template<>
     struct __is_floating_point_helper<long double>
     : public true_type { };
-# 518 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 518 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
   template<>
     struct __is_floating_point_helper<__float128>
     : public true_type { };
@@ -2120,12 +2120,12 @@ namespace std
     struct is_array
     : public __bool_constant<__is_array(_Tp)>
     { };
-# 552 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 552 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
   template<typename _Tp>
     struct is_pointer
     : public __bool_constant<__is_pointer(_Tp)>
     { };
-# 579 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 579 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
   template<typename>
     struct is_lvalue_reference
     : public false_type { };
@@ -2149,12 +2149,12 @@ namespace std
     struct is_member_object_pointer
     : public __bool_constant<__is_member_object_pointer(_Tp)>
     { };
-# 620 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 620 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
   template<typename _Tp>
     struct is_member_function_pointer
     : public __bool_constant<__is_member_function_pointer(_Tp)>
     { };
-# 641 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 641 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
   template<typename _Tp>
     struct is_enum
     : public __bool_constant<__is_enum(_Tp)>
@@ -2178,7 +2178,7 @@ namespace std
     struct is_function
     : public __bool_constant<__is_function(_Tp)>
     { };
-# 680 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 680 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
   template<typename _Tp>
     struct is_null_pointer
     : public false_type { };
@@ -2215,7 +2215,7 @@ namespace std
     struct is_reference
     : public __bool_constant<__is_reference(_Tp)>
     { };
-# 734 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 734 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
   template<typename _Tp>
     struct is_arithmetic
     : public __or_<is_integral<_Tp>, is_floating_point<_Tp>>::type
@@ -2234,7 +2234,7 @@ namespace std
     struct is_object
     : public __bool_constant<__is_object(_Tp)>
     { };
-# 760 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 760 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
   template<typename>
     struct is_member_pointer;
 
@@ -2256,7 +2256,7 @@ namespace std
     struct is_member_pointer
     : public __bool_constant<__is_member_pointer(_Tp)>
     { };
-# 798 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 798 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
   template<typename, typename>
     struct is_same;
 
@@ -2272,7 +2272,7 @@ namespace std
    signed long long
 
    , signed __int128
-# 823 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 823 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
    >;
 
 
@@ -2283,7 +2283,7 @@ namespace std
    unsigned long long
 
    , unsigned __int128
-# 843 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 843 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
    >;
 
 
@@ -2303,12 +2303,12 @@ namespace std
     struct is_const
     : public __bool_constant<__is_const(_Tp)>
     { };
-# 874 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 874 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
   template<typename _Tp>
     struct is_volatile
     : public __bool_constant<__is_volatile(_Tp)>
     { };
-# 895 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 895 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
   template<typename _Tp>
     struct
    
@@ -2453,7 +2453,7 @@ namespace std
     struct __is_array_unknown_bounds<_Tp[]>
     : public true_type
     { };
-# 1047 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 1047 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
   struct __do_is_destructible_impl
   {
     template<typename _Tp, typename = decltype(declval<_Tp&>().~_Tp())>
@@ -2583,7 +2583,7 @@ namespace std
 
   template<typename _Tp>
     using __add_lval_ref_t = __add_lvalue_reference(_Tp);
-# 1191 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 1191 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
   template<typename _Tp>
     struct is_copy_constructible
     : public __is_constructible_impl<_Tp, __add_lval_ref_t<const _Tp>>
@@ -2596,7 +2596,7 @@ namespace std
 
   template<typename _Tp>
     using __add_rval_ref_t = __add_rvalue_reference(_Tp);
-# 1218 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 1218 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
   template<typename _Tp>
     struct is_move_constructible
     : public __is_constructible_impl<_Tp, __add_rval_ref_t<_Tp>>
@@ -2748,7 +2748,7 @@ namespace std
     struct __is_implicitly_default_constructible
     : __bool_constant<__is_implicitly_default_constructible_v<_Tp>>
     { };
-# 1402 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 1402 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
   template<typename _Tp>
     struct is_trivially_copy_constructible
     : public __is_trivially_constructible_impl<_Tp, __add_lval_ref_t<const _Tp>>
@@ -2839,7 +2839,7 @@ namespace std
   template<typename _Tp>
     struct rank
     : public integral_constant<std::size_t, __array_rank(_Tp)> { };
-# 1507 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 1507 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
   template<typename, unsigned _Uint = 0>
     struct extent
     : public integral_constant<size_t, 0> { };
@@ -2869,17 +2869,17 @@ namespace std
     struct is_same
     : public __bool_constant<__is_same(_Tp, _Up)>
     { };
-# 1549 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 1549 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
   template<typename _Base, typename _Derived>
     struct is_base_of
     : public __bool_constant<__is_base_of(_Base, _Derived)>
     { };
-# 1564 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 1564 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
   template<typename _From, typename _To>
     struct is_convertible
     : public __bool_constant<__is_convertible(_From, _To)>
     { };
-# 1607 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 1607 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
   template<typename _ToElementType, typename _FromElementType>
     using __is_array_convertible
       = is_convertible<_FromElementType(*)[], _ToElementType(*)[]>;
@@ -2897,7 +2897,7 @@ namespace std
     struct is_nothrow_convertible
     : public bool_constant<is_nothrow_convertible_v<_From, _To>>
     { };
-# 1667 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 1667 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wc++14-extensions"
   template<typename _Tp, typename... _Args>
@@ -2938,7 +2938,7 @@ namespace std
   template<typename _Tp>
     struct remove_cv
     { using type = __remove_cv(_Tp); };
-# 1726 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 1726 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
   template<typename _Tp>
     struct add_const
     { using type = _Tp const; };
@@ -2986,7 +2986,7 @@ namespace std
   template<typename _Tp>
     struct remove_reference
     { using type = __remove_reference(_Tp); };
-# 1788 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 1788 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
   template<typename _Tp>
     struct add_lvalue_reference
     { using type = __add_lval_ref_t<_Tp>; };
@@ -3079,7 +3079,7 @@ namespace std
   template<>
     struct __make_unsigned<__int128>
     { using __type = unsigned __int128; };
-# 1901 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 1901 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
   template<typename _Tp,
     bool _IsInt = is_integral<_Tp>::value,
     bool _IsEnum = __is_enum(_Tp)>
@@ -3219,7 +3219,7 @@ namespace std
   template<>
     struct __make_signed<unsigned __int128>
     { using __type = __int128; };
-# 2061 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 2061 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
   template<typename _Tp,
     bool _IsInt = is_integral<_Tp>::value,
     bool _IsEnum = __is_enum(_Tp)>
@@ -3312,11 +3312,11 @@ namespace std
   template<typename _Tp>
     struct remove_extent
     { using type = __remove_extent(_Tp); };
-# 2169 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 2169 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
   template<typename _Tp>
     struct remove_all_extents
     { using type = __remove_all_extents(_Tp); };
-# 2188 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 2188 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
   template<typename _Tp>
     using remove_extent_t = typename remove_extent<_Tp>::type;
 
@@ -3332,11 +3332,11 @@ namespace std
   template<typename _Tp>
     struct remove_pointer
     { using type = __remove_pointer(_Tp); };
-# 2220 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 2220 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
   template<typename _Tp>
     struct add_pointer
     { using type = __add_pointer(_Tp); };
-# 2248 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 2248 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
   template<typename _Tp>
     using remove_pointer_t = typename remove_pointer<_Tp>::type;
 
@@ -3354,11 +3354,11 @@ namespace std
   constexpr size_t
   __aligned_storage_default_alignment([[__maybe_unused__]] size_t __len)
   {
-# 2279 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 2279 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
     return alignof(__aligned_storage_max_align_t);
 
   }
-# 2315 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 2315 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
   template<size_t _Len,
     size_t _Align = __aligned_storage_default_alignment(_Len)>
     struct
@@ -3391,7 +3391,7 @@ namespace std
 
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
-# 2360 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 2360 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
   template <size_t _Len, typename... _Types>
     struct
    
@@ -3420,7 +3420,7 @@ namespace std
   template<typename _Tp>
     struct decay
     { using type = __decay(_Tp); };
-# 2425 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 2425 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
   template<typename _Tp>
     struct __strip_reference_wrapper
     {
@@ -3467,7 +3467,7 @@ namespace std
 
   template<typename... _Tp>
     struct common_type;
-# 2481 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 2481 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
   template<typename _Tp>
     struct __success_type
     { using type = _Tp; };
@@ -3846,7 +3846,7 @@ namespace std
 
 
   template<typename...> using void_t = void;
-# 2868 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 2868 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
   template<typename _Def, template<typename...> class _Op, typename... _Args>
     struct __detected_or
     {
@@ -3862,12 +3862,12 @@ namespace std
       using type = _Op<_Args...>;
       using __is_detected = true_type;
     };
-# 2908 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 2908 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
   template<typename _Default, template<typename...> class _Op,
     typename... _Args>
     using __detected_or_t
       = typename __detected_or<_Default, _Op, _Args...>::type;
-# 2927 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 2927 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
   template <typename _Tp>
     struct __is_swappable;
 
@@ -4081,7 +4081,7 @@ namespace std
   template<typename _Tp, typename _Up>
     inline constexpr bool is_nothrow_swappable_with_v =
       is_nothrow_swappable_with<_Tp, _Up>::value;
-# 3149 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 3149 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
   template<typename _Result, typename _Ret,
     bool = is_void<_Ret>::value, typename = void>
     struct __is_invocable_impl
@@ -4301,7 +4301,7 @@ namespace std
       static_assert(std::__is_complete_or_unbounded(__type_identity<_Ret>{}),
  "_Ret must be a complete class or an unbounded array");
     };
-# 3385 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 3385 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
 template <typename _Tp>
   inline constexpr bool is_void_v = is_void<_Tp>::value;
 template <typename _Tp>
@@ -4314,10 +4314,10 @@ template <typename _Tp>
 
 template <typename _Tp>
   inline constexpr bool is_array_v = __is_array(_Tp);
-# 3407 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 3407 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
 template <typename _Tp>
   inline constexpr bool is_pointer_v = __is_pointer(_Tp);
-# 3422 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 3422 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
 template <typename _Tp>
   inline constexpr bool is_lvalue_reference_v = false;
 template <typename _Tp>
@@ -4358,7 +4358,7 @@ template <typename _Tp>
 
 template <typename _Tp>
   inline constexpr bool is_reference_v = __is_reference(_Tp);
-# 3471 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 3471 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
 template <typename _Tp>
   inline constexpr bool is_arithmetic_v = is_arithmetic<_Tp>::value;
 template <typename _Tp>
@@ -4388,10 +4388,10 @@ template <typename _Tp>
 
 template <typename _Tp>
   inline constexpr bool is_const_v = __is_const(_Tp);
-# 3508 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 3508 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
 template <typename _Tp>
   inline constexpr bool is_function_v = __is_function(_Tp);
-# 3520 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 3520 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
 template <typename _Tp>
   inline constexpr bool is_volatile_v = __is_volatile(_Tp);
 
@@ -4536,7 +4536,7 @@ template <typename _Tp>
 
 template <typename _Tp>
   inline constexpr size_t rank_v = __array_rank(_Tp);
-# 3673 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 3673 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
 template <typename _Tp, unsigned _Idx = 0>
   inline constexpr size_t extent_v = 0;
 template <typename _Tp, size_t _Size>
@@ -4620,20 +4620,20 @@ template<typename _Ret, typename _Fn, typename... _Args>
 
   template<typename _Tp>
     inline constexpr bool is_aggregate_v = __is_aggregate(remove_cv_t<_Tp>);
-# 3765 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 3765 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
   template<typename _Tp>
     struct remove_cvref
     { using type = __remove_cvref(_Tp); };
-# 3782 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 3782 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
   template<typename _Tp>
     using remove_cvref_t = typename remove_cvref<_Tp>::type;
-# 3792 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 3792 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
   template<typename _Tp>
     struct type_identity { using type = _Tp; };
 
   template<typename _Tp>
     using type_identity_t = typename type_identity<_Tp>::type;
-# 3805 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 3805 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
   template<typename _Tp>
     struct unwrap_reference { using type = _Tp; };
 
@@ -4653,13 +4653,13 @@ template<typename _Ret, typename _Fn, typename... _Args>
 
   template<typename _Tp>
     using unwrap_ref_decay_t = typename unwrap_ref_decay<_Tp>::type;
-# 3832 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 3832 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
   template<typename _Tp>
     inline constexpr bool is_bounded_array_v = __is_bounded_array(_Tp);
-# 3846 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 3846 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
   template<typename _Tp>
     inline constexpr bool is_unbounded_array_v = __is_unbounded_array(_Tp);
-# 3858 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 3858 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
   template<typename _Tp>
     struct is_bounded_array
     : public bool_constant<is_bounded_array_v<_Tp>>
@@ -4714,12 +4714,12 @@ template<typename _Ret, typename _Fn, typename... _Args>
   template<typename _Base, typename _Derived>
     constexpr bool is_pointer_interconvertible_base_of_v
       = __is_pointer_interconvertible_base_of(_Base, _Derived);
-# 3921 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 3921 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
   template<typename _Tp, typename _Mem>
     constexpr bool
     is_pointer_interconvertible_with_class(_Mem _Tp::*__mp) noexcept
     { return __builtin_is_pointer_interconvertible_with_class(__mp); }
-# 4005 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
+# 4005 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits" 3
   constexpr inline bool
   is_constant_evaluated() noexcept
   {
@@ -4909,24 +4909,24 @@ template<typename _Ret, typename _Fn, typename... _Args>
 
 }
 }
-# 53 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/char_traits.h" 2 3
+# 53 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/char_traits.h" 2 3
 
 
 
 
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/compare" 1 3
-# 38 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/compare" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/version.h" 1 3
-# 39 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/compare" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/compare" 1 3
+# 38 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/compare" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/version.h" 1 3
+# 39 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/compare" 2 3
 
 
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/concepts" 1 3
-# 38 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/concepts" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/version.h" 1 3
-# 39 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/concepts" 2 3
-# 50 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/concepts" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/concepts" 1 3
+# 38 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/concepts" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/version.h" 1 3
+# 39 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/concepts" 2 3
+# 50 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/concepts" 3
 namespace std
 {
 
@@ -5266,7 +5266,7 @@ namespace std
 
 
 }
-# 43 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/compare" 2 3
+# 43 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/compare" 2 3
 
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wpedantic"
@@ -5915,14 +5915,14 @@ namespace std
  _Dbldbl,
  _Bfloat16,
       };
-# 705 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/compare" 3
+# 705 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/compare" 3
       template<typename _Tp>
  static consteval _Fp_fmt
  _S_fp_fmt() noexcept
  {
 
    using enum _Fp_fmt;
-# 725 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/compare" 3
+# 725 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/compare" 3
    if constexpr (__is_same(_Tp, long double))
      return (-16381) == -16381 ? _X86_80bit : _M68k_80bit;
 
@@ -5975,7 +5975,7 @@ namespace std
    { _M_lo = __lo; }
 
    constexpr bool operator==(const _Int&) const = default;
-# 787 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/compare" 3
+# 787 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/compare" 3
    constexpr _Int&
    operator^=(const _Int& __rhs) noexcept
    {
@@ -6072,7 +6072,7 @@ namespace std
  static constexpr strong_ordering
  _S_fp_cmp(_Tp __x, _Tp __y) noexcept
  {
-# 896 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/compare" 3
+# 896 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/compare" 3
    auto __ix = _S_fp_bits(__x);
    auto __iy = _S_fp_bits(__y);
 
@@ -6124,7 +6124,7 @@ namespace std
   }
        else
   {
-# 963 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/compare" 3
+# 963 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/compare" 3
   }
        return _S_compl(__ix) <=> _S_compl(__iy);
      }
@@ -6430,18 +6430,18 @@ namespace std
 }
 
 #pragma GCC diagnostic pop
-# 59 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/char_traits.h" 2 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_construct.h" 1 3
-# 59 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_construct.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/new" 1 3
-# 43 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/new" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception.h" 1 3
-# 40 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception.h" 3
+# 59 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/char_traits.h" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_construct.h" 1 3
+# 59 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_construct.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/new" 1 3
+# 43 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/new" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception.h" 1 3
+# 40 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception.h" 3
 extern "C++" {
 
 namespace std
 {
-# 61 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception.h" 3
+# 61 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception.h" 3
   class exception
   {
   public:
@@ -6465,14 +6465,14 @@ namespace std
 }
 
 }
-# 44 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/new" 2 3
+# 44 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/new" 2 3
 
 
 
 
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/version.h" 1 3
-# 50 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/new" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/version.h" 1 3
+# 50 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/new" 2 3
 
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wc++11-extensions"
@@ -6548,7 +6548,7 @@ namespace std
   new_handler get_new_handler() noexcept;
 
 }
-# 137 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/new" 3
+# 137 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/new" 3
 [[__nodiscard__]] void* operator new(std::size_t)
  
   __attribute__((__externally_visible__, __malloc__));
@@ -6607,7 +6607,7 @@ void operator delete(void*, std::size_t, std::align_val_t)
   noexcept __attribute__((__externally_visible__));
 void operator delete[](void*, std::size_t, std::align_val_t)
   noexcept __attribute__((__externally_visible__));
-# 205 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/new" 3
+# 205 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/new" 3
 [[__nodiscard__]] inline
 void* operator new(std::size_t, void* __p)
   noexcept
@@ -6671,9 +6671,9 @@ namespace std
 
 #pragma GCC visibility pop
 #pragma GCC diagnostic pop
-# 60 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_construct.h" 2 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/move.h" 1 3
-# 40 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/move.h" 3
+# 60 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_construct.h" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/move.h" 1 3
+# 40 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/move.h" 3
 namespace std
 {
 
@@ -6688,13 +6688,13 @@ namespace std
     inline constexpr _Tp*
     __addressof(_Tp& __r) noexcept
     { return __builtin_addressof(__r); }
-# 69 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/move.h" 3
+# 69 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/move.h" 3
   template<typename _Tp>
     [[__nodiscard__,__gnu__::__always_inline__]]
     constexpr _Tp&&
     forward(typename std::remove_reference<_Tp>::type& __t) noexcept
     { return static_cast<_Tp&&>(__t); }
-# 82 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/move.h" 3
+# 82 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/move.h" 3
   template<typename _Tp>
     [[__nodiscard__,__gnu__::__always_inline__]]
     constexpr _Tp&&
@@ -6704,7 +6704,7 @@ namespace std
    "std::forward must not be used to convert an rvalue to an lvalue");
       return static_cast<_Tp&&>(__t);
     }
-# 135 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/move.h" 3
+# 135 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/move.h" 3
   template<typename _Tp>
     [[__nodiscard__,__gnu__::__always_inline__]]
     constexpr typename std::remove_reference<_Tp>::type&&
@@ -6716,14 +6716,14 @@ namespace std
     struct __move_if_noexcept_cond
     : public __and_<__not_<is_nothrow_move_constructible<_Tp>>,
                     is_copy_constructible<_Tp>>::type { };
-# 156 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/move.h" 3
+# 156 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/move.h" 3
   template<typename _Tp>
     [[__nodiscard__,__gnu__::__always_inline__]]
     constexpr
     __conditional_t<__move_if_noexcept_cond<_Tp>::value, const _Tp&, _Tp&&>
     move_if_noexcept(_Tp& __x) noexcept
     { return std::move(__x); }
-# 173 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/move.h" 3
+# 173 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/move.h" 3
   template<typename _Tp>
     [[__nodiscard__,__gnu__::__always_inline__]]
     inline constexpr _Tp*
@@ -6745,7 +6745,7 @@ namespace std
       __obj = std::forward<_Up>(__new_val);
       return __old_val;
     }
-# 217 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/move.h" 3
+# 217 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/move.h" 3
   template<typename _Tp>
     constexpr
     inline
@@ -6790,13 +6790,13 @@ namespace std
 
 
 }
-# 61 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_construct.h" 2 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator_base_types.h" 1 3
-# 73 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator_base_types.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/iterator_concepts.h" 1 3
-# 39 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/iterator_concepts.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ptr_traits.h" 1 3
-# 39 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ptr_traits.h" 3
+# 61 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_construct.h" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator_base_types.h" 1 3
+# 73 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator_base_types.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/iterator_concepts.h" 1 3
+# 39 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/iterator_concepts.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ptr_traits.h" 1 3
+# 39 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ptr_traits.h" 3
 namespace __gnu_debug { struct _Safe_iterator_base; }
 
 
@@ -6960,7 +6960,7 @@ namespace std
 
   template<typename _Ptr, typename _Tp>
     using __ptr_rebind = typename pointer_traits<_Ptr>::template rebind<_Tp>;
-# 229 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ptr_traits.h" 3
+# 229 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ptr_traits.h" 3
   template<typename _Tp>
     [[__gnu__::__always_inline__]]
     constexpr _Tp*
@@ -6970,7 +6970,7 @@ namespace std
       "must not be a function pointer");
       return __ptr;
     }
-# 246 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ptr_traits.h" 3
+# 246 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ptr_traits.h" 3
   template<typename _Ptr>
     constexpr auto
     to_address(const _Ptr& __ptr) noexcept
@@ -6995,9 +6995,9 @@ namespace std
 
 
 }
-# 40 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/iterator_concepts.h" 2 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_cmp.h" 1 3
-# 37 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_cmp.h" 3
+# 40 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/iterator_concepts.h" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_cmp.h" 1 3
+# 37 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_cmp.h" 3
 namespace std
 {
 
@@ -7139,7 +7139,7 @@ namespace ranges
 
 
 }
-# 41 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/iterator_concepts.h" 2 3
+# 41 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/iterator_concepts.h" 2 3
 
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wpedantic"
@@ -7147,7 +7147,7 @@ namespace ranges
 namespace std
 {
 
-# 63 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/iterator_concepts.h" 3
+# 63 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/iterator_concepts.h" 3
   struct default_sentinel_t { };
 
 
@@ -7301,7 +7301,7 @@ namespace std
       using difference_type
  = make_signed_t<decltype(std::declval<_Tp>() - std::declval<_Tp>())>;
     };
-# 228 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/iterator_concepts.h" 3
+# 228 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/iterator_concepts.h" 3
   namespace __detail
   {
 
@@ -7923,7 +7923,7 @@ namespace std
       using _Proj = typename _Tp::__projected_Proj;
       using type = invoke_result_t<_Proj&, __indirect_value_t<_Iter>>;
     };
-# 861 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/iterator_concepts.h" 3
+# 861 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/iterator_concepts.h" 3
   template<typename _In, typename _Out>
     concept indirectly_movable = indirectly_readable<_In>
       && indirectly_writable<_Out, iter_rvalue_reference_t<_In>>;
@@ -8142,13 +8142,13 @@ namespace ranges
 
 }
 #pragma GCC diagnostic pop
-# 74 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator_base_types.h" 2 3
+# 74 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator_base_types.h" 2 3
 
 
 namespace std
 {
 
-# 95 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator_base_types.h" 3
+# 95 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator_base_types.h" 3
   struct input_iterator_tag { };
 
 
@@ -8168,7 +8168,7 @@ namespace std
 
 
   struct contiguous_iterator_tag : public random_access_iterator_tag { };
-# 127 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator_base_types.h" 3
+# 127 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator_base_types.h" 3
   template<typename _Category, typename _Tp, typename _Distance = ptrdiff_t,
            typename _Pointer = _Tp*, typename _Reference = _Tp&>
     struct [[__deprecated__]] iterator
@@ -8184,7 +8184,7 @@ namespace std
 
       typedef _Reference reference;
     };
-# 151 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator_base_types.h" 3
+# 151 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator_base_types.h" 3
   template<typename _Iterator>
     struct iterator_traits;
 
@@ -8193,11 +8193,11 @@ namespace std
 
   template<typename _Iterator, typename = __void_t<>>
     struct __iterator_traits { };
-# 178 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator_base_types.h" 3
+# 178 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator_base_types.h" 3
   template<typename _Iterator>
     struct iterator_traits
     : public __iterator_traits<_Iterator> { };
-# 196 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator_base_types.h" 3
+# 196 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator_base_types.h" 3
   template<typename _Tp>
 
     requires is_object_v<_Tp>
@@ -8211,7 +8211,7 @@ namespace std
       using pointer = _Tp*;
       using reference = _Tp&;
     };
-# 237 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator_base_types.h" 3
+# 237 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator_base_types.h" 3
   template<typename _Iter>
     __attribute__((__always_inline__))
     inline constexpr
@@ -8254,18 +8254,18 @@ namespace std
 
 
 }
-# 62 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_construct.h" 2 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator_base_funcs.h" 1 3
-# 66 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator_base_funcs.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/concept_check.h" 1 3
-# 39 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/concept_check.h" 3
+# 62 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_construct.h" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator_base_funcs.h" 1 3
+# 66 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator_base_funcs.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/concept_check.h" 1 3
+# 39 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/concept_check.h" 3
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wvariadic-macros"
-# 86 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/concept_check.h" 3
+# 86 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/concept_check.h" 3
 #pragma GCC diagnostic pop
-# 67 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator_base_funcs.h" 2 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/debug/assertions.h" 1 3
-# 68 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator_base_funcs.h" 2 3
+# 67 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator_base_funcs.h" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/debug/assertions.h" 1 3
+# 68 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator_base_funcs.h" 2 3
 
 
 namespace std
@@ -8329,7 +8329,7 @@ namespace std
   template<typename _OutputIterator>
     void
     __distance(_OutputIterator, _OutputIterator, output_iterator_tag) = delete;
-# 146 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator_base_funcs.h" 3
+# 146 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator_base_funcs.h" 3
   template<typename _InputIterator>
     [[__nodiscard__]] __attribute__((__always_inline__))
     inline constexpr
@@ -8347,7 +8347,7 @@ namespace std
     {
 
      
-      do { if (__builtin_expect(!bool(__n >= 0), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator_base_funcs.h", 163, __PRETTY_FUNCTION__, "__n >= 0"); } while (false);
+      do { if (__builtin_expect(!bool(__n >= 0), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator_base_funcs.h", 163, __PRETTY_FUNCTION__, "__n >= 0"); } while (false);
       while (__n--)
  ++__i;
     }
@@ -8389,7 +8389,7 @@ namespace std
   template<typename _OutputIterator, typename _Distance>
     void
     __advance(_OutputIterator&, _Distance, output_iterator_tag) = delete;
-# 219 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator_base_funcs.h" 3
+# 219 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator_base_funcs.h" 3
   template<typename _InputIterator, typename _Distance>
     __attribute__((__always_inline__))
     inline constexpr void
@@ -8431,8 +8431,8 @@ namespace std
 
 
 }
-# 63 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_construct.h" 2 3
-# 73 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_construct.h" 3
+# 63 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_construct.h" 2 3
+# 73 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_construct.h" 3
 namespace std
 {
 
@@ -8472,7 +8472,7 @@ namespace std
       else
  return ::new(__loc) _Tp(std::forward<_Args>(__args)...);
     }
-# 120 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_construct.h" 3
+# 120 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_construct.h" 3
   template<typename _Tp, typename... _Args>
     constexpr
     inline void
@@ -8488,7 +8488,7 @@ namespace std
 
       ::new(static_cast<void*>(__p)) _Tp(std::forward<_Args>(__args)...);
     }
-# 146 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_construct.h" 3
+# 146 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_construct.h" 3
   template<typename _T1>
    
     inline void
@@ -8515,7 +8515,7 @@ namespace std
 
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wc++17-extensions"
-# 200 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_construct.h" 3
+# 200 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_construct.h" 3
   template<typename _ForwardIterator>
     constexpr inline void
     _Destroy(_ForwardIterator __first, _ForwardIterator __last)
@@ -8539,7 +8539,7 @@ namespace std
 
 
     }
-# 256 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_construct.h" 3
+# 256 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_construct.h" 3
   template<typename _ForwardIterator, typename _Size>
     constexpr inline _ForwardIterator
     _Destroy_n(_ForwardIterator __first, _Size __count)
@@ -8586,7 +8586,7 @@ namespace std
 
 
 }
-# 60 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/char_traits.h" 2 3
+# 60 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/char_traits.h" 2 3
 
 
 
@@ -8598,12 +8598,12 @@ namespace __gnu_cxx
 
 
  
-# 70 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/char_traits.h" 3
+# 70 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/char_traits.h" 3
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wstringop-overflow"
 #pragma GCC diagnostic ignored "-Wstringop-overread"
 #pragma GCC diagnostic ignored "-Warray-bounds"
-# 85 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/char_traits.h" 3
+# 85 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/char_traits.h" 3
   template<typename _CharT>
     struct _Char_types
     {
@@ -8614,7 +8614,7 @@ namespace __gnu_cxx
       typedef std::mbstate_t state_type;
 
     };
-# 112 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/char_traits.h" 3
+# 112 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/char_traits.h" 3
   template<typename _CharT>
     struct char_traits
     {
@@ -8813,7 +8813,7 @@ namespace __gnu_cxx
 namespace std
 {
 
-# 324 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/char_traits.h" 3
+# 324 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/char_traits.h" 3
   template<typename _CharT>
     struct char_traits : public __gnu_cxx::char_traits<_CharT>
     { };
@@ -9503,17 +9503,17 @@ namespace std
 
 
 }
-# 45 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string" 2 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/allocator.h" 1 3
-# 46 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/allocator.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h" 1 3
-# 33 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/new_allocator.h" 1 3
-# 35 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/new_allocator.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/functexcept.h" 1 3
-# 40 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/functexcept.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception_defines.h" 1 3
-# 41 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/functexcept.h" 2 3
+# 45 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/allocator.h" 1 3
+# 46 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/allocator.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h" 1 3
+# 33 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/new_allocator.h" 1 3
+# 35 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/new_allocator.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/functexcept.h" 1 3
+# 40 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/functexcept.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception_defines.h" 1 3
+# 41 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/functexcept.h" 2 3
 
 namespace std
 {
@@ -9588,10 +9588,10 @@ namespace std
 
   void
   __throw_bad_function_call() __attribute__((__noreturn__,__cold__));
-# 140 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/functexcept.h" 3
+# 140 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/functexcept.h" 3
 
 }
-# 36 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/new_allocator.h" 2 3
+# 36 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/new_allocator.h" 2 3
 
 
 
@@ -9600,7 +9600,7 @@ namespace std
 namespace std
 {
 
-# 62 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/new_allocator.h" 3
+# 62 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/new_allocator.h" 3
   template<typename _Tp>
     class __new_allocator
     {
@@ -9608,7 +9608,7 @@ namespace std
       typedef _Tp value_type;
       typedef std::size_t size_type;
       typedef std::ptrdiff_t difference_type;
-# 83 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/new_allocator.h" 3
+# 83 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/new_allocator.h" 3
       typedef std::true_type propagate_on_container_move_assignment;
 
 
@@ -9627,7 +9627,7 @@ namespace std
 
 
       __new_allocator& operator=(const __new_allocator&) = default;
-# 125 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/new_allocator.h" 3
+# 125 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/new_allocator.h" 3
       [[__nodiscard__]] _Tp*
       allocate(size_type __n, const void* = static_cast<const void*>(0))
       {
@@ -9677,13 +9677,13 @@ namespace std
 
  __builtin_operator_delete((__p), (__n) * sizeof(_Tp));
       }
-# 213 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/new_allocator.h" 3
+# 213 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/new_allocator.h" 3
       template<typename _Up>
  friend __attribute__((__always_inline__)) constexpr bool
  operator==(const __new_allocator&, const __new_allocator<_Up>&)
  noexcept
  { return true; }
-# 227 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/new_allocator.h" 3
+# 227 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/new_allocator.h" 3
     private:
       __attribute__((__always_inline__))
       constexpr size_type
@@ -9699,16 +9699,16 @@ namespace std
 
 
 }
-# 34 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h" 2 3
+# 34 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h" 2 3
 
 
 namespace std
 {
-# 46 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h" 3
+# 46 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h" 3
   template<typename _Tp>
     using __allocator_base = __new_allocator<_Tp>;
 }
-# 47 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/allocator.h" 2 3
+# 47 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/allocator.h" 2 3
 
 
 
@@ -9720,7 +9720,7 @@ namespace std
 namespace std
 {
 
-# 75 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/allocator.h" 3
+# 75 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/allocator.h" 3
   template<>
     class allocator<void>
     {
@@ -9728,7 +9728,7 @@ namespace std
       typedef void value_type;
       typedef size_t size_type;
       typedef ptrdiff_t difference_type;
-# 96 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/allocator.h" 3
+# 96 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/allocator.h" 3
       using propagate_on_container_move_assignment = true_type;
 
 
@@ -9754,7 +9754,7 @@ namespace std
 
 
     };
-# 132 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/allocator.h" 3
+# 132 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/allocator.h" 3
   template<typename _Tp>
     class allocator : public __allocator_base<_Tp>
     {
@@ -9762,7 +9762,7 @@ namespace std
       typedef _Tp value_type;
       typedef size_t size_type;
       typedef ptrdiff_t difference_type;
-# 155 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/allocator.h" 3
+# 155 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/allocator.h" 3
       using propagate_on_container_move_assignment = true_type;
 
 
@@ -9831,7 +9831,7 @@ namespace std
       bool
       operator==(const allocator&, const allocator&) noexcept
       { return true; }
-# 232 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/allocator.h" 3
+# 232 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/allocator.h" 3
     };
 
 
@@ -9845,7 +9845,7 @@ namespace std
     operator==(const allocator<_T1>&, const allocator<_T2>&)
     noexcept
     { return true; }
-# 259 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/allocator.h" 3
+# 259 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/allocator.h" 3
   template<typename _Tp>
     class allocator<const _Tp>
     {
@@ -9890,18 +9890,18 @@ namespace std
 }
 
 #pragma GCC diagnostic pop
-# 46 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string" 2 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cpp_type_traits.h" 1 3
-# 40 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cpp_type_traits.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/version.h" 1 3
-# 41 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cpp_type_traits.h" 2 3
+# 46 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cpp_type_traits.h" 1 3
+# 40 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cpp_type_traits.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/version.h" 1 3
+# 41 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cpp_type_traits.h" 2 3
 
 
 
 
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wlong-long"
-# 76 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cpp_type_traits.h" 3
+# 76 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cpp_type_traits.h" 3
 extern "C++" {
 
 namespace std
@@ -10072,9 +10072,9 @@ namespace std
       enum { __value = 1 };
       typedef __true_type __type;
     };
-# 264 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cpp_type_traits.h" 3
+# 264 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cpp_type_traits.h" 3
 __extension__ template<> struct __is_integer<__int128> { enum { __value = 1 }; typedef __true_type __type; }; __extension__ template<> struct __is_integer<unsigned __int128> { enum { __value = 1 }; typedef __true_type __type; };
-# 281 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cpp_type_traits.h" 3
+# 281 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cpp_type_traits.h" 3
   template<typename _Tp>
     struct __is_floating
     {
@@ -10103,7 +10103,7 @@ __extension__ template<> struct __is_integer<__int128> { enum { __value = 1 }; t
       enum { __value = 1 };
       typedef __true_type __type;
     };
-# 358 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cpp_type_traits.h" 3
+# 358 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cpp_type_traits.h" 3
   template<typename _Tp>
     struct __is_arithmetic
     : public __traitor<__is_integer<_Tp>, __is_floating<_Tp> >
@@ -10251,7 +10251,7 @@ __extension__ template<> struct __is_integer<__int128> { enum { __value = 1 }; t
   template<typename _Tp>
     struct __memcpyable_integer<volatile _Tp>
     { enum { __width = 0 }; };
-# 592 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cpp_type_traits.h" 3
+# 592 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cpp_type_traits.h" 3
   template<typename _Iter1, typename _Iter2>
     struct __memcmpable
     {
@@ -10311,7 +10311,7 @@ __extension__ template<> struct __is_integer<__int128> { enum { __value = 1 }; t
     {
       static const bool __value = false;
     };
-# 661 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cpp_type_traits.h" 3
+# 661 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cpp_type_traits.h" 3
   template<>
     struct __is_memcmp_ordered_with<std::byte, std::byte, true>
     { static constexpr bool __value = true; };
@@ -10357,24 +10357,24 @@ __extension__ template<> struct __is_integer<__int128> { enum { __value = 1 }; t
 }
 
 #pragma GCC diagnostic pop
-# 47 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string" 2 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/localefwd.h" 1 3
-# 42 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/localefwd.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h" 1 3
-# 39 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h" 3
+# 47 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/localefwd.h" 1 3
+# 42 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/localefwd.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h" 1 3
+# 39 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h" 3
        
-# 40 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h" 3
+# 40 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h" 3
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/clocale" 1 3
-# 47 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/clocale" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/locale.h" 1 3
-# 9 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/locale.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h" 1 3
-# 10 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/locale.h" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/clocale" 1 3
+# 47 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/clocale" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/locale.h" 1 3
+# 9 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/locale.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h" 1 3
+# 10 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/locale.h" 2 3
 
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/stdio.h" 1 3
-# 11 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/stdio.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdio.h" 1 3
+# 11 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdio.h" 3
 #pragma pack(push,_CRT_PACKING)
 
        
@@ -10388,13 +10388,13 @@ __extension__ template<> struct __is_integer<__int128> { enum { __value = 1 }; t
 
 
 extern "C" {
-# 101 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/stdio.h" 3
+# 101 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdio.h" 3
 __attribute__ ((__dllimport__)) FILE *__attribute__((__cdecl__)) __acrt_iob_func(unsigned index);
 
   __attribute__ ((__dllimport__)) FILE *__attribute__((__cdecl__)) __iob_func(void);
-# 112 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/stdio.h" 3
+# 112 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdio.h" 3
   __extension__ typedef long long fpos_t;
-# 156 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/stdio.h" 3
+# 156 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdio.h" 3
 extern
   __attribute__((__format__(__gnu_scanf__, 2,3))) __attribute__ ((__nonnull__ (2)))
   int __attribute__((__cdecl__)) __mingw_sscanf(const char * __restrict__ _Src,const char * __restrict__ _Format,...);
@@ -10504,7 +10504,7 @@ extern
   __attribute__((__format__(__ms_printf__, 3,0))) __attribute__ ((__nonnull__ (3)))
   int __attribute__((__cdecl__)) __ms_vsnprintf (char * __restrict__ , size_t , const char * __restrict__ , va_list)
   __attribute__ ((__nothrow__));
-# 305 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/stdio.h" 3
+# 305 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdio.h" 3
 extern "C++" {
 
 
@@ -10556,7 +10556,7 @@ __asm__("__mingw_printf");
 __attribute__((__format__(__gnu_printf__,2,3))) __attribute__ ((__nonnull__ (2)))
 int sprintf (char *__stream, const char *__format, ...)
 __asm__("__mingw_sprintf");
-# 374 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/stdio.h" 3
+# 374 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdio.h" 3
 __attribute__((__format__(__gnu_printf__,2,0))) __attribute__ ((__nonnull__ (2)))
 int vfprintf (FILE *__stream, const char *__format, __builtin_va_list __local_argv)
 __asm__("__mingw_vfprintf");
@@ -10569,7 +10569,7 @@ inline __attribute__((__cdecl__))
 __attribute__((__format__(__gnu_printf__,2,0))) __attribute__ ((__nonnull__ (2)))
 int vsprintf (char *__stream, const char *__format, __builtin_va_list __local_argv)
 {
-# 394 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/stdio.h" 3
+# 394 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdio.h" 3
   return __mingw_vsprintf( __stream, __format, __local_argv );
 }
 
@@ -10577,7 +10577,7 @@ int vsprintf (char *__stream, const char *__format, __builtin_va_list __local_ar
 __attribute__((__format__(__gnu_printf__,3,4))) __attribute__ ((__nonnull__ (3)))
 int snprintf (char *__stream, size_t __n, const char *__format, ...)
 __asm__("__mingw_snprintf");
-# 414 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/stdio.h" 3
+# 414 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdio.h" 3
 inline __attribute__((__cdecl__))
 __attribute__((__format__(__gnu_printf__,3,0))) __attribute__ ((__nonnull__ (3)))
 int vsnprintf (char *__stream, size_t __n, const char *__format, __builtin_va_list __local_argv)
@@ -10587,9 +10587,9 @@ int vsnprintf (char *__stream, size_t __n, const char *__format, __builtin_va_li
 
   return __mingw_vsnprintf( __stream, __n, __format, __local_argv );
 }
-# 431 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/stdio.h" 3
+# 431 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdio.h" 3
 }
-# 535 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/stdio.h" 3
+# 535 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdio.h" 3
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _filbuf(FILE *_File);
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _flsbuf(int _Ch,FILE *_File);
 
@@ -10727,13 +10727,13 @@ int vsnprintf (char *__stream, size_t __n, const char *__format, __builtin_va_li
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _snprintf(char * __restrict__ _Dest,size_t _Count,const char * __restrict__ _Format,...) ;
   __attribute__((__format__(__ms_printf__, 3,0))) __attribute__ ((__nonnull__ (3)))
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _vsnprintf(char * __restrict__ _Dest,size_t _Count,const char * __restrict__ _Format,va_list _Args) ;
-# 886 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/stdio.h" 3
+# 886 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdio.h" 3
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _set_printf_count_output(int _Value);
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _get_printf_count_output(void);
-# 1222 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/stdio.h" 3
+# 1222 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdio.h" 3
   __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _lock_file(FILE *_File);
   __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _unlock_file(FILE *_File);
-# 1244 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/stdio.h" 3
+# 1244 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdio.h" 3
   char *__attribute__((__cdecl__)) tempnam(const char *_Directory,const char *_FilePrefix) ;
 
 
@@ -10747,7 +10747,7 @@ int vsnprintf (char *__stream, size_t __n, const char *__format, __builtin_va_li
   int __attribute__((__cdecl__)) getw(FILE *_File) ;
   int __attribute__((__cdecl__)) putw(int _Ch,FILE *_File) ;
   int __attribute__((__cdecl__)) rmtmp(void) ;
-# 1327 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/stdio.h" 3
+# 1327 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdio.h" 3
   __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _spawnv(int _Mode,const char *_Filename,const char *const *_ArgList);
   __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _spawnve(int _Mode,const char *_Filename,const char *const *_ArgList,const char *const *_Env);
   __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _spawnvp(int _Mode,const char *_Filename,const char *const *_ArgList);
@@ -10766,11 +10766,11 @@ int vsnprintf (char *__stream, size_t __n, const char *__format, __builtin_va_li
 
 #pragma pack(pop)
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h" 1 3
-# 9 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/stdio.h" 1 3
-# 10 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h" 2 3
-# 21 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h" 1 3
+# 9 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdio.h" 1 3
+# 10 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h" 2 3
+# 21 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h" 3
 extern "C" {
 
 
@@ -10782,7 +10782,7 @@ extern "C" {
   __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) clearerr_s(FILE *_File);
 
   size_t __attribute__((__cdecl__)) fread_s(void *_DstBuf,size_t _DstSize,size_t _ElementSize,size_t _Count,FILE *_File);
-# 515 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h" 3
+# 515 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h" 3
   int __attribute__((__cdecl__)) fprintf_s(FILE *_File,const char *_Format,...);
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _fscanf_s_l(FILE *_File,const char *_Format,_locale_t _Locale,...);
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) fscanf_s(FILE *_File, const char *_Format, ...);
@@ -10867,17 +10867,17 @@ extern "C" {
 
   __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) tmpnam_s(char*,rsize_t);
   extern "C++" { template <size_t __size> inline errno_t __attribute__((__cdecl__)) tmpnam_s(char (&_DstBuf)[__size]) { return tmpnam_s(_DstBuf,__size); } }
-# 916 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h" 3
+# 916 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h" 3
 }
-# 1346 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/stdio.h" 2 3
-# 13 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/locale.h" 2 3
+# 1346 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdio.h" 2 3
+# 13 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/locale.h" 2 3
 
 
 #pragma pack(push,_CRT_PACKING)
 
 
 extern "C" {
-# 45 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/locale.h" 3
+# 45 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/locale.h" 3
   struct lconv {
     char *decimal_point;
     char *thousands_sep;
@@ -10908,7 +10908,7 @@ extern "C" {
     wchar_t* _W_negative_sign;
 
   };
-# 89 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/locale.h" 3
+# 89 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/locale.h" 3
   int __attribute__((__cdecl__)) _configthreadlocale(int _Flag);
   char *__attribute__((__cdecl__)) setlocale(int _Category,const char *_Locale);
   __attribute__ ((__dllimport__)) struct lconv *__attribute__((__cdecl__)) localeconv(void);
@@ -10923,12 +10923,12 @@ extern "C" {
 
 
   unsigned int __attribute__((__cdecl__)) __mingw_filename_cp(void);
-# 120 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/locale.h" 3
+# 120 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/locale.h" 3
 }
 
 
 #pragma pack(pop)
-# 48 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/clocale" 2 3
+# 48 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/clocale" 2 3
 
 
 
@@ -10940,7 +10940,7 @@ namespace std
   using ::setlocale;
   using ::localeconv;
 }
-# 42 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h" 2 3
+# 42 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h" 2 3
 
 
 
@@ -10990,13 +10990,13 @@ namespace std
 
 
 }
-# 43 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/localefwd.h" 2 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/iosfwd" 1 3
-# 46 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/iosfwd" 3
+# 43 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/localefwd.h" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/iosfwd" 1 3
+# 46 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/iosfwd" 3
 namespace std
 {
 
-# 78 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/iosfwd" 3
+# 78 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/iosfwd" 3
   class ios_base;
 
   template<typename _CharT, typename _Traits = char_traits<_CharT> >
@@ -11148,16 +11148,16 @@ namespace __cxx11 {
 
   using wsyncbuf = basic_syncbuf<wchar_t>;
   using wosyncstream = basic_osyncstream<wchar_t>;
-# 257 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/iosfwd" 3
+# 257 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/iosfwd" 3
 
 }
-# 44 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/localefwd.h" 2 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cctype" 1 3
-# 47 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cctype" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/ctype.h" 1 3
-# 12 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/ctype.h" 3
+# 44 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/localefwd.h" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cctype" 1 3
+# 47 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cctype" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/ctype.h" 1 3
+# 12 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/ctype.h" 3
 extern "C" {
-# 21 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/ctype.h" 3
+# 21 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/ctype.h" 3
   extern const unsigned char __newclmap[];
   extern const unsigned char __newcumap[];
   extern pthreadlocinfo __ptlocinfo;
@@ -11209,12 +11209,12 @@ extern "C" {
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) __toascii(int _C);
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) __iscsymf(int _C);
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) __iscsym(int _C);
-# 81 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/ctype.h" 3
+# 81 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/ctype.h" 3
 __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) ___mb_cur_max_func(void);
-# 134 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/ctype.h" 3
+# 134 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/ctype.h" 3
 }
-# 48 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cctype" 2 3
-# 64 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cctype" 3
+# 48 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cctype" 2 3
+# 64 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cctype" 3
 namespace std
 {
   using ::isalnum;
@@ -11242,12 +11242,12 @@ namespace std
 {
   using ::isblank;
 }
-# 45 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/localefwd.h" 2 3
+# 45 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/localefwd.h" 2 3
 
 namespace std
 {
 
-# 57 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/localefwd.h" 3
+# 57 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/localefwd.h" 3
   class locale;
 
   template<typename _Facet>
@@ -11406,11 +11406,11 @@ namespace __cxx11 {
 
 
 }
-# 48 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string" 2 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream_insert.h" 1 3
-# 38 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream_insert.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cxxabi_forced.h" 1 3
-# 38 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cxxabi_forced.h" 3
+# 48 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream_insert.h" 1 3
+# 38 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream_insert.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cxxabi_forced.h" 1 3
+# 38 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cxxabi_forced.h" 3
 #pragma GCC visibility push(default)
 
 
@@ -11434,7 +11434,7 @@ namespace __cxxabiv1
 
 
 #pragma GCC visibility pop
-# 39 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream_insert.h" 2 3
+# 39 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream_insert.h" 2 3
 
 
 #pragma GCC diagnostic push
@@ -11536,12 +11536,12 @@ namespace std
 }
 
 #pragma GCC diagnostic pop
-# 49 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string" 2 3
+# 49 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string" 2 3
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 1 3
-# 65 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/type_traits.h" 1 3
-# 39 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/type_traits.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 1 3
+# 65 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/type_traits.h" 1 3
+# 39 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/type_traits.h" 3
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wlong-long"
 
@@ -11700,7 +11700,7 @@ namespace __gnu_cxx
   template<>
     struct __promote<float>
     { typedef float __type; };
-# 230 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/type_traits.h" 3
+# 230 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/type_traits.h" 3
   template<typename... _Tp>
     using __promoted_t = decltype((typename __promote<_Tp>::__type(0) + ...));
 
@@ -11714,18 +11714,18 @@ namespace __gnu_cxx
 
   template<typename _Tp, typename _Up, typename _Vp, typename _Wp>
     using __promote_4 = __promote<__promoted_t<_Tp, _Up, _Vp, _Wp>>;
-# 274 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/type_traits.h" 3
+# 274 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/type_traits.h" 3
 
 }
 }
 
 #pragma GCC diagnostic pop
-# 66 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 2 3
-# 85 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
+# 66 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 2 3
+# 85 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
 namespace std
 {
 
-# 96 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
+# 96 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
   namespace __detail
   {
 
@@ -11740,7 +11740,7 @@ namespace std
 
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
-# 130 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
+# 130 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
   template<typename _Iterator>
     class reverse_iterator
     : public iterator<typename iterator_traits<_Iterator>::iterator_category,
@@ -11782,7 +11782,7 @@ namespace std
       using value_type = iter_value_t<_Iterator>;
       using difference_type = iter_difference_t<_Iterator>;
       using reference = iter_reference_t<_Iterator>;
-# 180 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
+# 180 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
       constexpr
       reverse_iterator()
       noexcept(noexcept(_Iterator()))
@@ -11849,7 +11849,7 @@ namespace std
       base() const
       noexcept(noexcept(_Iterator(current)))
       { return current; }
-# 257 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
+# 257 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
       [[__nodiscard__]]
       constexpr reference
       operator*() const
@@ -12021,7 +12021,7 @@ namespace std
  _S_to_pointer(_Tp __t)
         { return __t.operator->(); }
     };
-# 526 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
+# 526 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
   template<typename _IteratorL, typename _IteratorR>
     [[nodiscard]]
     constexpr bool
@@ -12095,7 +12095,7 @@ namespace std
     operator<=>(const reverse_iterator<_Iterator>& __x,
   const reverse_iterator<_Iterator>& __y)
     { return __y.base() <=> __x.base(); }
-# 617 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
+# 617 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
   template<typename _IteratorL, typename _IteratorR>
     [[__nodiscard__]]
     inline constexpr auto
@@ -12142,7 +12142,7 @@ namespace std
     struct __is_move_iterator<reverse_iterator<_Iterator> >
       : __is_move_iterator<_Iterator>
     { };
-# 676 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
+# 676 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
   template<typename _Container>
     class back_insert_iterator
     : public iterator<output_iterator_tag, void, void, void, void>
@@ -12161,7 +12161,7 @@ namespace std
       explicit constexpr
       back_insert_iterator(_Container& __x)
       : container(std::__addressof(__x)) { }
-# 714 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
+# 714 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
       constexpr
       back_insert_iterator&
       operator=(const typename _Container::value_type& __value)
@@ -12197,13 +12197,13 @@ namespace std
       operator++(int)
       { return *this; }
     };
-# 761 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
+# 761 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
   template<typename _Container>
     [[__nodiscard__]] constexpr
     inline back_insert_iterator<_Container>
     back_inserter(_Container& __x)
     { return back_insert_iterator<_Container>(__x); }
-# 777 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
+# 777 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
   template<typename _Container>
     class front_insert_iterator
     : public iterator<output_iterator_tag, void, void, void, void>
@@ -12222,7 +12222,7 @@ namespace std
       explicit constexpr
       front_insert_iterator(_Container& __x)
       : container(std::__addressof(__x)) { }
-# 815 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
+# 815 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
       constexpr
       front_insert_iterator&
       operator=(const typename _Container::value_type& __value)
@@ -12258,13 +12258,13 @@ namespace std
       operator++(int)
       { return *this; }
     };
-# 862 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
+# 862 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
   template<typename _Container>
     [[__nodiscard__]] constexpr
     inline front_insert_iterator<_Container>
     front_inserter(_Container& __x)
     { return front_insert_iterator<_Container>(__x); }
-# 882 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
+# 882 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
   template<typename _Container>
     class insert_iterator
     : public iterator<output_iterator_tag, void, void, void, void>
@@ -12293,7 +12293,7 @@ namespace std
       constexpr
       insert_iterator(_Container& __x, _Iter __i)
       : container(std::__addressof(__x)), iter(__i) {}
-# 943 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
+# 943 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
       constexpr
       insert_iterator&
       operator=(const typename _Container::value_type& __value)
@@ -12333,20 +12333,20 @@ namespace std
     };
 
 #pragma GCC diagnostic pop
-# 996 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
+# 996 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
   template<typename _Container>
     [[nodiscard]]
     constexpr insert_iterator<_Container>
     inserter(_Container& __x, std::__detail::__range_iter_t<_Container> __i)
     { return insert_iterator<_Container>(__x, __i); }
-# 1011 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
+# 1011 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
 
 }
 
 namespace __gnu_cxx
 {
 
-# 1025 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
+# 1025 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
   template<typename _Iterator, typename _Container>
     class __normal_iterator
     {
@@ -12394,7 +12394,7 @@ namespace __gnu_cxx
  constexpr
  __normal_iterator(const __normal_iterator<_Iter, _Container>& __i)
  noexcept
-# 1082 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
+# 1082 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
         : _M_current(__i.base()) { }
 
 
@@ -12481,7 +12481,7 @@ namespace __gnu_cxx
       base() const noexcept
       { return _M_current; }
     };
-# 1178 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
+# 1178 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
   template<typename _IteratorL, typename _IteratorR, typename _Container>
     [[nodiscard, __gnu__::__always_inline__]]
     constexpr bool
@@ -12519,7 +12519,7 @@ namespace __gnu_cxx
   const __normal_iterator<_Iterator, _Container>& __rhs)
     noexcept(noexcept(std::__detail::__synth3way(__lhs.base(), __rhs.base())))
     { return std::__detail::__synth3way(__lhs.base(), __rhs.base()); }
-# 1319 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
+# 1319 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
   template<typename _IteratorL, typename _IteratorR, typename _Container>
 
 
@@ -12557,7 +12557,7 @@ namespace __gnu_cxx
 namespace std
 {
 
-# 1365 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
+# 1365 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
   template<semiregular _Sent>
     class move_sentinel
     {
@@ -12614,7 +12614,7 @@ namespace std
         random_access_iterator_tag>;
       };
   }
-# 1434 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
+# 1434 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
   template<typename _Iterator>
     class move_iterator
 
@@ -12665,7 +12665,7 @@ namespace std
       using difference_type = iter_difference_t<_Iterator>;
       using pointer = _Iterator;
       using reference = iter_rvalue_reference_t<_Iterator>;
-# 1498 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
+# 1498 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
       constexpr
       move_iterator()
       : _M_current() { }
@@ -12845,7 +12845,7 @@ namespace std
     operator<=>(const move_iterator<_IteratorL>& __x,
   const move_iterator<_IteratorR>& __y)
     { return __x.base() <=> __y.base(); }
-# 1686 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
+# 1686 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
   template<typename _IteratorL, typename _IteratorR>
     [[__nodiscard__]]
     inline constexpr bool
@@ -12904,7 +12904,7 @@ namespace std
     operator<=>(const move_iterator<_Iterator>& __x,
   const move_iterator<_Iterator>& __y)
     { return __x.base() <=> __y.base(); }
-# 1782 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
+# 1782 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
   template<typename _IteratorL, typename _IteratorR>
     [[__nodiscard__]]
     inline constexpr auto
@@ -12954,7 +12954,7 @@ namespace std
       enum { __value = 1 };
       typedef __true_type __type;
     };
-# 1843 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
+# 1843 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
   template<typename _Iterator1, typename _Iterator2>
     requires (!sized_sentinel_for<_Iterator1, _Iterator2>)
     inline constexpr bool
@@ -13060,7 +13060,7 @@ namespace std
       noexcept(_S_noexcept<const _It2&, const _Sent2&>())
       : _M_valueless(), _M_index(__x._M_index)
       {
- do { if (__builtin_expect(!bool(__x._M_has_value()), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 1948, __PRETTY_FUNCTION__, "__x._M_has_value()"); } while (false);
+ do { if (__builtin_expect(!bool(__x._M_has_value()), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 1948, __PRETTY_FUNCTION__, "__x._M_has_value()"); } while (false);
  if (_M_index == 0)
    {
      if constexpr (is_trivially_default_constructible_v<_It>)
@@ -13170,7 +13170,7 @@ namespace std
         && is_nothrow_assignable_v<_It&, const _It2&>
         && is_nothrow_assignable_v<_Sent&, const _Sent2&>)
       {
- do { if (__builtin_expect(!bool(__x._M_has_value()), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2058, __PRETTY_FUNCTION__, "__x._M_has_value()"); } while (false);
+ do { if (__builtin_expect(!bool(__x._M_has_value()), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2058, __PRETTY_FUNCTION__, "__x._M_has_value()"); } while (false);
  _M_assign(__x);
  return *this;
       }
@@ -13197,7 +13197,7 @@ namespace std
     constexpr decltype(auto)
     operator*()
     {
-      do { if (__builtin_expect(!bool(_M_index == 0), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2085, __PRETTY_FUNCTION__, "_M_index == 0"); } while (false);
+      do { if (__builtin_expect(!bool(_M_index == 0), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2085, __PRETTY_FUNCTION__, "_M_index == 0"); } while (false);
       return *_M_it;
     }
 
@@ -13205,7 +13205,7 @@ namespace std
     constexpr decltype(auto)
     operator*() const requires __detail::__dereferenceable<const _It>
     {
-      do { if (__builtin_expect(!bool(_M_index == 0), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2093, __PRETTY_FUNCTION__, "_M_index == 0"); } while (false);
+      do { if (__builtin_expect(!bool(_M_index == 0), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2093, __PRETTY_FUNCTION__, "_M_index == 0"); } while (false);
       return *_M_it;
     }
 
@@ -13213,7 +13213,7 @@ namespace std
     constexpr auto
     operator->() const requires __detail::__common_iter_has_arrow<_It>
     {
-      do { if (__builtin_expect(!bool(_M_index == 0), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2101, __PRETTY_FUNCTION__, "_M_index == 0"); } while (false);
+      do { if (__builtin_expect(!bool(_M_index == 0), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2101, __PRETTY_FUNCTION__, "_M_index == 0"); } while (false);
       if constexpr (is_pointer_v<_It> || requires { _M_it.operator->(); })
  return _M_it;
       else if constexpr (is_reference_v<iter_reference_t<_It>>)
@@ -13228,7 +13228,7 @@ namespace std
     constexpr common_iterator&
     operator++()
     {
-      do { if (__builtin_expect(!bool(_M_index == 0), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2116, __PRETTY_FUNCTION__, "_M_index == 0"); } while (false);
+      do { if (__builtin_expect(!bool(_M_index == 0), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2116, __PRETTY_FUNCTION__, "_M_index == 0"); } while (false);
       ++_M_it;
       return *this;
     }
@@ -13236,7 +13236,7 @@ namespace std
     constexpr decltype(auto)
     operator++(int)
     {
-      do { if (__builtin_expect(!bool(_M_index == 0), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2124, __PRETTY_FUNCTION__, "_M_index == 0"); } while (false);
+      do { if (__builtin_expect(!bool(_M_index == 0), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2124, __PRETTY_FUNCTION__, "_M_index == 0"); } while (false);
       if constexpr (forward_iterator<_It>)
  {
    common_iterator __tmp = *this;
@@ -13269,8 +13269,8 @@ namespace std
    case 0b0100:
      return __x._M_sent == __y._M_it;
    default:
-     do { if (__builtin_expect(!bool(__x._M_has_value()), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2157, __PRETTY_FUNCTION__, "__x._M_has_value()"); } while (false);
-     do { if (__builtin_expect(!bool(__y._M_has_value()), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2158, __PRETTY_FUNCTION__, "__y._M_has_value()"); } while (false);
+     do { if (__builtin_expect(!bool(__x._M_has_value()), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2157, __PRETTY_FUNCTION__, "__x._M_has_value()"); } while (false);
+     do { if (__builtin_expect(!bool(__y._M_has_value()), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2158, __PRETTY_FUNCTION__, "__y._M_has_value()"); } while (false);
      __builtin_unreachable();
    }
       }
@@ -13292,8 +13292,8 @@ namespace std
    case 0b0100:
      return __x._M_sent == __y._M_it;
    default:
-     do { if (__builtin_expect(!bool(__x._M_has_value()), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2180, __PRETTY_FUNCTION__, "__x._M_has_value()"); } while (false);
-     do { if (__builtin_expect(!bool(__y._M_has_value()), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2181, __PRETTY_FUNCTION__, "__y._M_has_value()"); } while (false);
+     do { if (__builtin_expect(!bool(__x._M_has_value()), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2180, __PRETTY_FUNCTION__, "__x._M_has_value()"); } while (false);
+     do { if (__builtin_expect(!bool(__y._M_has_value()), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2181, __PRETTY_FUNCTION__, "__y._M_has_value()"); } while (false);
      __builtin_unreachable();
    }
       }
@@ -13315,8 +13315,8 @@ namespace std
    case 0b0100:
      return __x._M_sent - __y._M_it;
    default:
-     do { if (__builtin_expect(!bool(__x._M_has_value()), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2203, __PRETTY_FUNCTION__, "__x._M_has_value()"); } while (false);
-     do { if (__builtin_expect(!bool(__y._M_has_value()), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2204, __PRETTY_FUNCTION__, "__y._M_has_value()"); } while (false);
+     do { if (__builtin_expect(!bool(__x._M_has_value()), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2203, __PRETTY_FUNCTION__, "__x._M_has_value()"); } while (false);
+     do { if (__builtin_expect(!bool(__y._M_has_value()), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2204, __PRETTY_FUNCTION__, "__y._M_has_value()"); } while (false);
      __builtin_unreachable();
    }
       }
@@ -13327,7 +13327,7 @@ namespace std
     noexcept(noexcept(ranges::iter_move(std::declval<const _It&>())))
     requires input_iterator<_It>
     {
-      do { if (__builtin_expect(!bool(__i._M_index == 0), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2215, __PRETTY_FUNCTION__, "__i._M_index == 0"); } while (false);
+      do { if (__builtin_expect(!bool(__i._M_index == 0), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2215, __PRETTY_FUNCTION__, "__i._M_index == 0"); } while (false);
       return ranges::iter_move(__i._M_it);
     }
 
@@ -13338,8 +13338,8 @@ namespace std
       noexcept(noexcept(ranges::iter_swap(std::declval<const _It&>(),
        std::declval<const _It2&>())))
       {
- do { if (__builtin_expect(!bool(__x._M_index == 0), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2226, __PRETTY_FUNCTION__, "__x._M_index == 0"); } while (false);
- do { if (__builtin_expect(!bool(__y._M_index == 0), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2227, __PRETTY_FUNCTION__, "__y._M_index == 0"); } while (false);
+ do { if (__builtin_expect(!bool(__x._M_index == 0), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2226, __PRETTY_FUNCTION__, "__x._M_index == 0"); } while (false);
+ do { if (__builtin_expect(!bool(__y._M_index == 0), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2227, __PRETTY_FUNCTION__, "__y._M_index == 0"); } while (false);
  return ranges::iter_swap(__x._M_it, __y._M_it);
       }
 
@@ -13488,7 +13488,7 @@ namespace std
       constexpr
       counted_iterator(_It __i, iter_difference_t<_It> __n)
       : _M_current(std::move(__i)), _M_length(__n)
-      { do { if (__builtin_expect(!bool(__n >= 0), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2376, __PRETTY_FUNCTION__, "__n >= 0"); } while (false); }
+      { do { if (__builtin_expect(!bool(__n >= 0), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2376, __PRETTY_FUNCTION__, "__n >= 0"); } while (false); }
 
       template<typename _It2>
  requires convertible_to<const _It2&, _It>
@@ -13527,7 +13527,7 @@ namespace std
       operator*()
       noexcept(noexcept(*_M_current))
       {
- do { if (__builtin_expect(!bool(_M_length > 0), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2415, __PRETTY_FUNCTION__, "_M_length > 0"); } while (false);
+ do { if (__builtin_expect(!bool(_M_length > 0), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2415, __PRETTY_FUNCTION__, "_M_length > 0"); } while (false);
  return *_M_current;
       }
 
@@ -13537,7 +13537,7 @@ namespace std
       noexcept(noexcept(*_M_current))
       requires __detail::__dereferenceable<const _It>
       {
- do { if (__builtin_expect(!bool(_M_length > 0), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2425, __PRETTY_FUNCTION__, "_M_length > 0"); } while (false);
+ do { if (__builtin_expect(!bool(_M_length > 0), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2425, __PRETTY_FUNCTION__, "_M_length > 0"); } while (false);
  return *_M_current;
       }
 
@@ -13550,7 +13550,7 @@ namespace std
       constexpr counted_iterator&
       operator++()
       {
- do { if (__builtin_expect(!bool(_M_length > 0), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2438, __PRETTY_FUNCTION__, "_M_length > 0"); } while (false);
+ do { if (__builtin_expect(!bool(_M_length > 0), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2438, __PRETTY_FUNCTION__, "_M_length > 0"); } while (false);
  ++_M_current;
  --_M_length;
  return *this;
@@ -13559,7 +13559,7 @@ namespace std
       constexpr decltype(auto)
       operator++(int)
       {
- do { if (__builtin_expect(!bool(_M_length > 0), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2447, __PRETTY_FUNCTION__, "_M_length > 0"); } while (false);
+ do { if (__builtin_expect(!bool(_M_length > 0), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2447, __PRETTY_FUNCTION__, "_M_length > 0"); } while (false);
  --_M_length;
  try
    {
@@ -13610,7 +13610,7 @@ namespace std
       operator+=(iter_difference_t<_It> __n)
       requires random_access_iterator<_It>
       {
- do { if (__builtin_expect(!bool(__n <= _M_length), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2498, __PRETTY_FUNCTION__, "__n <= _M_length"); } while (false);
+ do { if (__builtin_expect(!bool(__n <= _M_length), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2498, __PRETTY_FUNCTION__, "__n <= _M_length"); } while (false);
  _M_current += __n;
  _M_length -= __n;
  return *this;
@@ -13643,7 +13643,7 @@ namespace std
       operator-=(iter_difference_t<_It> __n)
       requires random_access_iterator<_It>
       {
- do { if (__builtin_expect(!bool(-__n <= _M_length), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2531, __PRETTY_FUNCTION__, "-__n <= _M_length"); } while (false);
+ do { if (__builtin_expect(!bool(-__n <= _M_length), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2531, __PRETTY_FUNCTION__, "-__n <= _M_length"); } while (false);
  _M_current -= __n;
  _M_length += __n;
  return *this;
@@ -13655,7 +13655,7 @@ namespace std
       noexcept(noexcept(_M_current[__n]))
       requires random_access_iterator<_It>
       {
- do { if (__builtin_expect(!bool(__n < _M_length), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2543, __PRETTY_FUNCTION__, "__n < _M_length"); } while (false);
+ do { if (__builtin_expect(!bool(__n < _M_length), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2543, __PRETTY_FUNCTION__, "__n < _M_length"); } while (false);
  return _M_current[__n];
       }
 
@@ -13684,7 +13684,7 @@ namespace std
       noexcept(noexcept(ranges::iter_move(__i._M_current)))
       requires input_iterator<_It>
       {
- do { if (__builtin_expect(!bool(__i._M_length > 0), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2572, __PRETTY_FUNCTION__, "__i._M_length > 0"); } while (false);
+ do { if (__builtin_expect(!bool(__i._M_length > 0), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2572, __PRETTY_FUNCTION__, "__i._M_length > 0"); } while (false);
  return ranges::iter_move(__i._M_current);
       }
 
@@ -13694,7 +13694,7 @@ namespace std
     const counted_iterator<_It2>& __y)
  noexcept(noexcept(ranges::iter_swap(__x._M_current, __y._M_current)))
  {
-   do { if (__builtin_expect(!bool(__x._M_length > 0 && __y._M_length > 0), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2582, __PRETTY_FUNCTION__, "__x._M_length > 0 && __y._M_length > 0"); } while (false);
+   do { if (__builtin_expect(!bool(__x._M_length > 0 && __y._M_length > 0), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h", 2582, __PRETTY_FUNCTION__, "__x._M_length > 0 && __y._M_length > 0"); } while (false);
    ranges::iter_swap(__x._M_current, __y._M_current);
  }
 
@@ -13713,7 +13713,7 @@ namespace std
           add_pointer_t<iter_reference_t<_It>>,
           void>;
     };
-# 2980 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
+# 2980 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
 
 }
 
@@ -13746,7 +13746,7 @@ namespace std
     __niter_base(_Iterator __it)
     noexcept(std::is_nothrow_copy_constructible<_Iterator>::value)
     { return __it; }
-# 3027 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
+# 3027 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h" 3
   template<typename _Ite, typename _Seq>
     constexpr
     decltype(std::__niter_base(std::declval<_Ite>()))
@@ -13835,13 +13835,13 @@ namespace std
 
 
 }
-# 51 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string" 2 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_function.h" 1 3
-# 63 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_function.h" 3
+# 51 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_function.h" 1 3
+# 63 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_function.h" 3
 namespace std
 {
 
-# 116 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_function.h" 3
+# 116 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_function.h" 3
   template<typename _Arg, typename _Result>
     struct unary_function
     {
@@ -13868,7 +13868,7 @@ namespace std
 
       typedef _Result result_type;
     } __attribute__ ((__deprecated__));
-# 157 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_function.h" 3
+# 157 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_function.h" 3
   struct __is_transparent;
 
   template<typename _Tp = void>
@@ -14045,7 +14045,7 @@ namespace std
 
       typedef __is_transparent is_transparent;
     };
-# 346 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_function.h" 3
+# 346 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_function.h" 3
   template<typename _Tp = void>
     struct equal_to;
 
@@ -14465,7 +14465,7 @@ namespace std
        is_convertible<_Tp, const volatile void*>,
        is_convertible<_Up, const volatile void*>>;
     };
-# 778 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_function.h" 3
+# 778 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_function.h" 3
   template<typename _Tp = void>
     struct logical_and;
 
@@ -14674,7 +14674,7 @@ namespace std
 
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
-# 1020 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_function.h" 3
+# 1020 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_function.h" 3
   template<typename _Predicate>
     class [[__deprecated__]] unary_negate
     : public unary_function<typename _Predicate::argument_type, bool>
@@ -14729,7 +14729,7 @@ namespace std
     inline binary_negate<_Predicate>
     not2(const _Predicate& __pred)
     { return binary_negate<_Predicate>(__pred); }
-# 1101 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_function.h" 3
+# 1101 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_function.h" 3
   template<typename _Arg, typename _Result>
     class pointer_to_unary_function : public unary_function<_Arg, _Result>
     {
@@ -14836,7 +14836,7 @@ namespace std
       operator()(const _Pair& __x) const
       { return __x.second; }
     };
-# 1228 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_function.h" 3
+# 1228 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_function.h" 3
   template<typename _Ret, typename _Tp>
     class mem_fun_t : public unary_function<_Tp*, _Ret>
     {
@@ -15050,15 +15050,15 @@ namespace std
 }
 
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward/binders.h" 1 3
-# 60 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward/binders.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward/binders.h" 1 3
+# 60 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward/binders.h" 3
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 
 namespace std
 {
 
-# 107 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward/binders.h" 3
+# 107 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward/binders.h" 3
   template<typename _Operation>
     class binder1st
     : public unary_function<typename _Operation::second_argument_type,
@@ -15135,14 +15135,14 @@ namespace std
 }
 
 #pragma GCC diagnostic pop
-# 1442 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_function.h" 2 3
-# 52 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string" 2 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/numeric_traits.h" 1 3
-# 39 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/numeric_traits.h" 3
+# 1442 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_function.h" 2 3
+# 52 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/numeric_traits.h" 1 3
+# 39 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/numeric_traits.h" 3
 namespace __gnu_cxx
 {
 
-# 52 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/numeric_traits.h" 3
+# 52 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/numeric_traits.h" 3
   template<typename _Tp>
     struct __is_integer_nonstrict
     : public std::__is_integer<_Tp>
@@ -15185,10 +15185,10 @@ namespace __gnu_cxx
 
   template<typename _Value>
     const int __numeric_traits_integer<_Value>::__digits;
-# 139 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/numeric_traits.h" 3
+# 139 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/numeric_traits.h" 3
   template<typename _Tp>
     using __int_traits = __numeric_traits_integer<_Tp>;
-# 159 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/numeric_traits.h" 3
+# 159 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/numeric_traits.h" 3
   template<typename _Value>
     struct __numeric_traits_floating
     {
@@ -15237,16 +15237,16 @@ namespace __gnu_cxx
     struct __numeric_traits<long double>
     : public __numeric_traits_floating<long double>
     { };
-# 240 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/numeric_traits.h" 3
+# 240 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/numeric_traits.h" 3
 
 }
-# 53 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string" 2 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 1 3
-# 64 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_pair.h" 1 3
-# 62 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_pair.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/utility.h" 1 3
-# 45 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/utility.h" 3
+# 53 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 1 3
+# 64 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_pair.h" 1 3
+# 62 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_pair.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/utility.h" 1 3
+# 45 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/utility.h" 3
 namespace std
 {
 
@@ -15330,7 +15330,7 @@ namespace std
  }
       return __n;
     }
-# 136 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/utility.h" 3
+# 136 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/utility.h" 3
   template<size_t __i, typename _Tp>
     using tuple_element_t = typename tuple_element<__i, _Tp>::type;
 
@@ -15343,7 +15343,7 @@ namespace std
   template<size_t _Num>
     struct _Build_index_tuple
     {
-# 156 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/utility.h" 3
+# 156 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/utility.h" 3
       using __type = _Index_tuple<__integer_pack(_Num)...>;
 
     };
@@ -15425,7 +15425,7 @@ namespace std
   template<size_t _Np, typename... _Types>
     struct _Nth_type
     { using type = __type_pack_element<_Np, _Types...>; };
-# 275 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/utility.h" 3
+# 275 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/utility.h" 3
   namespace ranges::__detail
   {
     template<typename _Range>
@@ -15442,12 +15442,12 @@ namespace std
       operator=(const _Tp&) const noexcept
       { return *this; }
   };
-# 309 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/utility.h" 3
+# 309 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/utility.h" 3
   inline constexpr _Swallow_assign ignore{};
-# 319 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/utility.h" 3
+# 319 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/utility.h" 3
 
 }
-# 63 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_pair.h" 2 3
+# 63 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_pair.h" 2 3
 
 
 
@@ -15456,7 +15456,7 @@ namespace std
 namespace std
 {
 
-# 79 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_pair.h" 3
+# 79 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_pair.h" 3
   struct piecewise_construct_t { explicit piecewise_construct_t() = default; };
 
 
@@ -15532,7 +15532,7 @@ namespace std
   template<size_t _Int, typename _Tp, size_t _Nm>
     constexpr const _Tp&&
     get(const array<_Tp, _Nm>&&) noexcept;
-# 278 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_pair.h" 3
+# 278 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_pair.h" 3
   template<typename _U1, typename _U2> class __pair_base
   {
 
@@ -15543,7 +15543,7 @@ namespace std
 
 
   };
-# 301 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_pair.h" 3
+# 301 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_pair.h" 3
   template<typename _T1, typename _T2>
     struct pair
     : public __pair_base<_T1, _T2>
@@ -15572,7 +15572,7 @@ namespace std
  swap(first, __p.first);
  swap(second, __p.second);
       }
-# 349 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_pair.h" 3
+# 349 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_pair.h" 3
     private:
       template<typename... _Args1, size_t... _Indexes1,
         typename... _Args2, size_t... _Indexes2>
@@ -15640,7 +15640,7 @@ namespace std
 
 
  }
-# 444 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_pair.h" 3
+# 444 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_pair.h" 3
     public:
 
 
@@ -15703,7 +15703,7 @@ namespace std
  requires (_S_constructible<_U1, _U2>()) && (_S_dangles<_U1, _U2>())
  constexpr explicit(!_S_convertible<_U1, _U2>())
  pair(pair<_U1, _U2>&&) = delete;
-# 557 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_pair.h" 3
+# 557 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_pair.h" 3
   private:
 
       template<typename _U1, typename _U2>
@@ -15732,7 +15732,7 @@ namespace std
      return is_nothrow_assignable_v<_T2&, _U2>;
    return false;
  }
-# 605 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_pair.h" 3
+# 605 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_pair.h" 3
   public:
 
       pair& operator=(const pair&) = delete;
@@ -15782,7 +15782,7 @@ namespace std
    second = std::forward<_U2>(__p.second);
    return *this;
  }
-# 1015 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_pair.h" 3
+# 1015 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_pair.h" 3
     };
 
 
@@ -15805,7 +15805,7 @@ namespace std
       { __x.second == __y.second } -> __detail::__boolean_testable;
     }
     { return __x.first == __y.first && __x.second == __y.second; }
-# 1045 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_pair.h" 3
+# 1045 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_pair.h" 3
   template<typename _T1, typename _T2, typename _U1, typename _U2>
     [[nodiscard]]
     constexpr common_comparison_category_t<__detail::__synth3way_t<_T1, _U1>,
@@ -15816,7 +15816,7 @@ namespace std
  return __c;
       return __detail::__synth3way(__x.second, __y.second);
     }
-# 1112 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_pair.h" 3
+# 1112 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_pair.h" 3
   template<typename _T1, typename _T2>
     constexpr inline
 
@@ -15829,12 +15829,12 @@ namespace std
     swap(pair<_T1, _T2>& __x, pair<_T1, _T2>& __y)
     noexcept(noexcept(__x.swap(__y)))
     { __x.swap(__y); }
-# 1135 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_pair.h" 3
+# 1135 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_pair.h" 3
   template<typename _T1, typename _T2>
     typename enable_if<!__and_<__is_swappable<_T1>,
           __is_swappable<_T2>>::value>::type
     swap(pair<_T1, _T2>&, pair<_T1, _T2>&) = delete;
-# 1161 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_pair.h" 3
+# 1161 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_pair.h" 3
   template<typename _T1, typename _T2>
     constexpr pair<typename __decay_and_strip<_T1>::__type,
                    typename __decay_and_strip<_T2>::__type>
@@ -15845,7 +15845,7 @@ namespace std
       typedef pair<__ds_type1, __ds_type2> __pair_type;
       return __pair_type(std::forward<_T1>(__x), std::forward<_T2>(__y));
     }
-# 1184 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_pair.h" 3
+# 1184 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_pair.h" 3
   template<typename _T1, typename _T2>
     struct __is_tuple_like_impl<pair<_T1, _T2>> : true_type
     { };
@@ -16004,16 +16004,16 @@ namespace std
     constexpr const _Tp&&
     get(const pair<_Up, _Tp>&& __p) noexcept
     { return std::move(__p.second); }
-# 1365 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_pair.h" 3
+# 1365 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_pair.h" 3
 
 }
-# 65 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 2 3
+# 65 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 2 3
 
 
 
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/debug/debug.h" 1 3
-# 48 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/debug/debug.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/debug/debug.h" 1 3
+# 48 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/debug/debug.h" 3
 namespace std
 {
   namespace __debug { }
@@ -16029,10 +16029,10 @@ namespace __gnu_debug
   template<typename _Ite, typename _Seq, typename _Cat>
     struct _Safe_iterator;
 }
-# 70 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 2 3
+# 70 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 2 3
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/predefined_ops.h" 1 3
-# 35 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/predefined_ops.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/predefined_ops.h" 1 3
+# 35 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/predefined_ops.h" 3
 namespace __gnu_cxx
 {
 namespace __ops
@@ -16404,20 +16404,20 @@ namespace __ops
 
 }
 }
-# 72 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 2 3
+# 72 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 2 3
 
 
 
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bit" 1 3
-# 63 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bit" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/version.h" 1 3
-# 64 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bit" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bit" 1 3
+# 63 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bit" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/version.h" 1 3
+# 64 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bit" 2 3
 
 namespace std
 {
 
-# 87 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bit" 3
+# 87 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bit" 3
   template<typename _To, typename _From>
     [[nodiscard]]
     constexpr _To
@@ -16429,7 +16429,7 @@ namespace std
     {
       return __builtin_bit_cast(_To, __from);
     }
-# 157 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bit" 3
+# 157 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bit" 3
   template<typename _Tp>
     constexpr _Tp
     __rotl(_Tp __x, int __s) noexcept
@@ -16483,7 +16483,7 @@ namespace std
 
 
       return __builtin_clzg(__x, _Nd);
-# 249 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bit" 3
+# 249 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bit" 3
     }
 
   template<typename _Tp>
@@ -16502,7 +16502,7 @@ namespace std
 
 
       return __builtin_ctzg(__x, _Nd);
-# 294 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bit" 3
+# 294 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bit" 3
     }
 
   template<typename _Tp>
@@ -16518,7 +16518,7 @@ namespace std
     {
 
       return __builtin_popcountg(__x);
-# 334 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bit" 3
+# 334 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bit" 3
     }
 
   template<typename _Tp>
@@ -16541,7 +16541,7 @@ namespace std
 
       if (!std::__is_constant_evaluated())
  {
-   do { if (__builtin_expect(!bool(__shift_exponent != __int_traits<_Tp>::__digits), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bit", 356, __PRETTY_FUNCTION__, "__shift_exponent != __int_traits<_Tp>::__digits"); } while (false);
+   do { if (__builtin_expect(!bool(__shift_exponent != __int_traits<_Tp>::__digits), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bit", 356, __PRETTY_FUNCTION__, "__shift_exponent != __int_traits<_Tp>::__digits"); } while (false);
  }
 
       using __promoted_type = decltype(__x << 1);
@@ -16660,7 +16660,7 @@ namespace std
     constexpr int
     bit_width(_Tp __x) noexcept
     { return std::__bit_width(__x); }
-# 486 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bit" 3
+# 486 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bit" 3
   enum class endian
   {
     little = 1234,
@@ -16673,7 +16673,7 @@ namespace std
 
 
 }
-# 77 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 2 3
+# 77 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 2 3
 
 
 
@@ -16708,7 +16708,7 @@ namespace std
 
  return __builtin_memcmp(__first1, __first2, sizeof(_Tp) * __num);
     }
-# 153 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
+# 153 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
   template<typename _ForwardIterator1, typename _ForwardIterator2>
     constexpr
     inline void
@@ -16718,11 +16718,11 @@ namespace std
      
 
      
-# 186 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
+# 186 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
       swap(*__a, *__b);
 
     }
-# 202 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
+# 202 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
   template<typename _ForwardIterator1, typename _ForwardIterator2>
     constexpr
     _ForwardIterator2
@@ -16740,7 +16740,7 @@ namespace std
  std::iter_swap(__first1, __first2);
       return __first2;
     }
-# 231 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
+# 231 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
   template<typename _Tp>
     [[__nodiscard__]] constexpr
     inline const _Tp&
@@ -16753,7 +16753,7 @@ namespace std
  return __b;
       return __a;
     }
-# 255 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
+# 255 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
   template<typename _Tp>
     [[__nodiscard__]] constexpr
     inline const _Tp&
@@ -16766,7 +16766,7 @@ namespace std
  return __b;
       return __a;
     }
-# 279 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
+# 279 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
   template<typename _Tp, typename _Compare>
     [[__nodiscard__]] constexpr
     inline const _Tp&
@@ -16777,7 +16777,7 @@ namespace std
  return __b;
       return __a;
     }
-# 301 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
+# 301 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
   template<typename _Tp, typename _Compare>
     [[__nodiscard__]] constexpr
     inline const _Tp&
@@ -16847,7 +16847,7 @@ namespace std
      requires !!__memcpyable<decltype(std::to_address(__o)),
         decltype(std::to_address(__i))>::__value;
    };
-# 395 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
+# 395 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wc++17-extensions"
   template<bool _IsMove, typename _OutIter, typename _InIter>
@@ -17064,7 +17064,7 @@ namespace std
     __copy_n_a(istreambuf_iterator<_CharT, char_traits<_CharT> >, _Size,
         std::_Deque_iterator<_CharT, _CharT&, _CharT*>,
         bool);
-# 630 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
+# 630 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
   template<typename _II, typename _OI>
     constexpr
     inline _OI
@@ -17079,7 +17079,7 @@ namespace std
       return std::__copy_move_a<__is_move_iterator<_II>::__value>
       (std::__miter_base(__first), std::__miter_base(__last), __result);
     }
-# 663 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
+# 663 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
   template<typename _II, typename _OI>
     constexpr
     inline _OI
@@ -17231,7 +17231,7 @@ namespace std
   const ::__gnu_debug::_Safe_iterator<_IIte, _ISeq, _ICat>&,
   const ::__gnu_debug::_Safe_iterator<_IIte, _ISeq, _ICat>&,
   const ::__gnu_debug::_Safe_iterator<_OIte, _OSeq, _OCat>&);
-# 833 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
+# 833 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
   template<typename _BI1, typename _BI2>
     __attribute__((__always_inline__))
     constexpr
@@ -17248,7 +17248,7 @@ namespace std
       return std::__copy_move_backward_a<__is_move_iterator<_BI1>::__value>
       (std::__miter_base(__first), std::__miter_base(__last), __result);
     }
-# 869 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
+# 869 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
   template<typename _BI1, typename _BI2>
     __attribute__((__always_inline__))
     constexpr
@@ -17367,7 +17367,7 @@ namespace std
     __fill_a(const ::__gnu_debug::_Safe_iterator<_Ite, _Seq, _Cat>&,
       const ::__gnu_debug::_Safe_iterator<_Ite, _Seq, _Cat>&,
       const _Tp&);
-# 1000 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
+# 1000 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
   template<typename _ForwardIterator, typename _Tp>
     __attribute__((__always_inline__))
     constexpr
@@ -17403,7 +17403,7 @@ namespace std
   __size_to_integer(__int128 __n) { return __n; }
   __extension__ inline constexpr unsigned __int128
   __size_to_integer(unsigned __int128 __n) { return __n; }
-# 1055 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
+# 1055 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
   inline constexpr long long
   __size_to_integer(float __n) { return (long long)__n; }
   inline constexpr long long
@@ -17500,7 +17500,7 @@ namespace std
       std::__fill_a(__first, __first + __n, __value);
       return __first + __n;
     }
-# 1169 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
+# 1169 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
   template<typename _OI, typename _Size, typename _Tp>
     __attribute__((__always_inline__))
     constexpr
@@ -17852,7 +17852,7 @@ namespace std
  }
       return __first;
     }
-# 1532 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
+# 1532 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
   template<typename _ForwardIterator, typename _Tp>
     [[__nodiscard__]] constexpr
     inline _ForwardIterator
@@ -17877,11 +17877,11 @@ namespace std
     {
 
       return std::__bit_width(make_unsigned_t<_Tp>(__n)) - 1;
-# 1568 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
+# 1568 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
     }
 
 
-# 1584 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
+# 1584 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
   template<typename _II1, typename _II2>
     [[__nodiscard__]] constexpr
     inline bool
@@ -17897,7 +17897,7 @@ namespace std
 
       return std::__equal_aux(__first1, __last1, __first2);
     }
-# 1615 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
+# 1615 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
   template<typename _IIter1, typename _IIter2, typename _BinaryPredicate>
     [[__nodiscard__]] constexpr
     inline bool
@@ -17973,7 +17973,7 @@ namespace std
  }
     }
 #pragma GCC diagnostic pop
-# 1706 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
+# 1706 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
   template<typename _II1, typename _II2>
     [[__nodiscard__]] constexpr
     inline bool
@@ -17990,7 +17990,7 @@ namespace std
 
       return std::__equal4(__first1, __last1, __first2, __last2);
     }
-# 1739 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
+# 1739 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
   template<typename _IIter1, typename _IIter2, typename _BinaryPredicate>
     [[__nodiscard__]] constexpr
     inline bool
@@ -18006,7 +18006,7 @@ namespace std
       return std::__equal4(__first1, __last1, __first2, __last2,
           __binary_pred);
     }
-# 1771 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
+# 1771 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
   template<typename _II1, typename _II2>
     [[__nodiscard__]] constexpr
     inline bool
@@ -18028,7 +18028,7 @@ namespace std
       return std::__lexicographical_compare_aux(__first1, __last1,
       __first2, __last2);
     }
-# 1806 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
+# 1806 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
   template<typename _II1, typename _II2, typename _Compare>
     [[__nodiscard__]] constexpr
     inline bool
@@ -18071,7 +18071,7 @@ namespace std
  return _Res{__y, __c};
       return _Res{__x, __c};
     }
-# 1860 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
+# 1860 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
   template<typename _InputIter1, typename _InputIter2, typename _Comp>
     [[nodiscard]] constexpr auto
     lexicographical_compare_three_way(_InputIter1 __first1,
@@ -18147,7 +18147,7 @@ namespace std
  }
       return pair<_InputIterator1, _InputIterator2>(__first1, __first2);
     }
-# 1949 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
+# 1949 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
   template<typename _InputIterator1, typename _InputIterator2>
     [[__nodiscard__]] constexpr
     inline pair<_InputIterator1, _InputIterator2>
@@ -18165,7 +18165,7 @@ namespace std
       return std::__mismatch(__first1, __last1, __first2,
         __gnu_cxx::__ops::__iter_equal_to_iter());
     }
-# 1983 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
+# 1983 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
   template<typename _InputIterator1, typename _InputIterator2,
     typename _BinaryPredicate>
     [[__nodiscard__]] constexpr
@@ -18199,7 +18199,7 @@ namespace std
  }
       return pair<_InputIterator1, _InputIterator2>(__first1, __first2);
     }
-# 2031 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
+# 2031 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
   template<typename _InputIterator1, typename _InputIterator2>
     [[__nodiscard__]] constexpr
     inline pair<_InputIterator1, _InputIterator2>
@@ -18218,7 +18218,7 @@ namespace std
       return std::__mismatch(__first1, __last1, __first2, __last2,
         __gnu_cxx::__ops::__iter_equal_to_iter());
     }
-# 2067 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
+# 2067 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
   template<typename _InputIterator1, typename _InputIterator2,
     typename _BinaryPredicate>
     [[__nodiscard__]] constexpr
@@ -18369,7 +18369,7 @@ namespace std
  }
       return true;
     }
-# 2230 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
+# 2230 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
   template<typename _ForwardIterator1, typename _ForwardIterator2>
     constexpr
     inline bool
@@ -18390,7 +18390,7 @@ namespace std
 
 
 
-# 2272 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
+# 2272 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h" 3
   template<typename _ForwardIterator1, typename _ForwardIterator2,
     typename _BinaryPredicate>
     constexpr
@@ -18415,15 +18415,15 @@ namespace std
 
 
 }
-# 54 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string" 2 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/refwrap.h" 1 3
-# 40 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/refwrap.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/invoke.h" 1 3
-# 44 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/invoke.h" 3
+# 54 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/refwrap.h" 1 3
+# 40 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/refwrap.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/invoke.h" 1 3
+# 44 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/invoke.h" 3
 namespace std
 {
 
-# 55 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/invoke.h" 3
+# 55 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/invoke.h" 3
   template<typename _Tp, typename _Up = typename __inv_unwrap<_Tp>::type>
     constexpr _Up&&
     __invfwd(typename remove_reference<_Tp>::type& __t) noexcept
@@ -18489,10 +18489,10 @@ namespace std
        std::forward<_Callable>(__fn),
        std::forward<_Args>(__args)...);
     }
-# 157 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/invoke.h" 3
+# 157 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/invoke.h" 3
 
 }
-# 41 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/refwrap.h" 2 3
+# 41 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/refwrap.h" 2 3
 
 
 
@@ -18502,7 +18502,7 @@ namespace std
 namespace std
 {
 
-# 58 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/refwrap.h" 3
+# 58 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/refwrap.h" 3
   template<typename _Res, typename... _ArgTypes>
     struct _Maybe_unary_or_binary_function { };
 
@@ -18533,7 +18533,7 @@ namespace std
  = _Maybe_unary_or_binary_function<_Res, _Class*, _ArgTypes...>;
       using __arity = integral_constant<size_t, sizeof...(_ArgTypes)>;
     };
-# 109 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/refwrap.h" 3
+# 109 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/refwrap.h" 3
 template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_traits<_Res (_Class::*)(_ArgTypes...) > : _Mem_fn_traits_base<_Res, _Class, _ArgTypes...> { using __vararg = false_type; }; template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_traits<_Res (_Class::*)(_ArgTypes..., ...) > : _Mem_fn_traits_base<_Res, _Class, _ArgTypes...> { using __vararg = true_type; }; template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_traits<_Res (_Class::*)(_ArgTypes...) const > : _Mem_fn_traits_base<_Res, const _Class, _ArgTypes...> { using __vararg = false_type; }; template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_traits<_Res (_Class::*)(_ArgTypes..., ...) const > : _Mem_fn_traits_base<_Res, const _Class, _ArgTypes...> { using __vararg = true_type; }; template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_traits<_Res (_Class::*)(_ArgTypes...) volatile > : _Mem_fn_traits_base<_Res, volatile _Class, _ArgTypes...> { using __vararg = false_type; }; template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_traits<_Res (_Class::*)(_ArgTypes..., ...) volatile > : _Mem_fn_traits_base<_Res, volatile _Class, _ArgTypes...> { using __vararg = true_type; }; template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_traits<_Res (_Class::*)(_ArgTypes...) const volatile > : _Mem_fn_traits_base<_Res, const volatile _Class, _ArgTypes...> { using __vararg = false_type; }; template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_traits<_Res (_Class::*)(_ArgTypes..., ...) const volatile > : _Mem_fn_traits_base<_Res, const volatile _Class, _ArgTypes...> { using __vararg = true_type; };
 template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_traits<_Res (_Class::*)(_ArgTypes...) &> : _Mem_fn_traits_base<_Res, _Class, _ArgTypes...> { using __vararg = false_type; }; template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_traits<_Res (_Class::*)(_ArgTypes..., ...) &> : _Mem_fn_traits_base<_Res, _Class, _ArgTypes...> { using __vararg = true_type; }; template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_traits<_Res (_Class::*)(_ArgTypes...) const &> : _Mem_fn_traits_base<_Res, const _Class, _ArgTypes...> { using __vararg = false_type; }; template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_traits<_Res (_Class::*)(_ArgTypes..., ...) const &> : _Mem_fn_traits_base<_Res, const _Class, _ArgTypes...> { using __vararg = true_type; }; template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_traits<_Res (_Class::*)(_ArgTypes...) volatile &> : _Mem_fn_traits_base<_Res, volatile _Class, _ArgTypes...> { using __vararg = false_type; }; template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_traits<_Res (_Class::*)(_ArgTypes..., ...) volatile &> : _Mem_fn_traits_base<_Res, volatile _Class, _ArgTypes...> { using __vararg = true_type; }; template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_traits<_Res (_Class::*)(_ArgTypes...) const volatile &> : _Mem_fn_traits_base<_Res, const volatile _Class, _ArgTypes...> { using __vararg = false_type; }; template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_traits<_Res (_Class::*)(_ArgTypes..., ...) const volatile &> : _Mem_fn_traits_base<_Res, const volatile _Class, _ArgTypes...> { using __vararg = true_type; };
 template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_traits<_Res (_Class::*)(_ArgTypes...) &&> : _Mem_fn_traits_base<_Res, _Class, _ArgTypes...> { using __vararg = false_type; }; template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_traits<_Res (_Class::*)(_ArgTypes..., ...) &&> : _Mem_fn_traits_base<_Res, _Class, _ArgTypes...> { using __vararg = true_type; }; template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_traits<_Res (_Class::*)(_ArgTypes...) const &&> : _Mem_fn_traits_base<_Res, const _Class, _ArgTypes...> { using __vararg = false_type; }; template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_traits<_Res (_Class::*)(_ArgTypes..., ...) const &&> : _Mem_fn_traits_base<_Res, const _Class, _ArgTypes...> { using __vararg = true_type; }; template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_traits<_Res (_Class::*)(_ArgTypes...) volatile &&> : _Mem_fn_traits_base<_Res, volatile _Class, _ArgTypes...> { using __vararg = false_type; }; template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_traits<_Res (_Class::*)(_ArgTypes..., ...) volatile &&> : _Mem_fn_traits_base<_Res, volatile _Class, _ArgTypes...> { using __vararg = true_type; }; template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_traits<_Res (_Class::*)(_ArgTypes...) const volatile &&> : _Mem_fn_traits_base<_Res, const volatile _Class, _ArgTypes...> { using __vararg = false_type; }; template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_traits<_Res (_Class::*)(_ArgTypes..., ...) const volatile &&> : _Mem_fn_traits_base<_Res, const volatile _Class, _ArgTypes...> { using __vararg = true_type; };
@@ -18615,7 +18615,7 @@ template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_t
     struct _Weak_result_type
     : _Weak_result_type_memfun<typename remove_cv<_Functor>::type>
     { };
-# 309 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/refwrap.h" 3
+# 309 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/refwrap.h" 3
   template<typename _Tp>
     class reference_wrapper
 
@@ -18675,7 +18675,7 @@ template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_t
 
    return std::__invoke(get(), std::forward<_Args>(__args)...);
  }
-# 415 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/refwrap.h" 3
+# 415 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/refwrap.h" 3
     };
 
 
@@ -18723,11 +18723,11 @@ template<typename _Res, typename _Class, typename... _ArgTypes> struct _Mem_fn_t
 
 
 }
-# 55 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string" 2 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/range_access.h" 1 3
-# 38 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/range_access.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/initializer_list" 1 3
-# 43 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/initializer_list" 3
+# 55 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/range_access.h" 1 3
+# 38 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/range_access.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/initializer_list" 1 3
+# 43 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/initializer_list" 3
 namespace std
 {
 
@@ -18789,7 +18789,7 @@ namespace std
     end(initializer_list<_Tp> __ils) noexcept
     { return __ils.end(); }
 }
-# 39 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/range_access.h" 2 3
+# 39 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/range_access.h" 2 3
 
 
 
@@ -19014,7 +19014,7 @@ namespace std
     crend(const _Container& __cont) noexcept(noexcept(std::rend(__cont)))
       -> decltype(std::rend(__cont))
     { return std::rend(__cont); }
-# 271 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/range_access.h" 3
+# 271 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/range_access.h" 3
   template <typename _Container>
     [[nodiscard, __gnu__::__always_inline__]]
     constexpr auto
@@ -19123,13 +19123,13 @@ namespace std
 
 
 }
-# 56 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string" 2 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 1 3
-# 41 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/alloc_traits.h" 1 3
-# 36 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/alloc_traits.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 1 3
-# 46 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
+# 56 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 1 3
+# 41 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/alloc_traits.h" 1 3
+# 36 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/alloc_traits.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 1 3
+# 46 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
 namespace std
 {
 
@@ -19137,7 +19137,7 @@ namespace std
 
 
  
-# 52 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
+# 52 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wc++14-extensions"
 #pragma GCC diagnostic ignored "-Wc++17-extensions"
@@ -19200,7 +19200,7 @@ namespace std
  = requires (_Alloc& __a, _Sz __n, _Vp __hint) {
  __a.allocate(__n, __hint);
       };
-# 133 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
+# 133 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
     template<typename _Alloc, typename _Tp, typename... _Args>
       static constexpr bool __has_construct
  = requires (_Alloc& __a, _Tp* __p, _Args&&... __args) {
@@ -19219,28 +19219,28 @@ namespace std
       static constexpr bool __can_construct
  = __has_construct<_Alloc, _Tp, _Args...>
      || __can_construct_at<_Tp, _Args...>;
-# 184 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
+# 184 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
     template<typename _Alloc, typename _Tp>
       static constexpr bool __has_destroy = requires (_Alloc& __a, _Tp* __p) {
  __a.destroy(__p);
       };
-# 202 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
+# 202 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
     template<typename _Alloc>
       static constexpr bool __has_max_size = requires (const _Alloc& __a) {
  __a.max_size();
       };
-# 220 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
+# 220 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
     template<typename _Alloc>
       static constexpr bool __has_soccc = requires (const _Alloc& __a) {
  __a.select_on_container_copy_construction();
       };
-# 235 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
+# 235 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
   };
 
   template<typename _Alloc, typename _Up>
     using __alloc_rebind
       = typename __allocator_traits_base::template __rebind<_Alloc, _Up>::type;
-# 248 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
+# 248 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
   template<typename _Alloc>
     struct allocator_traits : __allocator_traits_base
     {
@@ -19368,11 +19368,11 @@ namespace std
  using rebind_alloc = __alloc_rebind<_Alloc, _Tp>;
       template<typename _Tp>
  using rebind_traits = allocator_traits<rebind_alloc<_Tp>>;
-# 383 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
+# 383 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
       [[__nodiscard__]] static constexpr pointer
       allocate(_Alloc& __a, size_type __n)
       { return __a.allocate(__n); }
-# 398 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
+# 398 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
       [[__nodiscard__]] static constexpr pointer
       allocate(_Alloc& __a, size_type __n, const_void_pointer __hint)
       {
@@ -19381,11 +19381,11 @@ namespace std
  else
    return __a.allocate(__n);
       }
-# 415 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
+# 415 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
       static constexpr void
       deallocate(_Alloc& __a, pointer __p, size_type __n)
       { __a.deallocate(__p, __n); }
-# 430 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
+# 430 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
       template<typename _Tp, typename... _Args>
 
  requires __can_construct<_Alloc, _Tp, _Args...>
@@ -19401,7 +19401,7 @@ namespace std
    else
      std::_Construct(__p, std::forward<_Args>(__args)...);
  }
-# 454 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
+# 454 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
       template<typename _Tp>
  static constexpr void
  destroy(_Alloc& __a, _Tp* __p)
@@ -19412,7 +19412,7 @@ namespace std
    else
      std::_Destroy(__p);
  }
-# 473 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
+# 473 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
       static constexpr size_type
       max_size(const _Alloc& __a) noexcept
       {
@@ -19424,7 +19424,7 @@ namespace std
    return __gnu_cxx::__numeric_traits<size_type>::__max
      / sizeof(value_type);
       }
-# 493 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
+# 493 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
       static constexpr _Alloc
       select_on_container_copy_construction(const _Alloc& __rhs)
       {
@@ -19455,10 +19455,10 @@ namespace std
    else
      return is_nothrow_destructible<_Tp>::value;
  }
-# 548 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
+# 548 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
     };
 #pragma GCC diagnostic pop
-# 559 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
+# 559 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
   template<typename _Tp>
     struct allocator_traits<allocator<_Tp>>
     {
@@ -19503,12 +19503,12 @@ namespace std
 
       template<typename _Up>
  using rebind_traits = allocator_traits<allocator<_Up>>;
-# 611 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
+# 611 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
       [[__nodiscard__,__gnu__::__always_inline__]]
       static constexpr pointer
       allocate(allocator_type& __a, size_type __n)
       { return __a.allocate(__n); }
-# 626 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
+# 626 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
       [[__nodiscard__,__gnu__::__always_inline__]]
       static constexpr pointer
       allocate(allocator_type& __a, size_type __n,
@@ -19520,12 +19520,12 @@ namespace std
  return __a.allocate(__n);
 
       }
-# 646 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
+# 646 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
       [[__gnu__::__always_inline__]]
       static constexpr void
       deallocate(allocator_type& __a, pointer __p, size_type __n)
       { __a.deallocate(__p, __n); }
-# 662 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
+# 662 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
       template<typename _Up, typename... _Args>
  [[__gnu__::__always_inline__]]
  static constexpr void
@@ -19545,7 +19545,7 @@ namespace std
 
 
  }
-# 689 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
+# 689 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
       template<typename _Up>
  [[__gnu__::__always_inline__]]
  static constexpr void
@@ -19585,7 +19585,7 @@ namespace std
       select_on_container_copy_construction(const allocator_type& __rhs)
       { return __rhs; }
     };
-# 736 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
+# 736 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
   template<>
     struct allocator_traits<allocator<void>>
     {
@@ -19638,14 +19638,14 @@ namespace std
 
       static void
       deallocate(allocator_type&, void*, size_type) = delete;
-# 800 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
+# 800 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
       template<typename _Up, typename... _Args>
  [[__gnu__::__always_inline__]]
  static constexpr void
  construct(allocator_type&, _Up* __p, _Args&&... __args)
  noexcept(__is_nothrow_new_constructible<_Up, _Args...>)
  { std::_Construct(__p, std::forward<_Args>(__args)...); }
-# 814 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
+# 814 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
       template<typename _Up>
  [[__gnu__::__always_inline__]]
  static constexpr void
@@ -19847,7 +19847,7 @@ namespace std
 
       }
     };
-# 1023 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
+# 1023 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h" 3
   template<typename _ForwardIterator, typename _Allocator>
     constexpr
     void
@@ -19878,7 +19878,7 @@ namespace std
 
 
 }
-# 37 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/alloc_traits.h" 2 3
+# 37 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/alloc_traits.h" 2 3
 
 namespace __gnu_cxx
 {
@@ -19971,35 +19971,35 @@ template<typename _Alloc, typename = typename _Alloc::value_type>
     template<typename _Tp>
       struct rebind
       { typedef typename _Base_type::template rebind_alloc<_Tp> other; };
-# 182 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/alloc_traits.h" 3
+# 182 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/alloc_traits.h" 3
   };
 
 
 }
-# 42 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 2 3
+# 42 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 2 3
 
 
 
 
 
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/version.h" 1 3
-# 49 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/version.h" 1 3
+# 49 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 2 3
 
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string_view" 1 3
-# 46 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string_view" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/version.h" 1 3
-# 47 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string_view" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string_view" 1 3
+# 46 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string_view" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/version.h" 1 3
+# 47 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string_view" 2 3
 
 
 
 
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/functional_hash.h" 1 3
-# 38 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/functional_hash.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/hash_bytes.h" 1 3
-# 39 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/hash_bytes.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/functional_hash.h" 1 3
+# 38 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/functional_hash.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/hash_bytes.h" 1 3
+# 39 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/hash_bytes.h" 3
 namespace std
 {
 
@@ -20021,12 +20021,12 @@ namespace std
 
 
 }
-# 39 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/functional_hash.h" 2 3
+# 39 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/functional_hash.h" 2 3
 
 namespace std
 {
 
-# 52 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/functional_hash.h" 3
+# 52 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/functional_hash.h" 3
   template<typename _Result, typename _Arg>
     struct __hash_base
     {
@@ -20091,7 +20091,7 @@ namespace std
       operator()(_Tp* __p) const noexcept
       { return reinterpret_cast<size_t>(__p); }
     };
-# 128 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/functional_hash.h" 3
+# 128 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/functional_hash.h" 3
   template<> struct hash<bool> : public __hash_base<size_t, bool> { size_t operator()(bool __val) const noexcept { return static_cast<size_t>(__val); } };
 
 
@@ -20146,7 +20146,7 @@ namespace std
   template<> struct hash<__int128> : public __hash_base<size_t, __int128> { size_t operator()(__int128 __val) const noexcept { return static_cast<size_t>(__val); } };
   __extension__
   template<> struct hash<__int128 unsigned> : public __hash_base<size_t, __int128 unsigned> { size_t operator()(__int128 unsigned __val) const noexcept { return static_cast<size_t>(__val); } };
-# 204 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/functional_hash.h" 3
+# 204 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/functional_hash.h" 3
   struct _Hash_impl
   {
     static size_t
@@ -20225,7 +20225,7 @@ namespace std
       operator()(nullptr_t) const noexcept
       { return 0; }
     };
-# 297 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/functional_hash.h" 3
+# 297 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/functional_hash.h" 3
   template<typename _Hash>
     struct __is_fast_hash : public std::true_type
     { };
@@ -20236,20 +20236,20 @@ namespace std
 
 
 }
-# 53 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string_view" 2 3
+# 53 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string_view" 2 3
 
 
 
 
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_base.h" 1 3
-# 41 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_base.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/max_size_type.h" 1 3
-# 39 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/max_size_type.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/numbers" 1 3
-# 37 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/numbers" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/version.h" 1 3
-# 38 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/numbers" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_base.h" 1 3
+# 41 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_base.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/max_size_type.h" 1 3
+# 39 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/max_size_type.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/numbers" 1 3
+# 37 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/numbers" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/version.h" 1 3
+# 38 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/numbers" 2 3
 
 
 
@@ -20354,7 +20354,7 @@ namespace numbers
   inline constexpr double inv_sqrt3 = inv_sqrt3_v<double>;
   inline constexpr double egamma = egamma_v<double>;
   inline constexpr double phi = phi_v<double>;
-# 230 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/numbers" 3
+# 230 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/numbers" 3
 template<> inline constexpr __float128 e_v<__float128> = 2.718281828459045235360287471352662498Q; template<> inline constexpr __float128 log2e_v<__float128> = 1.442695040888963407359924681001892137Q; template<> inline constexpr __float128 log10e_v<__float128> = 0.434294481903251827651128918916605082Q; template<> inline constexpr __float128 pi_v<__float128> = 3.141592653589793238462643383279502884Q; template<> inline constexpr __float128 inv_pi_v<__float128> = 0.318309886183790671537767526745028724Q; template<> inline constexpr __float128 inv_sqrtpi_v<__float128> = 0.564189583547756286948079451560772586Q; template<> inline constexpr __float128 ln2_v<__float128> = 0.693147180559945309417232121458176568Q; template<> inline constexpr __float128 ln10_v<__float128> = 2.302585092994045684017991454684364208Q; template<> inline constexpr __float128 sqrt2_v<__float128> = 1.414213562373095048801688724209698079Q; template<> inline constexpr __float128 sqrt3_v<__float128> = 1.732050807568877293527446341505872367Q; template<> inline constexpr __float128 inv_sqrt3_v<__float128> = 0.577350269189625764509148780501957456Q; template<> inline constexpr __float128 egamma_v<__float128> = 0.577215664901532860606512090082402431Q; template<> inline constexpr __float128 phi_v<__float128> = 1.618033988749894848204586834365638118Q;
 
 
@@ -20366,8 +20366,8 @@ template<> inline constexpr __float128 e_v<__float128> = 2.718281828459045235360
 }
 
 #pragma GCC diagnostic pop
-# 40 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/max_size_type.h" 2 3
-# 50 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/max_size_type.h" 3
+# 40 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/max_size_type.h" 2 3
+# 50 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/max_size_type.h" 3
 namespace std
 {
 
@@ -20482,7 +20482,7 @@ namespace ranges
       constexpr __max_size_type&
       operator/=(const __max_size_type& __r) noexcept
       {
- do { if (__builtin_expect(!bool(__r != 0), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/max_size_type.h", 164, __PRETTY_FUNCTION__, "__r != 0"); } while (false);
+ do { if (__builtin_expect(!bool(__r != 0), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/max_size_type.h", 164, __PRETTY_FUNCTION__, "__r != 0"); } while (false);
 
  if (!_M_msb && !__r._M_msb) [[likely]]
    _M_val /= __r._M_val;
@@ -20522,7 +20522,7 @@ namespace ranges
       constexpr __max_size_type&
       operator<<=(const __max_size_type& __r) noexcept
       {
- do { if (__builtin_expect(!bool(__r <= _S_rep_bits), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/max_size_type.h", 204, __PRETTY_FUNCTION__, "__r <= _S_rep_bits"); } while (false);
+ do { if (__builtin_expect(!bool(__r <= _S_rep_bits), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/max_size_type.h", 204, __PRETTY_FUNCTION__, "__r <= _S_rep_bits"); } while (false);
  if (__r != 0)
    {
      _M_msb = (_M_val >> (_S_rep_bits - __r._M_val)) & 1;
@@ -20538,7 +20538,7 @@ namespace ranges
       constexpr __max_size_type&
       operator>>=(const __max_size_type& __r) noexcept
       {
- do { if (__builtin_expect(!bool(__r <= _S_rep_bits), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/max_size_type.h", 220, __PRETTY_FUNCTION__, "__r <= _S_rep_bits"); } while (false);
+ do { if (__builtin_expect(!bool(__r <= _S_rep_bits), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/max_size_type.h", 220, __PRETTY_FUNCTION__, "__r <= _S_rep_bits"); } while (false);
  if (__r != 0)
    {
      if (__r._M_val == _S_rep_bits) [[unlikely]]
@@ -20712,7 +20712,7 @@ namespace ranges
  else
    return __l._M_val <=> __r._M_val;
       }
-# 422 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/max_size_type.h" 3
+# 422 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/max_size_type.h" 3
       __extension__
       using __rep = unsigned __int128;
 
@@ -20818,7 +20818,7 @@ namespace ranges
       constexpr __max_diff_type&
       operator/=(const __max_diff_type& __r) noexcept
       {
- do { if (__builtin_expect(!bool(__r != 0), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/max_size_type.h", 527, __PRETTY_FUNCTION__, "__r != 0"); } while (false);
+ do { if (__builtin_expect(!bool(__r != 0), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/max_size_type.h", 527, __PRETTY_FUNCTION__, "__r != 0"); } while (false);
  const bool __neg = *this < 0;
  const bool __rneg = __r < 0;
  if (!__neg && !__rneg)
@@ -20835,7 +20835,7 @@ namespace ranges
       constexpr __max_diff_type&
       operator%=(const __max_diff_type& __r) noexcept
       {
- do { if (__builtin_expect(!bool(__r != 0), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/max_size_type.h", 544, __PRETTY_FUNCTION__, "__r != 0"); } while (false);
+ do { if (__builtin_expect(!bool(__r != 0), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/max_size_type.h", 544, __PRETTY_FUNCTION__, "__r != 0"); } while (false);
  if (*this >= 0 && __r > 0)
    _M_rep %= __r._M_rep;
  else
@@ -21017,7 +21017,7 @@ namespace ranges
  else
    return _M_rep <=> __r._M_rep;
       }
-# 755 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/max_size_type.h" 3
+# 755 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/max_size_type.h" 3
     private:
       __max_size_type _M_rep = 0;
 
@@ -21086,9 +21086,9 @@ namespace ranges
 
 
 }
-# 42 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_base.h" 2 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/version.h" 1 3
-# 43 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_base.h" 2 3
+# 42 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_base.h" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/version.h" 1 3
+# 43 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_base.h" 2 3
 
 
 
@@ -21096,7 +21096,7 @@ namespace ranges
 
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wpedantic"
-# 58 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_base.h" 3
+# 58 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_base.h" 3
 namespace std
 {
 
@@ -21122,7 +21122,7 @@ namespace ranges
       constexpr auto
       __to_unsigned_like(_Tp __t) noexcept
       { return static_cast<make_unsigned_t<_Tp>>(__t); }
-# 94 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_base.h" 3
+# 94 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_base.h" 3
     template<typename _Tp>
       using __make_unsigned_like_t
  = decltype(__detail::__to_unsigned_like(std::declval<_Tp>()));
@@ -21559,7 +21559,7 @@ namespace ranges
 
   template<range _Range>
     using sentinel_t = decltype(ranges::end(std::declval<_Range&>()));
-# 542 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_base.h" 3
+# 542 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_base.h" 3
   template<range _Range>
     using range_difference_t = iter_difference_t<iterator_t<_Range>>;
 
@@ -21666,7 +21666,7 @@ namespace ranges
 
   namespace __access
   {
-# 662 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_base.h" 3
+# 662 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_base.h" 3
     template<typename _To, typename _Tp>
       constexpr decltype(auto)
       __as_const(_Tp& __t) noexcept
@@ -21682,7 +21682,7 @@ namespace ranges
 
     struct _CBegin
     {
-# 691 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_base.h" 3
+# 691 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_base.h" 3
       template<typename _Tp>
  [[nodiscard]]
  constexpr auto
@@ -21697,7 +21697,7 @@ namespace ranges
 
     struct _CEnd final
     {
-# 719 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_base.h" 3
+# 719 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_base.h" 3
       template<typename _Tp>
  [[nodiscard]]
  constexpr auto
@@ -21712,7 +21712,7 @@ namespace ranges
 
     struct _CRBegin
     {
-# 747 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_base.h" 3
+# 747 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_base.h" 3
       template<typename _Tp>
  [[nodiscard]]
  constexpr auto
@@ -21727,7 +21727,7 @@ namespace ranges
 
     struct _CREnd
     {
-# 775 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_base.h" 3
+# 775 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_base.h" 3
       template<typename _Tp>
  [[nodiscard]]
  constexpr auto
@@ -21742,7 +21742,7 @@ namespace ranges
 
     struct _CData
     {
-# 798 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_base.h" 3
+# 798 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_base.h" 3
       template<typename _Tp>
  [[nodiscard]]
  constexpr auto
@@ -21815,7 +21815,7 @@ namespace ranges
  else
    {
 
-     do { if (__builtin_expect(!bool(__n >= 0), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_base.h", 870, __PRETTY_FUNCTION__, "__n >= 0"); } while (false);
+     do { if (__builtin_expect(!bool(__n >= 0), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_base.h", 870, __PRETTY_FUNCTION__, "__n >= 0"); } while (false);
      while (__n-- > 0)
        ++__it;
    }
@@ -21854,7 +21854,7 @@ namespace ranges
      else if (__n != 0) [[likely]]
        {
 
-  do { if (__builtin_expect(!bool((__n < 0) == (__diff < 0)), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_base.h", 909, __PRETTY_FUNCTION__, "(__n < 0) == (__diff < 0)"); } while (false);
+  do { if (__builtin_expect(!bool((__n < 0) == (__diff < 0)), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_base.h", 909, __PRETTY_FUNCTION__, "(__n < 0) == (__diff < 0)"); } while (false);
 
   (*this)(__it, __n);
   return 0;
@@ -21889,7 +21889,7 @@ namespace ranges
  else
    {
 
-     do { if (__builtin_expect(!bool(__n >= 0), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_base.h", 944, __PRETTY_FUNCTION__, "__n >= 0"); } while (false);
+     do { if (__builtin_expect(!bool(__n >= 0), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_base.h", 944, __PRETTY_FUNCTION__, "__n >= 0"); } while (false);
      return __n;
    }
       }
@@ -22029,12 +22029,12 @@ namespace ranges
       iterator_t<_Range>,
       dangling>;
 }
-# 1120 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_base.h" 3
+# 1120 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_base.h" 3
 
 }
 
 #pragma GCC diagnostic pop
-# 59 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string_view" 2 3
+# 59 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string_view" 2 3
 
 
 
@@ -22064,7 +22064,7 @@ namespace std
    const bool __testoff = __off < __size - __pos;
    return __testoff ? __off : __size - __pos;
   }
-# 107 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string_view" 3
+# 107 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string_view" 3
   template<typename _CharT, typename _Traits = std::char_traits<_CharT>>
     class basic_string_view
     {
@@ -22121,7 +22121,7 @@ namespace std
  noexcept(noexcept(__last - __first))
  : _M_len(__last - __first), _M_str(std::to_address(__first))
  { }
-# 184 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string_view" 3
+# 184 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string_view" 3
       constexpr basic_string_view&
       operator=(const basic_string_view&) noexcept = default;
 
@@ -22198,7 +22198,7 @@ namespace std
       constexpr const_reference
       operator[](size_type __pos) const noexcept
       {
- do { if (__builtin_expect(!bool(__pos < this->_M_len), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string_view", 260, __PRETTY_FUNCTION__, "__pos < this->_M_len"); } while (false);
+ do { if (__builtin_expect(!bool(__pos < this->_M_len), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string_view", 260, __PRETTY_FUNCTION__, "__pos < this->_M_len"); } while (false);
  return *(this->_M_str + __pos);
       }
 
@@ -22217,7 +22217,7 @@ namespace std
       constexpr const_reference
       front() const noexcept
       {
- do { if (__builtin_expect(!bool(this->_M_len > 0), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string_view", 279, __PRETTY_FUNCTION__, "this->_M_len > 0"); } while (false);
+ do { if (__builtin_expect(!bool(this->_M_len > 0), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string_view", 279, __PRETTY_FUNCTION__, "this->_M_len > 0"); } while (false);
  return *this->_M_str;
       }
 
@@ -22225,7 +22225,7 @@ namespace std
       constexpr const_reference
       back() const noexcept
       {
- do { if (__builtin_expect(!bool(this->_M_len > 0), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string_view", 287, __PRETTY_FUNCTION__, "this->_M_len > 0"); } while (false);
+ do { if (__builtin_expect(!bool(this->_M_len > 0), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string_view", 287, __PRETTY_FUNCTION__, "this->_M_len > 0"); } while (false);
  return *(this->_M_str + this->_M_len - 1);
       }
 
@@ -22239,7 +22239,7 @@ namespace std
       constexpr void
       remove_prefix(size_type __n) noexcept
       {
- do { if (__builtin_expect(!bool(this->_M_len >= __n), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string_view", 301, __PRETTY_FUNCTION__, "this->_M_len >= __n"); } while (false);
+ do { if (__builtin_expect(!bool(this->_M_len >= __n), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string_view", 301, __PRETTY_FUNCTION__, "this->_M_len >= __n"); } while (false);
  this->_M_str += __n;
  this->_M_len -= __n;
       }
@@ -22247,7 +22247,7 @@ namespace std
       constexpr void
       remove_suffix(size_type __n) noexcept
       {
- do { if (__builtin_expect(!bool(this->_M_len >= __n), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string_view", 309, __PRETTY_FUNCTION__, "this->_M_len >= __n"); } while (false);
+ do { if (__builtin_expect(!bool(this->_M_len >= __n), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string_view", 309, __PRETTY_FUNCTION__, "this->_M_len >= __n"); } while (false);
  this->_M_len -= __n;
       }
 
@@ -22364,7 +22364,7 @@ namespace std
       constexpr bool
       ends_with(const _CharT* __x) const noexcept
       { return this->ends_with(basic_string_view(__x)); }
-# 452 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string_view" 3
+# 452 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string_view" 3
       [[nodiscard]]
       constexpr size_type
       find(basic_string_view __str, size_type __pos = 0) const noexcept
@@ -22510,7 +22510,7 @@ namespace std
 
   template<contiguous_iterator _It, sized_sentinel_for<_It> _End>
     basic_string_view(_It, _End) -> basic_string_view<iter_value_t<_It>>;
-# 613 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string_view" 3
+# 613 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string_view" 3
   template<typename _CharT, typename _Traits>
     [[nodiscard]]
     constexpr bool
@@ -22527,7 +22527,7 @@ namespace std
     noexcept
     -> decltype(__detail::__char_traits_cmp_cat<_Traits>(0))
     { return __detail::__char_traits_cmp_cat<_Traits>(__x.compare(__y)); }
-# 765 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string_view" 3
+# 765 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string_view" 3
   template<typename _CharT, typename _Traits>
     inline basic_ostream<_CharT, _Traits>&
     operator<<(basic_ostream<_CharT, _Traits>& __os,
@@ -22674,8 +22674,8 @@ namespace std
 
 }
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/string_view.tcc" 1 3
-# 43 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/string_view.tcc" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/string_view.tcc" 1 3
+# 43 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/string_view.tcc" 3
 namespace std
 {
 
@@ -22873,14 +22873,14 @@ namespace std
 
 
 }
-# 912 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string_view" 2 3
-# 52 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 2 3
-# 68 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 912 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string_view" 2 3
+# 52 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 2 3
+# 68 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
 namespace std
 {
 
 namespace __cxx11 {
-# 93 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 93 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     class basic_string
     {
@@ -23094,7 +23094,7 @@ namespace __cxx11 {
       void
       _M_destroy(size_type __size) throw()
       { _Alloc_traits::deallocate(_M_get_allocator(), _M_data(), __size + 1); }
-# 332 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 332 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       template<typename _InIterator>
  constexpr
         void
@@ -23155,7 +23155,7 @@ namespace __cxx11 {
       }
 
     private:
-# 407 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 407 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       constexpr
       size_type
       _M_check(size_type __pos, const char* __s) const
@@ -23257,7 +23257,7 @@ namespace __cxx11 {
      traits_type::assign(*__p, static_cast<_CharT>(*__k1));
  }
 #pragma GCC diagnostic pop
-# 549 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 549 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       constexpr
       static int
       _S_compare(size_type __n1, size_type __n2) noexcept
@@ -23328,7 +23328,7 @@ namespace __cxx11 {
       {
  _M_construct<true>(__str._M_data(), __str.length());
       }
-# 628 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 628 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       constexpr
       basic_string(const basic_string& __str, size_type __pos,
      const _Alloc& __a = _Alloc())
@@ -23356,7 +23356,7 @@ namespace __cxx11 {
  _M_construct(__start, __start + __str._M_limit(__pos, __n),
        std::forward_iterator_tag());
       }
-# 663 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 663 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       constexpr
       basic_string(const basic_string& __str, size_type __pos,
      size_type __n, const _Alloc& __a)
@@ -23367,7 +23367,7 @@ namespace __cxx11 {
  _M_construct(__start, __start + __str._M_limit(__pos, __n),
        std::forward_iterator_tag());
       }
-# 683 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 683 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       constexpr
       basic_string(const _CharT* __s, size_type __n,
      const _Alloc& __a = _Alloc())
@@ -23379,7 +23379,7 @@ namespace __cxx11 {
                                                  );
  _M_construct(__s, __s + __n, std::forward_iterator_tag());
       }
-# 703 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 703 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       template<typename = _RequireAllocator<_Alloc>>
 
       constexpr
@@ -23393,14 +23393,14 @@ namespace __cxx11 {
  const _CharT* __end = __s + traits_type::length(__s);
  _M_construct(__s, __end, forward_iterator_tag());
       }
-# 726 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 726 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       template<typename = _RequireAllocator<_Alloc>>
 
       constexpr
       basic_string(size_type __n, _CharT __c, const _Alloc& __a = _Alloc())
       : _M_dataplus(_M_local_data(), __a)
       { _M_construct(__n, __c); }
-# 741 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 741 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       constexpr
       basic_string(basic_string&& __str) noexcept
       : _M_dataplus(_M_local_data(), std::move(__str._M_get_allocator()))
@@ -23424,7 +23424,7 @@ namespace __cxx11 {
  __str._M_data(__str._M_use_local_data());
  __str._M_set_length(0);
       }
-# 797 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 797 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       constexpr
       basic_string(initializer_list<_CharT> __l, const _Alloc& __a = _Alloc())
       : _M_dataplus(_M_local_data(), __a)
@@ -23460,7 +23460,7 @@ namespace __cxx11 {
  else
    _M_construct(__str.begin(), __str.end(), std::forward_iterator_tag());
       }
-# 846 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 846 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       template<typename _InputIterator,
         typename = std::_RequireInputIter<_InputIterator>>
 
@@ -23478,7 +23478,7 @@ namespace __cxx11 {
 
 
  }
-# 872 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 872 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       template<typename _Tp,
         typename = enable_if_t<is_convertible_v<const _Tp&, __sv_type>>>
  constexpr
@@ -23524,7 +23524,7 @@ namespace __cxx11 {
       basic_string&
       operator=(const _CharT* __s)
       { return this->assign(__s); }
-# 925 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 925 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       constexpr
       basic_string&
       operator=(_CharT __c)
@@ -23532,7 +23532,7 @@ namespace __cxx11 {
  this->assign(1, __c);
  return *this;
       }
-# 943 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 943 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       constexpr
       basic_string&
       operator=(basic_string&& __str)
@@ -23778,11 +23778,11 @@ namespace __cxx11 {
  const size_t __allocmax = _Alloc_traits::max_size(_M_get_allocator());
  return (std::min)(__diffmax, __allocmax) - 1;
       }
-# 1199 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 1199 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       constexpr
       void
       resize(size_type __n, _CharT __c);
-# 1213 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 1213 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       constexpr
       void
       resize(size_type __n)
@@ -23797,7 +23797,7 @@ namespace __cxx11 {
       shrink_to_fit() noexcept
       { reserve(); }
 #pragma GCC diagnostic pop
-# 1266 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 1266 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       template<typename _Operation>
  constexpr void
  __resize_and_overwrite(size_type __n, _Operation __op);
@@ -23817,7 +23817,7 @@ namespace __cxx11 {
    __builtin_unreachable ();
  return __sz;
       }
-# 1303 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 1303 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       constexpr
       void
       reserve(size_type __res_arg);
@@ -23848,27 +23848,27 @@ namespace __cxx11 {
       bool
       empty() const noexcept
       { return _M_string_length == 0; }
-# 1345 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 1345 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       [[__nodiscard__]] constexpr
       const_reference
       operator[] (size_type __pos) const noexcept
       {
- do { if (__builtin_expect(!bool(__pos <= size()), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h", 1349, __PRETTY_FUNCTION__, "__pos <= size()"); } while (false);
+ do { if (__builtin_expect(!bool(__pos <= size()), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h", 1349, __PRETTY_FUNCTION__, "__pos <= size()"); } while (false);
  return _M_data()[__pos];
       }
-# 1363 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 1363 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       [[__nodiscard__]] constexpr
       reference
       operator[](size_type __pos)
       {
 
 
- do { if (__builtin_expect(!bool(__pos <= size()), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h", 1369, __PRETTY_FUNCTION__, "__pos <= size()"); } while (false);
+ do { if (__builtin_expect(!bool(__pos <= size()), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h", 1369, __PRETTY_FUNCTION__, "__pos <= size()"); } while (false);
 
  ;
  return _M_data()[__pos];
       }
-# 1385 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 1385 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       [[__nodiscard__]] constexpr
       const_reference
       at(size_type __n) const
@@ -23880,7 +23880,7 @@ namespace __cxx11 {
        __n, this->size());
  return _M_data()[__n];
       }
-# 1407 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 1407 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       [[__nodiscard__]] constexpr
       reference
       at(size_type __n)
@@ -23902,7 +23902,7 @@ namespace __cxx11 {
       reference
       front() noexcept
       {
- do { if (__builtin_expect(!bool(!empty()), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h", 1428, __PRETTY_FUNCTION__, "!empty()"); } while (false);
+ do { if (__builtin_expect(!bool(!empty()), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h", 1428, __PRETTY_FUNCTION__, "!empty()"); } while (false);
  return operator[](0);
       }
 
@@ -23914,7 +23914,7 @@ namespace __cxx11 {
       const_reference
       front() const noexcept
       {
- do { if (__builtin_expect(!bool(!empty()), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h", 1440, __PRETTY_FUNCTION__, "!empty()"); } while (false);
+ do { if (__builtin_expect(!bool(!empty()), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h", 1440, __PRETTY_FUNCTION__, "!empty()"); } while (false);
  return operator[](0);
       }
 
@@ -23926,7 +23926,7 @@ namespace __cxx11 {
       reference
       back() noexcept
       {
- do { if (__builtin_expect(!bool(!empty()), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h", 1452, __PRETTY_FUNCTION__, "!empty()"); } while (false);
+ do { if (__builtin_expect(!bool(!empty()), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h", 1452, __PRETTY_FUNCTION__, "!empty()"); } while (false);
  return operator[](this->size() - 1);
       }
 
@@ -23938,10 +23938,10 @@ namespace __cxx11 {
       const_reference
       back() const noexcept
       {
- do { if (__builtin_expect(!bool(!empty()), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h", 1464, __PRETTY_FUNCTION__, "!empty()"); } while (false);
+ do { if (__builtin_expect(!bool(!empty()), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h", 1464, __PRETTY_FUNCTION__, "!empty()"); } while (false);
  return operator[](this->size() - 1);
       }
-# 1475 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 1475 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       constexpr
       basic_string&
       operator+=(const basic_string& __str)
@@ -23980,7 +23980,7 @@ namespace __cxx11 {
       basic_string&
       operator+=(initializer_list<_CharT> __l)
       { return this->append(__l.begin(), __l.size()); }
-# 1521 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 1521 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       template<typename _Tp>
  constexpr
  _If_sv<_Tp, basic_string&>
@@ -23997,7 +23997,7 @@ namespace __cxx11 {
       basic_string&
       append(const basic_string& __str)
       { return this->append(__str._M_data(), __str.size()); }
-# 1551 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 1551 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       constexpr
       basic_string&
       append(const basic_string& __str, size_type __pos, size_type __n = npos)
@@ -24034,17 +24034,17 @@ namespace __cxx11 {
  _M_check_length(size_type(0), __n, "basic_string::append");
  return _M_append(__s, __n);
       }
-# 1596 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 1596 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       constexpr
       basic_string&
       append(size_type __n, _CharT __c)
       { return _M_replace_aux(this->size(), size_type(0), __n, __c); }
-# 1659 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 1659 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       constexpr
       basic_string&
       append(initializer_list<_CharT> __l)
       { return this->append(__l.begin(), __l.size()); }
-# 1674 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 1674 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       template<class _InputIterator,
         typename = std::_RequireInputIter<_InputIterator>>
  constexpr
@@ -24069,7 +24069,7 @@ namespace __cxx11 {
           __sv_type __sv = __svt;
           return this->append(__sv.data(), __sv.size());
         }
-# 1706 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 1706 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       template<typename _Tp>
  constexpr
         _If_sv<_Tp, basic_string&>
@@ -24138,7 +24138,7 @@ namespace __cxx11 {
  this->_M_assign(__str);
  return *this;
       }
-# 1784 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 1784 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       constexpr
       basic_string&
       assign(basic_string&& __str)
@@ -24148,14 +24148,14 @@ namespace __cxx11 {
 
  return *this = std::move(__str);
       }
-# 1808 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 1808 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       constexpr
       basic_string&
       assign(const basic_string& __str, size_type __pos, size_type __n = npos)
       { return _M_replace(size_type(0), this->size(), __str._M_data()
      + __str._M_check(__pos, "basic_string::assign"),
      __str._M_limit(__pos, __n)); }
-# 1825 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 1825 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       constexpr
       basic_string&
       assign(const _CharT* __s, size_type __n)
@@ -24163,7 +24163,7 @@ namespace __cxx11 {
  ;
  return _M_replace(size_type(0), this->size(), __s, __n);
       }
-# 1842 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 1842 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       constexpr
       basic_string&
       assign(const _CharT* __s)
@@ -24172,12 +24172,12 @@ namespace __cxx11 {
  return _M_replace(size_type(0), this->size(), __s,
      traits_type::length(__s));
       }
-# 1860 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 1860 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       constexpr
       basic_string&
       assign(size_type __n, _CharT __c)
       { return _M_replace_aux(size_type(0), this->size(), __n, __c); }
-# 1874 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 1874 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wc++17-extensions"
       template<class _InputIterator,
@@ -24209,7 +24209,7 @@ namespace __cxx11 {
      return *this = basic_string(__first, __last, get_allocator());
  }
 #pragma GCC diagnostic pop
-# 1937 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 1937 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       constexpr
       basic_string&
       assign(initializer_list<_CharT> __l)
@@ -24227,7 +24227,7 @@ namespace __cxx11 {
    }
  return *this;
       }
-# 1962 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 1962 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       template<typename _Tp>
  constexpr
  _If_sv<_Tp, basic_string&>
@@ -24236,7 +24236,7 @@ namespace __cxx11 {
    __sv_type __sv = __svt;
    return this->assign(__sv.data(), __sv.size());
  }
-# 1978 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 1978 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       template<typename _Tp>
  constexpr
  _If_sv<_Tp, basic_string&>
@@ -24248,7 +24248,7 @@ namespace __cxx11 {
        + std::__sv_check(__sv.size(), __pos, "basic_string::assign"),
        std::__sv_limit(__sv.size(), __pos, __n));
  }
-# 2007 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 2007 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       constexpr
       iterator
       insert(const_iterator __p, size_type __n, _CharT __c)
@@ -24258,7 +24258,7 @@ namespace __cxx11 {
  this->replace(__p, __p, __n, __c);
  return iterator(this->_M_data() + __pos);
       }
-# 2050 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 2050 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       template<class _InputIterator,
         typename = std::_RequireInputIter<_InputIterator>>
  constexpr
@@ -24270,18 +24270,18 @@ namespace __cxx11 {
    this->replace(__p, __p, __beg, __end);
    return iterator(this->_M_data() + __pos);
  }
-# 2118 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 2118 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       constexpr
       iterator
       insert(const_iterator __p, initializer_list<_CharT> __l)
       { return this->insert(__p, __l.begin(), __l.end()); }
-# 2146 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 2146 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       constexpr
       basic_string&
       insert(size_type __pos1, const basic_string& __str)
       { return this->replace(__pos1, size_type(0),
         __str._M_data(), __str.size()); }
-# 2170 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 2170 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       constexpr
       basic_string&
       insert(size_type __pos1, const basic_string& __str,
@@ -24289,12 +24289,12 @@ namespace __cxx11 {
       { return this->replace(__pos1, size_type(0), __str._M_data()
         + __str._M_check(__pos2, "basic_string::insert"),
         __str._M_limit(__pos2, __n)); }
-# 2194 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 2194 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       constexpr
       basic_string&
       insert(size_type __pos, const _CharT* __s, size_type __n)
       { return this->replace(__pos, size_type(0), __s, __n); }
-# 2214 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 2214 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       constexpr
       basic_string&
       insert(size_type __pos, const _CharT* __s)
@@ -24303,13 +24303,13 @@ namespace __cxx11 {
  return this->replace(__pos, size_type(0), __s,
         traits_type::length(__s));
       }
-# 2239 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 2239 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       constexpr
       basic_string&
       insert(size_type __pos, size_type __n, _CharT __c)
       { return _M_replace_aux(_M_check(__pos, "basic_string::insert"),
          size_type(0), __n, __c); }
-# 2258 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 2258 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       constexpr
       iterator
       insert(__const_iterator __p, _CharT __c)
@@ -24319,7 +24319,7 @@ namespace __cxx11 {
  _M_replace_aux(__pos, size_type(0), size_type(1), __c);
  return iterator(_M_data() + __pos);
       }
-# 2275 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 2275 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       template<typename _Tp>
  constexpr
  _If_sv<_Tp, basic_string&>
@@ -24328,7 +24328,7 @@ namespace __cxx11 {
    __sv_type __sv = __svt;
    return this->insert(__pos, __sv.data(), __sv.size());
  }
-# 2292 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 2292 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       template<typename _Tp>
  constexpr
  _If_sv<_Tp, basic_string&>
@@ -24341,7 +24341,7 @@ namespace __cxx11 {
        + std::__sv_check(__sv.size(), __pos2, "basic_string::insert"),
        std::__sv_limit(__sv.size(), __pos2, __n));
  }
-# 2321 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 2321 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       constexpr
       basic_string&
       erase(size_type __pos = 0, size_type __n = npos)
@@ -24353,7 +24353,7 @@ namespace __cxx11 {
    this->_M_erase(__pos, _M_limit(__pos, __n));
  return *this;
       }
-# 2341 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 2341 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       constexpr
       iterator
       erase(__const_iterator __position)
@@ -24364,7 +24364,7 @@ namespace __cxx11 {
  this->_M_erase(__pos, size_type(1));
  return iterator(_M_data() + __pos);
       }
-# 2361 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 2361 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       constexpr
       iterator
       erase(__const_iterator __first, __const_iterator __last)
@@ -24389,15 +24389,15 @@ namespace __cxx11 {
       void
       pop_back() noexcept
       {
- do { if (__builtin_expect(!bool(!empty()), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h", 2385, __PRETTY_FUNCTION__, "!empty()"); } while (false);
+ do { if (__builtin_expect(!bool(!empty()), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h", 2385, __PRETTY_FUNCTION__, "!empty()"); } while (false);
  _M_erase(size() - 1, 1);
       }
-# 2407 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 2407 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       constexpr
       basic_string&
       replace(size_type __pos, size_type __n, const basic_string& __str)
       { return this->replace(__pos, __n, __str._M_data(), __str.size()); }
-# 2430 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 2430 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       constexpr
       basic_string&
       replace(size_type __pos1, size_type __n1, const basic_string& __str,
@@ -24405,7 +24405,7 @@ namespace __cxx11 {
       { return this->replace(__pos1, __n1, __str._M_data()
         + __str._M_check(__pos2, "basic_string::replace"),
         __str._M_limit(__pos2, __n2)); }
-# 2456 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 2456 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       constexpr
       basic_string&
       replace(size_type __pos, size_type __n1, const _CharT* __s,
@@ -24415,7 +24415,7 @@ namespace __cxx11 {
  return _M_replace(_M_check(__pos, "basic_string::replace"),
      _M_limit(__pos, __n1), __s, __n2);
       }
-# 2482 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 2482 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       constexpr
       basic_string&
       replace(size_type __pos, size_type __n1, const _CharT* __s)
@@ -24423,19 +24423,19 @@ namespace __cxx11 {
  ;
  return this->replace(__pos, __n1, __s, traits_type::length(__s));
       }
-# 2507 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 2507 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       constexpr
       basic_string&
       replace(size_type __pos, size_type __n1, size_type __n2, _CharT __c)
       { return _M_replace_aux(_M_check(__pos, "basic_string::replace"),
          _M_limit(__pos, __n1), __n2, __c); }
-# 2526 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 2526 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       constexpr
       basic_string&
       replace(__const_iterator __i1, __const_iterator __i2,
        const basic_string& __str)
       { return this->replace(__i1, __i2, __str._M_data(), __str.size()); }
-# 2547 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 2547 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       constexpr
       basic_string&
       replace(__const_iterator __i1, __const_iterator __i2,
@@ -24445,7 +24445,7 @@ namespace __cxx11 {
                       ;
  return this->replace(__i1 - begin(), __i2 - __i1, __s, __n);
       }
-# 2570 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 2570 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       constexpr
       basic_string&
       replace(__const_iterator __i1, __const_iterator __i2, const _CharT* __s)
@@ -24453,7 +24453,7 @@ namespace __cxx11 {
  ;
  return this->replace(__i1, __i2, __s, traits_type::length(__s));
       }
-# 2592 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 2592 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       constexpr
       basic_string&
       replace(__const_iterator __i1, __const_iterator __i2, size_type __n,
@@ -24463,7 +24463,7 @@ namespace __cxx11 {
                       ;
  return _M_replace_aux(__i1 - begin(), __i2 - __i1, __n, __c);
       }
-# 2618 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 2618 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       template<class _InputIterator,
         typename = std::_RequireInputIter<_InputIterator>>
  constexpr
@@ -24477,7 +24477,7 @@ namespace __cxx11 {
    return this->_M_replace_dispatch(__i1, __i2, __k1, __k2,
         std::__false_type());
  }
-# 2651 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 2651 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       constexpr
       basic_string&
       replace(__const_iterator __i1, __const_iterator __i2,
@@ -24525,12 +24525,12 @@ namespace __cxx11 {
  return this->replace(__i1 - begin(), __i2 - __i1,
         __k1.base(), __k2 - __k1);
       }
-# 2738 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 2738 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       constexpr
       basic_string& replace(const_iterator __i1, const_iterator __i2,
        initializer_list<_CharT> __l)
       { return this->replace(__i1, __i2, __l.begin(), __l.size()); }
-# 2752 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 2752 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       template<typename _Tp>
  constexpr
  _If_sv<_Tp, basic_string&>
@@ -24539,7 +24539,7 @@ namespace __cxx11 {
    __sv_type __sv = __svt;
    return this->replace(__pos, __n, __sv.data(), __sv.size());
  }
-# 2770 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 2770 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       template<typename _Tp>
  constexpr
  _If_sv<_Tp, basic_string&>
@@ -24552,7 +24552,7 @@ namespace __cxx11 {
        + std::__sv_check(__sv.size(), __pos2, "basic_string::replace"),
        std::__sv_limit(__sv.size(), __pos2, __n2));
  }
-# 2792 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 2792 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       template<typename _Tp>
  constexpr
  _If_sv<_Tp, basic_string&>
@@ -24597,25 +24597,25 @@ namespace __cxx11 {
       _M_append(const _CharT* __s, size_type __n);
 
     public:
-# 2849 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 2849 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       constexpr
       size_type
       copy(_CharT* __s, size_type __n, size_type __pos = 0) const;
-# 2860 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 2860 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       constexpr
       void
       swap(basic_string& __s) noexcept;
-# 2871 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 2871 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       [[__nodiscard__]] constexpr
       const _CharT*
       c_str() const noexcept
       { return _M_data(); }
-# 2884 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 2884 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       [[__nodiscard__]] constexpr
       const _CharT*
       data() const noexcept
       { return _M_data(); }
-# 2896 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 2896 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       [[__nodiscard__]] constexpr
       _CharT*
       data() noexcept
@@ -24629,18 +24629,18 @@ namespace __cxx11 {
       allocator_type
       get_allocator() const noexcept
       { return _M_get_allocator(); }
-# 2922 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 2922 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       [[__nodiscard__]] constexpr
       size_type
       find(const _CharT* __s, size_type __pos, size_type __n) const
       noexcept;
-# 2937 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 2937 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       [[__nodiscard__]] constexpr
       size_type
       find(const basic_string& __str, size_type __pos = 0) const
       noexcept
       { return this->find(__str.data(), __pos, __str.size()); }
-# 2950 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 2950 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       template<typename _Tp>
  [[__nodiscard__]] constexpr
  _If_sv<_Tp, size_type>
@@ -24650,7 +24650,7 @@ namespace __cxx11 {
    __sv_type __sv = __svt;
    return this->find(__sv.data(), __pos, __sv.size());
  }
-# 2971 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 2971 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       [[__nodiscard__]] constexpr
       size_type
       find(const _CharT* __s, size_type __pos = 0) const noexcept
@@ -24658,17 +24658,17 @@ namespace __cxx11 {
  ;
  return this->find(__s, __pos, traits_type::length(__s));
       }
-# 2989 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 2989 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       [[__nodiscard__]] constexpr
       size_type
       find(_CharT __c, size_type __pos = 0) const noexcept;
-# 3003 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 3003 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       [[__nodiscard__]] constexpr
       size_type
       rfind(const basic_string& __str, size_type __pos = npos) const
       noexcept
       { return this->rfind(__str.data(), __pos, __str.size()); }
-# 3016 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 3016 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       template<typename _Tp>
  [[__nodiscard__]] constexpr
  _If_sv<_Tp, size_type>
@@ -24678,12 +24678,12 @@ namespace __cxx11 {
    __sv_type __sv = __svt;
    return this->rfind(__sv.data(), __pos, __sv.size());
  }
-# 3039 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 3039 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       [[__nodiscard__]] constexpr
       size_type
       rfind(const _CharT* __s, size_type __pos, size_type __n) const
       noexcept;
-# 3054 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 3054 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       [[__nodiscard__]] constexpr
       size_type
       rfind(const _CharT* __s, size_type __pos = npos) const
@@ -24691,17 +24691,17 @@ namespace __cxx11 {
  ;
  return this->rfind(__s, __pos, traits_type::length(__s));
       }
-# 3072 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 3072 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       [[__nodiscard__]] constexpr
       size_type
       rfind(_CharT __c, size_type __pos = npos) const noexcept;
-# 3087 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 3087 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       [[__nodiscard__]] constexpr
       size_type
       find_first_of(const basic_string& __str, size_type __pos = 0) const
       noexcept
       { return this->find_first_of(__str.data(), __pos, __str.size()); }
-# 3101 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 3101 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       template<typename _Tp>
  [[__nodiscard__]] constexpr
  _If_sv<_Tp, size_type>
@@ -24711,12 +24711,12 @@ namespace __cxx11 {
    __sv_type __sv = __svt;
    return this->find_first_of(__sv.data(), __pos, __sv.size());
  }
-# 3124 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 3124 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       [[__nodiscard__]] constexpr
       size_type
       find_first_of(const _CharT* __s, size_type __pos, size_type __n) const
       noexcept;
-# 3139 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 3139 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       [[__nodiscard__]] constexpr
       size_type
       find_first_of(const _CharT* __s, size_type __pos = 0) const
@@ -24725,18 +24725,18 @@ namespace __cxx11 {
  ;
  return this->find_first_of(__s, __pos, traits_type::length(__s));
       }
-# 3160 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 3160 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       [[__nodiscard__]] constexpr
       size_type
       find_first_of(_CharT __c, size_type __pos = 0) const noexcept
       { return this->find(__c, __pos); }
-# 3176 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 3176 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       [[__nodiscard__]] constexpr
       size_type
       find_last_of(const basic_string& __str, size_type __pos = npos) const
       noexcept
       { return this->find_last_of(__str.data(), __pos, __str.size()); }
-# 3190 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 3190 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       template<typename _Tp>
  [[__nodiscard__]] constexpr
  _If_sv<_Tp, size_type>
@@ -24746,12 +24746,12 @@ namespace __cxx11 {
    __sv_type __sv = __svt;
    return this->find_last_of(__sv.data(), __pos, __sv.size());
  }
-# 3213 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 3213 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       [[__nodiscard__]] constexpr
       size_type
       find_last_of(const _CharT* __s, size_type __pos, size_type __n) const
       noexcept;
-# 3228 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 3228 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       [[__nodiscard__]] constexpr
       size_type
       find_last_of(const _CharT* __s, size_type __pos = npos) const
@@ -24760,18 +24760,18 @@ namespace __cxx11 {
  ;
  return this->find_last_of(__s, __pos, traits_type::length(__s));
       }
-# 3249 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 3249 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       [[__nodiscard__]] constexpr
       size_type
       find_last_of(_CharT __c, size_type __pos = npos) const noexcept
       { return this->rfind(__c, __pos); }
-# 3264 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 3264 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       [[__nodiscard__]] constexpr
       size_type
       find_first_not_of(const basic_string& __str, size_type __pos = 0) const
       noexcept
       { return this->find_first_not_of(__str.data(), __pos, __str.size()); }
-# 3278 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 3278 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       template<typename _Tp>
  [[__nodiscard__]] constexpr
  _If_sv<_Tp, size_type>
@@ -24781,12 +24781,12 @@ namespace __cxx11 {
    __sv_type __sv = __svt;
    return this->find_first_not_of(__sv.data(), __pos, __sv.size());
  }
-# 3301 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 3301 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       [[__nodiscard__]] constexpr
       size_type
       find_first_not_of(const _CharT* __s, size_type __pos,
    size_type __n) const noexcept;
-# 3316 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 3316 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       [[__nodiscard__]] constexpr
       size_type
       find_first_not_of(const _CharT* __s, size_type __pos = 0) const
@@ -24795,18 +24795,18 @@ namespace __cxx11 {
  ;
  return this->find_first_not_of(__s, __pos, traits_type::length(__s));
       }
-# 3335 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 3335 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       [[__nodiscard__]] constexpr
       size_type
       find_first_not_of(_CharT __c, size_type __pos = 0) const
       noexcept;
-# 3351 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 3351 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       [[__nodiscard__]] constexpr
       size_type
       find_last_not_of(const basic_string& __str, size_type __pos = npos) const
       noexcept
       { return this->find_last_not_of(__str.data(), __pos, __str.size()); }
-# 3365 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 3365 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       template<typename _Tp>
  [[__nodiscard__]] constexpr
  _If_sv<_Tp, size_type>
@@ -24816,12 +24816,12 @@ namespace __cxx11 {
    __sv_type __sv = __svt;
    return this->find_last_not_of(__sv.data(), __pos, __sv.size());
  }
-# 3388 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 3388 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       [[__nodiscard__]] constexpr
       size_type
       find_last_not_of(const _CharT* __s, size_type __pos,
          size_type __n) const noexcept;
-# 3403 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 3403 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       [[__nodiscard__]] constexpr
       size_type
       find_last_not_of(const _CharT* __s, size_type __pos = npos) const
@@ -24830,18 +24830,18 @@ namespace __cxx11 {
  ;
  return this->find_last_not_of(__s, __pos, traits_type::length(__s));
       }
-# 3422 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 3422 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       [[__nodiscard__]] constexpr
       size_type
       find_last_not_of(_CharT __c, size_type __pos = npos) const
       noexcept;
-# 3439 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 3439 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       [[__nodiscard__]] constexpr
       basic_string
       substr(size_type __pos = 0, size_type __n = npos) const
       { return basic_string(*this,
        _M_check(__pos, "basic_string::substr"), __n); }
-# 3459 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 3459 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       [[__nodiscard__]] constexpr
       int
       compare(const basic_string& __str) const
@@ -24878,7 +24878,7 @@ namespace __cxx11 {
      __r = _S_compare(__size, __osize);
    return __r;
  }
-# 3504 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 3504 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       template<typename _Tp>
  [[__nodiscard__]] constexpr
  _If_sv<_Tp, int>
@@ -24888,7 +24888,7 @@ namespace __cxx11 {
    __sv_type __sv = __svt;
    return __sv_type(*this).substr(__pos, __n).compare(__sv);
  }
-# 3524 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 3524 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       template<typename _Tp>
  [[__nodiscard__]] constexpr
  _If_sv<_Tp, int>
@@ -24900,7 +24900,7 @@ namespace __cxx11 {
    return __sv_type(*this)
      .substr(__pos1, __n1).compare(__sv.substr(__pos2, __n2));
  }
-# 3556 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 3556 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       [[__nodiscard__]] constexpr
       int
       compare(size_type __pos, size_type __n, const basic_string& __str) const
@@ -24914,7 +24914,7 @@ namespace __cxx11 {
    __r = _S_compare(__n, __osize);
  return __r;
       }
-# 3593 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 3593 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       [[__nodiscard__]] constexpr
       int
       compare(size_type __pos1, size_type __n1, const basic_string& __str,
@@ -24931,7 +24931,7 @@ namespace __cxx11 {
    __r = _S_compare(__n1, __n2);
  return __r;
       }
-# 3624 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 3624 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       [[__nodiscard__]] constexpr
       int
       compare(const _CharT* __s) const noexcept
@@ -24945,7 +24945,7 @@ namespace __cxx11 {
    __r = _S_compare(__size, __osize);
  return __r;
       }
-# 3659 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 3659 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       [[__nodiscard__]] constexpr
       int
       compare(size_type __pos, size_type __n1, const _CharT* __s) const
@@ -24960,7 +24960,7 @@ namespace __cxx11 {
    __r = _S_compare(__n1, __osize);
  return __r;
       }
-# 3698 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 3698 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       [[__nodiscard__]] constexpr
       int
       compare(size_type __pos, size_type __n1, const _CharT* __s,
@@ -25006,7 +25006,7 @@ namespace __cxx11 {
       constexpr bool
       ends_with(const _CharT* __x) const noexcept
       { return __sv_type(this->data(), this->size()).ends_with(__x); }
-# 3763 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 3763 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
       template<typename, typename, typename> friend class basic_stringbuf;
     };
 }
@@ -25044,7 +25044,7 @@ namespace __cxx11 {
    typename basic_string<_CharT, _Traits, _Allocator>::size_type,
    const _Allocator& = _Allocator())
       -> basic_string<_CharT, _Traits, _Allocator>;
-# 3809 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 3809 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
 }
 
 
@@ -25065,7 +25065,7 @@ namespace __cxx11 {
       __str.append(__rhs, __rhs_len);
       return __str;
     }
-# 3837 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 3837 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     [[__nodiscard__]] constexpr
     inline basic_string<_CharT, _Traits, _Alloc>
@@ -25214,7 +25214,7 @@ namespace __cxx11 {
     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
        _CharT __rhs)
     { return std::move(__lhs.append(1, __rhs)); }
-# 4042 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 4042 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     [[__nodiscard__]] constexpr
     inline bool
@@ -25241,7 +25241,7 @@ namespace __cxx11 {
       return __lhs.size() == _Traits::length(__rhs)
         && !_Traits::compare(__lhs.data(), __rhs, __lhs.size());
     }
-# 4077 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 4077 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     [[nodiscard]]
     constexpr auto
@@ -25249,7 +25249,7 @@ namespace __cxx11 {
   const basic_string<_CharT, _Traits, _Alloc>& __rhs) noexcept
     -> decltype(__detail::__char_traits_cmp_cat<_Traits>(0))
     { return __detail::__char_traits_cmp_cat<_Traits>(__lhs.compare(__rhs)); }
-# 4092 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 4092 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     [[nodiscard]]
     constexpr auto
@@ -25257,7 +25257,7 @@ namespace __cxx11 {
   const _CharT* __rhs) noexcept
     -> decltype(__detail::__char_traits_cmp_cat<_Traits>(0))
     { return __detail::__char_traits_cmp_cat<_Traits>(__lhs.compare(__rhs)); }
-# 4326 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 4326 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     constexpr
     inline void
@@ -25265,7 +25265,7 @@ namespace __cxx11 {
   basic_string<_CharT, _Traits, _Alloc>& __rhs)
     noexcept(noexcept(__lhs.swap(__rhs)))
     { __lhs.swap(__rhs); }
-# 4347 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 4347 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     basic_istream<_CharT, _Traits>&
     operator>>(basic_istream<_CharT, _Traits>& __is,
@@ -25274,7 +25274,7 @@ namespace __cxx11 {
   template<>
     basic_istream<char>&
     operator>>(basic_istream<char>& __is, basic_string<char>& __str);
-# 4365 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 4365 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     inline basic_ostream<_CharT, _Traits>&
     operator<<(basic_ostream<_CharT, _Traits>& __os,
@@ -25284,12 +25284,12 @@ namespace __cxx11 {
 
       return __ostream_insert(__os, __str.data(), __str.size());
     }
-# 4388 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 4388 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     basic_istream<_CharT, _Traits>&
     getline(basic_istream<_CharT, _Traits>& __is,
      basic_string<_CharT, _Traits, _Alloc>& __str, _CharT __delim);
-# 4405 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 4405 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     inline basic_istream<_CharT, _Traits>&
     getline(basic_istream<_CharT, _Traits>& __is,
@@ -25329,18 +25329,18 @@ namespace __cxx11 {
 
 
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/string_conversions.h" 1 3
-# 45 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/string_conversions.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdlib" 1 3
-# 80 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdlib" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/string_conversions.h" 1 3
+# 45 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/string_conversions.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdlib" 1 3
+# 80 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdlib" 3
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wpedantic"
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/stdlib.h" 1 3
-# 11 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/stdlib.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h" 1 3 4
-# 34 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h" 3 4
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h" 1 3 4
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdlib.h" 1 3
+# 11 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdlib.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h" 1 3 4
+# 34 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h" 3 4
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h" 1 3 4
 
 
 
@@ -25349,22 +25349,22 @@ namespace __cxx11 {
 
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wpedantic"
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h" 1 3 4
-# 210 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h" 3 4
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/limits.h" 1 3 4
-# 211 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h" 2 3 4
-# 10 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h" 2 3 4
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h" 1 3 4
+# 210 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h" 3 4
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/limits.h" 1 3 4
+# 211 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h" 2 3 4
+# 10 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h" 2 3 4
 #pragma GCC diagnostic pop
-# 35 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h" 2 3 4
-# 12 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/stdlib.h" 2 3
-# 26 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/stdlib.h" 3
+# 35 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h" 2 3 4
+# 12 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdlib.h" 2 3
+# 26 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdlib.h" 3
 #pragma pack(push,_CRT_PACKING)
 
 
 extern "C" {
-# 50 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/stdlib.h" 3
+# 50 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdlib.h" 3
   typedef int (__attribute__((__cdecl__)) *_onexit_t)(void);
-# 60 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/stdlib.h" 3
+# 60 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdlib.h" 3
   typedef struct _div_t {
     int quot;
     int rem;
@@ -25409,7 +25409,7 @@ extern "C" {
     unsigned char ld12[12];
   } _LDBL12;
 #pragma pack()
-# 135 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/stdlib.h" 3
+# 135 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdlib.h" 3
   typedef void (__attribute__((__cdecl__)) *_purecall_handler)(void);
 
   __attribute__ ((__dllimport__)) _purecall_handler __attribute__((__cdecl__)) _set_purecall_handler(_purecall_handler _Handler);
@@ -25446,16 +25446,16 @@ extern "C" {
   errno_t __attribute__((__cdecl__)) _get_wpgmptr(wchar_t **_Value);
   __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _set_fmode(int _Mode);
   __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _get_fmode(int *_PMode);
-# 221 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/stdlib.h" 3
+# 221 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdlib.h" 3
   __attribute__ ((__dllimport__)) char ***__attribute__((__cdecl__)) __p__environ(void);
   __attribute__ ((__dllimport__)) wchar_t ***__attribute__((__cdecl__)) __p__wenviron(void);
-# 234 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/stdlib.h" 3
+# 234 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdlib.h" 3
   __attribute__ ((__dllimport__)) unsigned int *__attribute__((__cdecl__)) __p__osplatform(void);
   __attribute__ ((__dllimport__)) unsigned int *__attribute__((__cdecl__)) __p__osver(void);
   __attribute__ ((__dllimport__)) unsigned int *__attribute__((__cdecl__)) __p__winver(void);
   __attribute__ ((__dllimport__)) unsigned int *__attribute__((__cdecl__)) __p__winmajor(void);
   __attribute__ ((__dllimport__)) unsigned int *__attribute__((__cdecl__)) __p__winminor(void);
-# 256 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/stdlib.h" 3
+# 256 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdlib.h" 3
   errno_t __attribute__((__cdecl__)) _get_osplatform(unsigned int *_Value);
   errno_t __attribute__((__cdecl__)) _get_osver(unsigned int *_Value);
   errno_t __attribute__((__cdecl__)) _get_winver(unsigned int *_Value);
@@ -25561,7 +25561,7 @@ extern "C" {
   int __attribute__((__cdecl__)) rand(void);
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _set_error_mode(int _Mode);
   void __attribute__((__cdecl__)) srand(unsigned int _Seed);
-# 371 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/stdlib.h" 3
+# 371 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdlib.h" 3
 inline __attribute__((__cdecl__))
 double __attribute__((__cdecl__)) __attribute__ ((__nothrow__)) strtod(const char * __restrict__ _Str,char ** __restrict__ _EndPtr)
 {
@@ -25612,7 +25612,7 @@ float __attribute__((__cdecl__)) __attribute__ ((__nothrow__)) strtof(const char
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wctomb_l(char *_MbCh,wchar_t _WCh,_locale_t _Locale) ;
   size_t __attribute__((__cdecl__)) wcstombs(char * __restrict__ _Dest,const wchar_t * __restrict__ _Source,size_t _MaxCount) ;
   __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _wcstombs_l(char * __restrict__ _Dest,const wchar_t * __restrict__ _Source,size_t _MaxCount,_locale_t _Locale) ;
-# 454 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/stdlib.h" 3
+# 454 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdlib.h" 3
   void *__attribute__((__cdecl__)) calloc(size_t _NumOfElements,size_t _SizeOfElements);
   void __attribute__((__cdecl__)) free(void *_Memory);
   void *__attribute__((__cdecl__)) malloc(size_t _Size);
@@ -25626,10 +25626,10 @@ float __attribute__((__cdecl__)) __attribute__ ((__nothrow__)) strtof(const char
   __attribute__ ((__dllimport__)) void *__attribute__((__cdecl__)) _aligned_recalloc(void *_Memory,size_t _Count,size_t _Size,size_t _Alignment);
   __attribute__ ((__dllimport__)) void *__attribute__((__cdecl__)) _aligned_offset_recalloc(void *_Memory,size_t _Count,size_t _Size,size_t _Alignment,size_t _Offset);
   __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _aligned_msize(void *_Memory,size_t _Alignment,size_t _Offset);
-# 546 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/stdlib.h" 3
+# 546 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdlib.h" 3
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _putenv(const char *_EnvString);
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wputenv(const wchar_t *_EnvString);
-# 556 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/stdlib.h" 3
+# 556 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdlib.h" 3
   __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _fullpath(char *_FullPath,const char *_Path,size_t _SizeInBytes);
 
 
@@ -25644,7 +25644,7 @@ float __attribute__((__cdecl__)) __attribute__ ((__nothrow__)) strtof(const char
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _atodbl_l(_CRT_DOUBLE *_Result,char *_Str,_locale_t _Locale);
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _atoldbl_l(_LDOUBLE *_Result,char *_Str,_locale_t _Locale);
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _atoflt_l(_CRT_FLOAT *_Result,char *_Str,_locale_t _Locale);
-# 585 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/stdlib.h" 3
+# 585 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdlib.h" 3
 unsigned long __attribute__((__cdecl__)) _lrotl(unsigned long,int);
 unsigned long __attribute__((__cdecl__)) _lrotr(unsigned long,int);
 
@@ -25679,12 +25679,12 @@ unsigned long __attribute__((__cdecl__)) _lrotr(unsigned long,int);
   __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _searchenv(const char *_Filename,const char *_EnvVar,char *_ResultPath) ;
   __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _splitpath(const char *_FullPath,char *_Drive,char *_Dir,char *_Filename,char *_Ext) ;
   __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _swab(char *_Buf1,char *_Buf2,int _SizeInBytes);
-# 639 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/stdlib.h" 3
+# 639 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdlib.h" 3
   __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _beep(unsigned _Frequency,unsigned _Duration) __attribute__ ((__deprecated__));
 
   __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _seterrormode(int _Mode) __attribute__ ((__deprecated__));
   __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _sleep(unsigned long _Duration) __attribute__ ((__deprecated__));
-# 663 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/stdlib.h" 3
+# 663 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdlib.h" 3
   char *__attribute__((__cdecl__)) ecvt(double _Val,int _NumOfDigits,int *_PtDec,int *_PtSign) ;
   char *__attribute__((__cdecl__)) fcvt(double _Val,int _NumOfDec,int *_PtDec,int *_PtSign) ;
   char *__attribute__((__cdecl__)) gcvt(double _Val,int _NumOfDigits,char *_DstBuf) ;
@@ -25725,19 +25725,19 @@ unsigned long __attribute__((__cdecl__)) _lrotr(unsigned long,int);
   __extension__ char *__attribute__((__cdecl__)) ulltoa (unsigned long long , char *, int);
   __extension__ wchar_t *__attribute__((__cdecl__)) lltow (long long, wchar_t *, int);
   __extension__ wchar_t *__attribute__((__cdecl__)) ulltow (unsigned long long, wchar_t *, int);
-# 717 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/stdlib.h" 3
+# 717 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdlib.h" 3
 }
 
 
 #pragma pack(pop)
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h" 1 3
-# 9 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/stdlib.h" 1 3
-# 30 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/stdlib.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/stdlib.h" 1 3
-# 31 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/stdlib.h" 2 3
-# 10 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h" 1 3
+# 9 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/stdlib.h" 1 3
+# 30 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/stdlib.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdlib.h" 1 3
+# 31 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/stdlib.h" 2 3
+# 10 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h" 2 3
 
 
 extern "C" {
@@ -25795,14 +25795,14 @@ extern "C" {
 
 
 }
-# 723 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/stdlib.h" 2 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/malloc.h" 1 3
-# 11 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/malloc.h" 3
+# 723 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdlib.h" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/malloc.h" 1 3
+# 11 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/malloc.h" 3
 #pragma pack(push,_CRT_PACKING)
 
 
 extern "C" {
-# 52 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/malloc.h" 3
+# 52 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/malloc.h" 3
   typedef struct _heapinfo {
     int *_pentry;
     size_t _size;
@@ -25812,7 +25812,7 @@ extern "C" {
 
 
   __attribute__ ((__dllimport__)) unsigned int *__attribute__((__cdecl__)) __p__amblksiz(void);
-# 129 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/malloc.h" 3
+# 129 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/malloc.h" 3
 void * __mingw_aligned_malloc (size_t _Size, size_t _Alignment);
 void __mingw_aligned_free (void *_Memory);
 void * __mingw_aligned_offset_realloc (void *_Memory, size_t _Size, size_t _Alignment, size_t _Offset);
@@ -25822,17 +25822,17 @@ size_t __mingw_aligned_msize (void *memblock, size_t alignment, size_t offset);
 
 
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h" 1 3 4
-# 27 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h" 3 4
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/stdlib.h" 1 3 4
-# 28 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h" 2 3 4
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h" 1 3 4
+# 27 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h" 3 4
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/stdlib.h" 1 3 4
+# 28 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h" 2 3 4
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/errno.h" 1 3 4
-# 12 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/errno.h" 3 4
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/errno.h" 1 3 4
+# 12 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/errno.h" 3 4
 extern "C" {
-# 239 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/errno.h" 3 4
+# 239 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/errno.h" 3 4
 }
-# 30 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h" 2 3 4
+# 30 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h" 2 3 4
 
 
 static __inline__ void *
@@ -25880,7 +25880,7 @@ _mm_free (void *__aligned_ptr)
   if (__aligned_ptr)
     free (((void **) __aligned_ptr)[-1]);
 }
-# 139 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/malloc.h" 2 3
+# 139 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/malloc.h" 2 3
 
 
 
@@ -25898,7 +25898,7 @@ _mm_free (void *__aligned_ptr)
 
   __attribute__ ((__dllimport__)) void *__attribute__((__cdecl__)) _expand(void *_Memory,size_t _NewSize);
   __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _msize(void *_Memory);
-# 167 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/malloc.h" 3
+# 167 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/malloc.h" 3
   __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _get_sbh_threshold(void);
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _set_sbh_threshold(size_t _NewValue);
   __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _set_amblksiz(size_t _Value);
@@ -25910,7 +25910,7 @@ _mm_free (void *__aligned_ptr)
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _heapwalk(_HEAPINFO *_EntryInfo);
   __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _heapused(size_t *_Used,size_t *_Commit);
   __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _get_heap_handle(void);
-# 190 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/malloc.h" 3
+# 190 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/malloc.h" 3
   static __inline void *_MarkAllocaS(void *_Ptr,unsigned int _Marker) {
     if(_Ptr) {
       *((unsigned int*)_Ptr) = _Marker;
@@ -25918,7 +25918,7 @@ _mm_free (void *__aligned_ptr)
     }
     return _Ptr;
   }
-# 218 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/malloc.h" 3
+# 218 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/malloc.h" 3
   static __inline void __attribute__((__cdecl__)) _freea(void *_Memory) {
     unsigned int _Marker;
     if(_Memory) {
@@ -25934,22 +25934,22 @@ _mm_free (void *__aligned_ptr)
 
     }
   }
-# 261 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/malloc.h" 3
+# 261 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/malloc.h" 3
 }
 
 
 #pragma pack(pop)
-# 724 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/stdlib.h" 2 3
-# 84 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdlib" 2 3
+# 724 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdlib.h" 2 3
+# 84 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdlib" 2 3
 
 #pragma GCC diagnostic pop
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/std_abs.h" 1 3
-# 39 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/std_abs.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/std_abs.h" 1 3
+# 39 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/std_abs.h" 3
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wpedantic"
 #pragma GCC diagnostic ignored "-Wlong-long"
-# 52 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/std_abs.h" 3
+# 52 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/std_abs.h" 3
 extern "C++"
 {
 namespace std
@@ -25966,7 +25966,7 @@ namespace std
 
   inline long long
   abs(long long __x) { return __builtin_llabs (__x); }
-# 76 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/std_abs.h" 3
+# 76 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/std_abs.h" 3
   inline constexpr double
   abs(double __x)
   { return __builtin_fabs(__x); }
@@ -25983,7 +25983,7 @@ namespace std
 
   __extension__ inline constexpr __int128
   abs(__int128 __x) { return __x >= 0 ? __x : -__x; }
-# 141 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/std_abs.h" 3
+# 141 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/std_abs.h" 3
   __extension__ inline constexpr
   __float128
   abs(__float128 __x)
@@ -26004,8 +26004,8 @@ namespace std
 }
 
 #pragma GCC diagnostic pop
-# 88 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdlib" 2 3
-# 131 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdlib" 3
+# 88 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdlib" 2 3
+# 131 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdlib" 3
 extern "C++"
 {
 namespace std
@@ -26068,7 +26068,7 @@ namespace std
 
 
 }
-# 205 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdlib" 3
+# 205 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdlib" 3
 namespace __gnu_cxx
 {
 
@@ -26094,7 +26094,7 @@ namespace __gnu_cxx
 
   using ::lldiv;
 #pragma GCC diagnostic pop
-# 240 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdlib" 3
+# 240 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdlib" 3
   using ::atoll;
   using ::strtoll;
   using ::strtoull;
@@ -26122,12 +26122,12 @@ namespace std
   using ::__gnu_cxx::strtoull;
   using ::__gnu_cxx::strtold;
 }
-# 284 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdlib" 3
+# 284 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdlib" 3
 }
-# 46 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/string_conversions.h" 2 3
+# 46 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/string_conversions.h" 2 3
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdio" 1 3
-# 98 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdio" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdio" 1 3
+# 98 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdio" 3
 namespace std
 {
   using ::FILE;
@@ -26180,10 +26180,10 @@ namespace std
   using ::vprintf;
   using ::vsprintf;
 }
-# 159 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdio" 3
+# 159 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdio" 3
 namespace __gnu_cxx
 {
-# 177 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdio" 3
+# 177 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdio" 3
   using ::snprintf;
   using ::vfscanf;
   using ::vscanf;
@@ -26200,9 +26200,9 @@ namespace std
   using ::__gnu_cxx::vsnprintf;
   using ::__gnu_cxx::vsscanf;
 }
-# 48 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/string_conversions.h" 2 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cerrno" 1 3
-# 49 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/string_conversions.h" 2 3
+# 48 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/string_conversions.h" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cerrno" 1 3
+# 49 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/string_conversions.h" 2 3
 
 namespace __gnu_cxx
 {
@@ -26278,9 +26278,9 @@ namespace __gnu_cxx
 
 
 }
-# 4445 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 2 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/charconv.h" 1 3
-# 42 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/charconv.h" 3
+# 4445 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/charconv.h" 1 3
+# 42 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/charconv.h" 3
 namespace std
 {
 
@@ -26356,7 +26356,7 @@ namespace __detail
 }
 
 }
-# 4446 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 2 3
+# 4446 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 2 3
 
 namespace std
 {
@@ -26389,7 +26389,7 @@ namespace __cxx11 {
   stoull(const string& __str, size_t* __idx = 0, int __base = 10)
   { return __gnu_cxx::__stoa(&std::strtoull, "stoull", __str.c_str(),
         __idx, __base); }
-# 4488 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 4488 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
   inline double
   stod(const string& __str, size_t* __idx = 0)
   { return __gnu_cxx::__stoa(&std::strtod, "stod", __str.c_str(), __idx); }
@@ -26399,11 +26399,11 @@ namespace __cxx11 {
   inline float
   stof(const string& __str, size_t* __idx = 0)
   { return __gnu_cxx::__stoa(&std::strtof, "stof", __str.c_str(), __idx); }
-# 4516 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 4516 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
   inline long double
   stold(const string& __str, size_t* __idx = 0)
   { return __gnu_cxx::__stoa(&std::strtold, "stold", __str.c_str(), __idx); }
-# 4528 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 4528 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
   [[__nodiscard__]]
   inline string
   to_string(int __val)
@@ -26503,7 +26503,7 @@ namespace __cxx11 {
     });
     return __str;
   }
-# 4687 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 4687 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wsuggest-attribute=format"
 
@@ -26780,7 +26780,7 @@ namespace std
   template<> struct __is_fast_hash<hash<u32string>> : std::false_type { };
 
   template<> struct __is_fast_hash<hash<u8string>> : std::false_type { };
-# 4973 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
+# 4973 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h" 3
   inline namespace literals
   {
   inline namespace string_literals
@@ -26846,9 +26846,9 @@ namespace std
 
 
 }
-# 57 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string" 2 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.tcc" 1 3
-# 46 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.tcc" 3
+# 57 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.tcc" 1 3
+# 46 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.tcc" 3
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wc++11-extensions"
 
@@ -27402,7 +27402,7 @@ namespace std
 
       return __n;
     }
-# 611 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.tcc" 3
+# 611 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.tcc" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
   template<typename _Operation>
     constexpr void
@@ -27437,7 +27437,7 @@ namespace std
       if (__term._M_r > __n)
  __builtin_unreachable();
     }
-# 654 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.tcc" 3
+# 654 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.tcc" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     constexpr
     typename basic_string<_CharT, _Traits, _Alloc>::size_type
@@ -27782,7 +27782,7 @@ namespace std
  ___in.setstate(__err);
       return ___in;
     }
-# 1021 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.tcc" 3
+# 1021 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.tcc" 3
   extern template
     basic_istream<char>&
     operator>>(basic_istream<char>&, string&);
@@ -27795,7 +27795,7 @@ namespace std
   extern template
     basic_istream<char>&
     getline(basic_istream<char>&, string&);
-# 1047 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.tcc" 3
+# 1047 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.tcc" 3
   extern template
     basic_istream<wchar_t>&
     operator>>(basic_istream<wchar_t>&, wstring&);
@@ -27815,38 +27815,38 @@ namespace std
 }
 
 #pragma GCC diagnostic pop
-# 58 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string" 2 3
-# 69 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/version.h" 1 3
-# 70 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string" 2 3
+# 58 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string" 2 3
+# 69 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/version.h" 1 3
+# 70 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string" 2 3
 
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/memory_resource.h" 1 3
-# 40 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/memory_resource.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstddef" 1 3
-# 52 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstddef" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h" 1 3 4
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/stddef.h" 1 3 4
-# 13 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/stddef.h" 3 4
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/memory_resource.h" 1 3
+# 40 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/memory_resource.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstddef" 1 3
+# 52 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstddef" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h" 1 3 4
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stddef.h" 1 3 4
+# 13 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stddef.h" 3 4
 extern "C" {
-# 24 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/stddef.h" 3 4
+# 24 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stddef.h" 3 4
   __attribute__ ((__dllimport__)) extern unsigned long __attribute__((__cdecl__)) __threadid(void);
 
   __attribute__ ((__dllimport__)) extern uintptr_t __attribute__((__cdecl__)) __threadhandle(void);
 
 
 }
-# 424 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/stddef.h" 3 4
+# 424 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stddef.h" 3 4
 typedef struct {
   long long __max_align_ll __attribute__((__aligned__(__alignof__(long long))));
   long double __max_align_ld __attribute__((__aligned__(__alignof__(long double))));
 } max_align_t;
-# 2 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h" 2 3 4
-# 53 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstddef" 2 3
+# 2 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h" 2 3 4
+# 53 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstddef" 2 3
 
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/version.h" 1 3
-# 56 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstddef" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/version.h" 1 3
+# 56 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstddef" 2 3
 
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wpedantic"
@@ -27892,7 +27892,7 @@ namespace std
   { using __type = byte; };
   template<> struct __byte_operand<unsigned __int128>
   { using __type = byte; };
-# 114 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstddef" 3
+# 114 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstddef" 3
   template<typename _IntegerType>
     struct __byte_operand<const _IntegerType>
     : __byte_operand<_IntegerType> { };
@@ -27977,10 +27977,10 @@ namespace std
 }
 
 #pragma GCC diagnostic pop
-# 41 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/memory_resource.h" 2 3
+# 41 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/memory_resource.h" 2 3
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uses_allocator.h" 1 3
-# 40 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uses_allocator.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uses_allocator.h" 1 3
+# 40 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uses_allocator.h" 3
 namespace std
 {
 
@@ -28146,18 +28146,18 @@ namespace std
 
 
 }
-# 43 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/memory_resource.h" 2 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uses_allocator_args.h" 1 3
-# 37 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uses_allocator_args.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/version.h" 1 3
-# 38 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uses_allocator_args.h" 2 3
+# 43 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/memory_resource.h" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uses_allocator_args.h" 1 3
+# 37 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uses_allocator_args.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/version.h" 1 3
+# 38 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uses_allocator_args.h" 2 3
 
 
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 1 3
-# 46 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_util.h" 1 3
-# 43 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_util.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 1 3
+# 46 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_util.h" 1 3
+# 43 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_util.h" 3
 namespace std
 {
 
@@ -28279,14 +28279,14 @@ namespace ranges
       constexpr decltype(auto)
       front() requires forward_range<_Derived>
       {
- do { if (__builtin_expect(!bool(!empty()), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_util.h", 164, __PRETTY_FUNCTION__, "!empty()"); } while (false);
+ do { if (__builtin_expect(!bool(!empty()), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_util.h", 164, __PRETTY_FUNCTION__, "!empty()"); } while (false);
  return *ranges::begin(_M_derived());
       }
 
       constexpr decltype(auto)
       front() const requires forward_range<const _Derived>
       {
- do { if (__builtin_expect(!bool(!empty()), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_util.h", 171, __PRETTY_FUNCTION__, "!empty()"); } while (false);
+ do { if (__builtin_expect(!bool(!empty()), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_util.h", 171, __PRETTY_FUNCTION__, "!empty()"); } while (false);
  return *ranges::begin(_M_derived());
       }
 
@@ -28294,7 +28294,7 @@ namespace ranges
       back()
       requires bidirectional_range<_Derived> && common_range<_Derived>
       {
- do { if (__builtin_expect(!bool(!empty()), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_util.h", 179, __PRETTY_FUNCTION__, "!empty()"); } while (false);
+ do { if (__builtin_expect(!bool(!empty()), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_util.h", 179, __PRETTY_FUNCTION__, "!empty()"); } while (false);
  return *ranges::prev(ranges::end(_M_derived()));
       }
 
@@ -28303,7 +28303,7 @@ namespace ranges
       requires bidirectional_range<const _Derived>
  && common_range<const _Derived>
       {
- do { if (__builtin_expect(!bool(!empty()), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_util.h", 188, __PRETTY_FUNCTION__, "!empty()"); } while (false);
+ do { if (__builtin_expect(!bool(!empty()), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_util.h", 188, __PRETTY_FUNCTION__, "!empty()"); } while (false);
  return *ranges::prev(ranges::end(_M_derived()));
       }
 
@@ -28316,7 +28316,7 @@ namespace ranges
  constexpr decltype(auto)
  operator[](range_difference_t<_Range> __n) const
  { return ranges::begin(_M_derived())[__n]; }
-# 219 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_util.h" 3
+# 219 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_util.h" 3
     };
 
   namespace __detail
@@ -28518,7 +28518,7 @@ namespace ranges
        return *this;
      }
 
- do { if (__builtin_expect(!bool(__n >= 0), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_util.h", 420, __PRETTY_FUNCTION__, "__n >= 0"); } while (false);
+ do { if (__builtin_expect(!bool(__n >= 0), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_util.h", 420, __PRETTY_FUNCTION__, "__n >= 0"); } while (false);
  auto __d = __n - ranges::advance(_M_begin, __n, _M_end);
  if constexpr (_S_store_size)
    _M_size._M_size -= __detail::__to_unsigned_like(__d);
@@ -28584,7 +28584,7 @@ namespace ranges
   template<typename _Iter, typename _Sent, subrange_kind _Kind>
     inline constexpr bool __detail::__is_subrange<subrange<_Iter, _Sent, _Kind>> = true;
 }
-# 495 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_util.h" 3
+# 495 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_util.h" 3
 namespace ranges
 {
   struct __find_fn
@@ -28852,7 +28852,7 @@ namespace ranges
       {
  auto __first = ranges::begin(__r);
  auto __last = ranges::end(__r);
- do { if (__builtin_expect(!bool(__first != __last), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_util.h", 762, __PRETTY_FUNCTION__, "__first != __last"); } while (false);
+ do { if (__builtin_expect(!bool(__first != __last), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_util.h", 762, __PRETTY_FUNCTION__, "__first != __last"); } while (false);
  auto __result = *__first;
  while (++__first != __last)
    {
@@ -28944,10 +28944,10 @@ namespace ranges
 
 
 }
-# 47 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 2 3
-# 57 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/version.h" 1 3
-# 58 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 2 3
+# 47 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 2 3
+# 57 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/version.h" 1 3
+# 58 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 2 3
 
 namespace std
 {
@@ -29034,7 +29034,7 @@ namespace std
 
       [[__no_unique_address__]] _Head _M_head_impl;
     };
-# 199 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
+# 199 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
   template<size_t _Idx, typename _Head>
     struct _Head_base<_Idx, _Head, false>
     {
@@ -29089,7 +29089,7 @@ namespace std
 
       _Head _M_head_impl;
     };
-# 272 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
+# 272 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
   template<size_t _Idx, typename... _Elements>
     struct _Tuple_impl;
 
@@ -29159,7 +29159,7 @@ namespace std
    _Base(std::forward<_UHead>
   (_Tuple_impl<_Idx, _UHead, _UTails...>::_M_head(___in)))
  { }
-# 368 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
+# 368 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
       template<typename _Alloc>
  constexpr
  _Tuple_impl(allocator_arg_t __tag, const _Alloc& __a)
@@ -29222,7 +29222,7 @@ namespace std
   std::forward<_UHead>
   (_Tuple_impl<_Idx, _UHead, _UTails...>::_M_head(___in)))
  { }
-# 463 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
+# 463 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
       template<typename... _UElements>
  constexpr
  void
@@ -29243,7 +29243,7 @@ namespace std
    _M_tail(*this)._M_assign(
        std::move(_Tuple_impl<_Idx, _UHead, _UTails...>::_M_tail(___in)));
  }
-# 523 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
+# 523 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
     protected:
       constexpr
       void
@@ -29253,7 +29253,7 @@ namespace std
  swap(_M_head(*this), _M_head(___in));
  _Inherited::_M_swap(_M_tail(___in));
       }
-# 542 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
+# 542 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
     };
 
 
@@ -29313,7 +29313,7 @@ namespace std
  _Tuple_impl(_Tuple_impl<_Idx, _UHead>&& ___in)
  : _Base(std::forward<_UHead>(_Tuple_impl<_Idx, _UHead>::_M_head(___in)))
  { }
-# 624 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
+# 624 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
       template<typename _Alloc>
  constexpr
  _Tuple_impl(allocator_arg_t __tag, const _Alloc& __a)
@@ -29365,7 +29365,7 @@ namespace std
  : _Base(__use_alloc<_Head, _Alloc, _UHead>(__a),
   std::forward<_UHead>(_Tuple_impl<_Idx, _UHead>::_M_head(___in)))
  { }
-# 703 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
+# 703 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
       template<typename _UHead>
  constexpr
  void
@@ -29382,7 +29382,7 @@ namespace std
    _M_head(*this)
      = std::forward<_UHead>(_Tuple_impl<_Idx, _UHead>::_M_head(___in));
  }
-# 749 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
+# 749 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
     protected:
       constexpr
       void
@@ -29391,7 +29391,7 @@ namespace std
  using std::swap;
  swap(_M_head(*this), _M_head(___in));
       }
-# 766 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
+# 766 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
     };
 
 
@@ -29554,7 +29554,7 @@ namespace std
 
 
  }
-# 960 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
+# 960 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
     public:
       constexpr
       explicit(!(__is_implicitly_default_constructible_v<_Elements> && ...))
@@ -29624,7 +29624,7 @@ namespace std
    && (!__use_other_ctor<tuple<_UTypes...>>())
    && (__dangles<_UTypes...>())
  tuple(tuple<_UTypes...>&&) = delete;
-# 1064 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
+# 1064 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
       template<typename _U1, typename _U2>
  requires (sizeof...(_Elements) == 2)
    && (__constructible<const _U1&, const _U2&>())
@@ -29657,7 +29657,7 @@ namespace std
    && (__constructible<_U1, _U2>())
    && (__dangles<_U1, _U2>())
  tuple(pair<_U1, _U2>&&) = delete;
-# 1153 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
+# 1153 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
       template<typename _Alloc>
  constexpr
  explicit(!(__is_implicitly_default_constructible_v<_Elements> && ...))
@@ -29733,7 +29733,7 @@ namespace std
    && (!__use_other_ctor<tuple<_UTypes...>>())
    && (__dangles<_UTypes...>())
  tuple(allocator_arg_t, const _Alloc&, tuple<_UTypes...>&&) = delete;
-# 1263 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
+# 1263 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
       template<typename _Alloc, typename _U1, typename _U2>
  requires (sizeof...(_Elements) == 2)
    && (__constructible<const _U1&, const _U2&>())
@@ -29766,7 +29766,7 @@ namespace std
    && (__constructible<_U1, _U2>())
    && (__dangles<_U1, _U2>())
  tuple(allocator_arg_t, const _Alloc&, pair<_U1, _U2>&&) = delete;
-# 1655 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
+# 1655 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
     private:
       template<typename... _UTypes>
  static consteval bool
@@ -29787,7 +29787,7 @@ namespace std
    else
      return false;
  }
-# 1708 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
+# 1708 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
     public:
 
       tuple& operator=(const tuple& __u) = delete;
@@ -29829,7 +29829,7 @@ namespace std
    this->_M_assign(std::move(__u));
    return *this;
  }
-# 1786 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
+# 1786 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
       template<typename _U1, typename _U2>
  requires (__assignable<const _U1&, const _U2&>())
  constexpr tuple&
@@ -29851,13 +29851,13 @@ namespace std
    this->_M_tail(*this)._M_head(*this) = std::forward<_U2>(__u.second);
    return *this;
  }
-# 1948 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
+# 1948 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
       constexpr
       void
       swap(tuple& ___in)
       noexcept(__and_<__is_nothrow_swappable<_Elements>...>::value)
       { _Inherited::_M_swap(___in); }
-# 1967 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
+# 1967 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
     };
 
 
@@ -29894,7 +29894,7 @@ namespace std
  constexpr
  tuple(allocator_arg_t, const _Alloc&, const tuple&) noexcept { }
     };
-# 2403 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
+# 2403 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
   template<typename... _Elements>
     struct tuple_size<tuple<_Elements...>>
     : public integral_constant<size_t, sizeof...(_Elements)> { };
@@ -30067,7 +30067,7 @@ namespace std
  = common_comparison_category_t<__detail::__synth3way_t<_Tps, _Ups>...>;
       return std::__tuple_cmp<_Cat>(__t, __u, index_sequence_for<_Tps...>());
     }
-# 2666 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
+# 2666 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
   template<typename... _Elements>
     constexpr tuple<typename __decay_and_strip<_Elements>::__type...>
     make_tuple(_Elements&&... __args)
@@ -30238,7 +30238,7 @@ namespace std
     swap(tuple<_Elements...>& __x, tuple<_Elements...>& __y)
     noexcept(noexcept(__x.swap(__y)))
     { __x.swap(__y); }
-# 2848 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
+# 2848 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
   template<typename... _Elements>
     constexpr
     typename enable_if<!__and_<__is_swappable<_Elements>...>::value>::type
@@ -30248,7 +30248,7 @@ namespace std
 
   template<typename... _Types, typename _Alloc>
     struct uses_allocator<tuple<_Types...>, _Alloc> : true_type { };
-# 2867 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
+# 2867 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
   template<class _T1, class _T2>
     template<typename... _Args1, typename... _Args2>
       constexpr
@@ -30349,10 +30349,10 @@ namespace std
       return __make_from_tuple_impl<_Tp>(std::forward<_Tuple>(__t),
       make_index_sequence<__n>{});
     }
-# 3029 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
+# 3029 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple" 3
 
 }
-# 42 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uses_allocator_args.h" 2 3
+# 42 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uses_allocator_args.h" 2 3
 
 
 
@@ -30419,7 +30419,7 @@ namespace std
   template<_Std_pair _Tp, typename _Alloc, typename _Up, typename _Vp>
     constexpr auto
     uses_allocator_construction_args(const _Alloc&, pair<_Up, _Vp>&&) noexcept;
-# 120 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uses_allocator_args.h" 3
+# 120 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uses_allocator_args.h" 3
   template<_Std_pair _Tp, typename _Alloc, typename _Tuple1, typename _Tuple2>
     constexpr auto
     uses_allocator_construction_args(const _Alloc& __a, piecewise_construct_t,
@@ -30496,7 +30496,7 @@ namespace std
    std::uses_allocator_construction_args<_Tp2>(__a,
      std::get<1>(std::move(__pr))));
     }
-# 227 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uses_allocator_args.h" 3
+# 227 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uses_allocator_args.h" 3
   template<typename _Tp, typename _Alloc, typename... _Args>
     constexpr _Tp
     make_obj_using_allocator(const _Alloc& __a, _Args&&... __args)
@@ -30519,8 +30519,8 @@ namespace std
 
 
 }
-# 44 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/memory_resource.h" 2 3
-# 52 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/memory_resource.h" 3
+# 44 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/memory_resource.h" 2 3
+# 52 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/memory_resource.h" 3
 namespace std
 {
 
@@ -30574,7 +30574,7 @@ namespace pmr
   inline bool
   operator==(const memory_resource& __a, const memory_resource& __b) noexcept
   { return &__a == &__b || __a.is_equal(__b); }
-# 121 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/memory_resource.h" 3
+# 121 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/memory_resource.h" 3
   template<typename _Tp>
     class polymorphic_allocator
     {
@@ -30677,7 +30677,7 @@ namespace pmr
    __p->~_Up();
    deallocate_object(__p);
  }
-# 299 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/memory_resource.h" 3
+# 299 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/memory_resource.h" 3
       template<typename _Tp1, typename... _Args>
  __attribute__((__nonnull__))
  void
@@ -30710,9 +30710,9 @@ namespace pmr
       operator==(const polymorphic_allocator& __a,
    const polymorphic_allocator& __b) noexcept
       { return *__a.resource() == *__b.resource(); }
-# 340 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/memory_resource.h" 3
+# 340 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/memory_resource.h" 3
     private:
-# 367 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/memory_resource.h" 3
+# 367 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/memory_resource.h" 3
       memory_resource* _M_resource;
     };
 
@@ -30722,7 +30722,7 @@ namespace pmr
     operator==(const polymorphic_allocator<_Tp1>& __a,
         const polymorphic_allocator<_Tp2>& __b) noexcept
     { return *__a.resource() == *__b.resource(); }
-# 386 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/memory_resource.h" 3
+# 386 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/memory_resource.h" 3
 }
 
   template<typename _Alloc> struct allocator_traits;
@@ -30781,24 +30781,24 @@ namespace pmr
 
       template<typename _Up>
  using rebind_traits = allocator_traits<pmr::polymorphic_allocator<_Up>>;
-# 452 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/memory_resource.h" 3
+# 452 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/memory_resource.h" 3
       [[nodiscard]] static pointer
       allocate(allocator_type& __a, size_type __n)
       { return __a.allocate(__n); }
-# 467 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/memory_resource.h" 3
+# 467 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/memory_resource.h" 3
       [[nodiscard]] static pointer
       allocate(allocator_type& __a, size_type __n, const_void_pointer)
       { return __a.allocate(__n); }
-# 479 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/memory_resource.h" 3
+# 479 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/memory_resource.h" 3
       static void
       deallocate(allocator_type& __a, pointer __p, size_type __n)
       { __a.deallocate(__p, __n); }
-# 494 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/memory_resource.h" 3
+# 494 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/memory_resource.h" 3
       template<typename _Up, typename... _Args>
  static void
  construct(allocator_type& __a, _Up* __p, _Args&&... __args)
  { __a.construct(__p, std::forward<_Args>(__args)...); }
-# 506 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/memory_resource.h" 3
+# 506 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/memory_resource.h" 3
       template<typename _Up>
  static constexpr void
  destroy(allocator_type&, _Up* __p)
@@ -30816,7 +30816,7 @@ namespace pmr
 
 
 }
-# 73 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string" 2 3
+# 73 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string" 2 3
 namespace std
 {
 
@@ -30872,12 +30872,12 @@ namespace std
     }
 
 }
-# 3 "C:/Users/ZPEE016/CLionProjects/EE2010-CW/card.h" 2
-# 1 "C:/Users/ZPEE016/CLionProjects/EE2010-CW/arcaneKnowledgeRepository.h" 1
+# 3 "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/card.h" 2
+# 1 "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/arcaneKnowledgeRepository.h" 1
        
 
 
-# 3 "C:/Users/ZPEE016/CLionProjects/EE2010-CW/arcaneKnowledgeRepository.h"
+# 3 "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/arcaneKnowledgeRepository.h"
 enum ATKTYPE {
     strike,
     slash,
@@ -30890,7 +30890,7 @@ enum colours{
     Default, black, red, green, yellow,
     blue, magenta, cyan, white, RESET
 };
-# 4 "C:/Users/ZPEE016/CLionProjects/EE2010-CW/card.h" 2
+# 4 "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/card.h" 2
 
 
 class card
@@ -30914,13 +30914,13 @@ private:
     int id, eCost, attackVal, attackRange, poisonVal, madnessVal, burningVal, bleedingVal, specialProperty, specialPropertyVal;
     bool isEnemyExclusive;
 };
-# 8 "C:/Users/ZPEE016/CLionProjects/EE2010-CW/playerDeck.h" 2
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/vector" 1 3
-# 67 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/vector" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h" 1 3
-# 71 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h" 3
+# 8 "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/playerDeck.h" 2
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/vector" 1 3
+# 67 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/vector" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h" 1 3
+# 71 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h" 3
 
-# 71 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h" 3
+# 71 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h" 3
 namespace std
 {
 
@@ -30999,17 +30999,17 @@ namespace std
       __guard.release();
       return __result;
     }
-# 217 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h" 3
+# 217 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h" 3
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wc++17-extensions"
-# 228 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h" 3
+# 228 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h" 3
   template<typename _InputIterator, typename _ForwardIterator>
    
     inline _ForwardIterator
     uninitialized_copy(_InputIterator __first, _InputIterator __last,
          _ForwardIterator __result)
     {
-# 256 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h" 3
+# 256 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h" 3
       using _Dest = decltype(std::__niter_base(__result));
       using _Src = decltype(std::__niter_base(__first));
       using _ValT = typename iterator_traits<_ForwardIterator>::value_type;
@@ -31058,7 +31058,7 @@ namespace std
 
       else
  return std::__do_uninit_copy(__first, __last, __result);
-# 317 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h" 3
+# 317 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h" 3
     }
 #pragma GCC diagnostic pop
 
@@ -31075,14 +31075,14 @@ namespace std
  std::_Construct(std::__addressof(*__first), __x);
       __guard.release();
     }
-# 389 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h" 3
+# 389 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h" 3
   template<typename _ForwardIterator, typename _Tp>
    
     inline void
     uninitialized_fill(_ForwardIterator __first, _ForwardIterator __last,
          const _Tp& __x)
     {
-# 404 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h" 3
+# 404 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h" 3
       typedef typename iterator_traits<_ForwardIterator>::value_type
  _ValueType;
 
@@ -31142,10 +31142,10 @@ namespace std
 #pragma GCC diagnostic ignored "-Wc++17-extensions"
       if constexpr (is_integral<_Size>::value)
 
- do { if (__builtin_expect(!bool(__n >= 0), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h", 463, __PRETTY_FUNCTION__, "__n >= 0"); } while (false);
+ do { if (__builtin_expect(!bool(__n >= 0), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h", 463, __PRETTY_FUNCTION__, "__n >= 0"); } while (false);
       else if constexpr (is_floating_point<_Size>::value)
 
- do { if (__builtin_expect(!bool(__n >= 0 && static_cast<size_t>(__n) == __n), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h", 466, __PRETTY_FUNCTION__, "__n >= 0 && static_cast<size_t>(__n) == __n"); } while (false);
+ do { if (__builtin_expect(!bool(__n >= 0 && static_cast<size_t>(__n) == __n), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h", 466, __PRETTY_FUNCTION__, "__n >= 0 && static_cast<size_t>(__n) == __n"); } while (false);
 #pragma GCC diagnostic pop
 
       for (; __n--; ++__first)
@@ -31153,10 +31153,10 @@ namespace std
       __guard.release();
       return __first;
     }
-# 510 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h" 3
+# 510 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h" 3
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wc++17-extensions"
-# 523 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h" 3
+# 523 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h" 3
   template<typename _ForwardIterator, typename _Size, typename _Tp>
    
     inline _ForwardIterator
@@ -31206,10 +31206,10 @@ namespace std
 
      }
       return std::__do_uninit_fill_n(__first, __n, __x);
-# 580 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h" 3
+# 580 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h" 3
     }
 #pragma GCC diagnostic pop
-# 591 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h" 3
+# 591 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h" 3
   template<typename _InputIterator, typename _Sentinel,
     typename _ForwardIterator, typename _Allocator>
     constexpr
@@ -31348,7 +31348,7 @@ namespace std
 
       return std::uninitialized_fill_n(__first, __n, __x);
     }
-# 740 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h" 3
+# 740 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h" 3
   template<typename _InputIterator1, typename _InputIterator2,
     typename _ForwardIterator, typename _Allocator>
     inline _ForwardIterator
@@ -31432,7 +31432,7 @@ namespace std
       std::__uninitialized_fill_a(__mid2, __last2, __x, __alloc);
       __guard.release();
     }
-# 832 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h" 3
+# 832 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h" 3
   template<bool _TrivialValueType>
     struct __uninitialized_default_1
     {
@@ -31739,7 +31739,7 @@ namespace std
       auto __first_res = std::next(__first, __n);
       return {__first_res, __second_res};
     }
-# 1151 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h" 3
+# 1151 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h" 3
   template<typename _InputIterator, typename _Size, typename _ForwardIterator>
    
     inline _ForwardIterator
@@ -31759,7 +31759,7 @@ namespace std
  std::__uninitialized_copy_n_pair(__first, __n, __result,
       std::__iterator_category(__first));
     }
-# 1180 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h" 3
+# 1180 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h" 3
   template <typename _ForwardIterator>
    
     inline void
@@ -31768,7 +31768,7 @@ namespace std
     {
       std::__uninitialized_default_novalue(__first, __last);
     }
-# 1196 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h" 3
+# 1196 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h" 3
   template <typename _ForwardIterator, typename _Size>
    
     inline _ForwardIterator
@@ -31791,7 +31791,7 @@ namespace std
     {
       return std::__uninitialized_default(__first, __last);
     }
-# 1226 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h" 3
+# 1226 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h" 3
   template <typename _ForwardIterator, typename _Size>
    
     inline _ForwardIterator
@@ -31799,7 +31799,7 @@ namespace std
     {
       return std::__uninitialized_default_n(__first, __count);
     }
-# 1242 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h" 3
+# 1242 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h" 3
   template <typename _InputIterator, typename _ForwardIterator>
    
     inline _ForwardIterator
@@ -31810,7 +31810,7 @@ namespace std
  (std::make_move_iterator(__first),
   std::make_move_iterator(__last), __result);
     }
-# 1261 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h" 3
+# 1261 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h" 3
   template <typename _InputIterator, typename _Size, typename _ForwardIterator>
    
     inline pair<_InputIterator, _ForwardIterator>
@@ -31921,9 +31921,9 @@ namespace std
 
 
 }
-# 68 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/vector" 2 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 1 3
-# 84 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
+# 68 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/vector" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 1 3
+# 84 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
 namespace std
 {
 
@@ -32013,7 +32013,7 @@ namespace std
  _Vector_impl(_Tp_alloc_type&& __a, _Vector_impl&& __rv) noexcept
  : _Tp_alloc_type(std::move(__a)), _Vector_impl_data(std::move(__rv))
  { }
-# 300 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
+# 300 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
       };
 
     public:
@@ -32123,13 +32123,13 @@ namespace std
  this->_M_impl._M_finish = this->_M_impl._M_start;
  this->_M_impl._M_end_of_storage = this->_M_impl._M_start + __n;
       }
-# 432 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
+# 432 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
     };
-# 457 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
+# 457 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
   template<typename _Tp, typename _Alloc = std::allocator<_Tp> >
     class vector : protected _Vector_base<_Tp, _Alloc>
     {
-# 470 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
+# 470 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
       static_assert(is_same<typename remove_cv<_Tp>::type, _Tp>::value,
    "std::vector must have a non-const, non-volatile value_type");
 
@@ -32222,24 +32222,24 @@ namespace std
 
 
       vector() = default;
-# 570 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
+# 570 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
       explicit
       constexpr
       vector(const allocator_type& __a) noexcept
       : _Base(__a) { }
-# 584 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
+# 584 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
       explicit
       constexpr
       vector(size_type __n, const allocator_type& __a = allocator_type())
       : _Base(_S_check_init_len(__n, __a), __a)
       { _M_default_initialize(__n); }
-# 598 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
+# 598 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
       constexpr
       vector(size_type __n, const value_type& __value,
       const allocator_type& __a = allocator_type())
       : _Base(_S_check_init_len(__n, __a), __a)
       { _M_fill_initialize(__n, __value); }
-# 630 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
+# 630 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
       constexpr
       vector(const vector& __x)
       : _Base(__x.size(),
@@ -32250,7 +32250,7 @@ namespace std
           this->_M_impl._M_start,
           _M_get_Tp_allocator());
       }
-# 650 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
+# 650 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
       vector(vector&&) noexcept = default;
 
 
@@ -32296,7 +32296,7 @@ namespace std
         std::declval<typename _Alloc_traits::is_always_equal>())) )
       : vector(std::move(__rv), __m, typename _Alloc_traits::is_always_equal{})
       { }
-# 707 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
+# 707 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
       constexpr
       vector(initializer_list<value_type> __l,
       const allocator_type& __a = allocator_type())
@@ -32304,7 +32304,7 @@ namespace std
       {
  _M_range_initialize_n(__l.begin(), __l.end(), __l.size());
       }
-# 733 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
+# 733 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
       template<typename _InputIterator,
         typename = std::_RequireInputIter<_InputIterator>>
  constexpr
@@ -32326,7 +32326,7 @@ namespace std
    _M_range_initialize(__first, __last,
          std::__iterator_category(__first));
  }
-# 799 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
+# 799 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
       constexpr
       ~vector() noexcept
       {
@@ -32334,11 +32334,11 @@ namespace std
         _M_get_Tp_allocator());
  ;
       }
-# 816 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
+# 816 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
       constexpr
       vector&
       operator=(const vector& __x);
-# 831 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
+# 831 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
       constexpr
       vector&
       operator=(vector&& __x) noexcept(_Alloc_traits::_S_nothrow_move())
@@ -32349,7 +32349,7 @@ namespace std
  _M_move_assign(std::move(__x), __bool_constant<__move_storage>());
  return *this;
       }
-# 853 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
+# 853 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
       constexpr
       vector&
       operator=(initializer_list<value_type> __l)
@@ -32358,19 +32358,19 @@ namespace std
        random_access_iterator_tag());
  return *this;
       }
-# 873 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
+# 873 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
       constexpr
       void
       assign(size_type __n, const value_type& __val)
       { _M_fill_assign(__n, __val); }
-# 891 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
+# 891 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
       template<typename _InputIterator,
         typename = std::_RequireInputIter<_InputIterator>>
  constexpr
  void
  assign(_InputIterator __first, _InputIterator __last)
  { _M_assign_aux(__first, __last, std::__iterator_category(__first)); }
-# 920 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
+# 920 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
       constexpr
       void
       assign(initializer_list<value_type> __l)
@@ -32378,7 +32378,7 @@ namespace std
  this->_M_assign_aux(__l.begin(), __l.end(),
        random_access_iterator_tag());
       }
-# 988 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
+# 988 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
       using _Base::get_allocator;
 
 
@@ -32521,7 +32521,7 @@ namespace std
       size_type
       max_size() const noexcept
       { return _S_max_size(_M_get_Tp_allocator()); }
-# 1141 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
+# 1141 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
       constexpr
       void
       resize(size_type __new_size)
@@ -32531,7 +32531,7 @@ namespace std
  else if (__new_size < size())
    _M_erase_at_end(this->_M_impl._M_start + __new_size);
       }
-# 1162 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
+# 1162 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
       constexpr
       void
       resize(size_type __new_size, const value_type& __x)
@@ -32541,7 +32541,7 @@ namespace std
  else if (__new_size < size())
    _M_erase_at_end(this->_M_impl._M_start + __new_size);
       }
-# 1196 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
+# 1196 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
       constexpr
       void
       shrink_to_fit()
@@ -32571,24 +32571,24 @@ namespace std
       bool
       empty() const noexcept
       { return begin() == end(); }
-# 1243 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
+# 1243 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
       constexpr
       void
       reserve(size_type __n);
-# 1259 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
+# 1259 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
       [[__nodiscard__]] constexpr
       reference
       operator[](size_type __n) noexcept
       {
- do { if (__builtin_expect(!bool(__n < this->size()), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h", 1263, __PRETTY_FUNCTION__, "__n < this->size()"); } while (false);
+ do { if (__builtin_expect(!bool(__n < this->size()), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h", 1263, __PRETTY_FUNCTION__, "__n < this->size()"); } while (false);
  return *(this->_M_impl._M_start + __n);
       }
-# 1278 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
+# 1278 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
       [[__nodiscard__]] constexpr
       const_reference
       operator[](size_type __n) const noexcept
       {
- do { if (__builtin_expect(!bool(__n < this->size()), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h", 1282, __PRETTY_FUNCTION__, "__n < this->size()"); } while (false);
+ do { if (__builtin_expect(!bool(__n < this->size()), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h", 1282, __PRETTY_FUNCTION__, "__n < this->size()"); } while (false);
  return *(this->_M_impl._M_start + __n);
       }
 
@@ -32606,7 +32606,7 @@ namespace std
       }
 
     public:
-# 1311 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
+# 1311 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
       [[__nodiscard__]] constexpr
       reference
       at(size_type __n)
@@ -32614,7 +32614,7 @@ namespace std
  _M_range_check(__n);
  return (*this)[__n];
       }
-# 1330 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
+# 1330 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
       [[__nodiscard__]] constexpr
       const_reference
       at(size_type __n) const
@@ -32631,7 +32631,7 @@ namespace std
       reference
       front() noexcept
       {
- do { if (__builtin_expect(!bool(!this->empty()), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h", 1346, __PRETTY_FUNCTION__, "!this->empty()"); } while (false);
+ do { if (__builtin_expect(!bool(!this->empty()), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h", 1346, __PRETTY_FUNCTION__, "!this->empty()"); } while (false);
  return *begin();
       }
 
@@ -32643,7 +32643,7 @@ namespace std
       const_reference
       front() const noexcept
       {
- do { if (__builtin_expect(!bool(!this->empty()), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h", 1358, __PRETTY_FUNCTION__, "!this->empty()"); } while (false);
+ do { if (__builtin_expect(!bool(!this->empty()), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h", 1358, __PRETTY_FUNCTION__, "!this->empty()"); } while (false);
  return *begin();
       }
 
@@ -32655,7 +32655,7 @@ namespace std
       reference
       back() noexcept
       {
- do { if (__builtin_expect(!bool(!this->empty()), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h", 1370, __PRETTY_FUNCTION__, "!this->empty()"); } while (false);
+ do { if (__builtin_expect(!bool(!this->empty()), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h", 1370, __PRETTY_FUNCTION__, "!this->empty()"); } while (false);
  return *(end() - 1);
       }
 
@@ -32667,10 +32667,10 @@ namespace std
       const_reference
       back() const noexcept
       {
- do { if (__builtin_expect(!bool(!this->empty()), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h", 1382, __PRETTY_FUNCTION__, "!this->empty()"); } while (false);
+ do { if (__builtin_expect(!bool(!this->empty()), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h", 1382, __PRETTY_FUNCTION__, "!this->empty()"); } while (false);
  return *(end() - 1);
       }
-# 1393 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
+# 1393 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
       [[__nodiscard__]] constexpr
       _Tp*
       data() noexcept
@@ -32680,7 +32680,7 @@ namespace std
       const _Tp*
       data() const noexcept
       { return _M_data_ptr(this->_M_impl._M_start); }
-# 1414 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
+# 1414 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
       constexpr
       void
       push_back(const value_type& __x)
@@ -32711,32 +32711,32 @@ namespace std
 
 
  emplace_back(_Args&&... __args);
-# 1455 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
+# 1455 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
       constexpr
       void
       pop_back() noexcept
       {
- do { if (__builtin_expect(!bool(!this->empty()), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h", 1459, __PRETTY_FUNCTION__, "!this->empty()"); } while (false);
+ do { if (__builtin_expect(!bool(!this->empty()), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h", 1459, __PRETTY_FUNCTION__, "!this->empty()"); } while (false);
  --this->_M_impl._M_finish;
  _Alloc_traits::destroy(this->_M_impl, this->_M_impl._M_finish);
  ;
       }
-# 1478 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
+# 1478 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
       template<typename... _Args>
  constexpr
  iterator
  emplace(const_iterator __position, _Args&&... __args)
  { return _M_emplace_aux(__position, std::forward<_Args>(__args)...); }
-# 1495 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
+# 1495 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
       constexpr
       iterator
       insert(const_iterator __position, const value_type& __x);
-# 1526 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
+# 1526 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
       constexpr
       iterator
       insert(const_iterator __position, value_type&& __x)
       { return _M_insert_rval(__position, std::move(__x)); }
-# 1544 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
+# 1544 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
       constexpr
       iterator
       insert(const_iterator __position, initializer_list<value_type> __l)
@@ -32746,7 +32746,7 @@ namespace std
    std::random_access_iterator_tag());
  return begin() + __offset;
       }
-# 1570 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
+# 1570 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
       constexpr
       iterator
       insert(const_iterator __position, size_type __n, const value_type& __x)
@@ -32755,7 +32755,7 @@ namespace std
  _M_fill_insert(begin() + __offset, __n, __x);
  return begin() + __offset;
       }
-# 1613 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
+# 1613 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
       template<typename _InputIterator,
         typename = std::_RequireInputIter<_InputIterator>>
  constexpr
@@ -32768,13 +32768,13 @@ namespace std
      std::__iterator_category(__first));
    return begin() + __offset;
  }
-# 1789 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
+# 1789 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
       constexpr
       iterator
 
       erase(const_iterator __position)
       { return _M_erase(begin() + (__position - cbegin())); }
-# 1817 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
+# 1817 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
       constexpr
       iterator
 
@@ -32784,13 +32784,13 @@ namespace std
  const auto __cbeg = cbegin();
  return _M_erase(__beg + (__first - __cbeg), __beg + (__last - __cbeg));
       }
-# 1842 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
+# 1842 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
       constexpr
       void
       swap(vector& __x) noexcept
       {
 
- do { if (__builtin_expect(!bool(_Alloc_traits::propagate_on_container_swap::value || _M_get_Tp_allocator() == __x._M_get_Tp_allocator()), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h", 1847, __PRETTY_FUNCTION__, "_Alloc_traits::propagate_on_container_swap::value || _M_get_Tp_allocator() == __x._M_get_Tp_allocator()"); } while (false)
+ do { if (__builtin_expect(!bool(_Alloc_traits::propagate_on_container_swap::value || _M_get_Tp_allocator() == __x._M_get_Tp_allocator()), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h", 1847, __PRETTY_FUNCTION__, "_Alloc_traits::propagate_on_container_swap::value || _M_get_Tp_allocator() == __x._M_get_Tp_allocator()"); } while (false)
                                                           ;
 
  this->_M_impl._M_swap_data(__x._M_impl);
@@ -32858,7 +32858,7 @@ namespace std
      (__first, __last, __guard._M_storage, _M_get_Tp_allocator());
    return __guard._M_release();
  }
-# 1948 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
+# 1948 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
       template<typename _InputIterator>
  constexpr
  void
@@ -32925,7 +32925,7 @@ namespace std
    std::__uninitialized_default_n_a(this->_M_impl._M_start, __n,
         _M_get_Tp_allocator());
       }
-# 2023 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
+# 2023 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
       template<typename _Integer>
  constexpr
  void
@@ -33013,7 +33013,7 @@ namespace std
       constexpr
       bool
       _M_shrink_to_fit();
-# 2125 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
+# 2125 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
       struct _Temporary_value
       {
  template<typename... _Args>
@@ -33205,14 +33205,14 @@ namespace std
     typename = _RequireAllocator<_Allocator>>
     vector(_InputIterator, _InputIterator, _Allocator = _Allocator())
       -> vector<_ValT, _Allocator>;
-# 2335 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
+# 2335 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
   template<typename _Tp, typename _Alloc>
     [[__nodiscard__]] constexpr
     inline bool
     operator==(const vector<_Tp, _Alloc>& __x, const vector<_Tp, _Alloc>& __y)
     { return (__x.size() == __y.size()
        && std::equal(__x.begin(), __x.end(), __y.begin())); }
-# 2354 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
+# 2354 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
   template<typename _Tp, typename _Alloc>
     [[nodiscard]]
     constexpr __detail::__synth3way_t<_Tp>
@@ -33222,7 +33222,7 @@ namespace std
           __y.begin(), __y.end(),
           __detail::__synth3way);
     }
-# 2407 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
+# 2407 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h" 3
   template<typename _Tp, typename _Alloc>
     constexpr
     inline void
@@ -33248,9 +33248,9 @@ namespace std
 
 
 }
-# 69 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/vector" 2 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h" 1 3
-# 68 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h" 3
+# 69 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/vector" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h" 1 3
+# 68 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h" 3
 namespace std
 {
 
@@ -33301,7 +33301,7 @@ namespace std
  *_M_p &= ~_M_mask;
       return *this;
     }
-# 131 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h" 3
+# 131 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h" 3
     constexpr
     _Bit_reference&
     operator=(const _Bit_reference& __x) noexcept
@@ -33436,7 +33436,7 @@ namespace std
  return __cmp;
       return __x._M_offset <=> __y._M_offset;
     }
-# 297 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h" 3
+# 297 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h" 3
     friend constexpr ptrdiff_t
     operator-(const _Bit_iterator_base& __x, const _Bit_iterator_base& __y)
     {
@@ -33684,7 +33684,7 @@ namespace std
       {
 
  _Bit_iterator _M_start;
-# 553 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h" 3
+# 553 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h" 3
  _Bit_iterator _M_finish;
  _Bit_pointer _M_end_of_storage;
 
@@ -33855,7 +33855,7 @@ namespace std
       _S_nword(size_t __n)
       { return (__n + int(_S_word_bit) - 1) / int(_S_word_bit); }
     };
-# 745 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h" 3
+# 745 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h" 3
   template<typename _Alloc>
     class vector<bool, _Alloc> : protected _Bvector_base<_Alloc>
     {
@@ -33998,7 +33998,7 @@ namespace std
    _M_initialize_range(__first, __last,
          std::__iterator_category(__first));
  }
-# 925 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h" 3
+# 925 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h" 3
       constexpr
       ~vector() noexcept { }
 
@@ -34085,12 +34085,12 @@ namespace std
  void
  assign(_InputIterator __first, _InputIterator __last)
  { _M_assign_aux(__first, __last, std::__iterator_category(__first)); }
-# 1023 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h" 3
+# 1023 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h" 3
       constexpr
       void
       assign(initializer_list<bool> __l)
       { _M_assign_aux(__l.begin(), __l.end(), random_access_iterator_tag()); }
-# 1063 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h" 3
+# 1063 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h" 3
       [[__nodiscard__]] constexpr
       iterator
       begin() noexcept
@@ -34186,7 +34186,7 @@ namespace std
       reference
       operator[](size_type __n)
       {
- do { if (__builtin_expect(!bool(__n < this->size()), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h", 1158, __PRETTY_FUNCTION__, "__n < this->size()"); } while (false);
+ do { if (__builtin_expect(!bool(__n < this->size()), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h", 1158, __PRETTY_FUNCTION__, "__n < this->size()"); } while (false);
  return _Bit_reference (this->_M_impl._M_start._M_p
           + __n / int(_S_word_bit),
           1UL << __n % int(_S_word_bit));
@@ -34196,7 +34196,7 @@ namespace std
       const_reference
       operator[](size_type __n) const
       {
- do { if (__builtin_expect(!bool(__n < this->size()), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h", 1168, __PRETTY_FUNCTION__, "__n < this->size()"); } while (false);
+ do { if (__builtin_expect(!bool(__n < this->size()), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h", 1168, __PRETTY_FUNCTION__, "__n < this->size()"); } while (false);
  return _Bit_reference (this->_M_impl._M_start._M_p
           + __n / int(_S_word_bit),
           1UL << __n % int(_S_word_bit));
@@ -34245,7 +34245,7 @@ namespace std
       reference
       front()
       {
- do { if (__builtin_expect(!bool(!this->empty()), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h", 1217, __PRETTY_FUNCTION__, "!this->empty()"); } while (false);
+ do { if (__builtin_expect(!bool(!this->empty()), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h", 1217, __PRETTY_FUNCTION__, "!this->empty()"); } while (false);
  return *begin();
       }
 
@@ -34253,7 +34253,7 @@ namespace std
       const_reference
       front() const
       {
- do { if (__builtin_expect(!bool(!this->empty()), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h", 1225, __PRETTY_FUNCTION__, "!this->empty()"); } while (false);
+ do { if (__builtin_expect(!bool(!this->empty()), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h", 1225, __PRETTY_FUNCTION__, "!this->empty()"); } while (false);
  return *begin();
       }
 
@@ -34261,7 +34261,7 @@ namespace std
       reference
       back()
       {
- do { if (__builtin_expect(!bool(!this->empty()), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h", 1233, __PRETTY_FUNCTION__, "!this->empty()"); } while (false);
+ do { if (__builtin_expect(!bool(!this->empty()), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h", 1233, __PRETTY_FUNCTION__, "!this->empty()"); } while (false);
  return *(end() - 1);
       }
 
@@ -34269,7 +34269,7 @@ namespace std
       const_reference
       back() const
       {
- do { if (__builtin_expect(!bool(!this->empty()), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h", 1241, __PRETTY_FUNCTION__, "!this->empty()"); } while (false);
+ do { if (__builtin_expect(!bool(!this->empty()), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h", 1241, __PRETTY_FUNCTION__, "!this->empty()"); } while (false);
  return *(end() - 1);
       }
 
@@ -34288,7 +34288,7 @@ namespace std
       swap(vector& __x) noexcept
       {
 
- do { if (__builtin_expect(!bool(_Bit_alloc_traits::propagate_on_container_swap::value || _M_get_Bit_allocator() == __x._M_get_Bit_allocator()), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h", 1260, __PRETTY_FUNCTION__, "_Bit_alloc_traits::propagate_on_container_swap::value || _M_get_Bit_allocator() == __x._M_get_Bit_allocator()"); } while (false)
+ do { if (__builtin_expect(!bool(_Bit_alloc_traits::propagate_on_container_swap::value || _M_get_Bit_allocator() == __x._M_get_Bit_allocator()), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h", 1260, __PRETTY_FUNCTION__, "_Bit_alloc_traits::propagate_on_container_swap::value || _M_get_Bit_allocator() == __x._M_get_Bit_allocator()"); } while (false)
                                                             ;
 
  this->_M_impl._M_swap_data(__x._M_impl);
@@ -34344,7 +34344,7 @@ namespace std
      std::__iterator_category(__first));
    return begin() + __offset;
  }
-# 1329 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h" 3
+# 1329 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h" 3
       constexpr
       iterator
       insert(const_iterator __position, size_type __n, const bool& __x)
@@ -34364,7 +34364,7 @@ namespace std
       iterator
       insert(const_iterator __p, initializer_list<bool> __l)
       { return this->insert(__p, __l.begin(), __l.end()); }
-# 1463 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h" 3
+# 1463 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h" 3
       constexpr
       void
       pop_back()
@@ -34484,7 +34484,7 @@ namespace std
       constexpr
       bool
       _M_shrink_to_fit();
-# 1603 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h" 3
+# 1603 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h" 3
       template<typename _InputIterator>
  constexpr
  void
@@ -34505,7 +34505,7 @@ namespace std
    _M_initialize(__n);
    std::copy(__first, __last, begin());
  }
-# 1639 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h" 3
+# 1639 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h" 3
       constexpr
       void
       _M_fill_assign(size_t __n, bool __x)
@@ -34554,7 +34554,7 @@ namespace std
        insert(end(), __mid, __last);
      }
  }
-# 1706 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h" 3
+# 1706 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h" 3
       constexpr
       void
       _M_fill_insert(iterator __position, size_type __n, bool __x);
@@ -34689,13 +34689,13 @@ namespace std
 
 
 }
-# 70 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/vector" 2 3
+# 70 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/vector" 2 3
 
 
 
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/vector.tcc" 1 3
-# 59 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/vector.tcc" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/vector.tcc" 1 3
+# 59 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/vector.tcc" 3
 namespace std
 {
 
@@ -34780,7 +34780,7 @@ namespace std
       const size_type __n = __position - begin();
       if (this->_M_impl._M_finish != this->_M_impl._M_end_of_storage)
  {
-   do { if (__builtin_expect(!bool(__position != const_iterator()), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/vector.tcc", 143, __PRETTY_FUNCTION__, "__position != const_iterator()"); } while (false);
+   do { if (__builtin_expect(!bool(__position != const_iterator()), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/vector.tcc", 143, __PRETTY_FUNCTION__, "__position != const_iterator()"); } while (false);
    if (!(__position != const_iterator()))
      __builtin_unreachable();
 
@@ -35109,7 +35109,7 @@ namespace std
 
       {
  _Guard_alloc __guard(__new_start, __len, *this);
-# 481 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/vector.tcc" 3
+# 481 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/vector.tcc" 3
  _Alloc_traits::construct(this->_M_impl,
      std::__to_address(__new_start + __elems_before),
      std::forward<_Args>(__args)...);
@@ -35206,7 +35206,7 @@ namespace std
 
       {
  _Guard_alloc __guard(__new_start, __len, *this);
-# 586 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/vector.tcc" 3
+# 586 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/vector.tcc" 3
  _Alloc_traits::construct(this->_M_impl,
      std::__to_address(__new_start + __elems),
      std::forward<_Args>(__args)...);
@@ -35600,7 +35600,7 @@ namespace std
        }
    }
       }
-# 1106 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/vector.tcc" 3
+# 1106 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/vector.tcc" 3
   template<typename _Alloc>
     constexpr
     void
@@ -35808,10 +35808,10 @@ namespace std
 
 
 }
-# 75 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/vector" 2 3
-# 88 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/vector" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/version.h" 1 3
-# 89 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/vector" 2 3
+# 75 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/vector" 2 3
+# 88 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/vector" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/version.h" 1 3
+# 89 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/vector" 2 3
 
 
 
@@ -35882,25 +35882,25 @@ namespace std
     }
 
 }
-# 9 "C:/Users/ZPEE016/CLionProjects/EE2010-CW/playerDeck.h" 2
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/iostream" 1 3
-# 43 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/iostream" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ostream" 1 3
-# 42 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ostream" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 1 3
-# 43 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ios" 1 3
-# 43 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ios" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/exception" 1 3
-# 41 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/exception" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/version.h" 1 3
-# 42 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/exception" 2 3
+# 9 "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/playerDeck.h" 2
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/iostream" 1 3
+# 43 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/iostream" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ostream" 1 3
+# 42 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ostream" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 1 3
+# 43 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ios" 1 3
+# 43 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ios" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/exception" 1 3
+# 41 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/exception" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/version.h" 1 3
+# 42 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/exception" 2 3
 
 extern "C++" {
 
 namespace std
 {
-# 56 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/exception" 3
+# 56 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/exception" 3
   class bad_exception : public exception
   {
   public:
@@ -35958,7 +35958,7 @@ namespace std
 
   __attribute__ ((__deprecated__))
   void unexpected() __attribute__ ((__noreturn__,__cold__));
-# 126 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/exception" 3
+# 126 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/exception" 3
   __attribute__ ((__deprecated__ ("use '" "std::uncaught_exceptions()" "' instead")))
   bool uncaught_exception() noexcept __attribute__ ((__pure__));
 
@@ -35976,7 +35976,7 @@ namespace std
 namespace __gnu_cxx
 {
 
-# 160 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/exception" 3
+# 160 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/exception" 3
   void __verbose_terminate_handler();
 
 
@@ -35985,17 +35985,17 @@ namespace __gnu_cxx
 }
 
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception_ptr.h" 1 3
-# 36 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception_ptr.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cxxabi_init_exception.h" 1 3
-# 38 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cxxabi_init_exception.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception_ptr.h" 1 3
+# 36 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception_ptr.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cxxabi_init_exception.h" 1 3
+# 38 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cxxabi_init_exception.h" 3
 #pragma GCC visibility push(default)
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h" 1 3 4
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/stddef.h" 1 3 4
-# 2 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h" 2 3 4
-# 41 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cxxabi_init_exception.h" 2 3
-# 52 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cxxabi_init_exception.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h" 1 3 4
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stddef.h" 1 3 4
+# 2 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h" 2 3 4
+# 41 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cxxabi_init_exception.h" 2 3
+# 52 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cxxabi_init_exception.h" 3
 namespace std
 {
   class type_info;
@@ -36026,11 +36026,11 @@ namespace __cxxabiv1
 
 
 #pragma GCC visibility pop
-# 37 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception_ptr.h" 2 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/typeinfo" 1 3
-# 42 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/typeinfo" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/version.h" 1 3
-# 43 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/typeinfo" 2 3
+# 37 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception_ptr.h" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/typeinfo" 1 3
+# 42 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/typeinfo" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/version.h" 1 3
+# 43 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/typeinfo" 2 3
 
 #pragma GCC visibility push(default)
 
@@ -36040,7 +36040,7 @@ namespace __cxxabiv1
 {
   class __class_type_info;
 }
-# 85 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/typeinfo" 3
+# 85 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/typeinfo" 3
 namespace std
 {
 
@@ -36125,7 +36125,7 @@ namespace std
     bool __equal(const type_info&) const noexcept;
 
   };
-# 224 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/typeinfo" 3
+# 224 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/typeinfo" 3
   class bad_cast : public exception
   {
   public:
@@ -36160,8 +36160,8 @@ namespace std
 }
 
 #pragma GCC visibility pop
-# 38 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception_ptr.h" 2 3
-# 50 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception_ptr.h" 3
+# 38 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception_ptr.h" 2 3
+# 50 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception_ptr.h" 3
 extern "C++" {
 
 namespace std
@@ -36179,7 +36179,7 @@ namespace std
   }
 
   using __exception_ptr::exception_ptr;
-# 75 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception_ptr.h" 3
+# 75 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception_ptr.h" 3
   exception_ptr current_exception() noexcept;
 
   template<typename _Ex>
@@ -36191,7 +36191,7 @@ namespace std
   namespace __exception_ptr
   {
     using std::rethrow_exception;
-# 97 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception_ptr.h" 3
+# 97 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception_ptr.h" 3
     class exception_ptr
     {
       void* _M_exception_object;
@@ -36221,7 +36221,7 @@ namespace std
       exception_ptr(exception_ptr&& __o) noexcept
       : _M_exception_object(__o._M_exception_object)
       { __o._M_exception_object = nullptr; }
-# 135 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception_ptr.h" 3
+# 135 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception_ptr.h" 3
       exception_ptr&
       operator=(const exception_ptr&) noexcept;
 
@@ -36238,7 +36238,7 @@ namespace std
 
       void
       swap(exception_ptr&) noexcept;
-# 161 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception_ptr.h" 3
+# 161 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception_ptr.h" 3
       explicit operator bool() const noexcept
       { return _M_exception_object; }
 
@@ -36247,7 +36247,7 @@ namespace std
 
       friend bool
       operator==(const exception_ptr&, const exception_ptr&) noexcept = default;
-# 181 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception_ptr.h" 3
+# 181 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception_ptr.h" 3
       const class std::type_info*
       __cxa_exception_type() const noexcept
  __attribute__ ((__pure__));
@@ -36333,20 +36333,20 @@ namespace std
    __cxxabiv1::__cxa_free_exception(__e);
    return current_exception();
  }
-# 276 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception_ptr.h" 3
+# 276 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception_ptr.h" 3
     }
-# 290 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception_ptr.h" 3
+# 290 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception_ptr.h" 3
 }
 
 }
-# 169 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/exception" 2 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/nested_exception.h" 1 3
-# 40 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/nested_exception.h" 3
+# 169 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/exception" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/nested_exception.h" 1 3
+# 40 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/nested_exception.h" 3
 extern "C++" {
 
 namespace std
 {
-# 59 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/nested_exception.h" 3
+# 59 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/nested_exception.h" 3
   class nested_exception
   {
     exception_ptr _M_ptr;
@@ -36390,7 +36390,7 @@ namespace std
       : _Except(static_cast<_Except&&>(__ex))
       { }
     };
-# 145 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/nested_exception.h" 3
+# 145 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/nested_exception.h" 3
   template<typename _Tp>
     [[noreturn]]
     inline void
@@ -36414,7 +36414,7 @@ namespace std
 
 
     }
-# 203 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/nested_exception.h" 3
+# 203 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/nested_exception.h" 3
   template<typename _Ex>
 
 
@@ -36423,7 +36423,7 @@ namespace std
     rethrow_if_nested(const _Ex& __ex)
     {
       const _Ex* __ptr = __builtin_addressof(__ex);
-# 223 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/nested_exception.h" 3
+# 223 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/nested_exception.h" 3
       if constexpr (!is_polymorphic_v<_Ex>)
  return;
       else if constexpr (is_base_of_v<nested_exception, _Ex>
@@ -36442,29 +36442,29 @@ namespace std
 }
 
 }
-# 170 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/exception" 2 3
-# 44 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ios" 2 3
+# 170 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/exception" 2 3
+# 44 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ios" 2 3
 
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 1 3
-# 41 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/atomicity.h" 1 3
-# 37 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/atomicity.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/gthr.h" 1 3
-# 30 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/gthr.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 1 3
+# 41 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/atomicity.h" 1 3
+# 37 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/atomicity.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/gthr.h" 1 3
+# 30 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/gthr.h" 3
 #pragma GCC visibility push(default)
-# 157 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/gthr.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h" 1 3
-# 35 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/pthread.h" 1 3
-# 62 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/pthread.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h" 1 3 4
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/stddef.h" 1 3 4
-# 2 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h" 2 3 4
-# 63 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/pthread.h" 2 3
+# 157 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/gthr.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h" 1 3
+# 35 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/pthread.h" 1 3
+# 62 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/pthread.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h" 1 3 4
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stddef.h" 1 3 4
+# 2 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h" 2 3 4
+# 63 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/pthread.h" 2 3
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/sys/types.h" 1 3
-# 62 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/sys/types.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sys/types.h" 1 3
+# 62 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sys/types.h" 3
 __extension__
 typedef long long _pid_t;
 
@@ -36508,12 +36508,12 @@ struct itimerspec {
 
 __extension__
 typedef unsigned long long _sigset_t;
-# 65 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/pthread.h" 2 3
+# 65 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/pthread.h" 2 3
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/process.h" 1 3
-# 10 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/process.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/corecrt_startup.h" 1 3
-# 13 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/corecrt_startup.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/process.h" 1 3
+# 10 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/process.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt_startup.h" 1 3
+# 13 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt_startup.h" 3
 extern "C" {
 
 
@@ -36573,7 +36573,7 @@ __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _crt_at_quick_exi
 
 
 }
-# 11 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/process.h" 2 3
+# 11 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/process.h" 2 3
 
 
 
@@ -36581,7 +36581,7 @@ __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _crt_at_quick_exi
 
 
 extern "C" {
-# 32 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/process.h" 3
+# 32 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/process.h" 3
   typedef void (__attribute__((__cdecl__)) *_beginthread_proc_type)(void *);
   typedef unsigned (__attribute__((__stdcall__)) *_beginthreadex_proc_type)(void *);
 
@@ -36589,7 +36589,7 @@ extern "C" {
   __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _endthread(void) __attribute__ ((__noreturn__));
   __attribute__ ((__dllimport__)) uintptr_t __attribute__((__cdecl__)) _beginthreadex(void *_Security,unsigned _StackSize,_beginthreadex_proc_type _StartAddress,void *_ArgList,unsigned _InitFlag,unsigned *_ThrdAddr);
   __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _endthreadex(unsigned _Retval) __attribute__ ((__noreturn__));
-# 64 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/process.h" 3
+# 64 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/process.h" 3
   typedef void (__attribute__((__stdcall__)) *_tls_callback_type)(void*,unsigned long,void*);
   __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _register_thread_local_exe_atexit_callback(_tls_callback_type callback);
 
@@ -36610,11 +36610,11 @@ extern "C" {
   __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _spawnle(int _Mode,const char *_Filename,const char *_ArgList,...);
   __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _spawnlp(int _Mode,const char *_Filename,const char *_ArgList,...);
   __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _spawnlpe(int _Mode,const char *_Filename,const char *_ArgList,...);
-# 129 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/process.h" 3
+# 129 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/process.h" 3
   intptr_t __attribute__((__cdecl__)) _loaddll(char *_Filename);
   int __attribute__((__cdecl__)) _unloaddll(intptr_t _Handle);
   int (__attribute__((__cdecl__)) *__attribute__((__cdecl__)) _getdllprocaddr(intptr_t _Handle,char *_ProcedureName,intptr_t _Ordinal))(void);
-# 161 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/process.h" 3
+# 161 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/process.h" 3
   int __attribute__((__cdecl__)) getpid(void) ;
 
 
@@ -36659,13 +36659,13 @@ extern "C" {
 
 
 }
-# 67 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/pthread.h" 2 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h" 1 3 4
-# 68 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/pthread.h" 2 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/signal.h" 1 3
-# 10 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/signal.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/pthread_signal.h" 1 3
-# 11 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/signal.h" 2 3
+# 67 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/pthread.h" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h" 1 3 4
+# 68 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/pthread.h" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/signal.h" 1 3
+# 10 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/signal.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/pthread_signal.h" 1 3
+# 11 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/signal.h" 2 3
 
 
 extern "C" {
@@ -36674,9 +36674,9 @@ extern "C" {
 
 
   typedef int sig_atomic_t;
-# 48 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/signal.h" 3
+# 48 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/signal.h" 3
   typedef void (*__p_sig_fn_t)(int);
-# 57 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/signal.h" 3
+# 57 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/signal.h" 3
   extern void **__attribute__((__cdecl__)) __pxcptinfoptrs(void);
 
 
@@ -36685,16 +36685,16 @@ extern "C" {
 
 
 }
-# 69 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/pthread.h" 2 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/time.h" 1 3
-# 25 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/time.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/sys/timeb.h" 1 3
-# 15 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/sys/timeb.h" 3
+# 69 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/pthread.h" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/time.h" 1 3
+# 25 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/time.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sys/timeb.h" 1 3
+# 15 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sys/timeb.h" 3
 #pragma pack(push,_CRT_PACKING)
 
 
 extern "C" {
-# 53 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/sys/timeb.h" 3
+# 53 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sys/timeb.h" 3
   struct __timeb32 {
     __time32_t time;
     unsigned short millitm;
@@ -36722,7 +36722,7 @@ extern "C" {
 
   __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _ftime64(struct __timeb64 *_Time);
   __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _ftime32(struct __timeb32 *_Time);
-# 95 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/sys/timeb.h" 3
+# 95 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sys/timeb.h" 3
 struct _timespec32 {
   __time32_t tv_sec;
   long tv_nsec;
@@ -36732,7 +36732,7 @@ struct _timespec64 {
   __time64_t tv_sec;
   long tv_nsec;
 };
-# 125 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/sys/timeb.h" 3
+# 125 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sys/timeb.h" 3
   int __attribute__((__cdecl__)) ftime (struct timeb *) __asm__("ftime64");
 
 
@@ -36746,10 +36746,10 @@ struct _timespec64 {
 
 #pragma pack(pop)
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h" 1 3
-# 10 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/sys/timeb.h" 1 3
-# 11 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h" 1 3
+# 10 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sys/timeb.h" 1 3
+# 11 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h" 2 3
 
 
 extern "C" {
@@ -36757,23 +36757,23 @@ extern "C" {
 
   __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _ftime32_s(struct __timeb32 *_Time);
   __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _ftime64_s(struct __timeb64 *_Time);
-# 26 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h" 3
+# 26 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h" 3
 }
-# 139 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/sys/timeb.h" 2 3
-# 26 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/time.h" 2 3
+# 139 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sys/timeb.h" 2 3
+# 26 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/time.h" 2 3
 
 #pragma pack(push,_CRT_PACKING)
 
 
 extern "C" {
-# 63 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/time.h" 3
+# 63 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/time.h" 3
   typedef long clock_t;
-# 119 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/time.h" 3
+# 119 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/time.h" 3
   __attribute__ ((__dllimport__)) int *__attribute__((__cdecl__)) __daylight(void);
   __attribute__ ((__dllimport__)) long *__attribute__((__cdecl__)) __dstbias(void);
   __attribute__ ((__dllimport__)) long *__attribute__((__cdecl__)) __timezone(void);
   __attribute__ ((__dllimport__)) char **__attribute__((__cdecl__)) __tzname(void);
-# 138 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/time.h" 3
+# 138 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/time.h" 3
   __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _get_daylight(int *_Daylight);
   __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _get_dstbias(long *_Daylight_savings_bias);
   __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _get_timezone(long *_Timezone);
@@ -36828,7 +36828,7 @@ extern "C" {
 
   unsigned __attribute__((__cdecl__)) _getsystime(struct tm *_Tm);
   unsigned __attribute__((__cdecl__)) _setsystime(struct tm *_Tm,unsigned _MilliSec);
-# 250 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/time.h" 3
+# 250 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/time.h" 3
 time_t __attribute__((__cdecl__)) time(time_t *_Time) __asm__("_time64");
 
 
@@ -36842,21 +36842,21 @@ char *__attribute__((__cdecl__)) ctime(const time_t *_Time) __asm__("_ctime64");
 errno_t __attribute__((__cdecl__)) ctime_s(char *_Buf,size_t _SizeInBytes,const time_t *_Time) __asm__("_ctime64_s");
 time_t __attribute__((__cdecl__)) mktime(struct tm *_Tm) __asm__("_mktime64");
 time_t __attribute__((__cdecl__)) _mkgmtime(struct tm *_Tm) __asm__("_mkgmtime64");
-# 280 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/time.h" 3
+# 280 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/time.h" 3
   __attribute__ ((__dllimport__)) extern int daylight ;
   __attribute__ ((__dllimport__)) extern long timezone ;
   __attribute__ ((__dllimport__)) extern char *tzname[2] ;
   void __attribute__((__cdecl__)) tzset(void) ;
 
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/_timeval.h" 1 3
-# 10 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/_timeval.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/_timeval.h" 1 3
+# 10 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/_timeval.h" 3
 struct timeval
 {
  long tv_sec;
  long tv_usec;
 };
-# 287 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/time.h" 2 3
+# 287 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/time.h" 2 3
 
 
 
@@ -36869,16 +36869,16 @@ struct timezone {
 
 
 #pragma pack(pop)
-# 320 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/time.h" 3
+# 320 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/time.h" 3
 }
-# 329 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/time.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/pthread_time.h" 1 3
-# 27 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/pthread_time.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/pthread_compat.h" 1 3
-# 78 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/pthread_compat.h" 3
+# 329 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/time.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/pthread_time.h" 1 3
+# 27 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/pthread_time.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/pthread_compat.h" 1 3
+# 78 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/pthread_compat.h" 3
 typedef int clockid_t;
-# 28 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/pthread_time.h" 2 3
-# 74 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/pthread_time.h" 3
+# 28 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/pthread_time.h" 2 3
+# 74 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/pthread_time.h" 3
 extern "C" {
 
 
@@ -36939,23 +36939,23 @@ __inline__ __attribute__((__always_inline__)) int __attribute__((__cdecl__)) clo
 
 
 }
-# 330 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/time.h" 2 3
-# 70 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/pthread.h" 2 3
+# 330 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/time.h" 2 3
+# 70 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/pthread.h" 2 3
 
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/sched.h" 1 3
-# 25 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/sched.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h" 1 3 4
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/stddef.h" 1 3 4
-# 2 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h" 2 3 4
-# 26 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/sched.h" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sched.h" 1 3
+# 25 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sched.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h" 1 3 4
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stddef.h" 1 3 4
+# 2 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h" 2 3 4
+# 26 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sched.h" 2 3
 
 
 
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h" 1 3 4
-# 31 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/sched.h" 2 3
-# 42 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/sched.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h" 1 3 4
+# 31 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sched.h" 2 3
+# 42 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sched.h" 3
 struct sched_param {
   int sched_priority;
 };
@@ -36972,7 +36972,7 @@ extern "C" {
 
 
 }
-# 73 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/pthread.h" 2 3
+# 73 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/pthread.h" 2 3
 
 
 
@@ -36980,7 +36980,7 @@ extern "C" {
 
 
 extern "C" {
-# 141 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/pthread.h" 3
+# 141 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/pthread.h" 3
  void * pthread_timechange_handler_np(void * dummy);
  int pthread_delay32_np (const struct _timespec32 *interval);
  int pthread_delay64_np (const struct _timespec64 *interval);
@@ -36994,7 +36994,7 @@ __inline__ __attribute__((__always_inline__)) int pthread_delay_np (const struct
 }
  int pthread_num_processors_np(void);
  int pthread_set_num_processors_np(int n);
-# 170 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/pthread.h" 3
+# 170 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/pthread.h" 3
 typedef long pthread_once_t;
 typedef unsigned pthread_mutexattr_t;
 typedef unsigned pthread_key_t;
@@ -37010,7 +37010,7 @@ struct _pthread_cleanup
     void *arg;
     _pthread_cleanup *next;
 };
-# 212 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/pthread.h" 3
+# 212 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/pthread.h" 3
 typedef struct pthread_attr_t pthread_attr_t;
 struct pthread_attr_t
 {
@@ -37033,7 +37033,7 @@ typedef intptr_t pthread_mutex_t;
 typedef intptr_t pthread_cond_t;
 typedef intptr_t pthread_rwlock_t;
 typedef void *pthread_barrier_t;
-# 252 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/pthread.h" 3
+# 252 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/pthread.h" 3
  extern void (**_pthread_key_dest)(void *);
  int pthread_key_create(pthread_key_t *key, void (* dest)(void *));
  int pthread_key_delete(pthread_key_t key);
@@ -37197,13 +37197,13 @@ __inline__ __attribute__((__always_inline__)) int pthread_mutex_timedlock(pthrea
  int pthread_rwlockattr_getpshared(pthread_rwlockattr_t *a, int *s);
  int pthread_rwlockattr_init(pthread_rwlockattr_t *a);
  int pthread_rwlockattr_setpshared(pthread_rwlockattr_t *a, int s);
-# 426 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/pthread.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/pthread_unistd.h" 1 3
-# 427 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/pthread.h" 2 3
-# 688 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/pthread.h" 3
+# 426 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/pthread.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/pthread_unistd.h" 1 3
+# 427 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/pthread.h" 2 3
+# 688 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/pthread.h" 3
 }
-# 36 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h" 2 3
-# 62 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h" 3
+# 36 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h" 2 3
+# 62 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h" 3
 typedef pthread_t __gthread_t;
 typedef pthread_key_t __gthread_key_t;
 typedef pthread_once_t __gthread_once_t;
@@ -37214,7 +37214,7 @@ typedef pthread_mutex_t __gthread_mutex_t;
 typedef pthread_mutex_t __gthread_recursive_mutex_t;
 typedef pthread_cond_t __gthread_cond_t;
 typedef struct timespec __gthread_time_t;
-# 123 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h" 3
+# 123 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h" 3
 
 
 
@@ -37250,13 +37250,13 @@ typedef struct timespec __gthread_time_t;
 
 
 
-# 345 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h" 3
+# 345 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h" 3
 inline __attribute__((__always_inline__)) int
 __gthread_active_p (void)
 {
   return 1;
 }
-# 705 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h" 3
+# 705 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h" 3
 inline __attribute__((__always_inline__)) int
 __gthread_create (__gthread_t *__threadid, void *(*__func) (void*),
     void *__args)
@@ -37438,7 +37438,7 @@ __gthread_recursive_mutex_destroy (__gthread_recursive_mutex_t *__mutex)
 {
   return __gthread_mutex_destroy (__mutex);
 }
-# 896 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h" 3
+# 896 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h" 3
 inline __attribute__((__always_inline__)) int
 __gthread_cond_broadcast (__gthread_cond_t *__cond)
 {
@@ -37476,15 +37476,15 @@ __gthread_cond_destroy (__gthread_cond_t* __cond)
 {
   return pthread_cond_destroy (__cond);
 }
-# 158 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/gthr.h" 2 3
+# 158 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/gthr.h" 2 3
 
 
 #pragma GCC visibility pop
-# 38 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/atomicity.h" 2 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h" 1 3
-# 32 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h" 3
+# 38 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/atomicity.h" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h" 1 3
+# 32 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h" 3
 typedef int _Atomic_word;
-# 39 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/atomicity.h" 2 3
+# 39 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/atomicity.h" 2 3
 
 
 
@@ -37520,7 +37520,7 @@ namespace __gnu_cxx
   __attribute__((__always_inline__))
   __atomic_add(volatile _Atomic_word* __mem, int __val)
   { __atomic_fetch_add(__mem, __val, 4); }
-# 82 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/atomicity.h" 3
+# 82 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/atomicity.h" 3
   inline _Atomic_word
   __attribute__((__always_inline__))
   __exchange_and_add_single(_Atomic_word* __mem, int __val)
@@ -37557,14 +37557,14 @@ namespace __gnu_cxx
 
 
 }
-# 42 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 2 3
+# 42 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 2 3
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 1 3
-# 49 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 1 3
+# 49 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
 namespace std
 {
 
-# 68 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
+# 68 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
   class locale
   {
   public:
@@ -37594,7 +37594,7 @@ namespace std
 
     template<typename _Cache>
       friend struct __use_cache;
-# 108 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
+# 108 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
     static const category none = 0;
     static const category ctype = 1L << 0;
     static const category numeric = 1L << 1;
@@ -37604,33 +37604,33 @@ namespace std
     static const category messages = 1L << 5;
     static const category all = (ctype | numeric | collate |
         time | monetary | messages);
-# 127 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
+# 127 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
     locale() throw();
-# 136 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
+# 136 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
     locale(const locale& __other) throw();
-# 146 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
+# 146 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
     explicit
     locale(const char* __s);
-# 161 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
+# 161 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
     locale(const locale& __base, const char* __s, category __cat);
-# 172 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
+# 172 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
     explicit
     locale(const std::string& __s) : locale(__s.c_str()) { }
-# 187 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
+# 187 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
     locale(const locale& __base, const std::string& __s, category __cat)
     : locale(__base, __s.c_str(), __cat) { }
-# 202 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
+# 202 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
     locale(const locale& __base, const locale& __add, category __cat);
-# 215 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
+# 215 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
     template<typename _Facet>
       locale(const locale& __other, _Facet* __f);
 
 
     ~locale() throw();
-# 229 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
+# 229 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
     const locale&
     operator=(const locale& __other) throw();
-# 244 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
+# 244 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
     template<typename _Facet>
       [[__nodiscard__]]
       locale
@@ -37644,17 +37644,17 @@ namespace std
     [[__nodiscard__]] __attribute ((__abi_tag__ ("cxx11")))
     string
     name() const;
-# 275 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
+# 275 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
     [[__nodiscard__]]
     bool
     operator==(const locale& __other) const throw();
-# 307 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
+# 307 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
     template<typename _Char, typename _Traits, typename _Alloc>
       [[__nodiscard__]]
       bool
       operator()(const basic_string<_Char, _Traits, _Alloc>& __s1,
    const basic_string<_Char, _Traits, _Alloc>& __s2) const;
-# 324 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
+# 324 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
     static locale
     global(const locale& __loc);
 
@@ -37680,7 +37680,7 @@ namespace std
 
 
     static const char* const* const _S_categories;
-# 360 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
+# 360 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
     enum { _S_categories_size = 6 + 0 };
 
 
@@ -37712,7 +37712,7 @@ namespace std
     constexpr bool __is_facet = is_base_of_v<locale::facet, _Tp>;
   template<typename _Tp>
     constexpr bool __is_facet<volatile _Tp> = false;
-# 404 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
+# 404 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
   class locale::facet
   {
   private:
@@ -37735,7 +37735,7 @@ namespace std
     _S_initialize_once();
 
   protected:
-# 435 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
+# 435 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
     explicit
     facet(size_t __refs = 0) throw() : _M_refcount(__refs ? 1 : 0)
     { }
@@ -37764,7 +37764,7 @@ namespace std
 
     __attribute__ ((__const__)) static const char*
     _S_get_c_name() throw();
-# 471 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
+# 471 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
     facet(const facet&) = delete;
 
     facet&
@@ -37797,7 +37797,7 @@ namespace std
   protected:
     class __shim;
   };
-# 516 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
+# 516 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
   class locale::id
   {
   private:
@@ -37954,7 +37954,7 @@ namespace std
 
 
   };
-# 686 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
+# 686 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
   template<typename _CharT>
     class __cxx11:: collate : public locale::facet
     {
@@ -37974,26 +37974,26 @@ namespace std
     public:
 
       static locale::id id;
-# 713 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
+# 713 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
       explicit
       collate(size_t __refs = 0)
       : facet(__refs), _M_c_locale_collate(_S_get_c_locale())
       { }
-# 727 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
+# 727 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
       explicit
       collate(__c_locale __cloc, size_t __refs = 0)
       : facet(__refs), _M_c_locale_collate(_S_clone_c_locale(__cloc))
       { }
-# 744 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
+# 744 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
       int
       compare(const _CharT* __lo1, const _CharT* __hi1,
        const _CharT* __lo2, const _CharT* __hi2) const
       { return this->do_compare(__lo1, __hi1, __lo2, __hi2); }
-# 763 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
+# 763 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
       string_type
       transform(const _CharT* __lo, const _CharT* __hi) const
       { return this->do_transform(__lo, __hi); }
-# 777 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
+# 777 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
       long
       hash(const _CharT* __lo, const _CharT* __hi) const
       { return this->do_hash(__lo, __hi); }
@@ -38010,14 +38010,14 @@ namespace std
       virtual
       ~collate()
       { _S_destroy_c_locale(_M_c_locale_collate); }
-# 806 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
+# 806 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
       virtual int
       do_compare(const _CharT* __lo1, const _CharT* __hi1,
    const _CharT* __lo2, const _CharT* __hi2) const;
-# 820 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
+# 820 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
       virtual string_type
       do_transform(const _CharT* __lo, const _CharT* __hi) const;
-# 833 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
+# 833 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 3
       virtual long
       do_hash(const _CharT* __lo, const _CharT* __hi) const;
     };
@@ -38081,8 +38081,8 @@ namespace std
 
 }
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.tcc" 1 3
-# 43 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.tcc" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.tcc" 1 3
+# 43 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.tcc" 3
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wc++11-extensions"
 #pragma GCC diagnostic ignored "-Wvariadic-macros"
@@ -38214,7 +38214,7 @@ namespace std
 
     }
 #pragma GCC diagnostic pop
-# 187 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.tcc" 3
+# 187 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.tcc" 3
   template<typename _Facet>
     [[__nodiscard__]]
     inline bool
@@ -38228,7 +38228,7 @@ namespace std
 
       return std::__try_use_facet<_Facet>(__loc) != 0;
     }
-# 215 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.tcc" 3
+# 215 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.tcc" 3
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wdangling-reference"
   template<typename _Facet>
@@ -38443,16 +38443,16 @@ namespace std
 }
 
 #pragma GCC diagnostic pop
-# 897 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 2 3
-# 44 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 2 3
+# 897 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h" 2 3
+# 44 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 2 3
 
 
 
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/system_error" 1 3
-# 43 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/system_error" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h" 1 3
-# 36 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/system_error" 1 3
+# 43 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/system_error" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h" 1 3
+# 36 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h" 3
 namespace std
 {
 
@@ -38579,10 +38579,10 @@ namespace std
 
 
 }
-# 44 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/system_error" 2 3
+# 44 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/system_error" 2 3
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/stdexcept" 1 3
-# 43 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/stdexcept" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/stdexcept" 1 3
+# 43 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/stdexcept" 3
 namespace std
 {
 
@@ -38610,7 +38610,7 @@ namespace std
   };
 
   typedef basic_string<char> __sso_string;
-# 115 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/stdexcept" 3
+# 115 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/stdexcept" 3
   class logic_error : public exception
   {
     __cow_string _M_msg;
@@ -38804,7 +38804,7 @@ namespace std
 
 
 }
-# 46 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/system_error" 2 3
+# 46 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/system_error" 2 3
 
 
 
@@ -38844,7 +38844,7 @@ namespace std
 
 
 inline namespace _V2 {
-# 108 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/system_error" 3
+# 108 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/system_error" 3
   class error_category
   {
   public:
@@ -38874,7 +38874,7 @@ inline namespace _V2 {
     __attribute ((__abi_tag__ ("cxx11")))
     virtual string
     message(int) const = 0;
-# 146 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/system_error" 3
+# 146 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/system_error" 3
   public:
 
     virtual error_condition
@@ -38900,7 +38900,7 @@ inline namespace _V2 {
     strong_ordering
     operator<=>(const error_category& __rhs) const noexcept
     { return std::compare_three_way()(this, &__rhs); }
-# 180 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/system_error" 3
+# 180 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/system_error" 3
   };
 
 
@@ -38928,7 +38928,7 @@ namespace __adl_only
   void make_error_code() = delete;
   void make_error_condition() = delete;
 }
-# 225 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/system_error" 3
+# 225 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/system_error" 3
   class error_code
   {
     template<typename _ErrorCodeEnum>
@@ -38995,12 +38995,12 @@ namespace __adl_only
     int _M_value;
     const error_category* _M_cat;
   };
-# 302 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/system_error" 3
+# 302 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/system_error" 3
   [[__nodiscard__]]
   inline error_code
   make_error_code(errc __e) noexcept
   { return error_code(static_cast<int>(__e), generic_category()); }
-# 316 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/system_error" 3
+# 316 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/system_error" 3
   [[nodiscard]]
   inline strong_ordering
   operator<=>(const error_code& __lhs, const error_code& __rhs) noexcept
@@ -39009,12 +39009,12 @@ namespace __adl_only
       return __c;
     return __lhs.value() <=> __rhs.value();
   }
-# 339 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/system_error" 3
+# 339 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/system_error" 3
   template<typename _CharT, typename _Traits>
     basic_ostream<_CharT, _Traits>&
     operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
     { return (__os << __e.category().name() << ':' << __e.value()); }
-# 356 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/system_error" 3
+# 356 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/system_error" 3
   class error_condition
   {
     template<typename _ErrorConditionEnum>
@@ -39083,12 +39083,12 @@ namespace __adl_only
     int _M_value;
     const error_category* _M_cat;
   };
-# 435 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/system_error" 3
+# 435 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/system_error" 3
   [[__nodiscard__]]
   inline error_condition
   make_error_condition(errc __e) noexcept
   { return error_condition(static_cast<int>(__e), generic_category()); }
-# 449 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/system_error" 3
+# 449 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/system_error" 3
   [[__nodiscard__]]
   inline bool
   operator==(const error_code& __lhs, const error_code& __rhs) noexcept
@@ -39096,7 +39096,7 @@ namespace __adl_only
     return __lhs.category() == __rhs.category()
       && __lhs.value() == __rhs.value();
   }
-# 465 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/system_error" 3
+# 465 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/system_error" 3
   [[__nodiscard__]]
   inline bool
   operator==(const error_code& __lhs, const error_condition& __rhs) noexcept
@@ -39104,7 +39104,7 @@ namespace __adl_only
     return __lhs.category().equivalent(__lhs.value(), __rhs)
       || __rhs.category().equivalent(__lhs, __rhs.value());
   }
-# 480 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/system_error" 3
+# 480 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/system_error" 3
   [[__nodiscard__]]
   inline bool
   operator==(const error_condition& __lhs,
@@ -39113,7 +39113,7 @@ namespace __adl_only
     return __lhs.category() == __rhs.category()
       && __lhs.value() == __rhs.value();
   }
-# 498 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/system_error" 3
+# 498 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/system_error" 3
   [[nodiscard]]
   inline strong_ordering
   operator<=>(const error_condition& __lhs,
@@ -39123,7 +39123,7 @@ namespace __adl_only
       return __c;
     return __lhs.value() <=> __rhs.value();
   }
-# 558 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/system_error" 3
+# 558 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/system_error" 3
   class system_error : public std::runtime_error
   {
   private:
@@ -39206,7 +39206,7 @@ namespace std
 
 
 }
-# 49 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 2 3
+# 49 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 2 3
 
 
 namespace std
@@ -39276,7 +39276,7 @@ namespace std
   inline const _Ios_Fmtflags&
   operator^=(_Ios_Fmtflags& __a, _Ios_Fmtflags __b) noexcept
   { return __a = __a ^ __b; }
-# 127 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
+# 127 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
   enum __attribute__((__flag_enum__)) _Ios_Openmode
     {
       _S_app = 1L << 0,
@@ -39403,12 +39403,12 @@ namespace std
   inline error_condition
   make_error_condition(io_errc __e) noexcept
   { return error_condition(static_cast<int>(__e), iostream_category()); }
-# 265 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
+# 265 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
   class ios_base
   {
-# 283 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
+# 283 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
   public:
-# 292 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
+# 292 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
     class __attribute ((__abi_tag__ ("cxx11"))) failure : public system_error
     {
     public:
@@ -39429,7 +39429,7 @@ namespace std
       virtual const char*
       what() const throw();
     };
-# 378 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
+# 378 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
     typedef _Ios_Fmtflags fmtflags;
 
 
@@ -39492,7 +39492,7 @@ namespace std
 
 
     static const fmtflags floatfield = _S_floatfield;
-# 453 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
+# 453 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
     typedef _Ios_Iostate iostate;
 
 
@@ -39509,7 +39509,7 @@ namespace std
 
 
     static const iostate goodbit = _S_goodbit;
-# 484 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
+# 484 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
     typedef _Ios_Openmode openmode;
 
 
@@ -39533,7 +39533,7 @@ namespace std
     static const openmode trunc = _S_trunc;
 
     static const openmode __noreplace = _S_noreplace;
-# 523 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
+# 523 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
     typedef _Ios_Seekdir seekdir;
 
 
@@ -39544,16 +39544,16 @@ namespace std
 
 
     static const seekdir end = _S_end;
-# 556 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
+# 556 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
     enum event
     {
       erase_event,
       imbue_event,
       copyfmt_event
     };
-# 573 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
+# 573 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
     typedef void (*event_callback) (event __e, ios_base& __b, int __i);
-# 585 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
+# 585 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
     void
     register_callback(event_callback __fn, int __index);
 
@@ -39665,7 +39665,7 @@ namespace std
     fmtflags
     flags() const
     { return _M_flags; }
-# 704 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
+# 704 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
     fmtflags
     flags(fmtflags __fmtfl)
     {
@@ -39673,7 +39673,7 @@ namespace std
       _M_flags = __fmtfl;
       return __old;
     }
-# 720 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
+# 720 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
     fmtflags
     setf(fmtflags __fmtfl)
     {
@@ -39681,7 +39681,7 @@ namespace std
       _M_flags |= __fmtfl;
       return __old;
     }
-# 737 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
+# 737 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
     fmtflags
     setf(fmtflags __fmtfl, fmtflags __mask)
     {
@@ -39700,7 +39700,7 @@ namespace std
     void
     unsetf(fmtflags __mask)
     { _M_flags &= ~__mask; }
-# 763 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
+# 763 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
     [[__nodiscard__]]
     streamsize
     precision() const
@@ -39742,25 +39742,25 @@ namespace std
       _M_width = __wide;
       return __old;
     }
-# 816 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
+# 816 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
     static bool
     sync_with_stdio(bool __sync = true);
-# 828 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
+# 828 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
     locale
     imbue(const locale& __loc) throw();
-# 839 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
+# 839 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
     [[__nodiscard__]]
     locale
     getloc() const
     { return _M_ios_locale; }
-# 851 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
+# 851 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
     const locale&
     _M_getloc() const
     { return _M_ios_locale; }
-# 870 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
+# 870 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
     static int
     xalloc() throw();
-# 886 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
+# 886 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
     long&
     iword(int __ix)
     {
@@ -39768,7 +39768,7 @@ namespace std
    ? _M_word[__ix] : _M_grow_words(__ix, true);
       return __word._M_iword;
     }
-# 907 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
+# 907 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
     void*&
     pword(int __ix)
     {
@@ -39776,12 +39776,12 @@ namespace std
    ? _M_word[__ix] : _M_grow_words(__ix, false);
       return __word._M_pword;
     }
-# 924 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
+# 924 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
     virtual ~ios_base();
 
   protected:
     ios_base() throw ();
-# 938 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
+# 938 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h" 3
   public:
     ios_base(const ios_base&) = delete;
 
@@ -40000,9 +40000,9 @@ namespace std
 
 
 }
-# 47 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ios" 2 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 1 3
-# 49 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
+# 47 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ios" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 1 3
+# 49 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
 namespace std
 {
 
@@ -40013,7 +40013,7 @@ namespace std
     streamsize
     __copy_streambufs_eof(basic_streambuf<_CharT, _Traits>*,
      basic_streambuf<_CharT, _Traits>*, bool&);
-# 125 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
+# 125 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
   template<typename _CharT, typename _Traits>
     class basic_streambuf
     {
@@ -40097,7 +40097,7 @@ namespace std
       virtual
       ~basic_streambuf()
       { }
-# 217 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
+# 217 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
       locale
       pubimbue(const locale& __loc)
       {
@@ -40106,20 +40106,20 @@ namespace std
  _M_buf_locale = __loc;
  return __tmp;
       }
-# 234 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
+# 234 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
       locale
       getloc() const
       { return _M_buf_locale; }
-# 247 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
+# 247 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
       basic_streambuf*
       pubsetbuf(char_type* __s, streamsize __n)
       { return this->setbuf(__s, __n); }
-# 259 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
+# 259 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
       pos_type
       pubseekoff(off_type __off, ios_base::seekdir __way,
    ios_base::openmode __mode = ios_base::in | ios_base::out)
       { return this->seekoff(__off, __way, __mode); }
-# 271 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
+# 271 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
       pos_type
       pubseekpos(pos_type __sp,
    ios_base::openmode __mode = ios_base::in | ios_base::out)
@@ -40130,14 +40130,14 @@ namespace std
 
       int
       pubsync() { return this->sync(); }
-# 292 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
+# 292 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
       streamsize
       in_avail()
       {
  const streamsize __ret = this->egptr() - this->gptr();
  return __ret ? __ret : this->showmanyc();
       }
-# 306 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
+# 306 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
       int_type
       snextc()
       {
@@ -40147,7 +40147,7 @@ namespace std
    __ret = this->sgetc();
  return __ret;
       }
-# 324 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
+# 324 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
       int_type
       sbumpc()
       {
@@ -40161,7 +40161,7 @@ namespace std
    __ret = this->uflow();
  return __ret;
       }
-# 346 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
+# 346 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
       int_type
       sgetc()
       {
@@ -40172,11 +40172,11 @@ namespace std
    __ret = this->underflow();
  return __ret;
       }
-# 365 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
+# 365 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
       streamsize
       sgetn(char_type* __s, streamsize __n)
       { return this->xsgetn(__s, __n); }
-# 380 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
+# 380 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
       int_type
       sputbackc(char_type __c)
       {
@@ -40192,7 +40192,7 @@ namespace std
    }
  return __ret;
       }
-# 405 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
+# 405 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
       int_type
       sungetc()
       {
@@ -40206,7 +40206,7 @@ namespace std
    __ret = this->pbackfail();
  return __ret;
       }
-# 432 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
+# 432 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
       int_type
       sputc(char_type __c)
       {
@@ -40221,19 +40221,19 @@ namespace std
    __ret = this->overflow(traits_type::to_int_type(__c));
  return __ret;
       }
-# 458 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
+# 458 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
       streamsize
       sputn(const char_type* __s, streamsize __n)
       { return this->xsputn(__s, __n); }
 
     protected:
-# 472 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
+# 472 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
       basic_streambuf()
       : _M_in_beg(0), _M_in_cur(0), _M_in_end(0),
       _M_out_beg(0), _M_out_cur(0), _M_out_end(0),
       _M_buf_locale(locale())
       { }
-# 490 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
+# 490 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
       char_type*
       eback() const { return _M_in_beg; }
 
@@ -40242,10 +40242,10 @@ namespace std
 
       char_type*
       egptr() const { return _M_in_end; }
-# 506 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
+# 506 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
       void
       gbump(int __n) { _M_in_cur += __n; }
-# 517 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
+# 517 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
       void
       setg(char_type* __gbeg, char_type* __gnext, char_type* __gend)
       {
@@ -40253,7 +40253,7 @@ namespace std
  _M_in_cur = __gnext;
  _M_in_end = __gend;
       }
-# 537 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
+# 537 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
       char_type*
       pbase() const { return _M_out_beg; }
 
@@ -40262,48 +40262,48 @@ namespace std
 
       char_type*
       epptr() const { return _M_out_end; }
-# 553 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
+# 553 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
       void
       pbump(int __n) { _M_out_cur += __n; }
-# 563 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
+# 563 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
       void
       setp(char_type* __pbeg, char_type* __pend)
       {
  _M_out_beg = _M_out_cur = __pbeg;
  _M_out_end = __pend;
       }
-# 584 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
+# 584 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
       virtual void
       imbue(const locale& __loc __attribute__ ((__unused__)))
       { }
-# 599 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
+# 599 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
       virtual basic_streambuf<char_type,_Traits>*
       setbuf(char_type*, streamsize)
       { return this; }
-# 610 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
+# 610 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
       virtual pos_type
       seekoff(off_type, ios_base::seekdir,
        ios_base::openmode = ios_base::in | ios_base::out)
       { return pos_type(off_type(-1)); }
-# 622 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
+# 622 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
       virtual pos_type
       seekpos(pos_type,
        ios_base::openmode = ios_base::in | ios_base::out)
       { return pos_type(off_type(-1)); }
-# 635 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
+# 635 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
       virtual int
       sync() { return 0; }
-# 657 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
+# 657 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
       virtual streamsize
       showmanyc() { return 0; }
-# 673 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
+# 673 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
       virtual streamsize
       xsgetn(char_type* __s, streamsize __n);
-# 695 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
+# 695 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
       virtual int_type
       underflow()
       { return traits_type::eof(); }
-# 708 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
+# 708 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
       virtual int_type
       uflow()
       {
@@ -40317,18 +40317,18 @@ namespace std
    }
  return __ret;
       }
-# 732 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
+# 732 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
       virtual int_type
       pbackfail(int_type __c __attribute__ ((__unused__)) = traits_type::eof())
       { return traits_type::eof(); }
-# 750 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
+# 750 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
       virtual streamsize
       xsputn(const char_type* __s, streamsize __n);
-# 776 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
+# 776 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
       virtual int_type
       overflow(int_type __c __attribute__ ((__unused__)) = traits_type::eof())
       { return traits_type::eof(); }
-# 803 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
+# 803 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 3
       void
       __safe_gbump(streamsize __n) { _M_in_cur += __n; }
 
@@ -40388,8 +40388,8 @@ namespace std
 
 }
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/streambuf.tcc" 1 3
-# 41 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/streambuf.tcc" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/streambuf.tcc" 1 3
+# 41 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/streambuf.tcc" 3
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wc++11-extensions"
 
@@ -40524,16 +40524,16 @@ namespace std
 }
 
 #pragma GCC diagnostic pop
-# 863 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 2 3
-# 48 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ios" 2 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_ios.h" 1 3
-# 39 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_ios.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 1 3
-# 41 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cwctype" 1 3
-# 55 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cwctype" 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/wctype.h" 1 3
-# 12 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/x86_64-w64-mingw32/include/wctype.h" 3
+# 863 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf" 2 3
+# 48 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ios" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_ios.h" 1 3
+# 39 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_ios.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 1 3
+# 41 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cwctype" 1 3
+# 55 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cwctype" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/wctype.h" 1 3
+# 12 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/wctype.h" 3
 extern "C" {
 
 
@@ -40544,8 +40544,8 @@ extern "C" {
 
 
 }
-# 56 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cwctype" 2 3
-# 82 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cwctype" 3
+# 56 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cwctype" 2 3
+# 82 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cwctype" 3
 namespace std
 {
   using ::wctrans_t;
@@ -40573,10 +40573,10 @@ namespace std
   using ::wctrans;
   using ::wctype;
 }
-# 42 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 2 3
+# 42 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 2 3
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h" 1 3
-# 37 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h" 1 3
+# 37 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h" 3
 namespace std
 {
 
@@ -40608,15 +40608,15 @@ namespace std
 
 
 }
-# 44 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 2 3
+# 44 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 2 3
 
 
 
 
 
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/streambuf_iterator.h" 1 3
-# 41 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/streambuf_iterator.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/streambuf_iterator.h" 1 3
+# 41 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/streambuf_iterator.h" 3
 namespace std
 {
 
@@ -40628,7 +40628,7 @@ namespace std
 
 
  
-# 51 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/streambuf_iterator.h" 3
+# 51 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/streambuf_iterator.h" 3
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 
@@ -40639,7 +40639,7 @@ namespace std
         _CharT*, _CharT>
     {
     public:
-# 69 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/streambuf_iterator.h" 3
+# 69 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/streambuf_iterator.h" 3
       using pointer = void;
 
 
@@ -40726,7 +40726,7 @@ namespace std
       operator*() const
       {
  int_type __c = _M_get();
-# 163 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/streambuf_iterator.h" 3
+# 163 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/streambuf_iterator.h" 3
  return traits_type::to_char_type(__c);
       }
 
@@ -40803,7 +40803,7 @@ namespace std
     operator==(const istreambuf_iterator<_CharT, _Traits>& __a,
         const istreambuf_iterator<_CharT, _Traits>& __b)
     { return __a.equal(__b); }
-# 250 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/streambuf_iterator.h" 3
+# 250 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/streambuf_iterator.h" 3
   template<typename _CharT, typename _Traits>
     class ostreambuf_iterator
     : public iterator<output_iterator_tag, void, void, void, void>
@@ -41036,7 +41036,7 @@ namespace std
       if (__n == 0)
  return;
 
-      do { if (__builtin_expect(!bool(__n > 0), false)) std::__glibcxx_assert_fail("C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/streambuf_iterator.h", 482, __PRETTY_FUNCTION__, "__n > 0"); } while (false);
+      do { if (__builtin_expect(!bool(__n > 0), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/streambuf_iterator.h", 482, __PRETTY_FUNCTION__, "__n > 0"); } while (false);
      
 
                            ;
@@ -41075,12 +41075,12 @@ namespace std
 
 
 }
-# 51 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 2 3
+# 51 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 2 3
 
 namespace std
 {
 
-# 76 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 76 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
   template<typename _Tp>
     void
     __convert_to_v(const char*, _Tp&, ios_base::iostate&,
@@ -41145,7 +41145,7 @@ namespace std
  *__s = __ws[__j];
       return __s;
     }
-# 154 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 154 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
   template<typename _CharT>
     class __ctype_abstract_base : public locale::facet, public ctype_base
     {
@@ -41153,51 +41153,51 @@ namespace std
 
 
       typedef _CharT char_type;
-# 173 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 173 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       bool
       is(mask __m, char_type __c) const
       { return this->do_is(__m, __c); }
-# 190 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 190 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       const char_type*
       is(const char_type *__lo, const char_type *__hi, mask *__vec) const
       { return this->do_is(__lo, __hi, __vec); }
-# 206 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 206 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       const char_type*
       scan_is(mask __m, const char_type* __lo, const char_type* __hi) const
       { return this->do_scan_is(__m, __lo, __hi); }
-# 222 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 222 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       const char_type*
       scan_not(mask __m, const char_type* __lo, const char_type* __hi) const
       { return this->do_scan_not(__m, __lo, __hi); }
-# 236 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 236 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       char_type
       toupper(char_type __c) const
       { return this->do_toupper(__c); }
-# 251 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 251 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       const char_type*
       toupper(char_type *__lo, const char_type* __hi) const
       { return this->do_toupper(__lo, __hi); }
-# 265 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 265 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       char_type
       tolower(char_type __c) const
       { return this->do_tolower(__c); }
-# 280 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 280 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       const char_type*
       tolower(char_type* __lo, const char_type* __hi) const
       { return this->do_tolower(__lo, __hi); }
-# 297 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 297 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       char_type
       widen(char __c) const
       { return this->do_widen(__c); }
-# 316 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 316 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       const char*
       widen(const char* __lo, const char* __hi, char_type* __to) const
       { return this->do_widen(__lo, __hi, __to); }
-# 335 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 335 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       char
       narrow(char_type __c, char __dfault) const
       { return this->do_narrow(__c, __dfault); }
-# 357 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 357 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       const char_type*
       narrow(const char_type* __lo, const char_type* __hi,
        char __dfault, char* __to) const
@@ -41209,48 +41209,48 @@ namespace std
 
       virtual
       ~__ctype_abstract_base() { }
-# 382 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 382 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       virtual bool
       do_is(mask __m, char_type __c) const = 0;
-# 401 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 401 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       virtual const char_type*
       do_is(const char_type* __lo, const char_type* __hi,
      mask* __vec) const = 0;
-# 420 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 420 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       virtual const char_type*
       do_scan_is(mask __m, const char_type* __lo,
    const char_type* __hi) const = 0;
-# 439 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 439 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       virtual const char_type*
       do_scan_not(mask __m, const char_type* __lo,
     const char_type* __hi) const = 0;
-# 457 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 457 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       virtual char_type
       do_toupper(char_type __c) const = 0;
-# 474 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 474 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       virtual const char_type*
       do_toupper(char_type* __lo, const char_type* __hi) const = 0;
-# 490 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 490 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       virtual char_type
       do_tolower(char_type __c) const = 0;
-# 507 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 507 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       virtual const char_type*
       do_tolower(char_type* __lo, const char_type* __hi) const = 0;
-# 526 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 526 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       virtual char_type
       do_widen(char __c) const = 0;
-# 547 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 547 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       virtual const char*
       do_widen(const char* __lo, const char* __hi, char_type* __to) const = 0;
-# 568 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 568 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       virtual char
       do_narrow(char_type __c, char __dfault) const = 0;
-# 593 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 593 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       virtual const char_type*
       do_narrow(const char_type* __lo, const char_type* __hi,
   char __dfault, char* __to) const = 0;
     };
-# 616 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 616 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
   template<typename _CharT>
     class ctype : public __ctype_abstract_base<_CharT>
     {
@@ -41315,7 +41315,7 @@ namespace std
 
   template<typename _CharT, typename _Traits, typename _Alloc>
     class ctype<basic_string<_CharT, _Traits, _Alloc> >;
-# 690 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 690 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
   template<>
     class ctype<char> : public locale::facet, public ctype_base
     {
@@ -41342,42 +41342,42 @@ namespace std
       static locale::id id;
 
       static const size_t table_size = 1 + static_cast<unsigned char>(-1);
-# 727 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 727 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       explicit
       ctype(const mask* __table = 0, bool __del = false, size_t __refs = 0);
-# 740 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 740 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       explicit
       ctype(__c_locale __cloc, const mask* __table = 0, bool __del = false,
      size_t __refs = 0);
-# 753 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 753 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       inline bool
       is(mask __m, char __c) const;
-# 768 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 768 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       inline const char*
       is(const char* __lo, const char* __hi, mask* __vec) const;
-# 782 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 782 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       inline const char*
       scan_is(mask __m, const char* __lo, const char* __hi) const;
-# 796 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 796 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       inline const char*
       scan_not(mask __m, const char* __lo, const char* __hi) const;
-# 811 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 811 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       char_type
       toupper(char_type __c) const
       { return this->do_toupper(__c); }
-# 828 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 828 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       const char_type*
       toupper(char_type *__lo, const char_type* __hi) const
       { return this->do_toupper(__lo, __hi); }
-# 844 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 844 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       char_type
       tolower(char_type __c) const
       { return this->do_tolower(__c); }
-# 861 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 861 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       const char_type*
       tolower(char_type* __lo, const char_type* __hi) const
       { return this->do_tolower(__lo, __hi); }
-# 881 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 881 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       char_type
       widen(char __c) const
       {
@@ -41386,7 +41386,7 @@ namespace std
  this->_M_widen_init();
  return this->do_widen(__c);
       }
-# 908 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 908 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       const char*
       widen(const char* __lo, const char* __hi, char_type* __to) const
       {
@@ -41400,7 +41400,7 @@ namespace std
    _M_widen_init();
  return this->do_widen(__lo, __hi, __to);
       }
-# 940 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 940 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       char
       narrow(char_type __c, char __dfault) const
       {
@@ -41411,7 +41411,7 @@ namespace std
    _M_narrow[static_cast<unsigned char>(__c)] = __t;
  return __t;
       }
-# 973 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 973 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       const char_type*
       narrow(const char_type* __lo, const char_type* __hi,
       char __dfault, char* __to) const
@@ -41448,23 +41448,23 @@ namespace std
 
       virtual
       ~ctype();
-# 1023 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 1023 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       virtual char_type
       do_toupper(char_type __c) const;
-# 1040 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 1040 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       virtual const char_type*
       do_toupper(char_type* __lo, const char_type* __hi) const;
-# 1056 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 1056 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       virtual char_type
       do_tolower(char_type __c) const;
-# 1073 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 1073 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       virtual const char_type*
       do_tolower(char_type* __lo, const char_type* __hi) const;
-# 1093 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 1093 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       virtual char_type
       do_widen(char __c) const
       { return __c; }
-# 1116 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 1116 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       virtual const char*
       do_widen(const char* __lo, const char* __hi, char_type* __to) const
       {
@@ -41472,11 +41472,11 @@ namespace std
    __builtin_memcpy(__to, __lo, __hi - __lo);
  return __hi;
       }
-# 1143 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 1143 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       virtual char
       do_narrow(char_type __c, char __dfault __attribute__((__unused__))) const
       { return __c; }
-# 1169 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 1169 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       virtual const char_type*
       do_narrow(const char_type* __lo, const char_type* __hi,
   char __dfault __attribute__((__unused__)), char* __to) const
@@ -41490,7 +41490,7 @@ namespace std
       void _M_narrow_init() const;
       void _M_widen_init() const;
     };
-# 1195 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 1195 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
   template<>
     class ctype<wchar_t> : public __ctype_abstract_base<wchar_t>
     {
@@ -41516,10 +41516,10 @@ namespace std
 
 
       static locale::id id;
-# 1228 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 1228 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       explicit
       ctype(size_t __refs = 0);
-# 1239 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 1239 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       explicit
       ctype(__c_locale __cloc, size_t __refs = 0);
 
@@ -41530,41 +41530,41 @@ namespace std
 
       virtual
       ~ctype();
-# 1263 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 1263 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       virtual bool
       do_is(mask __m, char_type __c) const;
-# 1282 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 1282 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       virtual const char_type*
       do_is(const char_type* __lo, const char_type* __hi, mask* __vec) const;
-# 1300 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 1300 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       virtual const char_type*
       do_scan_is(mask __m, const char_type* __lo, const char_type* __hi) const;
-# 1318 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 1318 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       virtual const char_type*
       do_scan_not(mask __m, const char_type* __lo,
     const char_type* __hi) const;
-# 1335 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 1335 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       virtual char_type
       do_toupper(char_type __c) const;
-# 1352 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 1352 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       virtual const char_type*
       do_toupper(char_type* __lo, const char_type* __hi) const;
-# 1368 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 1368 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       virtual char_type
       do_tolower(char_type __c) const;
-# 1385 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 1385 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       virtual const char_type*
       do_tolower(char_type* __lo, const char_type* __hi) const;
-# 1405 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 1405 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       virtual char_type
       do_widen(char __c) const;
-# 1427 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 1427 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       virtual const char*
       do_widen(const char* __lo, const char* __hi, char_type* __to) const;
-# 1450 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 1450 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       virtual char
       do_narrow(char_type __c, char __dfault) const;
-# 1476 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 1476 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       virtual const char_type*
       do_narrow(const char_type* __lo, const char_type* __hi,
   char __dfault, char* __to) const;
@@ -41637,8 +41637,8 @@ namespace std
 }
 
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h" 1 3
-# 37 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h" 1 3
+# 37 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h" 3
 namespace std
 {
 
@@ -41678,7 +41678,7 @@ namespace std
 
 
 }
-# 1549 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 2 3
+# 1549 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 2 3
 
 namespace std
 {
@@ -41794,7 +41794,7 @@ namespace std
     }
 
 namespace __cxx11 {
-# 1679 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 1679 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
   template<typename _CharT>
     class numpunct : public locale::facet
     {
@@ -41823,33 +41823,33 @@ namespace __cxx11 {
       numpunct(size_t __refs = 0)
       : facet(__refs), _M_data(0)
       { _M_initialize_numpunct(); }
-# 1717 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 1717 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       explicit
       numpunct(__cache_type* __cache, size_t __refs = 0)
       : facet(__refs), _M_data(__cache)
       { _M_initialize_numpunct(); }
-# 1731 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 1731 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       explicit
       numpunct(__c_locale __cloc, size_t __refs = 0)
       : facet(__refs), _M_data(0)
       { _M_initialize_numpunct(__cloc); }
-# 1745 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 1745 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       char_type
       decimal_point() const
       { return this->do_decimal_point(); }
-# 1758 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 1758 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       char_type
       thousands_sep() const
       { return this->do_thousands_sep(); }
-# 1789 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 1789 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       string
       grouping() const
       { return this->do_grouping(); }
-# 1802 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 1802 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       string_type
       truename() const
       { return this->do_truename(); }
-# 1815 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 1815 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       string_type
       falsename() const
       { return this->do_falsename(); }
@@ -41858,23 +41858,23 @@ namespace __cxx11 {
 
       virtual
       ~numpunct();
-# 1832 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 1832 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       virtual char_type
       do_decimal_point() const
       { return _M_data->_M_decimal_point; }
-# 1844 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 1844 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       virtual char_type
       do_thousands_sep() const
       { return _M_data->_M_thousands_sep; }
-# 1857 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 1857 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       virtual string
       do_grouping() const
       { return _M_data->_M_grouping; }
-# 1870 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 1870 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       virtual string_type
       do_truename() const
       { return _M_data->_M_truename; }
-# 1883 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 1883 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       virtual string_type
       do_falsename() const
       { return _M_data->_M_falsename; }
@@ -41939,7 +41939,7 @@ namespace __cxx11 {
 }
 
 
-# 1961 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 1961 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
   template<typename _CharT, typename _InIter>
     class num_get : public locale::facet
     {
@@ -41953,15 +41953,15 @@ namespace __cxx11 {
 
 
       static locale::id id;
-# 1982 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 1982 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       explicit
       num_get(size_t __refs = 0) : facet(__refs) { }
-# 2008 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 2008 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       iter_type
       get(iter_type ___in, iter_type __end, ios_base& __io,
    ios_base::iostate& __err, bool& __v) const
       { return this->do_get(___in, __end, __io, __err, __v); }
-# 2045 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 2045 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       iter_type
       get(iter_type ___in, iter_type __end, ios_base& __io,
    ios_base::iostate& __err, long& __v) const
@@ -41995,7 +41995,7 @@ namespace __cxx11 {
    ios_base::iostate& __err, unsigned long long& __v) const
       { return this->do_get(___in, __end, __io, __err, __v); }
 #pragma GCC diagnostic pop
-# 2108 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 2108 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       iter_type
       get(iter_type ___in, iter_type __end, ios_base& __io,
    ios_base::iostate& __err, float& __v) const
@@ -42010,7 +42010,7 @@ namespace __cxx11 {
       get(iter_type ___in, iter_type __end, ios_base& __io,
    ios_base::iostate& __err, long double& __v) const
       { return this->do_get(___in, __end, __io, __err, __v); }
-# 2151 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 2151 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       iter_type
       get(iter_type ___in, iter_type __end, ios_base& __io,
    ios_base::iostate& __err, void*& __v) const
@@ -42068,7 +42068,7 @@ namespace __cxx11 {
      }
    return __ret;
  }
-# 2224 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 2224 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       virtual iter_type
       do_get(iter_type, iter_type, ios_base&, ios_base::iostate&, bool&) const;
 
@@ -42113,7 +42113,7 @@ namespace __cxx11 {
       virtual iter_type
       do_get(iter_type, iter_type, ios_base&, ios_base::iostate&,
       double&) const;
-# 2279 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 2279 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       virtual iter_type
       do_get(iter_type, iter_type, ios_base&, ios_base::iostate&,
       long double&) const;
@@ -42121,12 +42121,12 @@ namespace __cxx11 {
 
       virtual iter_type
       do_get(iter_type, iter_type, ios_base&, ios_base::iostate&, void*&) const;
-# 2307 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 2307 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
     };
 
   template<typename _CharT, typename _InIter>
     locale::id num_get<_CharT, _InIter>::id;
-# 2325 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 2325 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
   template<typename _CharT, typename _OutIter>
     class num_put : public locale::facet
     {
@@ -42140,14 +42140,14 @@ namespace __cxx11 {
 
 
       static locale::id id;
-# 2346 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 2346 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       explicit
       num_put(size_t __refs = 0) : facet(__refs) { }
-# 2364 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 2364 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       iter_type
       put(iter_type __s, ios_base& __io, char_type __fill, bool __v) const
       { return this->do_put(__s, __io, __fill, __v); }
-# 2406 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 2406 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       iter_type
       put(iter_type __s, ios_base& __io, char_type __fill, long __v) const
       { return this->do_put(__s, __io, __fill, __v); }
@@ -42169,7 +42169,7 @@ namespace __cxx11 {
    unsigned long long __v) const
       { return this->do_put(__s, __io, __fill, __v); }
 #pragma GCC diagnostic pop
-# 2472 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 2472 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       iter_type
       put(iter_type __s, ios_base& __io, char_type __fill, double __v) const
       { return this->do_put(__s, __io, __fill, __v); }
@@ -42178,7 +42178,7 @@ namespace __cxx11 {
       put(iter_type __s, ios_base& __io, char_type __fill,
    long double __v) const
       { return this->do_put(__s, __io, __fill, __v); }
-# 2497 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 2497 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       iter_type
       put(iter_type __s, ios_base& __io, char_type __fill,
    const void* __v) const
@@ -42212,7 +42212,7 @@ namespace __cxx11 {
 
       virtual
       ~num_put() { }
-# 2545 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 2545 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
       virtual iter_type
       do_put(iter_type __s, ios_base& __io, char_type __fill, bool __v) const;
 
@@ -42254,7 +42254,7 @@ namespace __cxx11 {
 
       virtual iter_type
       do_put(iter_type, ios_base&, char_type, const void*) const;
-# 2600 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
+# 2600 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 3
     };
 
   template <typename _CharT, typename _OutIter>
@@ -42356,8 +42356,8 @@ namespace __cxx11 {
 
 }
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.tcc" 1 3
-# 36 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.tcc" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.tcc" 1 3
+# 36 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.tcc" 3
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wc++11-extensions"
 
@@ -42456,7 +42456,7 @@ namespace std
    throw;
  }
     }
-# 143 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.tcc" 3
+# 143 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.tcc" 3
   __attribute__ ((__pure__)) bool
   __verify_grouping(const char* __grouping, size_t __grouping_size,
       const string& __grouping_tmp) throw ();
@@ -43035,7 +43035,7 @@ namespace std
  __err |= ios_base::eofbit;
       return __beg;
     }
-# 739 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.tcc" 3
+# 739 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.tcc" 3
   template<typename _CharT, typename _InIter>
     _InIter
     num_get<_CharT, _InIter>::
@@ -43078,7 +43078,7 @@ namespace std
       __v = reinterpret_cast<void*>(__ul);
       return __beg;
     }
-# 802 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.tcc" 3
+# 802 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.tcc" 3
   template<typename _CharT, typename _OutIter>
     void
     num_put<_CharT, _OutIter>::
@@ -43262,7 +43262,7 @@ namespace std
  }
       __len = __newlen;
     }
-# 996 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.tcc" 3
+# 996 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.tcc" 3
   template<typename _CharT, typename _OutIter>
     template<typename _ValueT>
       _OutIter
@@ -43315,7 +43315,7 @@ namespace std
        __len = std::__convert_from_v(_S_get_c_locale(), __cs, __cs_size,
          __fbuf, __v);
    }
-# 1069 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.tcc" 3
+# 1069 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.tcc" 3
  const ctype<_CharT>& __ctype = use_facet<ctype<_CharT> >(__loc);
 
  _CharT* __ws = static_cast<_CharT*>(__builtin_alloca(sizeof(_CharT)
@@ -43432,7 +43432,7 @@ namespace std
     num_put<_CharT, _OutIter>::
     do_put(iter_type __s, ios_base& __io, char_type __fill, double __v) const
     { return _M_insert_float(__s, __io, __fill, char(), __v); }
-# 1194 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.tcc" 3
+# 1194 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.tcc" 3
   template<typename _CharT, typename _OutIter>
     _OutIter
     num_put<_CharT, _OutIter>::
@@ -43463,9 +43463,9 @@ namespace std
       __io.flags(__flags);
       return __s;
     }
-# 1234 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.tcc" 3
+# 1234 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.tcc" 3
 
-# 1243 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.tcc" 3
+# 1243 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.tcc" 3
   template<typename _CharT, typename _Traits>
     void
     __pad<_CharT, _Traits>::_S_pad(ios_base& __io, _CharT __fill,
@@ -43670,8 +43670,8 @@ namespace std
 }
 
 #pragma GCC diagnostic pop
-# 2702 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 2 3
-# 40 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_ios.h" 2 3
+# 2702 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h" 2 3
+# 40 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_ios.h" 2 3
 
 
 
@@ -43687,7 +43687,7 @@ namespace std
  __throw_bad_cast();
       return *__f;
     }
-# 68 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_ios.h" 3
+# 68 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_ios.h" 3
   template<typename _CharT, typename _Traits>
     class basic_ios : public ios_base
     {
@@ -43735,7 +43735,7 @@ namespace std
       const __num_get_type* _M_num_get;
 
     public:
-# 123 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_ios.h" 3
+# 123 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_ios.h" 3
       [[__nodiscard__]]
       explicit operator bool() const
       { return !this->fail(); }
@@ -43748,12 +43748,12 @@ namespace std
       bool
       operator!() const
       { return this->fail(); }
-# 144 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_ios.h" 3
+# 144 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_ios.h" 3
       [[__nodiscard__]]
       iostate
       rdstate() const
       { return _M_streambuf_state; }
-# 156 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_ios.h" 3
+# 156 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_ios.h" 3
       void
       clear(iostate __state = goodbit);
 
@@ -43801,7 +43801,7 @@ namespace std
       bool
       eof() const
       { return (this->rdstate() & eofbit) != 0; }
-# 211 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_ios.h" 3
+# 211 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_ios.h" 3
       [[__nodiscard__]]
       bool
       fail() const
@@ -43817,12 +43817,12 @@ namespace std
       bool
       bad() const
       { return (this->rdstate() & badbit) != 0; }
-# 234 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_ios.h" 3
+# 234 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_ios.h" 3
       [[__nodiscard__]]
       iostate
       exceptions() const
       { return _M_exception; }
-# 270 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_ios.h" 3
+# 270 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_ios.h" 3
       void
       exceptions(iostate __except)
       {
@@ -43850,12 +43850,12 @@ namespace std
 
       virtual
       ~basic_ios() { }
-# 308 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_ios.h" 3
+# 308 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_ios.h" 3
       [[__nodiscard__]]
       basic_ostream<_CharT, _Traits>*
       tie() const
       { return _M_tie; }
-# 321 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_ios.h" 3
+# 321 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_ios.h" 3
       basic_ostream<_CharT, _Traits>*
       tie(basic_ostream<_CharT, _Traits>* __tiestr)
       {
@@ -43874,10 +43874,10 @@ namespace std
       basic_streambuf<_CharT, _Traits>*
       rdbuf() const
       { return _M_streambuf; }
-# 362 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_ios.h" 3
+# 362 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_ios.h" 3
       basic_streambuf<_CharT, _Traits>*
       rdbuf(basic_streambuf<_CharT, _Traits>* __sb);
-# 376 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_ios.h" 3
+# 376 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_ios.h" 3
       basic_ios&
       copyfmt(const basic_ios& __rhs);
 
@@ -43895,7 +43895,7 @@ namespace std
    return this->widen(' ');
  return _M_fill;
       }
-# 403 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_ios.h" 3
+# 403 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_ios.h" 3
       char_type
       fill(char_type __ch)
       {
@@ -43904,14 +43904,14 @@ namespace std
  _M_fill_init = true;
  return __old;
       }
-# 424 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_ios.h" 3
+# 424 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_ios.h" 3
       locale
       imbue(const locale& __loc);
-# 444 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_ios.h" 3
+# 444 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_ios.h" 3
       char
       narrow(char_type __c, char __dfault) const
       { return __check_facet(_M_ctype).narrow(__c, __dfault); }
-# 463 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_ios.h" 3
+# 463 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_ios.h" 3
       char_type
       widen(char __c) const
       { return __check_facet(_M_ctype).widen(__c); }
@@ -43980,8 +43980,8 @@ namespace std
 
 }
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_ios.tcc" 1 3
-# 37 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_ios.tcc" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_ios.tcc" 1 3
+# 37 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_ios.tcc" 3
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wc++11-extensions"
 
@@ -44083,7 +44083,7 @@ namespace std
 
 
       _M_cache_locale(_M_ios_locale);
-# 153 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_ios.tcc" 3
+# 153 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_ios.tcc" 3
       if (_M_ctype)
  {
    _M_fill = _M_ctype->widen(' ');
@@ -44121,23 +44121,23 @@ namespace std
 }
 
 #pragma GCC diagnostic pop
-# 532 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_ios.h" 2 3
-# 49 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ios" 2 3
+# 532 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_ios.h" 2 3
+# 49 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ios" 2 3
 
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/version.h" 1 3
-# 52 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ios" 2 3
-# 44 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/version.h" 1 3
+# 52 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ios" 2 3
+# 44 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 2 3
 
 
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/version.h" 1 3
-# 48 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/version.h" 1 3
+# 48 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 2 3
 
 namespace std
 {
 
-# 65 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 3
+# 65 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 3
   template<typename _CharT, typename _Traits>
     class basic_ostream : virtual public basic_ios<_CharT, _Traits>
     {
@@ -44156,7 +44156,7 @@ namespace std
       typedef num_put<_CharT, ostreambuf_iterator<_CharT, _Traits> >
        __num_put_type;
       typedef ctype<_CharT> __ctype_type;
-# 91 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 3
+# 91 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 3
       explicit
       basic_ostream(__streambuf_type* __sb)
       { this->init(__sb); }
@@ -44172,7 +44172,7 @@ namespace std
 
       class sentry;
       friend class sentry;
-# 115 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 3
+# 115 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 3
       __ostream_type&
       operator<<(__ostream_type& (*__pf)(__ostream_type&))
       {
@@ -44201,7 +44201,7 @@ namespace std
  __pf(*this);
  return *this;
       }
-# 173 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 3
+# 173 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 3
       __ostream_type&
       operator<<(long __n)
       { return _M_insert(__n); }
@@ -44247,7 +44247,7 @@ namespace std
       operator<<(unsigned long long __n)
       { return _M_insert(__n); }
 #pragma GCC diagnostic pop
-# 230 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 3
+# 230 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 3
       __ostream_type&
       operator<<(double __f)
       { return _M_insert(__f); }
@@ -44263,7 +44263,7 @@ namespace std
       __ostream_type&
       operator<<(long double __f)
       { return _M_insert(__f); }
-# 300 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 3
+# 300 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 3
       __ostream_type&
       operator<<(const void* __p)
       { return _M_insert(__p); }
@@ -44272,25 +44272,25 @@ namespace std
       __ostream_type&
       operator<<(nullptr_t)
       { return *this << "nullptr"; }
-# 338 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 3
+# 338 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 3
       __ostream_type&
       operator<<(__streambuf_type* __sb);
-# 371 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 3
+# 371 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 3
       __ostream_type&
       put(char_type __c);
-# 390 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 3
+# 390 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 3
       __ostream_type&
       write(const char_type* __s, streamsize __n);
-# 403 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 3
+# 403 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 3
       __ostream_type&
       flush();
-# 413 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 3
+# 413 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 3
       pos_type
       tellp();
-# 424 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 3
+# 424 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 3
       __ostream_type&
       seekp(pos_type);
-# 436 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 3
+# 436 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 3
        __ostream_type&
       seekp(off_type, ios_base::seekdir);
 
@@ -44342,7 +44342,7 @@ namespace std
  _S_cast_flt(_From __f)
  {
    _To __d = static_cast<_To>(__f);
-# 507 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 3
+# 507 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 3
    return __d;
  }
 #pragma GCC diagnostic pop
@@ -44368,7 +44368,7 @@ namespace std
  const ios_base::iostate _M_exception;
       };
     };
-# 540 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 3
+# 540 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 3
   template <typename _CharT, typename _Traits>
     class basic_ostream<_CharT, _Traits>::sentry
     {
@@ -44377,7 +44377,7 @@ namespace std
       basic_ostream<_CharT, _Traits>& _M_os;
 
     public:
-# 559 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 3
+# 559 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 3
       explicit
       sentry(basic_ostream<_CharT, _Traits>& __os);
 
@@ -44412,13 +44412,13 @@ namespace std
    }
       }
 #pragma GCC diagnostic pop
-# 602 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 3
+# 602 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 3
       explicit
 
       operator bool() const
       { return _M_ok; }
     };
-# 624 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 3
+# 624 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 3
   template<typename _CharT, typename _Traits>
     inline basic_ostream<_CharT, _Traits>&
     operator<<(basic_ostream<_CharT, _Traits>& ___out, _CharT __c)
@@ -44492,7 +44492,7 @@ namespace std
   template<typename _Traits>
     basic_ostream<wchar_t, _Traits>&
     operator<<(basic_ostream<wchar_t, _Traits>&, char32_t) = delete;
-# 715 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 3
+# 715 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 3
   template<typename _CharT, typename _Traits>
     inline basic_ostream<_CharT, _Traits>&
     operator<<(basic_ostream<_CharT, _Traits>& ___out, const _CharT* __s)
@@ -44569,7 +44569,7 @@ namespace std
   template<typename _Traits>
     basic_ostream<wchar_t, _Traits>&
     operator<<(basic_ostream<wchar_t, _Traits>&, const char32_t*) = delete;
-# 802 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 3
+# 802 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 3
   template<typename _Tp>
     concept __derived_from_ios_base = is_class_v<_Tp>
       && (!is_same_v<_Tp, ios_base>)
@@ -44579,7 +44579,7 @@ namespace std
     requires __derived_from_ios_base<_Os>
       && requires (_Os& __os, const _Tp& __t) { __os << __t; }
     using __rvalue_stream_insertion_t = _Os&&;
-# 834 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 3
+# 834 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h" 3
   template<typename _Ostream, typename _Tp>
     inline __rvalue_stream_insertion_t<_Ostream, _Tp>
     operator<<(_Ostream&& __os, const _Tp& __x)
@@ -44591,24 +44591,24 @@ namespace std
 
 
 }
-# 43 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ostream" 2 3
+# 43 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ostream" 2 3
 
 
 
 
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/version.h" 1 3
-# 49 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ostream" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/version.h" 1 3
+# 49 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ostream" 2 3
 
 namespace std
 {
 
-# 64 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ostream" 3
+# 64 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ostream" 3
   template<typename _CharT, typename _Traits>
     inline basic_ostream<_CharT, _Traits>&
     endl(basic_ostream<_CharT, _Traits>& __os)
     { return flush(__os.put(__os.widen('\n'))); }
-# 76 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ostream" 3
+# 76 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ostream" 3
   template<typename _CharT, typename _Traits>
     inline basic_ostream<_CharT, _Traits>&
     ends(basic_ostream<_CharT, _Traits>& __os)
@@ -44689,12 +44689,12 @@ namespace std
       __os.flush();
       return __os;
     }
-# 291 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ostream" 3
+# 291 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ostream" 3
 
 }
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.tcc" 1 3
-# 40 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.tcc" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.tcc" 1 3
+# 40 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.tcc" 3
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wc++11-extensions"
 
@@ -45059,14 +45059,14 @@ namespace std
 }
 
 #pragma GCC diagnostic pop
-# 295 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ostream" 2 3
-# 44 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/iostream" 2 3
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 1 3
-# 45 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
+# 295 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ostream" 2 3
+# 44 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/iostream" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 1 3
+# 45 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
 namespace std
 {
 
-# 61 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
+# 61 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
   template<typename _CharT, typename _Traits>
     class basic_istream : virtual public basic_ios<_CharT, _Traits>
     {
@@ -45119,7 +45119,7 @@ namespace std
 
       class sentry;
       friend class sentry;
-# 123 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
+# 123 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
       __istream_type&
       operator>>(__istream_type& (*__pf)(__istream_type&))
       { return __pf(*this); }
@@ -45137,7 +45137,7 @@ namespace std
  __pf(*this);
  return *this;
       }
-# 171 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
+# 171 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
       __istream_type&
       operator>>(bool& __n)
       { return _M_extract(__n); }
@@ -45175,7 +45175,7 @@ namespace std
       operator>>(unsigned long long& __n)
       { return _M_extract(__n); }
 #pragma GCC diagnostic pop
-# 220 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
+# 220 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
       __istream_type&
       operator>>(float& __f)
       { return _M_extract(__f); }
@@ -45187,45 +45187,45 @@ namespace std
       __istream_type&
       operator>>(long double& __f)
       { return _M_extract(__f); }
-# 329 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
+# 329 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
       __istream_type&
       operator>>(void*& __p)
       { return _M_extract(__p); }
-# 353 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
+# 353 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
       __istream_type&
       operator>>(__streambuf_type* __sb);
-# 363 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
+# 363 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
       streamsize
       gcount() const
       { return _M_gcount; }
-# 396 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
+# 396 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
       int_type
       get();
-# 410 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
+# 410 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
       __istream_type&
       get(char_type& __c);
-# 437 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
+# 437 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
       __istream_type&
       get(char_type* __s, streamsize __n, char_type __delim);
-# 448 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
+# 448 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
       __istream_type&
       get(char_type* __s, streamsize __n)
       { return this->get(__s, __n, this->widen('\n')); }
-# 471 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
+# 471 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
       __istream_type&
       get(__streambuf_type& __sb, char_type __delim);
-# 481 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
+# 481 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
       __istream_type&
       get(__streambuf_type& __sb)
       { return this->get(__sb, this->widen('\n')); }
-# 510 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
+# 510 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
       __istream_type&
       getline(char_type* __s, streamsize __n, char_type __delim);
-# 521 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
+# 521 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
       __istream_type&
       getline(char_type* __s, streamsize __n)
       { return this->getline(__s, __n, this->widen('\n')); }
-# 545 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
+# 545 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
       __istream_type&
       ignore(streamsize __n, int_type __delim);
 
@@ -45234,31 +45234,31 @@ namespace std
 
       __istream_type&
       ignore();
-# 562 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
+# 562 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
       int_type
       peek();
-# 580 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
+# 580 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
       __istream_type&
       read(char_type* __s, streamsize __n);
-# 599 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
+# 599 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
       streamsize
       readsome(char_type* __s, streamsize __n);
-# 616 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
+# 616 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
       __istream_type&
       putback(char_type __c);
-# 632 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
+# 632 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
       __istream_type&
       unget();
-# 650 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
+# 650 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
       int
       sync();
-# 665 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
+# 665 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
       pos_type
       tellg();
-# 680 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
+# 680 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
       __istream_type&
       seekg(pos_type);
-# 696 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
+# 696 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
       __istream_type&
       seekg(off_type, ios_base::seekdir);
 
@@ -45333,7 +45333,7 @@ namespace std
     basic_istream<wchar_t>&
     basic_istream<wchar_t>::
     ignore(streamsize __n, int_type __delim);
-# 780 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
+# 780 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
   template<typename _CharT, typename _Traits>
     class basic_istream<_CharT, _Traits>::sentry
     {
@@ -45347,16 +45347,16 @@ namespace std
       typedef basic_istream<_CharT, _Traits> __istream_type;
       typedef typename __istream_type::__ctype_type __ctype_type;
       typedef typename _Traits::int_type __int_type;
-# 816 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
+# 816 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
       explicit
       sentry(basic_istream<_CharT, _Traits>& __is, bool __noskipws = false);
-# 827 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
+# 827 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
       explicit
 
       operator bool() const
       { return _M_ok; }
     };
-# 845 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
+# 845 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
   template<typename _CharT, typename _Traits>
     basic_istream<_CharT, _Traits>&
     operator>>(basic_istream<_CharT, _Traits>& ___in, _CharT& __c);
@@ -45378,7 +45378,7 @@ namespace std
     __istream_extract(basic_istream<_CharT, _Traits>&, _CharT*, streamsize);
 
   void __istream_extract(istream&, char*, streamsize);
-# 952 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
+# 952 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
   template<typename _CharT, typename _Traits, size_t _Num>
     inline basic_istream<_CharT, _Traits>&
     operator>>(basic_istream<_CharT, _Traits>& ___in, _CharT (&__s)[_Num])
@@ -45397,7 +45397,7 @@ namespace std
     inline basic_istream<char, _Traits>&
     operator>>(basic_istream<char, _Traits>& ___in, signed char (&__s)[_Num])
     { return ___in >> reinterpret_cast<char(&)[_Num]>(__s); }
-# 984 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
+# 984 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
   template<typename _CharT, typename _Traits>
     class basic_iostream
     : public basic_istream<_CharT, _Traits>,
@@ -45460,16 +45460,16 @@ namespace std
       { __istream_type::swap(__rhs); }
 
     };
-# 1067 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
+# 1067 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
   template<typename _CharT, typename _Traits>
     basic_istream<_CharT, _Traits>&
     ws(basic_istream<_CharT, _Traits>& __is);
-# 1078 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
+# 1078 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
   template<typename _Is, typename _Tp>
     requires __derived_from_ios_base<_Is>
       && requires (_Is& __is, _Tp&& __t) { __is >> std::forward<_Tp>(__t); }
     using __rvalue_stream_extraction_t = _Is&&;
-# 1099 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
+# 1099 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 3
   template<typename _Istream, typename _Tp>
     inline __rvalue_stream_extraction_t<_Istream, _Tp>
     operator>>(_Istream&& __is, _Tp&& __x)
@@ -45482,8 +45482,8 @@ namespace std
 
 }
 
-# 1 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/istream.tcc" 1 3
-# 41 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/istream.tcc" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/istream.tcc" 1 3
+# 41 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/istream.tcc" 3
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wc++11-extensions"
 
@@ -45988,7 +45988,7 @@ namespace std
               const int_type __eof = traits_type::eof();
               __streambuf_type* __sb = this->rdbuf();
               int_type __c = __sb->sgetc();
-# 553 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/istream.tcc" 3
+# 553 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/istream.tcc" 3
        bool __large_ignore = false;
        while (true)
   {
@@ -46621,13 +46621,13 @@ namespace std
 }
 
 #pragma GCC diagnostic pop
-# 1112 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 2 3
-# 45 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/iostream" 2 3
+# 1112 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream" 2 3
+# 45 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/iostream" 2 3
 
 namespace std
 {
 
-# 64 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/iostream" 3
+# 64 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/iostream" 3
   extern istream cin;
   extern ostream cout;
   extern ostream cerr;
@@ -46638,13 +46638,9566 @@ namespace std
   extern wostream wcout;
   extern wostream wcerr;
   extern wostream wclog;
-# 87 "C:/Program Files/JetBrains/CLion 2026.2.4.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/iostream" 3
+# 87 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/iostream" 3
 
 }
-# 10 "C:/Users/ZPEE016/CLionProjects/EE2010-CW/playerDeck.h" 2
+# 10 "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/playerDeck.h" 2
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/memory" 1 3
+# 68 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/memory" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_tempbuf.h" 1 3
+# 65 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_tempbuf.h" 3
+namespace std
+{
+
+# 77 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_tempbuf.h" 3
+  namespace __detail
+  {
 
 
-# 11 "C:/Users/ZPEE016/CLionProjects/EE2010-CW/playerDeck.h"
+    template<typename _Tp>
+      inline _Tp*
+      __get_temporary_buffer(ptrdiff_t __len) noexcept
+      {
+ if (__builtin_expect(size_t(__len) > (size_t(-1) / sizeof(_Tp)), 0))
+   return 0;
+
+
+ if (alignof(_Tp) > 16)
+   return (_Tp*) __builtin_operator_new(__len * sizeof(_Tp),
+           align_val_t(alignof(_Tp)),
+           nothrow_t());
+
+ return (_Tp*) __builtin_operator_new(__len * sizeof(_Tp), nothrow_t());
+      }
+
+
+
+    template<typename _Tp>
+      inline void
+      __return_temporary_buffer(_Tp* __p,
+    size_t __len __attribute__((__unused__)))
+      {
+
+
+
+
+
+
+
+ if (alignof(_Tp) > 16)
+   {
+     __builtin_operator_delete((__p), (__len) * sizeof(_Tp),
+         align_val_t(alignof(_Tp)));
+     return;
+   }
+
+ __builtin_operator_delete((__p), (__len) * sizeof(_Tp));
+      }
+
+  }
+# 140 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_tempbuf.h" 3
+  template<typename _Tp>
+    [[__deprecated__]]
+    pair<_Tp*, ptrdiff_t>
+    get_temporary_buffer(ptrdiff_t __len) noexcept
+    {
+      const ptrdiff_t __max =
+ __gnu_cxx::__numeric_traits<ptrdiff_t>::__max / sizeof(_Tp);
+      if (__len > __max)
+ __len = __max;
+
+      while (__len > 0)
+ {
+   if (_Tp* __tmp = __detail::__get_temporary_buffer<_Tp>(__len))
+     return pair<_Tp*, ptrdiff_t>(__tmp, __len);
+   __len = __len == 1 ? 0 : ((__len + 1) / 2);
+ }
+      return pair<_Tp*, ptrdiff_t>();
+    }
+# 166 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_tempbuf.h" 3
+  template<typename _Tp>
+    [[__deprecated__]]
+    inline void
+    return_temporary_buffer(_Tp* __p)
+    {
+
+      if (alignof(_Tp) > 16)
+ __builtin_operator_delete(__p, align_val_t(alignof(_Tp)));
+      else
+
+      __builtin_operator_delete(__p);
+    }
+# 187 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_tempbuf.h" 3
+  template<typename _ForwardIterator, typename _Tp>
+    class _Temporary_buffer
+    {
+
+     
+
+    public:
+      typedef _Tp value_type;
+      typedef value_type* pointer;
+      typedef pointer iterator;
+      typedef ptrdiff_t size_type;
+
+    protected:
+      size_type _M_original_len;
+      struct _Impl
+      {
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
+ explicit
+ _Impl(ptrdiff_t __original_len)
+ {
+   pair<pointer, size_type> __p(
+     std::get_temporary_buffer<value_type>(__original_len));
+   _M_len = __p.second;
+   _M_buffer = __p.first;
+ }
+#pragma GCC diagnostic pop
+
+ ~_Impl()
+ { std::__detail::__return_temporary_buffer(_M_buffer, _M_len); }
+
+ size_type _M_len;
+ pointer _M_buffer;
+      } _M_impl;
+
+    public:
+
+      size_type
+      size() const
+      { return _M_impl._M_len; }
+
+
+      size_type
+      requested_size() const
+      { return _M_original_len; }
+
+
+      iterator
+      begin()
+      { return _M_impl._M_buffer; }
+
+
+      iterator
+      end()
+      { return _M_impl._M_buffer + _M_impl._M_len; }
+
+
+
+
+
+      _Temporary_buffer(_ForwardIterator __seed, size_type __original_len);
+
+      ~_Temporary_buffer()
+      { std::_Destroy(_M_impl._M_buffer, _M_impl._M_buffer + _M_impl._M_len); }
+
+    private:
+
+      _Temporary_buffer(const _Temporary_buffer&);
+
+      void
+      operator=(const _Temporary_buffer&);
+    };
+
+
+  template<bool>
+    struct __uninitialized_construct_buf_dispatch
+    {
+      template<typename _Pointer, typename _ForwardIterator>
+        static void
+        __ucr(_Pointer __first, _Pointer __last,
+       _ForwardIterator __seed)
+        {
+   if (__builtin_expect(__first == __last, 0))
+     return;
+
+   _Pointer __cur = __first;
+   try
+     {
+       std::_Construct(std::__addressof(*__first),
+         std::move(*__seed));
+       _Pointer __prev = __cur;
+       ++__cur;
+       for(; __cur != __last; ++__cur, ++__prev)
+  std::_Construct(std::__addressof(*__cur),
+    std::move(*__prev));
+       *__seed = std::move(*__prev);
+     }
+   catch(...)
+     {
+       std::_Destroy(__first, __cur);
+       throw;
+     }
+ }
+    };
+
+  template<>
+    struct __uninitialized_construct_buf_dispatch<true>
+    {
+      template<typename _Pointer, typename _ForwardIterator>
+        static void
+        __ucr(_Pointer, _Pointer, _ForwardIterator) { }
+    };
+# 311 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_tempbuf.h" 3
+  template<typename _Tp, typename _ForwardIterator>
+    inline void
+    __uninitialized_construct_buf(_Tp* __first, _Tp* __last,
+      _ForwardIterator __seed)
+    {
+      std::__uninitialized_construct_buf_dispatch<
+ __has_trivial_constructor(_Tp)>::
+   __ucr(__first, __last, __seed);
+    }
+
+  template<typename _ForwardIterator, typename _Tp>
+    _Temporary_buffer<_ForwardIterator, _Tp>::
+    _Temporary_buffer(_ForwardIterator __seed, size_type __original_len)
+    : _M_original_len(__original_len), _M_impl(__original_len)
+    {
+      std::__uninitialized_construct_buf(begin(), end(), __seed);
+    }
+
+
+}
+# 69 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/memory" 2 3
+
+
+
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_raw_storage_iter.h" 1 3
+# 59 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_raw_storage_iter.h" 3
+namespace std
+{
+
+
+
+ 
+# 64 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_raw_storage_iter.h" 3
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
+
+
+
+
+
+  template <class _OutputIterator, class _Tp>
+    class [[__deprecated__]] raw_storage_iterator
+    : public iterator<output_iterator_tag, void, void, void, void>
+    {
+    protected:
+      _OutputIterator _M_iter;
+
+    public:
+      explicit
+      raw_storage_iterator(_OutputIterator __x)
+      : _M_iter(__x) {}
+
+      raw_storage_iterator&
+      operator*() { return *this; }
+
+      raw_storage_iterator&
+      operator=(const _Tp& __element)
+      {
+ std::_Construct(std::__addressof(*_M_iter), __element);
+ return *this;
+      }
+
+
+
+
+      raw_storage_iterator&
+      operator=(_Tp&& __element)
+      {
+ std::_Construct(std::__addressof(*_M_iter), std::move(__element));
+ return *this;
+      }
+
+
+      raw_storage_iterator&
+      operator++()
+      {
+ ++_M_iter;
+ return *this;
+      }
+
+      raw_storage_iterator
+      operator++(int)
+      {
+ raw_storage_iterator __tmp = *this;
+ ++_M_iter;
+ return __tmp;
+      }
+
+
+
+      _OutputIterator base() const { return _M_iter; }
+    };
+#pragma GCC diagnostic pop
+
+
+}
+# 73 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/memory" 2 3
+
+
+
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/align.h" 1 3
+# 35 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/align.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/version.h" 1 3
+# 36 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/align.h" 2 3
+
+namespace std
+{
+
+# 59 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/align.h" 3
+inline void*
+align(size_t __align, size_t __size, void*& __ptr, size_t& __space) noexcept
+{
+  if (__space < __size)
+    return nullptr;
+  const auto __intptr = reinterpret_cast<long long unsigned int>(__ptr);
+  const auto __aligned = (__intptr - 1u + __align) & -__align;
+  const auto __diff = __aligned - __intptr;
+  if (__diff > (__space - __size))
+    return nullptr;
+  else
+    {
+      __space -= __diff;
+      return __ptr = reinterpret_cast<void*>(__aligned);
+    }
+}
+# 87 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/align.h" 3
+  template<size_t _Align, class _Tp>
+    [[nodiscard,__gnu__::__always_inline__]]
+    constexpr _Tp*
+    assume_aligned(_Tp* __ptr) noexcept
+    {
+      static_assert(std::has_single_bit(_Align));
+      if (std::is_constant_evaluated())
+ return __ptr;
+      else
+ {
+
+
+   ;
+   return static_cast<_Tp*>(__builtin_assume_aligned(__ptr, _Align));
+ }
+    }
+
+
+
+}
+# 77 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/memory" 2 3
+
+
+
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/unique_ptr.h" 1 3
+# 47 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/unique_ptr.h" 3
+namespace std
+{
+
+
+
+
+
+
+
+
+ 
+# 57 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/unique_ptr.h" 3
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
+  template<typename> class auto_ptr;
+#pragma GCC diagnostic pop
+
+
+
+
+
+
+
+  template<typename _Tp>
+    struct default_delete
+    {
+
+      constexpr default_delete() noexcept = default;
+
+
+
+
+
+
+      template<typename _Up,
+        typename = _Require<is_convertible<_Up*, _Tp*>>>
+
+        default_delete(const default_delete<_Up>&) noexcept { }
+
+
+     
+      void
+      operator()(_Tp* __ptr) const
+      {
+ static_assert(!is_void<_Tp>::value,
+        "can't delete pointer to incomplete type");
+ static_assert(sizeof(_Tp)>0,
+        "can't delete pointer to incomplete type");
+ delete __ptr;
+      }
+    };
+# 105 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/unique_ptr.h" 3
+  template<typename _Tp>
+    struct default_delete<_Tp[]>
+    {
+    public:
+
+      constexpr default_delete() noexcept = default;
+# 121 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/unique_ptr.h" 3
+      template<typename _Up,
+        typename = _Require<is_convertible<_Up(*)[], _Tp(*)[]>>>
+
+        default_delete(const default_delete<_Up[]>&) noexcept { }
+
+
+      template<typename _Up>
+
+ typename enable_if<is_convertible<_Up(*)[], _Tp(*)[]>::value>::type
+ operator()(_Up* __ptr) const
+ {
+   static_assert(sizeof(_Tp)>0,
+   "can't delete pointer to incomplete type");
+   delete [] __ptr;
+ }
+    };
+
+
+
+
+  template <typename _Tp, typename _Dp>
+    class __uniq_ptr_impl
+    {
+      template <typename _Up, typename _Ep, typename = void>
+ struct _Ptr
+ {
+   using type = _Up*;
+ };
+
+      template <typename _Up, typename _Ep>
+ struct
+ _Ptr<_Up, _Ep, __void_t<typename remove_reference<_Ep>::type::pointer>>
+ {
+   using type = typename remove_reference<_Ep>::type::pointer;
+ };
+
+    public:
+      using _DeleterConstraint = enable_if<
+        __and_<__not_<is_pointer<_Dp>>,
+        is_default_constructible<_Dp>>::value>;
+
+      using pointer = typename _Ptr<_Tp, _Dp>::type;
+
+      static_assert( !is_rvalue_reference<_Dp>::value,
+       "unique_ptr's deleter type must be a function object type"
+       " or an lvalue reference type" );
+
+      __uniq_ptr_impl() = default;
+     
+      __uniq_ptr_impl(pointer __p) : _M_t() { _M_ptr() = __p; }
+
+      template<typename _Del>
+
+ __uniq_ptr_impl(pointer __p, _Del&& __d)
+ : _M_t(__p, std::forward<_Del>(__d)) { }
+
+     
+      __uniq_ptr_impl(__uniq_ptr_impl&& __u) noexcept
+      : _M_t(std::move(__u._M_t))
+      { __u._M_ptr() = nullptr; }
+
+     
+      __uniq_ptr_impl& operator=(__uniq_ptr_impl&& __u) noexcept
+      {
+ reset(__u.release());
+ _M_deleter() = std::forward<_Dp>(__u._M_deleter());
+ return *this;
+      }
+
+     
+      pointer& _M_ptr() noexcept { return std::get<0>(_M_t); }
+     
+      pointer _M_ptr() const noexcept { return std::get<0>(_M_t); }
+     
+      _Dp& _M_deleter() noexcept { return std::get<1>(_M_t); }
+     
+      const _Dp& _M_deleter() const noexcept { return std::get<1>(_M_t); }
+
+     
+      void reset(pointer __p) noexcept
+      {
+ const pointer __old_p = _M_ptr();
+ _M_ptr() = __p;
+ if (__old_p)
+   _M_deleter()(__old_p);
+      }
+
+     
+      pointer release() noexcept
+      {
+ pointer __p = _M_ptr();
+ _M_ptr() = nullptr;
+ return __p;
+      }
+
+     
+      void
+      swap(__uniq_ptr_impl& __rhs) noexcept
+      {
+ using std::swap;
+ swap(this->_M_ptr(), __rhs._M_ptr());
+ swap(this->_M_deleter(), __rhs._M_deleter());
+      }
+
+    private:
+      tuple<pointer, _Dp> _M_t;
+    };
+
+
+  template <typename _Tp, typename _Dp,
+     bool = is_move_constructible<_Dp>::value,
+     bool = is_move_assignable<_Dp>::value>
+    struct __uniq_ptr_data : __uniq_ptr_impl<_Tp, _Dp>
+    {
+      using __uniq_ptr_impl<_Tp, _Dp>::__uniq_ptr_impl;
+      __uniq_ptr_data(__uniq_ptr_data&&) = default;
+      __uniq_ptr_data& operator=(__uniq_ptr_data&&) = default;
+    };
+
+  template <typename _Tp, typename _Dp>
+    struct __uniq_ptr_data<_Tp, _Dp, true, false> : __uniq_ptr_impl<_Tp, _Dp>
+    {
+      using __uniq_ptr_impl<_Tp, _Dp>::__uniq_ptr_impl;
+      __uniq_ptr_data(__uniq_ptr_data&&) = default;
+      __uniq_ptr_data& operator=(__uniq_ptr_data&&) = delete;
+    };
+
+  template <typename _Tp, typename _Dp>
+    struct __uniq_ptr_data<_Tp, _Dp, false, true> : __uniq_ptr_impl<_Tp, _Dp>
+    {
+      using __uniq_ptr_impl<_Tp, _Dp>::__uniq_ptr_impl;
+      __uniq_ptr_data(__uniq_ptr_data&&) = delete;
+      __uniq_ptr_data& operator=(__uniq_ptr_data&&) = default;
+    };
+
+  template <typename _Tp, typename _Dp>
+    struct __uniq_ptr_data<_Tp, _Dp, false, false> : __uniq_ptr_impl<_Tp, _Dp>
+    {
+      using __uniq_ptr_impl<_Tp, _Dp>::__uniq_ptr_impl;
+      __uniq_ptr_data(__uniq_ptr_data&&) = delete;
+      __uniq_ptr_data& operator=(__uniq_ptr_data&&) = delete;
+    };
+
+
+
+
+
+
+
+  template <typename _Tp, typename _Dp = default_delete<_Tp>>
+    class unique_ptr
+    {
+      template <typename _Up>
+ using _DeleterConstraint =
+   typename __uniq_ptr_impl<_Tp, _Up>::_DeleterConstraint::type;
+
+      __uniq_ptr_data<_Tp, _Dp> _M_t;
+
+    public:
+      using pointer = typename __uniq_ptr_impl<_Tp, _Dp>::pointer;
+      using element_type = _Tp;
+      using deleter_type = _Dp;
+
+    private:
+
+
+      template<typename _Up, typename _Ep>
+ using __safe_conversion_up = __and_<
+   is_convertible<typename unique_ptr<_Up, _Ep>::pointer, pointer>,
+   __not_<is_array<_Up>>
+        >;
+
+    public:
+
+
+
+      template<typename _Del = _Dp, typename = _DeleterConstraint<_Del>>
+ constexpr unique_ptr() noexcept
+ : _M_t()
+ { }
+
+
+
+
+
+
+
+      template<typename _Del = _Dp, typename = _DeleterConstraint<_Del>>
+
+ explicit
+ unique_ptr(pointer __p) noexcept
+ : _M_t(__p)
+        { }
+# 322 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/unique_ptr.h" 3
+      template<typename _Del = deleter_type,
+        typename = _Require<is_copy_constructible<_Del>>>
+
+ unique_ptr(pointer __p, const deleter_type& __d) noexcept
+ : _M_t(__p, __d) { }
+# 335 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/unique_ptr.h" 3
+      template<typename _Del = deleter_type,
+        typename = _Require<is_move_constructible<_Del>>>
+
+ unique_ptr(pointer __p,
+     __enable_if_t<!is_lvalue_reference<_Del>::value,
+     _Del&&> __d) noexcept
+ : _M_t(__p, std::move(__d))
+ { }
+
+      template<typename _Del = deleter_type,
+        typename _DelUnref = typename remove_reference<_Del>::type>
+
+ unique_ptr(pointer,
+     __enable_if_t<is_lvalue_reference<_Del>::value,
+     _DelUnref&&>) = delete;
+
+
+      template<typename _Del = _Dp, typename = _DeleterConstraint<_Del>>
+ constexpr unique_ptr(nullptr_t) noexcept
+ : _M_t()
+ { }
+
+
+
+
+      unique_ptr(unique_ptr&&) = default;
+
+
+
+
+
+
+
+      template<typename _Up, typename _Ep, typename = _Require<
+               __safe_conversion_up<_Up, _Ep>,
+        __conditional_t<is_reference<_Dp>::value,
+          is_same<_Ep, _Dp>,
+          is_convertible<_Ep, _Dp>>>>
+
+ unique_ptr(unique_ptr<_Up, _Ep>&& __u) noexcept
+ : _M_t(__u.release(), std::forward<_Ep>(__u.get_deleter()))
+ { }
+
+
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
+
+      template<typename _Up,
+        typename = _Require<is_convertible<_Up*, pointer>,
+       is_same<_Dp, default_delete<_Tp>>>>
+ unique_ptr(auto_ptr<_Up>&& __u) noexcept;
+#pragma GCC diagnostic pop
+
+
+
+
+
+
+      ~unique_ptr() noexcept
+      {
+ static_assert(__is_invocable<deleter_type&, pointer>::value,
+        "unique_ptr's deleter must be invocable with a pointer");
+ auto& __ptr = _M_t._M_ptr();
+ if (__ptr != nullptr)
+   get_deleter()(std::move(__ptr));
+ __ptr = pointer();
+      }
+
+
+
+
+
+
+
+      unique_ptr& operator=(unique_ptr&&) = default;
+# 418 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/unique_ptr.h" 3
+      template<typename _Up, typename _Ep>
+
+        typename enable_if< __and_<
+          __safe_conversion_up<_Up, _Ep>,
+          is_assignable<deleter_type&, _Ep&&>
+          >::value,
+          unique_ptr&>::type
+ operator=(unique_ptr<_Up, _Ep>&& __u) noexcept
+ {
+   reset(__u.release());
+   get_deleter() = std::forward<_Ep>(__u.get_deleter());
+   return *this;
+ }
+
+
+     
+      unique_ptr&
+      operator=(nullptr_t) noexcept
+      {
+ reset();
+ return *this;
+      }
+
+
+
+
+     
+      typename add_lvalue_reference<element_type>::type
+      operator*() const noexcept(noexcept(*std::declval<pointer>()))
+      {
+
+
+
+ using _ResT = typename add_lvalue_reference<element_type>::type;
+ using _DerefT = decltype(*get());
+ static_assert(!__reference_converts_from_temporary(_ResT, _DerefT),
+        "operator* must not return a dangling reference");
+
+ do { if (__builtin_expect(!bool(get() != pointer()), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/unique_ptr.h", 456, __PRETTY_FUNCTION__, "get() != pointer()"); } while (false);
+ return *get();
+      }
+
+
+     
+      pointer
+      operator->() const noexcept
+      {
+ ;
+ return get();
+      }
+
+
+     
+      pointer
+      get() const noexcept
+      { return _M_t._M_ptr(); }
+
+
+     
+      deleter_type&
+      get_deleter() noexcept
+      { return _M_t._M_deleter(); }
+
+
+     
+      const deleter_type&
+      get_deleter() const noexcept
+      { return _M_t._M_deleter(); }
+
+
+     
+      explicit operator bool() const noexcept
+      { return get() == pointer() ? false : true; }
+
+
+
+
+     
+      pointer
+      release() noexcept
+      { return _M_t.release(); }
+
+
+
+
+
+
+
+     
+      void
+      reset(pointer __p = pointer()) noexcept
+      {
+ static_assert(__is_invocable<deleter_type&, pointer>::value,
+        "unique_ptr's deleter must be invocable with a pointer");
+ _M_t.reset(std::move(__p));
+      }
+
+
+     
+      void
+      swap(unique_ptr& __u) noexcept
+      {
+ static_assert(__is_swappable<_Dp>::value, "deleter must be swappable");
+ _M_t.swap(__u._M_t);
+      }
+
+
+      unique_ptr(const unique_ptr&) = delete;
+      unique_ptr& operator=(const unique_ptr&) = delete;
+
+    private:
+
+
+
+
+
+
+  };
+# 545 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/unique_ptr.h" 3
+  template<typename _Tp, typename _Dp>
+    class unique_ptr<_Tp[], _Dp>
+    {
+      template <typename _Up>
+      using _DeleterConstraint =
+ typename __uniq_ptr_impl<_Tp, _Up>::_DeleterConstraint::type;
+
+      __uniq_ptr_data<_Tp, _Dp> _M_t;
+
+
+      template<typename _Up>
+ using __is_derived_Tp
+   = __and_< is_base_of<_Tp, _Up>,
+      __not_<is_same<__remove_cv_t<_Tp>, __remove_cv_t<_Up>>> >;
+
+    public:
+      using pointer = typename __uniq_ptr_impl<_Tp, _Dp>::pointer;
+      using element_type = _Tp;
+      using deleter_type = _Dp;
+
+
+
+      template<typename _Up, typename _Ep,
+               typename _UPtr = unique_ptr<_Up, _Ep>,
+        typename _UP_pointer = typename _UPtr::pointer,
+        typename _UP_element_type = typename _UPtr::element_type>
+ using __safe_conversion_up = __and_<
+          is_array<_Up>,
+          is_same<pointer, element_type*>,
+          is_same<_UP_pointer, _UP_element_type*>,
+          is_convertible<_UP_element_type(*)[], element_type(*)[]>
+        >;
+
+
+      template<typename _Up>
+        using __safe_conversion_raw = __and_<
+          __or_<__or_<is_same<_Up, pointer>,
+                      is_same<_Up, nullptr_t>>,
+                __and_<is_pointer<_Up>,
+                       is_same<pointer, element_type*>,
+                       is_convertible<
+                         typename remove_pointer<_Up>::type(*)[],
+                         element_type(*)[]>
+                >
+          >
+        >;
+
+
+
+
+      template<typename _Del = _Dp, typename = _DeleterConstraint<_Del>>
+ constexpr unique_ptr() noexcept
+ : _M_t()
+ { }
+# 607 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/unique_ptr.h" 3
+      template<typename _Up,
+        typename _Vp = _Dp,
+        typename = _DeleterConstraint<_Vp>,
+        typename = typename enable_if<
+                 __safe_conversion_raw<_Up>::value, bool>::type>
+
+ explicit
+ unique_ptr(_Up __p) noexcept
+ : _M_t(__p)
+        { }
+# 626 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/unique_ptr.h" 3
+      template<typename _Up, typename _Del = deleter_type,
+        typename = _Require<__safe_conversion_raw<_Up>,
+       is_copy_constructible<_Del>>>
+
+ unique_ptr(_Up __p, const deleter_type& __d) noexcept
+ : _M_t(__p, __d) { }
+# 641 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/unique_ptr.h" 3
+      template<typename _Up, typename _Del = deleter_type,
+        typename = _Require<__safe_conversion_raw<_Up>,
+       is_move_constructible<_Del>>>
+
+ unique_ptr(_Up __p,
+     __enable_if_t<!is_lvalue_reference<_Del>::value,
+     _Del&&> __d) noexcept
+ : _M_t(std::move(__p), std::move(__d))
+ { }
+
+      template<typename _Up, typename _Del = deleter_type,
+        typename _DelUnref = typename remove_reference<_Del>::type,
+        typename = _Require<__safe_conversion_raw<_Up>>>
+ unique_ptr(_Up,
+     __enable_if_t<is_lvalue_reference<_Del>::value,
+     _DelUnref&&>) = delete;
+
+
+      unique_ptr(unique_ptr&&) = default;
+
+
+      template<typename _Del = _Dp, typename = _DeleterConstraint<_Del>>
+ constexpr unique_ptr(nullptr_t) noexcept
+ : _M_t()
+        { }
+
+      template<typename _Up, typename _Ep, typename = _Require<
+        __safe_conversion_up<_Up, _Ep>,
+        __conditional_t<is_reference<_Dp>::value,
+          is_same<_Ep, _Dp>,
+          is_convertible<_Ep, _Dp>>>>
+
+ unique_ptr(unique_ptr<_Up, _Ep>&& __u) noexcept
+ : _M_t(__u.release(), std::forward<_Ep>(__u.get_deleter()))
+ { }
+
+
+
+
+
+      ~unique_ptr()
+      {
+ auto& __ptr = _M_t._M_ptr();
+ if (__ptr != nullptr)
+   get_deleter()(__ptr);
+ __ptr = pointer();
+      }
+
+
+
+
+
+
+
+      unique_ptr&
+      operator=(unique_ptr&&) = default;
+# 705 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/unique_ptr.h" 3
+      template<typename _Up, typename _Ep>
+
+ typename
+ enable_if<__and_<__safe_conversion_up<_Up, _Ep>,
+                         is_assignable<deleter_type&, _Ep&&>
+                  >::value,
+                  unique_ptr&>::type
+ operator=(unique_ptr<_Up, _Ep>&& __u) noexcept
+ {
+   reset(__u.release());
+   get_deleter() = std::forward<_Ep>(__u.get_deleter());
+   return *this;
+ }
+
+
+     
+      unique_ptr&
+      operator=(nullptr_t) noexcept
+      {
+ reset();
+ return *this;
+      }
+
+
+
+
+     
+      typename std::add_lvalue_reference<element_type>::type
+      operator[](size_t __i) const
+      {
+ do { if (__builtin_expect(!bool(get() != pointer()), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/unique_ptr.h", 735, __PRETTY_FUNCTION__, "get() != pointer()"); } while (false);
+ return get()[__i];
+      }
+
+
+     
+      pointer
+      get() const noexcept
+      { return _M_t._M_ptr(); }
+
+
+     
+      deleter_type&
+      get_deleter() noexcept
+      { return _M_t._M_deleter(); }
+
+
+     
+      const deleter_type&
+      get_deleter() const noexcept
+      { return _M_t._M_deleter(); }
+
+
+     
+      explicit operator bool() const noexcept
+      { return get() == pointer() ? false : true; }
+
+
+
+
+     
+      pointer
+      release() noexcept
+      { return _M_t.release(); }
+
+
+
+
+
+
+
+      template <typename _Up,
+                typename = _Require<
+                  __or_<is_same<_Up, pointer>,
+                        __and_<is_same<pointer, element_type*>,
+                               is_pointer<_Up>,
+                               is_convertible<
+                                 typename remove_pointer<_Up>::type(*)[],
+                                 element_type(*)[]
+                               >
+                        >
+                  >
+               >>
+     
+      void
+      reset(_Up __p) noexcept
+      { _M_t.reset(std::move(__p)); }
+
+     
+      void reset(nullptr_t = nullptr) noexcept
+      { reset(pointer()); }
+
+
+     
+      void
+      swap(unique_ptr& __u) noexcept
+      {
+ static_assert(__is_swappable<_Dp>::value, "deleter must be swappable");
+ _M_t.swap(__u._M_t);
+      }
+
+
+      unique_ptr(const unique_ptr&) = delete;
+      unique_ptr& operator=(const unique_ptr&) = delete;
+
+    private:
+
+
+
+
+    };
+
+
+
+
+
+  template<typename _Tp, typename _Dp>
+    inline
+
+
+   
+    typename enable_if<__is_swappable<_Dp>::value>::type
+
+
+
+    swap(unique_ptr<_Tp, _Dp>& __x,
+  unique_ptr<_Tp, _Dp>& __y) noexcept
+    { __x.swap(__y); }
+
+
+  template<typename _Tp, typename _Dp>
+    typename enable_if<!__is_swappable<_Dp>::value>::type
+    swap(unique_ptr<_Tp, _Dp>&,
+  unique_ptr<_Tp, _Dp>&) = delete;
+
+
+
+  template<typename _Tp, typename _Dp,
+    typename _Up, typename _Ep>
+    [[__nodiscard__]]
+    inline bool
+    operator==(const unique_ptr<_Tp, _Dp>& __x,
+        const unique_ptr<_Up, _Ep>& __y)
+    { return __x.get() == __y.get(); }
+
+
+  template<typename _Tp, typename _Dp>
+    [[__nodiscard__]]
+    inline bool
+    operator==(const unique_ptr<_Tp, _Dp>& __x, nullptr_t) noexcept
+    { return !__x; }
+# 890 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/unique_ptr.h" 3
+  template<typename _Tp, typename _Dp,
+    typename _Up, typename _Ep>
+    [[__nodiscard__]]
+    inline bool
+    operator<(const unique_ptr<_Tp, _Dp>& __x,
+       const unique_ptr<_Up, _Ep>& __y)
+    {
+      typedef typename
+ std::common_type<typename unique_ptr<_Tp, _Dp>::pointer,
+                  typename unique_ptr<_Up, _Ep>::pointer>::type _CT;
+      return std::less<_CT>()(__x.get(), __y.get());
+    }
+
+
+  template<typename _Tp, typename _Dp>
+    [[__nodiscard__]]
+    inline bool
+    operator<(const unique_ptr<_Tp, _Dp>& __x, nullptr_t)
+    {
+      return std::less<typename unique_ptr<_Tp, _Dp>::pointer>()(__x.get(),
+         nullptr);
+    }
+
+
+  template<typename _Tp, typename _Dp>
+    [[__nodiscard__]]
+    inline bool
+    operator<(nullptr_t, const unique_ptr<_Tp, _Dp>& __x)
+    {
+      return std::less<typename unique_ptr<_Tp, _Dp>::pointer>()(nullptr,
+         __x.get());
+    }
+
+
+  template<typename _Tp, typename _Dp,
+    typename _Up, typename _Ep>
+    [[__nodiscard__]]
+    inline bool
+    operator<=(const unique_ptr<_Tp, _Dp>& __x,
+        const unique_ptr<_Up, _Ep>& __y)
+    { return !(__y < __x); }
+
+
+  template<typename _Tp, typename _Dp>
+    [[__nodiscard__]]
+    inline bool
+    operator<=(const unique_ptr<_Tp, _Dp>& __x, nullptr_t)
+    { return !(nullptr < __x); }
+
+
+  template<typename _Tp, typename _Dp>
+    [[__nodiscard__]]
+    inline bool
+    operator<=(nullptr_t, const unique_ptr<_Tp, _Dp>& __x)
+    { return !(__x < nullptr); }
+
+
+  template<typename _Tp, typename _Dp,
+    typename _Up, typename _Ep>
+    [[__nodiscard__]]
+    inline bool
+    operator>(const unique_ptr<_Tp, _Dp>& __x,
+       const unique_ptr<_Up, _Ep>& __y)
+    { return (__y < __x); }
+
+
+  template<typename _Tp, typename _Dp>
+    [[__nodiscard__]]
+    inline bool
+    operator>(const unique_ptr<_Tp, _Dp>& __x, nullptr_t)
+    {
+      return std::less<typename unique_ptr<_Tp, _Dp>::pointer>()(nullptr,
+         __x.get());
+    }
+
+
+  template<typename _Tp, typename _Dp>
+    [[__nodiscard__]]
+    inline bool
+    operator>(nullptr_t, const unique_ptr<_Tp, _Dp>& __x)
+    {
+      return std::less<typename unique_ptr<_Tp, _Dp>::pointer>()(__x.get(),
+         nullptr);
+    }
+
+
+  template<typename _Tp, typename _Dp,
+    typename _Up, typename _Ep>
+    [[__nodiscard__]]
+    inline bool
+    operator>=(const unique_ptr<_Tp, _Dp>& __x,
+        const unique_ptr<_Up, _Ep>& __y)
+    { return !(__x < __y); }
+
+
+  template<typename _Tp, typename _Dp>
+    [[__nodiscard__]]
+    inline bool
+    operator>=(const unique_ptr<_Tp, _Dp>& __x, nullptr_t)
+    { return !(__x < nullptr); }
+
+
+  template<typename _Tp, typename _Dp>
+    [[__nodiscard__]] inline bool
+    operator>=(nullptr_t, const unique_ptr<_Tp, _Dp>& __x)
+    { return !(nullptr < __x); }
+
+
+  template<typename _Tp, typename _Dp, typename _Up, typename _Ep>
+    requires three_way_comparable_with<typename unique_ptr<_Tp, _Dp>::pointer,
+           typename unique_ptr<_Up, _Ep>::pointer>
+   
+    inline
+    compare_three_way_result_t<typename unique_ptr<_Tp, _Dp>::pointer,
+          typename unique_ptr<_Up, _Ep>::pointer>
+    operator<=>(const unique_ptr<_Tp, _Dp>& __x,
+  const unique_ptr<_Up, _Ep>& __y)
+    { return compare_three_way()(__x.get(), __y.get()); }
+
+  template<typename _Tp, typename _Dp>
+    requires three_way_comparable<typename unique_ptr<_Tp, _Dp>::pointer>
+   
+    inline
+    compare_three_way_result_t<typename unique_ptr<_Tp, _Dp>::pointer>
+    operator<=>(const unique_ptr<_Tp, _Dp>& __x, nullptr_t)
+    {
+      using pointer = typename unique_ptr<_Tp, _Dp>::pointer;
+      return compare_three_way()(__x.get(), static_cast<pointer>(nullptr));
+    }
+
+
+
+
+  template<typename _Up, typename _Ptr = typename _Up::pointer>
+    struct __uniq_ptr_hash
+    : public __hash_base<size_t, _Up>
+
+    , private __hash_empty_base<_Ptr>
+
+    {
+      size_t
+      operator()(const _Up& __u) const
+      noexcept(noexcept(std::declval<hash<_Ptr>>()(std::declval<_Ptr>())))
+      { return hash<_Ptr>()(__u.get()); }
+    };
+
+  template<typename _Up>
+    using __uniq_ptr_hash_base
+      = __conditional_t<__is_hash_enabled_for<typename _Up::pointer>,
+        __uniq_ptr_hash<_Up>,
+        __hash_not_enabled<typename _Up::pointer>>;
+
+
+
+  template<typename _Tp, typename _Dp>
+    struct hash<unique_ptr<_Tp, _Dp>>
+    : public __uniq_ptr_hash_base<unique_ptr<_Tp, _Dp>>
+    { };
+
+
+
+namespace __detail
+{
+  template<typename _Tp>
+    struct _MakeUniq
+    { typedef unique_ptr<_Tp> __single_object; };
+
+  template<typename _Tp>
+    struct _MakeUniq<_Tp[]>
+    { typedef unique_ptr<_Tp[]> __array; };
+
+  template<typename _Tp, size_t _Bound>
+    struct _MakeUniq<_Tp[_Bound]>
+    { struct __invalid_type { }; };
+
+  template<typename _Tp>
+    using __unique_ptr_t = typename _MakeUniq<_Tp>::__single_object;
+  template<typename _Tp>
+    using __unique_ptr_array_t = typename _MakeUniq<_Tp>::__array;
+  template<typename _Tp>
+    using __invalid_make_unique_t = typename _MakeUniq<_Tp>::__invalid_type;
+}
+# 1081 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/unique_ptr.h" 3
+  template<typename _Tp, typename... _Args>
+   
+    inline __detail::__unique_ptr_t<_Tp>
+    make_unique(_Args&&... __args)
+    { return unique_ptr<_Tp>(new _Tp(std::forward<_Args>(__args)...)); }
+# 1096 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/unique_ptr.h" 3
+  template<typename _Tp>
+   
+    inline __detail::__unique_ptr_array_t<_Tp>
+    make_unique(size_t __num)
+    { return unique_ptr<_Tp>(new remove_extent_t<_Tp>[__num]()); }
+
+
+
+
+
+
+  template<typename _Tp, typename... _Args>
+    __detail::__invalid_make_unique_t<_Tp>
+    make_unique(_Args&&...) = delete;
+# 1118 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/unique_ptr.h" 3
+  template<typename _Tp>
+   
+    inline __detail::__unique_ptr_t<_Tp>
+    make_unique_for_overwrite()
+    { return unique_ptr<_Tp>(new _Tp); }
+# 1131 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/unique_ptr.h" 3
+  template<typename _Tp>
+   
+    inline __detail::__unique_ptr_array_t<_Tp>
+    make_unique_for_overwrite(size_t __num)
+    { return unique_ptr<_Tp>(new remove_extent_t<_Tp>[__num]); }
+
+
+
+
+
+
+  template<typename _Tp, typename... _Args>
+    __detail::__invalid_make_unique_t<_Tp>
+    make_unique_for_overwrite(_Args&&...) = delete;
+# 1155 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/unique_ptr.h" 3
+  template<typename _CharT, typename _Traits, typename _Tp, typename _Dp>
+    inline basic_ostream<_CharT, _Traits>&
+    operator<<(basic_ostream<_CharT, _Traits>& __os,
+        const unique_ptr<_Tp, _Dp>& __p)
+    requires requires { __os << __p.get(); }
+    {
+      __os << __p.get();
+      return __os;
+    }
+
+
+
+  template<typename _Tp>
+    constexpr bool __is_unique_ptr = false;
+  template<typename _Tp, typename _Del>
+    constexpr bool __is_unique_ptr<unique_ptr<_Tp, _Del>> = true;
+
+
+
+
+
+  namespace __detail::__variant
+  {
+    template<typename> struct _Never_valueless_alt;
+
+
+
+    template<typename _Tp, typename _Del>
+      struct _Never_valueless_alt<std::unique_ptr<_Tp, _Del>>
+      : std::true_type
+      { };
+  }
+
+
+
+}
+# 81 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/memory" 2 3
+
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr.h" 1 3
+# 53 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr_base.h" 1 3
+# 53 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr_base.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/allocated_ptr.h" 1 3
+# 40 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/allocated_ptr.h" 3
+namespace std
+{
+
+
+
+
+  template<typename _Alloc>
+    struct __allocated_ptr
+    {
+      using pointer = typename allocator_traits<_Alloc>::pointer;
+      using value_type = typename allocator_traits<_Alloc>::value_type;
+
+
+      __allocated_ptr(_Alloc& __a, pointer __ptr) noexcept
+      : _M_alloc(std::__addressof(__a)), _M_ptr(__ptr)
+      { }
+
+
+      template<typename _Ptr,
+        typename _Req = _Require<is_same<_Ptr, value_type*>>>
+      __allocated_ptr(_Alloc& __a, _Ptr __ptr)
+      : _M_alloc(std::__addressof(__a)),
+ _M_ptr(pointer_traits<pointer>::pointer_to(*__ptr))
+      { }
+
+
+      __allocated_ptr(__allocated_ptr&& __gd) noexcept
+      : _M_alloc(__gd._M_alloc), _M_ptr(__gd._M_ptr)
+      { __gd._M_ptr = nullptr; }
+
+
+      ~__allocated_ptr()
+      {
+ if (_M_ptr != nullptr)
+   std::allocator_traits<_Alloc>::deallocate(*_M_alloc, _M_ptr, 1);
+      }
+
+
+      __allocated_ptr&
+      operator=(std::nullptr_t) noexcept
+      {
+ _M_ptr = nullptr;
+ return *this;
+      }
+
+      explicit operator bool() const noexcept { return (bool)_M_ptr; }
+
+
+      value_type* get() const { return std::__to_address(_M_ptr); }
+
+      pointer release() { return std::__exchange(_M_ptr, nullptr); }
+
+    private:
+      _Alloc* _M_alloc;
+      pointer _M_ptr;
+    };
+
+
+  template<typename _Alloc>
+    inline __allocated_ptr<_Alloc>
+    __allocate_guarded(_Alloc& __a)
+    {
+      return { __a, std::allocator_traits<_Alloc>::allocate(__a, 1) };
+    }
+
+
+  template<typename _Alloc>
+    struct __allocated_obj : __allocated_ptr<_Alloc>
+    {
+      using value_type = typename __allocated_ptr<_Alloc>::value_type;
+
+      __allocated_obj(__allocated_obj<_Alloc>&&) = default;
+
+
+      __allocated_obj(__allocated_ptr<_Alloc>&& __ptr)
+      : __allocated_ptr<_Alloc>(std::move(__ptr))
+      { ::new ((void*)this->get()) value_type; }
+
+
+      ~__allocated_obj()
+      {
+ if (static_cast<bool>(*this))
+   this->get()->~value_type();
+      }
+
+      using __allocated_ptr<_Alloc>::operator=;
+
+      value_type& operator*() const { return *this->get(); }
+      value_type* operator->() const { return this->get(); }
+    };
+
+
+  template<typename _Alloc>
+    inline __allocated_obj<_Alloc>
+    __allocate_guarded_obj(_Alloc& __a)
+    {
+      return { std::__allocate_guarded(__a) };
+    }
+
+
+
+}
+# 54 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr_base.h" 2 3
+
+
+
+
+
+
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/aligned_buffer.h" 1 3
+# 42 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/aligned_buffer.h" 3
+namespace __gnu_cxx
+{
+
+
+
+
+  template<typename _Tp>
+    struct __aligned_membuf
+    {
+# 60 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/aligned_buffer.h" 3
+      alignas(_Tp)
+
+ unsigned char _M_storage[sizeof(_Tp)];
+
+      __aligned_membuf() = default;
+
+
+      __aligned_membuf(std::nullptr_t) { }
+
+      void*
+      _M_addr() noexcept
+      { return static_cast<void*>(&_M_storage); }
+
+      const void*
+      _M_addr() const noexcept
+      { return static_cast<const void*>(&_M_storage); }
+
+      _Tp*
+      _M_ptr() noexcept
+      { return static_cast<_Tp*>(_M_addr()); }
+
+      const _Tp*
+      _M_ptr() const noexcept
+      { return static_cast<const _Tp*>(_M_addr()); }
+    };
+# 95 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/aligned_buffer.h" 3
+  template<typename _Tp>
+    struct __aligned_buffer
+    {
+
+      alignas(__alignof__(_Tp)) unsigned char _M_storage[sizeof(_Tp)];
+
+      __aligned_buffer() = default;
+
+
+      __aligned_buffer(std::nullptr_t) { }
+
+      void*
+      _M_addr() noexcept
+      {
+        return static_cast<void*>(&_M_storage);
+      }
+
+      const void*
+      _M_addr() const noexcept
+      {
+        return static_cast<const void*>(&_M_storage);
+      }
+
+      _Tp*
+      _M_ptr() noexcept
+      { return static_cast<_Tp*>(_M_addr()); }
+
+      const _Tp*
+      _M_ptr() const noexcept
+      { return static_cast<const _Tp*>(_M_addr()); }
+    };
+
+
+}
+# 61 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr_base.h" 2 3
+
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/concurrence.h" 1 3
+# 42 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/concurrence.h" 3
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wc++11-extensions"
+
+namespace __gnu_cxx
+{
+
+
+
+
+
+
+
+  enum _Lock_policy { _S_single, _S_mutex, _S_atomic };
+
+
+
+  inline const _Lock_policy __default_lock_policy =
+
+
+
+  _S_atomic;
+
+
+
+
+
+
+  class __concurrence_lock_error : public std::exception
+  {
+  public:
+    virtual char const*
+    what() const throw()
+    { return "__gnu_cxx::__concurrence_lock_error"; }
+  };
+
+  class __concurrence_unlock_error : public std::exception
+  {
+  public:
+    virtual char const*
+    what() const throw()
+    { return "__gnu_cxx::__concurrence_unlock_error"; }
+  };
+
+  class __concurrence_broadcast_error : public std::exception
+  {
+  public:
+    virtual char const*
+    what() const throw()
+    { return "__gnu_cxx::__concurrence_broadcast_error"; }
+  };
+
+  class __concurrence_wait_error : public std::exception
+  {
+  public:
+    virtual char const*
+    what() const throw()
+    { return "__gnu_cxx::__concurrence_wait_error"; }
+  };
+
+
+  inline void
+  __throw_concurrence_lock_error()
+  { (throw (__concurrence_lock_error())); }
+
+  inline void
+  __throw_concurrence_unlock_error()
+  { (throw (__concurrence_unlock_error())); }
+
+
+  inline void
+  __throw_concurrence_broadcast_error()
+  { (throw (__concurrence_broadcast_error())); }
+
+  inline void
+  __throw_concurrence_wait_error()
+  { (throw (__concurrence_wait_error())); }
+
+
+  class __mutex
+  {
+  private:
+
+
+
+    __gthread_mutex_t _M_mutex;
+
+
+    __mutex(const __mutex&);
+    __mutex& operator=(const __mutex&);
+
+  public:
+    __mutex()
+    {
+
+      if (__gthread_active_p())
+ __gthread_mutex_init_function(&_M_mutex);
+
+    }
+
+
+    ~__mutex()
+    {
+      if (__gthread_active_p())
+ __gthread_mutex_destroy(&_M_mutex);
+    }
+
+
+    void lock()
+    {
+
+      if (__gthread_active_p())
+ {
+   if (__gthread_mutex_lock(&_M_mutex) != 0)
+     __throw_concurrence_lock_error();
+ }
+
+    }
+
+    void unlock()
+    {
+
+      if (__gthread_active_p())
+ {
+   if (__gthread_mutex_unlock(&_M_mutex) != 0)
+     __throw_concurrence_unlock_error();
+ }
+
+    }
+
+    __gthread_mutex_t* gthread_mutex(void)
+      { return &_M_mutex; }
+  };
+
+  class __recursive_mutex
+  {
+  private:
+
+    __gthread_recursive_mutex_t _M_mutex = (pthread_mutex_t)-3;
+
+
+
+
+    __recursive_mutex(const __recursive_mutex&);
+    __recursive_mutex& operator=(const __recursive_mutex&);
+
+  public:
+    __recursive_mutex()
+    {
+
+
+
+
+    }
+# 204 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/concurrence.h" 3
+    void lock()
+    {
+
+      if (__gthread_active_p())
+ {
+   if (__gthread_recursive_mutex_lock(&_M_mutex) != 0)
+     __throw_concurrence_lock_error();
+ }
+
+    }
+
+    void unlock()
+    {
+
+      if (__gthread_active_p())
+ {
+   if (__gthread_recursive_mutex_unlock(&_M_mutex) != 0)
+     __throw_concurrence_unlock_error();
+ }
+
+    }
+
+    __gthread_recursive_mutex_t* gthread_recursive_mutex(void)
+    { return &_M_mutex; }
+  };
+
+
+
+
+  class __scoped_lock
+  {
+  public:
+    typedef __mutex __mutex_type;
+
+  private:
+    __mutex_type& _M_device;
+
+    __scoped_lock(const __scoped_lock&);
+    __scoped_lock& operator=(const __scoped_lock&);
+
+  public:
+    explicit __scoped_lock(__mutex_type& __name) : _M_device(__name)
+    { _M_device.lock(); }
+
+    ~__scoped_lock() throw()
+    { _M_device.unlock(); }
+  };
+
+
+  class __cond
+  {
+  private:
+
+    __gthread_cond_t _M_cond = (pthread_cond_t)-1;
+
+
+
+
+    __cond(const __cond&);
+    __cond& operator=(const __cond&);
+
+  public:
+    __cond()
+    {
+
+
+
+
+    }
+# 282 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/concurrence.h" 3
+    void broadcast()
+    {
+
+      if (__gthread_active_p())
+ {
+   if (__gthread_cond_broadcast(&_M_cond) != 0)
+     __throw_concurrence_broadcast_error();
+ }
+
+    }
+
+    void wait(__mutex *mutex)
+    {
+
+      {
+   if (__gthread_cond_wait(&_M_cond, mutex->gthread_mutex()) != 0)
+     __throw_concurrence_wait_error();
+      }
+
+    }
+
+    void wait_recursive(__recursive_mutex *mutex)
+    {
+
+      {
+   if (__gthread_cond_wait_recursive(&_M_cond,
+         mutex->gthread_recursive_mutex())
+       != 0)
+     __throw_concurrence_wait_error();
+      }
+
+    }
+  };
+
+
+
+}
+
+#pragma GCC diagnostic pop
+# 63 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr_base.h" 2 3
+
+
+
+
+
+
+namespace std
+{
+
+
+
+ 
+# 74 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr_base.h" 3
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
+  template<typename> class auto_ptr;
+#pragma GCC diagnostic pop
+
+
+
+
+
+
+  class bad_weak_ptr : public std::exception
+  {
+  public:
+    virtual char const* what() const noexcept;
+
+    virtual ~bad_weak_ptr() noexcept;
+  };
+
+
+  inline void
+  __throw_bad_weak_ptr()
+  { (throw (bad_weak_ptr())); }
+
+  using __gnu_cxx::_Lock_policy;
+  using __gnu_cxx::__default_lock_policy;
+  using __gnu_cxx::_S_single;
+  using __gnu_cxx::_S_mutex;
+  using __gnu_cxx::_S_atomic;
+
+
+  template<_Lock_policy _Lp>
+    class _Mutex_base
+    {
+    protected:
+
+      enum { _S_need_barriers = 0 };
+    };
+
+  template<>
+    class _Mutex_base<_S_mutex>
+    : public __gnu_cxx::__mutex
+    {
+    protected:
+
+
+
+      enum { _S_need_barriers = 1 };
+    };
+
+  template<_Lock_policy _Lp = __default_lock_policy>
+    class _Sp_counted_base
+    : public _Mutex_base<_Lp>
+    {
+    public:
+      _Sp_counted_base() noexcept
+      : _M_use_count(1), _M_weak_count(1) { }
+
+      virtual
+      ~_Sp_counted_base() noexcept
+      { }
+
+
+
+      virtual void
+      _M_dispose() noexcept = 0;
+
+
+      virtual void
+      _M_destroy() noexcept
+      { delete this; }
+
+      virtual void*
+      _M_get_deleter(const std::type_info&) noexcept = 0;
+
+
+      void
+      _M_add_ref_copy()
+      { __gnu_cxx::__atomic_add_dispatch(&_M_use_count, 1); }
+
+
+      void
+      _M_add_ref_lock()
+      {
+ if (!_M_add_ref_lock_nothrow())
+   __throw_bad_weak_ptr();
+      }
+
+
+      bool
+      _M_add_ref_lock_nothrow() noexcept;
+
+
+      void
+      _M_release() noexcept;
+
+
+      void
+      _M_release_last_use() noexcept
+      {
+ ;
+ _M_dispose();
+
+
+
+
+ if (_Mutex_base<_Lp>::_S_need_barriers)
+   {
+     __atomic_thread_fence (4);
+   }
+
+
+ ;
+ if (__gnu_cxx::__exchange_and_add_dispatch(&_M_weak_count,
+         -1) == 1)
+   {
+     ;
+     _M_destroy();
+   }
+      }
+
+
+      __attribute__((__noinline__))
+      void
+      _M_release_last_use_cold() noexcept
+      { _M_release_last_use(); }
+
+
+      void
+      _M_weak_add_ref() noexcept
+      { __gnu_cxx::__atomic_add_dispatch(&_M_weak_count, 1); }
+
+
+      void
+      _M_weak_release() noexcept
+      {
+
+        ;
+ if (__gnu_cxx::__exchange_and_add_dispatch(&_M_weak_count, -1) == 1)
+   {
+            ;
+     if (_Mutex_base<_Lp>::_S_need_barriers)
+       {
+
+
+  __atomic_thread_fence (4);
+       }
+     _M_destroy();
+   }
+      }
+
+      long
+      _M_get_use_count() const noexcept
+      {
+
+
+        return __atomic_load_n(&_M_use_count, 0);
+      }
+
+    private:
+      _Sp_counted_base(_Sp_counted_base const&) = delete;
+      _Sp_counted_base& operator=(_Sp_counted_base const&) = delete;
+
+      _Atomic_word _M_use_count;
+      _Atomic_word _M_weak_count;
+    };
+
+  template<>
+    inline bool
+    _Sp_counted_base<_S_single>::
+    _M_add_ref_lock_nothrow() noexcept
+    {
+      if (_M_use_count == 0)
+ return false;
+      ++_M_use_count;
+      return true;
+    }
+
+  template<>
+    inline bool
+    _Sp_counted_base<_S_mutex>::
+    _M_add_ref_lock_nothrow() noexcept
+    {
+      __gnu_cxx::__scoped_lock sentry(*this);
+      if (__gnu_cxx::__exchange_and_add_dispatch(&_M_use_count, 1) == 0)
+ {
+   _M_use_count = 0;
+   return false;
+ }
+      return true;
+    }
+
+  template<>
+    inline bool
+    _Sp_counted_base<_S_atomic>::
+    _M_add_ref_lock_nothrow() noexcept
+    {
+
+      _Atomic_word __count = _M_get_use_count();
+      do
+ {
+   if (__count == 0)
+     return false;
+
+
+ }
+      while (!__atomic_compare_exchange_n(&_M_use_count, &__count, __count + 1,
+       true, 4,
+       0));
+      return true;
+    }
+
+  template<>
+    inline void
+    _Sp_counted_base<_S_single>::_M_add_ref_copy()
+    { ++_M_use_count; }
+
+  template<>
+    inline void
+    _Sp_counted_base<_S_single>::_M_release() noexcept
+    {
+      if (--_M_use_count == 0)
+        {
+          _M_dispose();
+          if (--_M_weak_count == 0)
+            _M_destroy();
+        }
+    }
+
+  template<>
+    inline void
+    _Sp_counted_base<_S_mutex>::_M_release() noexcept
+    {
+
+      ;
+      if (__gnu_cxx::__exchange_and_add_dispatch(&_M_use_count, -1) == 1)
+ {
+   _M_release_last_use();
+ }
+    }
+
+  template<>
+    inline void
+    _Sp_counted_base<_S_atomic>::_M_release() noexcept
+    {
+      ;
+
+      constexpr bool __lock_free
+ = __atomic_always_lock_free(sizeof(long long), 0)
+ && __atomic_always_lock_free(sizeof(_Atomic_word), 0);
+      constexpr bool __double_word
+ = sizeof(long long) == 2 * sizeof(_Atomic_word);
+
+
+      constexpr bool __aligned = __alignof(long long) <= alignof(void*);
+      if constexpr (__lock_free && __double_word && __aligned)
+ {
+   constexpr int __wordbits = 8 * sizeof(_Atomic_word);
+   constexpr int __shiftbits = __double_word ? __wordbits : 0;
+   constexpr long long __unique_ref = 1LL + (1LL << __shiftbits);
+   auto __both_counts = reinterpret_cast<long long*>(&_M_use_count);
+
+   ;
+   if (__atomic_load_n(__both_counts, 2) == __unique_ref)
+     {
+
+
+
+
+       _M_weak_count = _M_use_count = 0;
+       ;
+       ;
+       _M_dispose();
+       _M_destroy();
+       return;
+     }
+   if (__gnu_cxx::__exchange_and_add_dispatch(&_M_use_count, -1) == 1)
+     [[__unlikely__]]
+     {
+       _M_release_last_use_cold();
+       return;
+     }
+ }
+      else
+
+      if (__gnu_cxx::__exchange_and_add_dispatch(&_M_use_count, -1) == 1)
+ {
+   _M_release_last_use();
+ }
+    }
+
+  template<>
+    inline void
+    _Sp_counted_base<_S_single>::_M_weak_add_ref() noexcept
+    { ++_M_weak_count; }
+
+  template<>
+    inline void
+    _Sp_counted_base<_S_single>::_M_weak_release() noexcept
+    {
+      if (--_M_weak_count == 0)
+        _M_destroy();
+    }
+
+  template<>
+    inline long
+    _Sp_counted_base<_S_single>::_M_get_use_count() const noexcept
+    { return _M_use_count; }
+
+
+
+  template<typename _Tp, _Lock_policy _Lp = __default_lock_policy>
+    class __shared_ptr;
+
+  template<typename _Tp, _Lock_policy _Lp = __default_lock_policy>
+    class __weak_ptr;
+
+  template<typename _Tp, _Lock_policy _Lp = __default_lock_policy>
+    class __enable_shared_from_this;
+
+  template<typename _Tp>
+    class shared_ptr;
+
+  template<typename _Tp>
+    class weak_ptr;
+
+  template<typename _Tp>
+    struct owner_less;
+
+  template<typename _Tp>
+    class enable_shared_from_this;
+
+  template<_Lock_policy _Lp = __default_lock_policy>
+    class __weak_count;
+
+  template<_Lock_policy _Lp = __default_lock_policy>
+    class __shared_count;
+
+
+  template<typename>
+    class _Sp_atomic;
+
+
+
+  template<typename _Ptr, _Lock_policy _Lp>
+    class _Sp_counted_ptr final : public _Sp_counted_base<_Lp>
+    {
+    public:
+      explicit
+      _Sp_counted_ptr(_Ptr __p) noexcept
+      : _M_ptr(__p) { }
+
+      virtual void
+      _M_dispose() noexcept
+      { delete _M_ptr; }
+
+      virtual void
+      _M_destroy() noexcept
+      { delete this; }
+
+      virtual void*
+      _M_get_deleter(const std::type_info&) noexcept
+      { return nullptr; }
+
+      _Sp_counted_ptr(const _Sp_counted_ptr&) = delete;
+      _Sp_counted_ptr& operator=(const _Sp_counted_ptr&) = delete;
+
+    private:
+      _Ptr _M_ptr;
+    };
+
+  template<>
+    inline void
+    _Sp_counted_ptr<nullptr_t, _S_single>::_M_dispose() noexcept { }
+
+  template<>
+    inline void
+    _Sp_counted_ptr<nullptr_t, _S_mutex>::_M_dispose() noexcept { }
+
+  template<>
+    inline void
+    _Sp_counted_ptr<nullptr_t, _S_atomic>::_M_dispose() noexcept { }
+
+
+
+
+
+
+  template<int _Nm, typename _Tp,
+    bool __use_ebo = !__is_final(_Tp) && __is_empty(_Tp)>
+    struct _Sp_ebo_helper;
+
+
+  template<int _Nm, typename _Tp>
+    struct _Sp_ebo_helper<_Nm, _Tp, true> : private _Tp
+    {
+      explicit _Sp_ebo_helper(const _Tp& __tp) : _Tp(__tp) { }
+      explicit _Sp_ebo_helper(_Tp&& __tp) : _Tp(std::move(__tp)) { }
+
+      static _Tp&
+      _S_get(_Sp_ebo_helper& __eboh) { return static_cast<_Tp&>(__eboh); }
+    };
+
+
+  template<int _Nm, typename _Tp>
+    struct _Sp_ebo_helper<_Nm, _Tp, false>
+    {
+      explicit _Sp_ebo_helper(const _Tp& __tp) : _M_tp(__tp) { }
+      explicit _Sp_ebo_helper(_Tp&& __tp) : _M_tp(std::move(__tp)) { }
+
+      static _Tp&
+      _S_get(_Sp_ebo_helper& __eboh)
+      { return __eboh._M_tp; }
+
+    private:
+      _Tp _M_tp;
+    };
+
+
+  template<typename _Ptr, typename _Deleter, typename _Alloc, _Lock_policy _Lp>
+    class _Sp_counted_deleter final : public _Sp_counted_base<_Lp>
+    {
+      class _Impl : _Sp_ebo_helper<0, _Deleter>, _Sp_ebo_helper<1, _Alloc>
+      {
+ typedef _Sp_ebo_helper<0, _Deleter> _Del_base;
+ typedef _Sp_ebo_helper<1, _Alloc> _Alloc_base;
+
+      public:
+ _Impl(_Ptr __p, _Deleter __d, const _Alloc& __a) noexcept
+ : _Del_base(std::move(__d)), _Alloc_base(__a), _M_ptr(__p)
+ { }
+
+ _Deleter& _M_del() noexcept { return _Del_base::_S_get(*this); }
+ _Alloc& _M_alloc() noexcept { return _Alloc_base::_S_get(*this); }
+
+ _Ptr _M_ptr;
+      };
+
+    public:
+      using __allocator_type = __alloc_rebind<_Alloc, _Sp_counted_deleter>;
+
+
+      _Sp_counted_deleter(_Ptr __p, _Deleter __d) noexcept
+      : _M_impl(__p, std::move(__d), _Alloc()) { }
+
+
+      _Sp_counted_deleter(_Ptr __p, _Deleter __d, const _Alloc& __a) noexcept
+      : _M_impl(__p, std::move(__d), __a) { }
+
+      ~_Sp_counted_deleter() noexcept { }
+
+      virtual void
+      _M_dispose() noexcept
+      { _M_impl._M_del()(_M_impl._M_ptr); }
+
+      virtual void
+      _M_destroy() noexcept
+      {
+ __allocator_type __a(_M_impl._M_alloc());
+ __allocated_ptr<__allocator_type> __guard_ptr{ __a, this };
+ this->~_Sp_counted_deleter();
+      }
+
+      virtual void*
+      _M_get_deleter(const type_info& __ti [[__gnu__::__unused__]]) noexcept
+      {
+
+
+
+        return __ti == typeid(_Deleter)
+   ? std::__addressof(_M_impl._M_del())
+   : nullptr;
+
+
+
+      }
+
+    private:
+
+
+
+      _Impl _M_impl;
+    };
+
+
+
+  struct _Sp_make_shared_tag
+  {
+  private:
+    template<typename _Tp, typename _Alloc, _Lock_policy _Lp>
+      friend class _Sp_counted_ptr_inplace;
+
+    static const type_info&
+    _S_ti() noexcept
+    {
+      alignas(type_info) static constexpr char __tag[sizeof(type_info)] = { };
+      return reinterpret_cast<const type_info&>(__tag);
+    }
+
+    static bool _S_eq(const type_info&) noexcept;
+  };
+
+  template<typename _Alloc>
+    struct _Sp_alloc_shared_tag
+    {
+      const _Alloc& _M_a;
+    };
+
+  template<typename _Tp, typename _Alloc, _Lock_policy _Lp>
+    class _Sp_counted_ptr_inplace final : public _Sp_counted_base<_Lp>
+    {
+      class _Impl : _Sp_ebo_helper<0, _Alloc>
+      {
+ typedef _Sp_ebo_helper<0, _Alloc> _A_base;
+
+      public:
+ explicit _Impl(_Alloc __a) noexcept : _A_base(__a) { }
+
+ _Alloc& _M_alloc() noexcept { return _A_base::_S_get(*this); }
+
+ __gnu_cxx::__aligned_buffer<__remove_cv_t<_Tp>> _M_storage;
+      };
+
+    public:
+      using __allocator_type = __alloc_rebind<_Alloc, _Sp_counted_ptr_inplace>;
+
+
+      template<typename... _Args>
+ _Sp_counted_ptr_inplace(_Alloc __a, _Args&&... __args)
+ : _M_impl(__a)
+ {
+
+
+   allocator_traits<_Alloc>::construct(__a, _M_ptr(),
+       std::forward<_Args>(__args)...);
+ }
+
+      ~_Sp_counted_ptr_inplace() noexcept { }
+
+      virtual void
+      _M_dispose() noexcept
+      {
+ allocator_traits<_Alloc>::destroy(_M_impl._M_alloc(), _M_ptr());
+      }
+
+
+      virtual void
+      _M_destroy() noexcept
+      {
+ __allocator_type __a(_M_impl._M_alloc());
+ __allocated_ptr<__allocator_type> __guard_ptr{ __a, this };
+ this->~_Sp_counted_ptr_inplace();
+      }
+
+    private:
+      friend class __shared_count<_Lp>;
+
+
+
+      virtual void*
+      _M_get_deleter(const std::type_info& __ti) noexcept override
+      {
+
+
+
+
+ if (&__ti == &_Sp_make_shared_tag::_S_ti()
+     ||
+
+     __ti == typeid(_Sp_make_shared_tag)
+
+
+
+    )
+   return _M_ptr();
+ return nullptr;
+      }
+
+      __remove_cv_t<_Tp>*
+      _M_ptr() noexcept { return _M_impl._M_storage._M_ptr(); }
+
+      _Impl _M_impl;
+    };
+
+
+  struct _Sp_overwrite_tag { };
+
+
+
+
+
+  template<typename _Tp, typename _Alloc, _Lock_policy _Lp>
+    requires is_same_v<typename _Alloc::value_type, _Sp_overwrite_tag>
+    class _Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp> final
+
+
+
+
+    : public _Sp_counted_base<_Lp>
+    {
+      [[no_unique_address]] _Alloc _M_alloc;
+
+      union {
+ remove_cv_t<_Tp> _M_obj;
+ char _M_unused;
+      };
+
+      friend class __shared_count<_Lp>;
+
+      auto _M_ptr() noexcept { return std::__addressof(_M_obj); }
+
+    public:
+      using __allocator_type = __alloc_rebind<_Alloc, _Sp_counted_ptr_inplace>;
+
+      _Sp_counted_ptr_inplace(const _Alloc& __a)
+      : _M_alloc(__a)
+      {
+ ::new((void*)_M_ptr()) _Tp;
+      }
+
+      ~_Sp_counted_ptr_inplace() noexcept { }
+
+      virtual void
+      _M_dispose() noexcept
+      {
+ _M_obj.~_Tp();
+      }
+
+
+      virtual void
+      _M_destroy() noexcept
+      {
+ using pointer = typename allocator_traits<__allocator_type>::pointer;
+ __allocator_type __a(_M_alloc);
+ auto __p = pointer_traits<pointer>::pointer_to(*this);
+ __allocated_ptr<__allocator_type> __guard_ptr{ __a, __p };
+ this->~_Sp_counted_ptr_inplace();
+      }
+
+      void*
+      _M_get_deleter(const std::type_info&) noexcept override
+      { return nullptr; }
+    };
+
+
+
+  struct _Sp_overwrite_tag;
+
+
+  template<typename _Alloc>
+    struct _Sp_counted_array_base
+    {
+      [[no_unique_address]] _Alloc _M_alloc{};
+      size_t _M_n = 0;
+      bool _M_overwrite = false;
+
+      typename allocator_traits<_Alloc>::pointer
+      _M_alloc_array(size_t __tail)
+      {
+ return allocator_traits<_Alloc>::allocate(_M_alloc, _M_n + __tail);
+      }
+
+      void
+      _M_dealloc_array(typename allocator_traits<_Alloc>::pointer __p,
+         size_t __tail)
+      {
+ allocator_traits<_Alloc>::deallocate(_M_alloc, __p, _M_n + __tail);
+      }
+
+
+      template<typename _Init>
+ void
+ _M_init(typename allocator_traits<_Alloc>::value_type* __p,
+  _Init __init)
+ {
+   using _Tp = remove_pointer_t<_Init>;
+   using _Up = typename allocator_traits<_Alloc>::value_type;
+
+   if constexpr (is_same_v<_Init, _Sp_overwrite_tag>)
+     {
+       std::uninitialized_default_construct_n(__p, _M_n);
+       _M_overwrite = true;
+     }
+   else if (__init == nullptr)
+     std::__uninitialized_default_n_a(__p, _M_n, _M_alloc);
+   else if constexpr (!is_array_v<_Tp>)
+     std::__uninitialized_fill_n_a(__p, _M_n, *__init, _M_alloc);
+   else
+     {
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wunused-local-typedefs"
+       struct _Iter
+       {
+  using value_type = _Up;
+  using difference_type = ptrdiff_t;
+  using pointer = const _Up*;
+  using reference = const _Up&;
+  using iterator_category = forward_iterator_tag;
+
+  const _Up* _M_p;
+  size_t _M_len;
+  size_t _M_pos;
+
+  _Iter& operator++() { ++_M_pos; return *this; }
+  _Iter operator++(int) { auto __i(*this); ++_M_pos; return __i; }
+
+  reference operator*() const { return _M_p[_M_pos % _M_len]; }
+  pointer operator->() const { return _M_p + (_M_pos % _M_len); }
+
+  bool operator==(const _Iter& __i) const
+  { return _M_pos == __i._M_pos; }
+       };
+#pragma GCC diagnostic pop
+
+       _Iter __first{_S_first_elem(__init), sizeof(_Tp) / sizeof(_Up)};
+       _Iter __last = __first;
+       __last._M_pos = _M_n;
+       std::__uninitialized_copy_a(__first, __last, __p, _M_alloc);
+     }
+ }
+
+    protected:
+
+      void
+      _M_dispose_array(typename allocator_traits<_Alloc>::value_type* __p)
+      {
+ if (_M_overwrite)
+   std::destroy_n(__p, _M_n);
+ else
+   {
+     size_t __n = _M_n;
+     while (__n--)
+       allocator_traits<_Alloc>::destroy(_M_alloc, __p + __n);
+   }
+      }
+
+    private:
+      template<typename _Tp>
+ static _Tp*
+ _S_first_elem(_Tp* __p) { return __p; }
+
+      template<typename _Tp, size_t _Nm>
+ static auto
+ _S_first_elem(_Tp (*__p)[_Nm]) { return _S_first_elem(*__p); }
+    };
+
+
+
+  template<typename _Alloc, _Lock_policy _Lp>
+    class _Sp_counted_array final
+    : public _Sp_counted_base<_Lp>, _Sp_counted_array_base<_Alloc>
+    {
+      using pointer = typename allocator_traits<_Alloc>::pointer;
+
+      pointer _M_alloc_ptr;
+
+      auto _M_ptr() const noexcept { return std::to_address(_M_alloc_ptr); }
+
+      friend class __shared_count<_Lp>;
+
+    public:
+      _Sp_counted_array(const _Sp_counted_array_base<_Alloc>& __a,
+   pointer __p) noexcept
+      : _Sp_counted_array_base<_Alloc>(__a), _M_alloc_ptr(__p)
+      { }
+
+      ~_Sp_counted_array() = default;
+
+      virtual void
+      _M_dispose() noexcept
+      {
+ if (this->_M_n)
+   this->_M_dispose_array(_M_ptr());
+      }
+
+
+      virtual void
+      _M_destroy() noexcept
+      {
+ _Sp_counted_array_base<_Alloc> __a = *this;
+ pointer __p = _M_alloc_ptr;
+ this->~_Sp_counted_array();
+ __a._M_dealloc_array(__p, _S_tail());
+      }
+
+
+
+      static constexpr size_t
+      _S_tail()
+      {
+
+ using _Tp = typename allocator_traits<_Alloc>::value_type;
+
+
+ size_t __bytes = sizeof(_Sp_counted_array);
+
+
+ if constexpr (alignof(_Tp) < alignof(_Sp_counted_array))
+   __bytes += alignof(_Sp_counted_array) - alignof(_Tp);
+
+ return (__bytes + sizeof(_Tp) - 1) / sizeof(_Tp);
+      }
+
+      void*
+      _M_get_deleter(const std::type_info&) noexcept override
+      { return nullptr; }
+    };
+
+
+
+  struct __sp_array_delete
+  {
+    template<typename _Yp>
+      void operator()(_Yp* __p) const { delete[] __p; }
+  };
+
+  template<_Lock_policy _Lp>
+    class __shared_count
+    {
+
+      template<typename _Tp>
+ struct __not_alloc_shared_tag { using type = void; };
+
+      template<typename _Tp>
+ struct __not_alloc_shared_tag<_Sp_alloc_shared_tag<_Tp>> { };
+
+
+      template<typename _Alloc>
+ struct __not_alloc_shared_tag<_Sp_counted_array_base<_Alloc>> { };
+
+
+    public:
+      constexpr __shared_count() noexcept : _M_pi(0)
+      { }
+
+      template<typename _Ptr>
+        explicit
+ __shared_count(_Ptr __p) : _M_pi(0)
+ {
+   try
+     {
+       _M_pi = new _Sp_counted_ptr<_Ptr, _Lp>(__p);
+     }
+   catch(...)
+     {
+       delete __p;
+       throw;
+     }
+ }
+
+      template<typename _Ptr>
+ __shared_count(_Ptr __p, false_type)
+ : __shared_count(__p)
+ { }
+
+      template<typename _Ptr>
+ __shared_count(_Ptr __p, true_type)
+ : __shared_count(__p, __sp_array_delete{}, allocator<void>())
+ { }
+
+      template<typename _Ptr, typename _Deleter,
+        typename = typename __not_alloc_shared_tag<_Deleter>::type>
+ __shared_count(_Ptr __p, _Deleter __d)
+ : __shared_count(__p, std::move(__d), allocator<void>())
+ { }
+
+      template<typename _Ptr, typename _Deleter, typename _Alloc,
+        typename = typename __not_alloc_shared_tag<_Deleter>::type>
+ __shared_count(_Ptr __p, _Deleter __d, _Alloc __a) : _M_pi(0)
+ {
+   typedef _Sp_counted_deleter<_Ptr, _Deleter, _Alloc, _Lp> _Sp_cd_type;
+   try
+     {
+       typename _Sp_cd_type::__allocator_type __a2(__a);
+       auto __guard = std::__allocate_guarded(__a2);
+       _Sp_cd_type* __mem = __guard.get();
+       ::new (__mem) _Sp_cd_type(__p, std::move(__d), std::move(__a));
+       _M_pi = __mem;
+       __guard = nullptr;
+     }
+   catch(...)
+     {
+       __d(__p);
+       throw;
+     }
+ }
+
+      template<typename _Tp, typename _Alloc, typename... _Args>
+ __shared_count(_Tp*& __p, _Sp_alloc_shared_tag<_Alloc> __a,
+         _Args&&... __args)
+ {
+   using _Tp2 = __remove_cv_t<_Tp>;
+   using _Sp_cp_type = _Sp_counted_ptr_inplace<_Tp2, _Alloc, _Lp>;
+   typename _Sp_cp_type::__allocator_type __a2(__a._M_a);
+   auto __guard = std::__allocate_guarded(__a2);
+   _Sp_cp_type* __mem = __guard.get();
+   auto __pi = ::new (__mem)
+     _Sp_cp_type(__a._M_a, std::forward<_Args>(__args)...);
+   __guard = nullptr;
+   _M_pi = __pi;
+   __p = __pi->_M_ptr();
+ }
+
+
+      template<typename _Tp, typename _Alloc, typename _Init>
+ __shared_count(_Tp*& __p, const _Sp_counted_array_base<_Alloc>& __a,
+         _Init __init)
+ {
+   using _Up = remove_all_extents_t<_Tp>;
+   static_assert(is_same_v<_Up, typename _Alloc::value_type>);
+
+   using _Sp_ca_type = _Sp_counted_array<_Alloc, _Lp>;
+   const size_t __tail = _Sp_ca_type::_S_tail();
+
+   struct _Guarded_ptr : _Sp_counted_array_base<_Alloc>
+   {
+     typename allocator_traits<_Alloc>::pointer _M_ptr;
+
+     _Guarded_ptr(_Sp_counted_array_base<_Alloc> __a)
+     : _Sp_counted_array_base<_Alloc>(__a),
+       _M_ptr(this->_M_alloc_array(_Sp_ca_type::_S_tail()))
+     { }
+
+     ~_Guarded_ptr()
+     {
+       if (_M_ptr)
+  this->_M_dealloc_array(_M_ptr, _Sp_ca_type::_S_tail());
+     }
+   };
+
+   _Guarded_ptr __guard{__a};
+   _Up* const __raw = std::to_address(__guard._M_ptr);
+   __guard._M_init(__raw, __init);
+
+   void* __c = __raw + __a._M_n;
+   if constexpr (alignof(_Up) < alignof(_Sp_ca_type))
+     {
+       size_t __space = sizeof(_Up) * __tail;
+       __c = std::align(alignof(_Sp_ca_type), sizeof(_Sp_ca_type),
+          __c, __space);
+     }
+   auto __pi = ::new(__c) _Sp_ca_type(__guard, __guard._M_ptr);
+   __guard._M_ptr = nullptr;
+   _M_pi = __pi;
+   __p = reinterpret_cast<_Tp*>(__raw);
+ }
+
+
+
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
+
+      template<typename _Tp>
+        explicit
+ __shared_count(std::auto_ptr<_Tp>&& __r);
+#pragma GCC diagnostic pop
+
+
+
+      template<typename _Tp, typename _Del>
+        explicit
+ __shared_count(std::unique_ptr<_Tp, _Del>&& __r) : _M_pi(0)
+ {
+
+
+   if (__r.get() == nullptr)
+     return;
+
+   using _Ptr = typename unique_ptr<_Tp, _Del>::pointer;
+   using _Del2 = __conditional_t<is_reference<_Del>::value,
+       reference_wrapper<typename remove_reference<_Del>::type>,
+       _Del>;
+   using _Sp_cd_type
+     = _Sp_counted_deleter<_Ptr, _Del2, allocator<void>, _Lp>;
+   using _Alloc = allocator<_Sp_cd_type>;
+   using _Alloc_traits = allocator_traits<_Alloc>;
+   _Alloc __a;
+   _Sp_cd_type* __mem = _Alloc_traits::allocate(__a, 1);
+
+
+
+   _Alloc_traits::construct(__a, __mem, __r.release(),
+       std::forward<_Del>(__r.get_deleter()));
+   _M_pi = __mem;
+ }
+
+
+      explicit __shared_count(const __weak_count<_Lp>& __r);
+
+
+      explicit
+      __shared_count(const __weak_count<_Lp>& __r, std::nothrow_t) noexcept;
+
+      ~__shared_count() noexcept
+      {
+ if (_M_pi != nullptr)
+   _M_pi->_M_release();
+      }
+
+      __shared_count(const __shared_count& __r) noexcept
+      : _M_pi(__r._M_pi)
+      {
+ if (_M_pi != nullptr)
+   _M_pi->_M_add_ref_copy();
+      }
+
+      __shared_count&
+      operator=(const __shared_count& __r) noexcept
+      {
+ _Sp_counted_base<_Lp>* __tmp = __r._M_pi;
+ if (__tmp != _M_pi)
+   {
+     if (__tmp != nullptr)
+       __tmp->_M_add_ref_copy();
+     if (_M_pi != nullptr)
+       _M_pi->_M_release();
+     _M_pi = __tmp;
+   }
+ return *this;
+      }
+
+      void
+      _M_swap(__shared_count& __r) noexcept
+      {
+ _Sp_counted_base<_Lp>* __tmp = __r._M_pi;
+ __r._M_pi = _M_pi;
+ _M_pi = __tmp;
+      }
+
+      long
+      _M_get_use_count() const noexcept
+      { return _M_pi ? _M_pi->_M_get_use_count() : 0; }
+
+      bool
+      _M_unique() const noexcept
+      { return this->_M_get_use_count() == 1; }
+
+      void*
+      _M_get_deleter(const std::type_info& __ti) const noexcept
+      { return _M_pi ? _M_pi->_M_get_deleter(__ti) : nullptr; }
+
+      bool
+      _M_less(const __shared_count& __rhs) const noexcept
+      { return std::less<_Sp_counted_base<_Lp>*>()(this->_M_pi, __rhs._M_pi); }
+
+      bool
+      _M_less(const __weak_count<_Lp>& __rhs) const noexcept
+      { return std::less<_Sp_counted_base<_Lp>*>()(this->_M_pi, __rhs._M_pi); }
+
+
+      friend inline bool
+      operator==(const __shared_count& __a, const __shared_count& __b) noexcept
+      { return __a._M_pi == __b._M_pi; }
+
+    private:
+      friend class __weak_count<_Lp>;
+
+      template<typename> friend class _Sp_atomic;
+
+
+
+
+
+      _Sp_counted_base<_Lp>* _M_pi;
+    };
+
+
+  template<_Lock_policy _Lp>
+    class __weak_count
+    {
+    public:
+      constexpr __weak_count() noexcept : _M_pi(nullptr)
+      { }
+
+      __weak_count(const __shared_count<_Lp>& __r) noexcept
+      : _M_pi(__r._M_pi)
+      {
+ if (_M_pi != nullptr)
+   _M_pi->_M_weak_add_ref();
+      }
+
+      __weak_count(const __weak_count& __r) noexcept
+      : _M_pi(__r._M_pi)
+      {
+ if (_M_pi != nullptr)
+   _M_pi->_M_weak_add_ref();
+      }
+
+      __weak_count(__weak_count&& __r) noexcept
+      : _M_pi(__r._M_pi)
+      { __r._M_pi = nullptr; }
+
+      ~__weak_count() noexcept
+      {
+ if (_M_pi != nullptr)
+   _M_pi->_M_weak_release();
+      }
+
+      __weak_count&
+      operator=(const __shared_count<_Lp>& __r) noexcept
+      {
+ _Sp_counted_base<_Lp>* __tmp = __r._M_pi;
+ if (__tmp != nullptr)
+   __tmp->_M_weak_add_ref();
+ if (_M_pi != nullptr)
+   _M_pi->_M_weak_release();
+ _M_pi = __tmp;
+ return *this;
+      }
+
+      __weak_count&
+      operator=(const __weak_count& __r) noexcept
+      {
+ _Sp_counted_base<_Lp>* __tmp = __r._M_pi;
+ if (__tmp != nullptr)
+   __tmp->_M_weak_add_ref();
+ if (_M_pi != nullptr)
+   _M_pi->_M_weak_release();
+ _M_pi = __tmp;
+ return *this;
+      }
+
+      __weak_count&
+      operator=(__weak_count&& __r) noexcept
+      {
+ if (_M_pi != nullptr)
+   _M_pi->_M_weak_release();
+ _M_pi = __r._M_pi;
+        __r._M_pi = nullptr;
+ return *this;
+      }
+
+      void
+      _M_swap(__weak_count& __r) noexcept
+      {
+ _Sp_counted_base<_Lp>* __tmp = __r._M_pi;
+ __r._M_pi = _M_pi;
+ _M_pi = __tmp;
+      }
+
+      long
+      _M_get_use_count() const noexcept
+      { return _M_pi != nullptr ? _M_pi->_M_get_use_count() : 0; }
+
+      bool
+      _M_less(const __weak_count& __rhs) const noexcept
+      { return std::less<_Sp_counted_base<_Lp>*>()(this->_M_pi, __rhs._M_pi); }
+
+      bool
+      _M_less(const __shared_count<_Lp>& __rhs) const noexcept
+      { return std::less<_Sp_counted_base<_Lp>*>()(this->_M_pi, __rhs._M_pi); }
+
+
+      friend inline bool
+      operator==(const __weak_count& __a, const __weak_count& __b) noexcept
+      { return __a._M_pi == __b._M_pi; }
+
+    private:
+      friend class __shared_count<_Lp>;
+
+      template<typename> friend class _Sp_atomic;
+
+
+      _Sp_counted_base<_Lp>* _M_pi;
+    };
+
+
+  template<_Lock_policy _Lp>
+    inline
+    __shared_count<_Lp>::__shared_count(const __weak_count<_Lp>& __r)
+    : _M_pi(__r._M_pi)
+    {
+      if (_M_pi == nullptr || !_M_pi->_M_add_ref_lock_nothrow())
+ __throw_bad_weak_ptr();
+    }
+
+
+  template<_Lock_policy _Lp>
+    inline
+    __shared_count<_Lp>::
+    __shared_count(const __weak_count<_Lp>& __r, std::nothrow_t) noexcept
+    : _M_pi(__r._M_pi)
+    {
+      if (_M_pi && !_M_pi->_M_add_ref_lock_nothrow())
+ _M_pi = nullptr;
+    }
+
+
+
+
+
+  template<typename _Yp_ptr, typename _Tp_ptr>
+    struct __sp_compatible_with
+    : false_type
+    { };
+
+  template<typename _Yp, typename _Tp>
+    struct __sp_compatible_with<_Yp*, _Tp*>
+    : is_convertible<_Yp*, _Tp*>::type
+    { };
+
+  template<typename _Up, size_t _Nm>
+    struct __sp_compatible_with<_Up(*)[_Nm], _Up(*)[]>
+    : true_type
+    { };
+
+  template<typename _Up, size_t _Nm>
+    struct __sp_compatible_with<_Up(*)[_Nm], const _Up(*)[]>
+    : true_type
+    { };
+
+  template<typename _Up, size_t _Nm>
+    struct __sp_compatible_with<_Up(*)[_Nm], volatile _Up(*)[]>
+    : true_type
+    { };
+
+  template<typename _Up, size_t _Nm>
+    struct __sp_compatible_with<_Up(*)[_Nm], const volatile _Up(*)[]>
+    : true_type
+    { };
+
+
+  template<typename _Up, size_t _Nm, typename _Yp, typename = void>
+    struct __sp_is_constructible_arrN
+    : false_type
+    { };
+
+  template<typename _Up, size_t _Nm, typename _Yp>
+    struct __sp_is_constructible_arrN<_Up, _Nm, _Yp, __void_t<_Yp[_Nm]>>
+    : is_convertible<_Yp(*)[_Nm], _Up(*)[_Nm]>::type
+    { };
+
+
+  template<typename _Up, typename _Yp, typename = void>
+    struct __sp_is_constructible_arr
+    : false_type
+    { };
+
+  template<typename _Up, typename _Yp>
+    struct __sp_is_constructible_arr<_Up, _Yp, __void_t<_Yp[]>>
+    : is_convertible<_Yp(*)[], _Up(*)[]>::type
+    { };
+
+
+  template<typename _Tp, typename _Yp>
+    struct __sp_is_constructible;
+
+
+  template<typename _Up, size_t _Nm, typename _Yp>
+    struct __sp_is_constructible<_Up[_Nm], _Yp>
+    : __sp_is_constructible_arrN<_Up, _Nm, _Yp>::type
+    { };
+
+
+  template<typename _Up, typename _Yp>
+    struct __sp_is_constructible<_Up[], _Yp>
+    : __sp_is_constructible_arr<_Up, _Yp>::type
+    { };
+
+
+  template<typename _Tp, typename _Yp>
+    struct __sp_is_constructible
+    : is_convertible<_Yp*, _Tp*>::type
+    { };
+
+
+  template<typename _Tp>
+    [[__gnu__::__always_inline__]]
+    inline _Tp*
+    __shared_ptr_deref(_Tp* __p)
+    {
+      do { if (__builtin_expect(!bool(__p != nullptr), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr_base.h", 1344, __PRETTY_FUNCTION__, "__p != nullptr"); } while (false);
+      return __p;
+    }
+
+
+  template<typename _Tp, _Lock_policy _Lp,
+    bool = is_array<_Tp>::value, bool = is_void<_Tp>::value>
+    class __shared_ptr_access
+    {
+    public:
+      using element_type = _Tp;
+
+      element_type&
+      operator*() const noexcept
+      { return *std::__shared_ptr_deref(_M_get()); }
+
+      element_type*
+      operator->() const noexcept
+      {
+ ;
+ return _M_get();
+      }
+
+    private:
+      element_type*
+      _M_get() const noexcept
+      { return static_cast<const __shared_ptr<_Tp, _Lp>*>(this)->get(); }
+    };
+
+
+  template<typename _Tp, _Lock_policy _Lp>
+    class __shared_ptr_access<_Tp, _Lp, false, true>
+    {
+    public:
+      using element_type = _Tp;
+
+      element_type*
+      operator->() const noexcept
+      {
+ auto __ptr = static_cast<const __shared_ptr<_Tp, _Lp>*>(this)->get();
+ ;
+ return __ptr;
+      }
+    };
+
+
+  template<typename _Tp, _Lock_policy _Lp>
+    class __shared_ptr_access<_Tp, _Lp, true, false>
+    {
+    public:
+      using element_type = typename remove_extent<_Tp>::type;
+# 1411 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr_base.h" 3
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wc++17-extensions"
+      element_type&
+      operator[](ptrdiff_t __i) const noexcept
+      {
+ if constexpr (extent<_Tp>::value)
+   do { if (__builtin_expect(!bool(__i < extent<_Tp>::value), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr_base.h", 1417, __PRETTY_FUNCTION__, "__i < extent<_Tp>::value"); } while (false);
+ return std::__shared_ptr_deref(_M_get())[__i];
+      }
+#pragma GCC diagnostic pop
+
+    private:
+      element_type*
+      _M_get() const noexcept
+      { return static_cast<const __shared_ptr<_Tp, _Lp>*>(this)->get(); }
+    };
+
+  template<typename _Tp, _Lock_policy _Lp>
+    class __shared_ptr
+    : public __shared_ptr_access<_Tp, _Lp>
+    {
+    public:
+      using element_type = typename remove_extent<_Tp>::type;
+
+    private:
+
+      template<typename _Yp>
+ using _SafeConv
+   = typename enable_if<__sp_is_constructible<_Tp, _Yp>::value>::type;
+
+
+      template<typename _Yp, typename _Res = void>
+ using _Compatible = typename
+   enable_if<__sp_compatible_with<_Yp*, _Tp*>::value, _Res>::type;
+
+
+      template<typename _Yp>
+ using _Assignable = _Compatible<_Yp, __shared_ptr&>;
+
+
+      template<typename _Yp, typename _Del, typename _Res = void,
+        typename _Ptr = typename unique_ptr<_Yp, _Del>::pointer>
+ using _UniqCompatible = __enable_if_t<__and_<
+   __sp_compatible_with<_Yp*, _Tp*>,
+   is_convertible<_Ptr, element_type*>,
+   is_move_constructible<_Del>
+   >::value, _Res>;
+
+
+      template<typename _Yp, typename _Del>
+ using _UniqAssignable = _UniqCompatible<_Yp, _Del, __shared_ptr&>;
+
+    public:
+
+
+      using weak_type = __weak_ptr<_Tp, _Lp>;
+
+
+      constexpr __shared_ptr() noexcept
+      : _M_ptr(0), _M_refcount()
+      { }
+
+      template<typename _Yp, typename = _SafeConv<_Yp>>
+ explicit
+ __shared_ptr(_Yp* __p)
+ : _M_ptr(__p), _M_refcount(__p, typename is_array<_Tp>::type())
+ {
+   static_assert( !is_void<_Yp>::value, "incomplete type" );
+   static_assert( sizeof(_Yp) > 0, "incomplete type" );
+   _M_enable_shared_from_this_with(__p);
+ }
+
+      template<typename _Yp, typename _Deleter, typename = _SafeConv<_Yp>>
+ __shared_ptr(_Yp* __p, _Deleter __d)
+ : _M_ptr(__p), _M_refcount(__p, std::move(__d))
+ {
+   static_assert(__is_invocable<_Deleter&, _Yp*&>::value,
+       "deleter expression d(p) is well-formed");
+   _M_enable_shared_from_this_with(__p);
+ }
+
+      template<typename _Yp, typename _Deleter, typename _Alloc,
+        typename = _SafeConv<_Yp>>
+ __shared_ptr(_Yp* __p, _Deleter __d, _Alloc __a)
+ : _M_ptr(__p), _M_refcount(__p, std::move(__d), std::move(__a))
+ {
+   static_assert(__is_invocable<_Deleter&, _Yp*&>::value,
+       "deleter expression d(p) is well-formed");
+   _M_enable_shared_from_this_with(__p);
+ }
+
+      template<typename _Deleter>
+ __shared_ptr(nullptr_t __p, _Deleter __d)
+ : _M_ptr(0), _M_refcount(__p, std::move(__d))
+ { }
+
+      template<typename _Deleter, typename _Alloc>
+        __shared_ptr(nullptr_t __p, _Deleter __d, _Alloc __a)
+ : _M_ptr(0), _M_refcount(__p, std::move(__d), std::move(__a))
+ { }
+
+
+      template<typename _Yp>
+ __shared_ptr(const __shared_ptr<_Yp, _Lp>& __r,
+       element_type* __p) noexcept
+ : _M_ptr(__p), _M_refcount(__r._M_refcount)
+ { }
+
+
+      template<typename _Yp>
+ __shared_ptr(__shared_ptr<_Yp, _Lp>&& __r,
+       element_type* __p) noexcept
+ : _M_ptr(__p), _M_refcount()
+ {
+   _M_refcount._M_swap(__r._M_refcount);
+   __r._M_ptr = nullptr;
+ }
+
+      __shared_ptr(const __shared_ptr&) noexcept = default;
+      __shared_ptr& operator=(const __shared_ptr&) noexcept = default;
+      ~__shared_ptr() = default;
+
+      template<typename _Yp, typename = _Compatible<_Yp>>
+ __shared_ptr(const __shared_ptr<_Yp, _Lp>& __r) noexcept
+ : _M_ptr(__r._M_ptr), _M_refcount(__r._M_refcount)
+ { }
+
+      __shared_ptr(__shared_ptr&& __r) noexcept
+      : _M_ptr(__r._M_ptr), _M_refcount()
+      {
+ _M_refcount._M_swap(__r._M_refcount);
+ __r._M_ptr = nullptr;
+      }
+
+      template<typename _Yp, typename = _Compatible<_Yp>>
+ __shared_ptr(__shared_ptr<_Yp, _Lp>&& __r) noexcept
+ : _M_ptr(__r._M_ptr), _M_refcount()
+ {
+   _M_refcount._M_swap(__r._M_refcount);
+   __r._M_ptr = nullptr;
+ }
+
+      template<typename _Yp, typename = _Compatible<_Yp>>
+ explicit __shared_ptr(const __weak_ptr<_Yp, _Lp>& __r)
+ : _M_refcount(__r._M_refcount)
+ {
+
+
+   _M_ptr = __r._M_ptr;
+ }
+
+
+      template<typename _Yp, typename _Del,
+        typename = _UniqCompatible<_Yp, _Del>>
+ __shared_ptr(unique_ptr<_Yp, _Del>&& __r)
+ : _M_ptr(__r.get()), _M_refcount()
+ {
+   auto __raw = std::__to_address(__r.get());
+   _M_refcount = __shared_count<_Lp>(std::move(__r));
+   _M_enable_shared_from_this_with(__raw);
+ }
+# 1592 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr_base.h" 3
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
+
+      template<typename _Yp, typename = _Compatible<_Yp>>
+ __shared_ptr(auto_ptr<_Yp>&& __r);
+#pragma GCC diagnostic pop
+
+
+      constexpr __shared_ptr(nullptr_t) noexcept : __shared_ptr() { }
+
+      template<typename _Yp>
+ _Assignable<_Yp>
+ operator=(const __shared_ptr<_Yp, _Lp>& __r) noexcept
+ {
+   _M_ptr = __r._M_ptr;
+   _M_refcount = __r._M_refcount;
+   return *this;
+ }
+
+
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
+      template<typename _Yp>
+ _Assignable<_Yp>
+ operator=(auto_ptr<_Yp>&& __r)
+ {
+   __shared_ptr(std::move(__r)).swap(*this);
+   return *this;
+ }
+#pragma GCC diagnostic pop
+
+
+      __shared_ptr&
+      operator=(__shared_ptr&& __r) noexcept
+      {
+ __shared_ptr(std::move(__r)).swap(*this);
+ return *this;
+      }
+
+      template<class _Yp>
+ _Assignable<_Yp>
+ operator=(__shared_ptr<_Yp, _Lp>&& __r) noexcept
+ {
+   __shared_ptr(std::move(__r)).swap(*this);
+   return *this;
+ }
+
+      template<typename _Yp, typename _Del>
+ _UniqAssignable<_Yp, _Del>
+ operator=(unique_ptr<_Yp, _Del>&& __r)
+ {
+   __shared_ptr(std::move(__r)).swap(*this);
+   return *this;
+ }
+
+      void
+      reset() noexcept
+      { __shared_ptr().swap(*this); }
+
+      template<typename _Yp>
+ _SafeConv<_Yp>
+ reset(_Yp* __p)
+ {
+
+   do { if (__builtin_expect(!bool(__p == nullptr || __p != _M_ptr), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr_base.h", 1656, __PRETTY_FUNCTION__, "__p == nullptr || __p != _M_ptr"); } while (false);
+   __shared_ptr(__p).swap(*this);
+ }
+
+      template<typename _Yp, typename _Deleter>
+ _SafeConv<_Yp>
+ reset(_Yp* __p, _Deleter __d)
+ { __shared_ptr(__p, std::move(__d)).swap(*this); }
+
+      template<typename _Yp, typename _Deleter, typename _Alloc>
+ _SafeConv<_Yp>
+ reset(_Yp* __p, _Deleter __d, _Alloc __a)
+        { __shared_ptr(__p, std::move(__d), std::move(__a)).swap(*this); }
+
+
+      element_type*
+      get() const noexcept
+      { return _M_ptr; }
+
+
+      explicit operator bool() const noexcept
+      { return _M_ptr != nullptr; }
+
+
+      bool
+      unique() const noexcept
+      { return _M_refcount._M_unique(); }
+
+
+      long
+      use_count() const noexcept
+      { return _M_refcount._M_get_use_count(); }
+
+
+      void
+      swap(__shared_ptr<_Tp, _Lp>& __other) noexcept
+      {
+ std::swap(_M_ptr, __other._M_ptr);
+ _M_refcount._M_swap(__other._M_refcount);
+      }
+# 1704 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr_base.h" 3
+      template<typename _Tp1>
+ bool
+ owner_before(__shared_ptr<_Tp1, _Lp> const& __rhs) const noexcept
+ { return _M_refcount._M_less(__rhs._M_refcount); }
+
+      template<typename _Tp1>
+ bool
+ owner_before(__weak_ptr<_Tp1, _Lp> const& __rhs) const noexcept
+ { return _M_refcount._M_less(__rhs._M_refcount); }
+
+
+    protected:
+
+      template<typename _Alloc, typename... _Args>
+ __shared_ptr(_Sp_alloc_shared_tag<_Alloc> __tag, _Args&&... __args)
+ : _M_ptr(), _M_refcount(_M_ptr, __tag, std::forward<_Args>(__args)...)
+ { _M_enable_shared_from_this_with(_M_ptr); }
+
+      template<typename _Tp1, _Lock_policy _Lp1, typename _Alloc,
+        typename... _Args>
+ friend __shared_ptr<_Tp1, _Lp1>
+ __allocate_shared(const _Alloc& __a, _Args&&... __args);
+
+
+
+      template<typename _Alloc, typename _Init = const remove_extent_t<_Tp>*>
+ __shared_ptr(const _Sp_counted_array_base<_Alloc>& __a,
+       _Init __init = nullptr)
+ : _M_ptr(), _M_refcount(_M_ptr, __a, __init)
+ { }
+
+
+
+
+      __shared_ptr(const __weak_ptr<_Tp, _Lp>& __r, std::nothrow_t) noexcept
+      : _M_refcount(__r._M_refcount, std::nothrow)
+      {
+ _M_ptr = _M_refcount._M_get_use_count() ? __r._M_ptr : nullptr;
+      }
+
+      friend class __weak_ptr<_Tp, _Lp>;
+
+    private:
+
+      template<typename _Yp>
+ using __esft_base_t = decltype(__enable_shared_from_this_base(
+       std::declval<const __shared_count<_Lp>&>(),
+       std::declval<_Yp*>()));
+
+
+      template<typename _Yp, typename = void>
+ struct __has_esft_base
+ : false_type { };
+
+      template<typename _Yp>
+ struct __has_esft_base<_Yp, __void_t<__esft_base_t<_Yp>>>
+ : __not_<is_array<_Tp>> { };
+
+      template<typename _Yp, typename _Yp2 = typename remove_cv<_Yp>::type>
+ typename enable_if<__has_esft_base<_Yp2>::value>::type
+ _M_enable_shared_from_this_with(_Yp* __p) noexcept
+ {
+   if (auto __base = __enable_shared_from_this_base(_M_refcount, __p))
+     __base->_M_weak_assign(const_cast<_Yp2*>(__p), _M_refcount);
+ }
+
+      template<typename _Yp, typename _Yp2 = typename remove_cv<_Yp>::type>
+ typename enable_if<!__has_esft_base<_Yp2>::value>::type
+ _M_enable_shared_from_this_with(_Yp*) noexcept
+ { }
+
+      void*
+      _M_get_deleter(const std::type_info& __ti) const noexcept
+      { return _M_refcount._M_get_deleter(__ti); }
+
+      template<typename _Tp1, _Lock_policy _Lp1> friend class __shared_ptr;
+      template<typename _Tp1, _Lock_policy _Lp1> friend class __weak_ptr;
+
+      template<typename _Del, typename _Tp1, _Lock_policy _Lp1>
+ friend _Del* get_deleter(const __shared_ptr<_Tp1, _Lp1>&) noexcept;
+
+      template<typename _Del, typename _Tp1>
+ friend _Del* get_deleter(const shared_ptr<_Tp1>&) noexcept;
+
+
+      friend _Sp_atomic<shared_ptr<_Tp>>;
+
+
+
+
+
+      element_type* _M_ptr;
+      __shared_count<_Lp> _M_refcount;
+    };
+
+
+
+  template<typename _Tp1, typename _Tp2, _Lock_policy _Lp>
+    inline bool
+    operator==(const __shared_ptr<_Tp1, _Lp>& __a,
+        const __shared_ptr<_Tp2, _Lp>& __b) noexcept
+    { return __a.get() == __b.get(); }
+
+  template<typename _Tp, _Lock_policy _Lp>
+    inline bool
+    operator==(const __shared_ptr<_Tp, _Lp>& __a, nullptr_t) noexcept
+    { return !__a; }
+
+
+  template<typename _Tp, typename _Up, _Lock_policy _Lp>
+    inline strong_ordering
+    operator<=>(const __shared_ptr<_Tp, _Lp>& __a,
+  const __shared_ptr<_Up, _Lp>& __b) noexcept
+    { return compare_three_way()(__a.get(), __b.get()); }
+
+  template<typename _Tp, _Lock_policy _Lp>
+    inline strong_ordering
+    operator<=>(const __shared_ptr<_Tp, _Lp>& __a, nullptr_t) noexcept
+    {
+      using pointer = typename __shared_ptr<_Tp, _Lp>::element_type*;
+      return compare_three_way()(__a.get(), static_cast<pointer>(nullptr));
+    }
+# 1925 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr_base.h" 3
+  template<typename _Tp, _Lock_policy _Lp>
+    inline void
+    swap(__shared_ptr<_Tp, _Lp>& __a, __shared_ptr<_Tp, _Lp>& __b) noexcept
+    { __a.swap(__b); }
+# 1937 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr_base.h" 3
+  template<typename _Tp, typename _Tp1, _Lock_policy _Lp>
+    inline __shared_ptr<_Tp, _Lp>
+    static_pointer_cast(const __shared_ptr<_Tp1, _Lp>& __r) noexcept
+    {
+      using _Sp = __shared_ptr<_Tp, _Lp>;
+      return _Sp(__r, static_cast<typename _Sp::element_type*>(__r.get()));
+    }
+
+
+
+
+
+
+  template<typename _Tp, typename _Tp1, _Lock_policy _Lp>
+    inline __shared_ptr<_Tp, _Lp>
+    const_pointer_cast(const __shared_ptr<_Tp1, _Lp>& __r) noexcept
+    {
+      using _Sp = __shared_ptr<_Tp, _Lp>;
+      return _Sp(__r, const_cast<typename _Sp::element_type*>(__r.get()));
+    }
+
+
+
+
+
+
+  template<typename _Tp, typename _Tp1, _Lock_policy _Lp>
+    inline __shared_ptr<_Tp, _Lp>
+    dynamic_pointer_cast(const __shared_ptr<_Tp1, _Lp>& __r) noexcept
+    {
+      using _Sp = __shared_ptr<_Tp, _Lp>;
+      if (auto* __p = dynamic_cast<typename _Sp::element_type*>(__r.get()))
+ return _Sp(__r, __p);
+      return _Sp();
+    }
+
+
+  template<typename _Tp, typename _Tp1, _Lock_policy _Lp>
+    inline __shared_ptr<_Tp, _Lp>
+    reinterpret_pointer_cast(const __shared_ptr<_Tp1, _Lp>& __r) noexcept
+    {
+      using _Sp = __shared_ptr<_Tp, _Lp>;
+      return _Sp(__r, reinterpret_cast<typename _Sp::element_type*>(__r.get()));
+    }
+
+
+  template<typename _Tp, _Lock_policy _Lp>
+    class __weak_ptr
+    {
+      template<typename _Yp, typename _Res = void>
+ using _Compatible = typename
+   enable_if<__sp_compatible_with<_Yp*, _Tp*>::value, _Res>::type;
+
+
+      template<typename _Yp>
+ using _Assignable = _Compatible<_Yp, __weak_ptr&>;
+
+    public:
+      using element_type = typename remove_extent<_Tp>::type;
+
+      constexpr __weak_ptr() noexcept
+      : _M_ptr(nullptr), _M_refcount()
+      { }
+
+      __weak_ptr(const __weak_ptr&) noexcept = default;
+
+      ~__weak_ptr() = default;
+# 2019 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr_base.h" 3
+      template<typename _Yp, typename = _Compatible<_Yp>>
+ __weak_ptr(const __weak_ptr<_Yp, _Lp>& __r) noexcept
+ : _M_refcount(__r._M_refcount)
+        { _M_ptr = __r.lock().get(); }
+
+      template<typename _Yp, typename = _Compatible<_Yp>>
+ __weak_ptr(const __shared_ptr<_Yp, _Lp>& __r) noexcept
+ : _M_ptr(__r._M_ptr), _M_refcount(__r._M_refcount)
+ { }
+
+      __weak_ptr(__weak_ptr&& __r) noexcept
+      : _M_ptr(__r._M_ptr), _M_refcount(std::move(__r._M_refcount))
+      { __r._M_ptr = nullptr; }
+
+      template<typename _Yp, typename = _Compatible<_Yp>>
+ __weak_ptr(__weak_ptr<_Yp, _Lp>&& __r) noexcept
+ : _M_ptr(__r.lock().get()), _M_refcount(std::move(__r._M_refcount))
+        { __r._M_ptr = nullptr; }
+
+      __weak_ptr&
+      operator=(const __weak_ptr& __r) noexcept = default;
+
+      template<typename _Yp>
+ _Assignable<_Yp>
+ operator=(const __weak_ptr<_Yp, _Lp>& __r) noexcept
+ {
+   _M_ptr = __r.lock().get();
+   _M_refcount = __r._M_refcount;
+   return *this;
+ }
+
+      template<typename _Yp>
+ _Assignable<_Yp>
+ operator=(const __shared_ptr<_Yp, _Lp>& __r) noexcept
+ {
+   _M_ptr = __r._M_ptr;
+   _M_refcount = __r._M_refcount;
+   return *this;
+ }
+
+      __weak_ptr&
+      operator=(__weak_ptr&& __r) noexcept
+      {
+ __weak_ptr(std::move(__r)).swap(*this);
+ return *this;
+      }
+
+      template<typename _Yp>
+ _Assignable<_Yp>
+ operator=(__weak_ptr<_Yp, _Lp>&& __r) noexcept
+ {
+   _M_ptr = __r.lock().get();
+   _M_refcount = std::move(__r._M_refcount);
+   __r._M_ptr = nullptr;
+   return *this;
+ }
+
+      __shared_ptr<_Tp, _Lp>
+      lock() const noexcept
+      { return __shared_ptr<_Tp, _Lp>(*this, std::nothrow); }
+
+      long
+      use_count() const noexcept
+      { return _M_refcount._M_get_use_count(); }
+
+      bool
+      expired() const noexcept
+      { return _M_refcount._M_get_use_count() == 0; }
+
+      template<typename _Tp1>
+ bool
+ owner_before(const __shared_ptr<_Tp1, _Lp>& __rhs) const noexcept
+ { return _M_refcount._M_less(__rhs._M_refcount); }
+
+      template<typename _Tp1>
+ bool
+ owner_before(const __weak_ptr<_Tp1, _Lp>& __rhs) const noexcept
+ { return _M_refcount._M_less(__rhs._M_refcount); }
+
+      void
+      reset() noexcept
+      { __weak_ptr().swap(*this); }
+
+      void
+      swap(__weak_ptr& __s) noexcept
+      {
+ std::swap(_M_ptr, __s._M_ptr);
+ _M_refcount._M_swap(__s._M_refcount);
+      }
+
+    private:
+
+      void
+      _M_assign(_Tp* __ptr, const __shared_count<_Lp>& __refcount) noexcept
+      {
+ if (use_count() == 0)
+   {
+     _M_ptr = __ptr;
+     _M_refcount = __refcount;
+   }
+      }
+
+      template<typename _Tp1, _Lock_policy _Lp1> friend class __shared_ptr;
+      template<typename _Tp1, _Lock_policy _Lp1> friend class __weak_ptr;
+      friend class __enable_shared_from_this<_Tp, _Lp>;
+      friend class enable_shared_from_this<_Tp>;
+
+      friend _Sp_atomic<weak_ptr<_Tp>>;
+
+
+      element_type* _M_ptr;
+      __weak_count<_Lp> _M_refcount;
+    };
+
+
+  template<typename _Tp, _Lock_policy _Lp>
+    inline void
+    swap(__weak_ptr<_Tp, _Lp>& __a, __weak_ptr<_Tp, _Lp>& __b) noexcept
+    { __a.swap(__b); }
+
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
+  template<typename _Tp, typename _Tp1>
+    struct _Sp_owner_less : public binary_function<_Tp, _Tp, bool>
+    {
+      bool
+      operator()(const _Tp& __lhs, const _Tp& __rhs) const noexcept
+      { return __lhs.owner_before(__rhs); }
+
+      bool
+      operator()(const _Tp& __lhs, const _Tp1& __rhs) const noexcept
+      { return __lhs.owner_before(__rhs); }
+
+      bool
+      operator()(const _Tp1& __lhs, const _Tp& __rhs) const noexcept
+      { return __lhs.owner_before(__rhs); }
+    };
+#pragma GCC diagnostic pop
+
+  template<>
+    struct _Sp_owner_less<void, void>
+    {
+      template<typename _Tp, typename _Up>
+ auto
+ operator()(const _Tp& __lhs, const _Up& __rhs) const noexcept
+ -> decltype(__lhs.owner_before(__rhs))
+ { return __lhs.owner_before(__rhs); }
+
+      using is_transparent = void;
+    };
+
+  template<typename _Tp, _Lock_policy _Lp>
+    struct owner_less<__shared_ptr<_Tp, _Lp>>
+    : public _Sp_owner_less<__shared_ptr<_Tp, _Lp>, __weak_ptr<_Tp, _Lp>>
+    { };
+
+  template<typename _Tp, _Lock_policy _Lp>
+    struct owner_less<__weak_ptr<_Tp, _Lp>>
+    : public _Sp_owner_less<__weak_ptr<_Tp, _Lp>, __shared_ptr<_Tp, _Lp>>
+    { };
+
+
+  template<typename _Tp, _Lock_policy _Lp>
+    class __enable_shared_from_this
+    {
+    protected:
+      constexpr __enable_shared_from_this() noexcept { }
+
+      __enable_shared_from_this(const __enable_shared_from_this&) noexcept { }
+
+      __enable_shared_from_this&
+      operator=(const __enable_shared_from_this&) noexcept
+      { return *this; }
+
+      ~__enable_shared_from_this() { }
+
+    public:
+      __shared_ptr<_Tp, _Lp>
+      shared_from_this()
+      { return __shared_ptr<_Tp, _Lp>(this->_M_weak_this); }
+
+      __shared_ptr<const _Tp, _Lp>
+      shared_from_this() const
+      { return __shared_ptr<const _Tp, _Lp>(this->_M_weak_this); }
+
+
+      __weak_ptr<_Tp, _Lp>
+      weak_from_this() noexcept
+      { return this->_M_weak_this; }
+
+      __weak_ptr<const _Tp, _Lp>
+      weak_from_this() const noexcept
+      { return this->_M_weak_this; }
+
+
+    private:
+      template<typename _Tp1>
+ void
+ _M_weak_assign(_Tp1* __p, const __shared_count<_Lp>& __n) const noexcept
+ { _M_weak_this._M_assign(__p, __n); }
+
+      friend const __enable_shared_from_this*
+      __enable_shared_from_this_base(const __shared_count<_Lp>&,
+         const __enable_shared_from_this* __p)
+      { return __p; }
+
+      template<typename, _Lock_policy>
+ friend class __shared_ptr;
+
+      mutable __weak_ptr<_Tp, _Lp> _M_weak_this;
+    };
+
+  template<typename _Tp, _Lock_policy _Lp = __default_lock_policy,
+    typename _Alloc, typename... _Args>
+    inline __shared_ptr<_Tp, _Lp>
+    __allocate_shared(const _Alloc& __a, _Args&&... __args)
+    {
+      static_assert(!is_array<_Tp>::value, "make_shared<T[]> not supported");
+
+      return __shared_ptr<_Tp, _Lp>(_Sp_alloc_shared_tag<_Alloc>{__a},
+        std::forward<_Args>(__args)...);
+    }
+
+  template<typename _Tp, _Lock_policy _Lp = __default_lock_policy,
+    typename... _Args>
+    inline __shared_ptr<_Tp, _Lp>
+    __make_shared(_Args&&... __args)
+    {
+      typedef typename std::remove_const<_Tp>::type _Tp_nc;
+      return std::__allocate_shared<_Tp, _Lp>(std::allocator<_Tp_nc>(),
+           std::forward<_Args>(__args)...);
+    }
+
+
+  template<typename _Tp, _Lock_policy _Lp>
+    struct hash<__shared_ptr<_Tp, _Lp>>
+    : public __hash_base<size_t, __shared_ptr<_Tp, _Lp>>
+    {
+      size_t
+      operator()(const __shared_ptr<_Tp, _Lp>& __s) const noexcept
+      {
+ return hash<typename __shared_ptr<_Tp, _Lp>::element_type*>()(
+     __s.get());
+      }
+    };
+
+
+}
+# 54 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr.h" 2 3
+
+namespace std
+{
+
+# 68 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr.h" 3
+  template<typename _Ch, typename _Tr, typename _Tp, _Lock_policy _Lp>
+    inline std::basic_ostream<_Ch, _Tr>&
+    operator<<(std::basic_ostream<_Ch, _Tr>& __os,
+        const __shared_ptr<_Tp, _Lp>& __p)
+    {
+      __os << __p.get();
+      return __os;
+    }
+
+  template<typename _Del, typename _Tp, _Lock_policy _Lp>
+    inline _Del*
+    get_deleter(const __shared_ptr<_Tp, _Lp>& __p) noexcept
+    {
+
+      return static_cast<_Del*>(__p._M_get_deleter(typeid(_Del)));
+
+
+
+    }
+
+
+
+
+
+  template<typename _Del, typename _Tp>
+    inline _Del*
+    get_deleter(const shared_ptr<_Tp>& __p) noexcept
+    {
+
+      return static_cast<_Del*>(__p._M_get_deleter(typeid(_Del)));
+
+
+
+    }
+
+
+
+
+
+  template<typename _Tp>
+    requires (!is_array_v<_Tp>)
+    using _NonArray = _Tp;
+# 118 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr.h" 3
+  template<typename _Tp>
+    requires is_array_v<_Tp> && (extent_v<_Tp> == 0)
+    using _UnboundedArray = _Tp;
+# 129 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr.h" 3
+  template<typename _Tp>
+    requires (extent_v<_Tp> != 0)
+    using _BoundedArray = _Tp;
+# 141 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr.h" 3
+  template<typename _Tp>
+    requires (!is_array_v<_Tp>) || (extent_v<_Tp> != 0)
+    using _NotUnboundedArray = _Tp;
+# 174 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr.h" 3
+  template<typename _Tp>
+    class shared_ptr : public __shared_ptr<_Tp>
+    {
+      template<typename... _Args>
+ using _Constructible = typename enable_if<
+   is_constructible<__shared_ptr<_Tp>, _Args...>::value
+ >::type;
+
+      template<typename _Arg>
+ using _Assignable = typename enable_if<
+   is_assignable<__shared_ptr<_Tp>&, _Arg>::value, shared_ptr&
+ >::type;
+
+    public:
+
+
+      using element_type = typename __shared_ptr<_Tp>::element_type;
+
+
+
+
+      using weak_type = weak_ptr<_Tp>;
+
+
+
+
+
+      constexpr shared_ptr() noexcept : __shared_ptr<_Tp>() { }
+
+      shared_ptr(const shared_ptr&) noexcept = default;
+
+
+
+
+
+
+
+      template<typename _Yp, typename = _Constructible<_Yp*>>
+ explicit
+ shared_ptr(_Yp* __p) : __shared_ptr<_Tp>(__p) { }
+# 228 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr.h" 3
+      template<typename _Yp, typename _Deleter,
+        typename = _Constructible<_Yp*, _Deleter>>
+ shared_ptr(_Yp* __p, _Deleter __d)
+        : __shared_ptr<_Tp>(__p, std::move(__d)) { }
+# 246 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr.h" 3
+      template<typename _Deleter>
+ shared_ptr(nullptr_t __p, _Deleter __d)
+        : __shared_ptr<_Tp>(__p, std::move(__d)) { }
+# 265 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr.h" 3
+      template<typename _Yp, typename _Deleter, typename _Alloc,
+        typename = _Constructible<_Yp*, _Deleter, _Alloc>>
+ shared_ptr(_Yp* __p, _Deleter __d, _Alloc __a)
+ : __shared_ptr<_Tp>(__p, std::move(__d), std::move(__a)) { }
+# 285 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr.h" 3
+      template<typename _Deleter, typename _Alloc>
+ shared_ptr(nullptr_t __p, _Deleter __d, _Alloc __a)
+ : __shared_ptr<_Tp>(__p, std::move(__d), std::move(__a)) { }
+# 309 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr.h" 3
+      template<typename _Yp>
+ shared_ptr(const shared_ptr<_Yp>& __r, element_type* __p) noexcept
+ : __shared_ptr<_Tp>(__r, __p) { }
+# 337 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr.h" 3
+      template<typename _Yp>
+ shared_ptr(shared_ptr<_Yp>&& __r, element_type* __p) noexcept
+ : __shared_ptr<_Tp>(std::move(__r), __p) { }
+# 348 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr.h" 3
+      template<typename _Yp,
+        typename = _Constructible<const shared_ptr<_Yp>&>>
+ shared_ptr(const shared_ptr<_Yp>& __r) noexcept
+        : __shared_ptr<_Tp>(__r) { }
+
+
+
+
+
+
+      shared_ptr(shared_ptr&& __r) noexcept
+      : __shared_ptr<_Tp>(std::move(__r)) { }
+
+
+
+
+
+
+      template<typename _Yp, typename = _Constructible<shared_ptr<_Yp>>>
+ shared_ptr(shared_ptr<_Yp>&& __r) noexcept
+ : __shared_ptr<_Tp>(std::move(__r)) { }
+# 378 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr.h" 3
+      template<typename _Yp, typename = _Constructible<const weak_ptr<_Yp>&>>
+ explicit shared_ptr(const weak_ptr<_Yp>& __r)
+ : __shared_ptr<_Tp>(__r) { }
+
+
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
+      template<typename _Yp, typename = _Constructible<auto_ptr<_Yp>>>
+ shared_ptr(auto_ptr<_Yp>&& __r);
+#pragma GCC diagnostic pop
+
+
+
+
+      template<typename _Yp, typename _Del,
+        typename = _Constructible<unique_ptr<_Yp, _Del>>>
+ shared_ptr(unique_ptr<_Yp, _Del>&& __r)
+ : __shared_ptr<_Tp>(std::move(__r)) { }
+# 411 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr.h" 3
+      constexpr shared_ptr(nullptr_t) noexcept : shared_ptr() { }
+
+      shared_ptr& operator=(const shared_ptr&) noexcept = default;
+
+      template<typename _Yp>
+ _Assignable<const shared_ptr<_Yp>&>
+ operator=(const shared_ptr<_Yp>& __r) noexcept
+ {
+   this->__shared_ptr<_Tp>::operator=(__r);
+   return *this;
+ }
+
+
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
+      template<typename _Yp>
+ _Assignable<auto_ptr<_Yp>>
+ operator=(auto_ptr<_Yp>&& __r)
+ {
+   this->__shared_ptr<_Tp>::operator=(std::move(__r));
+   return *this;
+ }
+#pragma GCC diagnostic pop
+
+
+      shared_ptr&
+      operator=(shared_ptr&& __r) noexcept
+      {
+ this->__shared_ptr<_Tp>::operator=(std::move(__r));
+ return *this;
+      }
+
+      template<class _Yp>
+ _Assignable<shared_ptr<_Yp>>
+ operator=(shared_ptr<_Yp>&& __r) noexcept
+ {
+   this->__shared_ptr<_Tp>::operator=(std::move(__r));
+   return *this;
+ }
+
+      template<typename _Yp, typename _Del>
+ _Assignable<unique_ptr<_Yp, _Del>>
+ operator=(unique_ptr<_Yp, _Del>&& __r)
+ {
+   this->__shared_ptr<_Tp>::operator=(std::move(__r));
+   return *this;
+ }
+
+    private:
+
+      template<typename _Alloc, typename... _Args>
+ shared_ptr(_Sp_alloc_shared_tag<_Alloc> __tag, _Args&&... __args)
+ : __shared_ptr<_Tp>(__tag, std::forward<_Args>(__args)...)
+ { }
+
+      template<typename _Yp, typename _Alloc, typename... _Args>
+ friend shared_ptr<_NonArray<_Yp>>
+ allocate_shared(const _Alloc&, _Args&&...);
+
+      template<typename _Yp, typename... _Args>
+ friend shared_ptr<_NonArray<_Yp>>
+ make_shared(_Args&&...);
+
+
+
+      template<typename _Alloc, typename _Init = const remove_extent_t<_Tp>*>
+ shared_ptr(const _Sp_counted_array_base<_Alloc>& __a,
+     _Init __init = nullptr)
+ : __shared_ptr<_Tp>(__a, __init)
+ { }
+
+      template<typename _Yp, typename _Alloc>
+ friend shared_ptr<_UnboundedArray<_Yp>>
+ allocate_shared(const _Alloc&, size_t);
+
+      template<typename _Yp>
+ friend shared_ptr<_UnboundedArray<_Yp>>
+ make_shared(size_t);
+
+      template<typename _Yp, typename _Alloc>
+ friend shared_ptr<_UnboundedArray<_Yp>>
+ allocate_shared(const _Alloc&, size_t, const remove_extent_t<_Yp>&);
+
+      template<typename _Yp>
+ friend shared_ptr<_UnboundedArray<_Yp>>
+ make_shared(size_t, const remove_extent_t<_Yp>&);
+
+      template<typename _Yp, typename _Alloc>
+ friend shared_ptr<_BoundedArray<_Yp>>
+ allocate_shared(const _Alloc&);
+
+      template<typename _Yp>
+ friend shared_ptr<_BoundedArray<_Yp>>
+ make_shared();
+
+      template<typename _Yp, typename _Alloc>
+ friend shared_ptr<_BoundedArray<_Yp>>
+ allocate_shared(const _Alloc&, const remove_extent_t<_Yp>&);
+
+      template<typename _Yp>
+ friend shared_ptr<_BoundedArray<_Yp>>
+ make_shared(const remove_extent_t<_Yp>&);
+
+
+      template<typename _Yp, typename _Alloc>
+ friend shared_ptr<_NotUnboundedArray<_Yp>>
+ allocate_shared_for_overwrite(const _Alloc&);
+
+      template<typename _Yp>
+ friend shared_ptr<_NotUnboundedArray<_Yp>>
+ make_shared_for_overwrite();
+
+      template<typename _Yp, typename _Alloc>
+ friend shared_ptr<_UnboundedArray<_Yp>>
+ allocate_shared_for_overwrite(const _Alloc&, size_t);
+
+      template<typename _Yp>
+ friend shared_ptr<_UnboundedArray<_Yp>>
+ make_shared_for_overwrite(size_t);
+
+
+
+
+      shared_ptr(const weak_ptr<_Tp>& __r, std::nothrow_t) noexcept
+      : __shared_ptr<_Tp>(__r, std::nothrow) { }
+
+      friend class weak_ptr<_Tp>;
+    };
+
+
+  template<typename _Tp>
+    shared_ptr(weak_ptr<_Tp>) -> shared_ptr<_Tp>;
+  template<typename _Tp, typename _Del>
+    shared_ptr(unique_ptr<_Tp, _Del>) -> shared_ptr<_Tp>;
+
+
+
+
+
+
+
+  template<typename _Tp, typename _Up>
+    [[__nodiscard__]] inline bool
+    operator==(const shared_ptr<_Tp>& __a, const shared_ptr<_Up>& __b) noexcept
+    { return __a.get() == __b.get(); }
+
+
+  template<typename _Tp>
+    [[__nodiscard__]] inline bool
+    operator==(const shared_ptr<_Tp>& __a, nullptr_t) noexcept
+    { return !__a; }
+
+
+  template<typename _Tp, typename _Up>
+    inline strong_ordering
+    operator<=>(const shared_ptr<_Tp>& __a,
+  const shared_ptr<_Up>& __b) noexcept
+    { return compare_three_way()(__a.get(), __b.get()); }
+
+  template<typename _Tp>
+    inline strong_ordering
+    operator<=>(const shared_ptr<_Tp>& __a, nullptr_t) noexcept
+    {
+      using pointer = typename shared_ptr<_Tp>::element_type*;
+      return compare_three_way()(__a.get(), static_cast<pointer>(nullptr));
+    }
+# 689 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr.h" 3
+  template<typename _Tp>
+    inline void
+    swap(shared_ptr<_Tp>& __a, shared_ptr<_Tp>& __b) noexcept
+    { __a.swap(__b); }
+
+
+
+
+  template<typename _Tp, typename _Up>
+    inline shared_ptr<_Tp>
+    static_pointer_cast(const shared_ptr<_Up>& __r) noexcept
+    {
+      using _Sp = shared_ptr<_Tp>;
+      return _Sp(__r, static_cast<typename _Sp::element_type*>(__r.get()));
+    }
+
+
+  template<typename _Tp, typename _Up>
+    inline shared_ptr<_Tp>
+    const_pointer_cast(const shared_ptr<_Up>& __r) noexcept
+    {
+      using _Sp = shared_ptr<_Tp>;
+      return _Sp(__r, const_cast<typename _Sp::element_type*>(__r.get()));
+    }
+
+
+  template<typename _Tp, typename _Up>
+    inline shared_ptr<_Tp>
+    dynamic_pointer_cast(const shared_ptr<_Up>& __r) noexcept
+    {
+      using _Sp = shared_ptr<_Tp>;
+      if (auto* __p = dynamic_cast<typename _Sp::element_type*>(__r.get()))
+ return _Sp(__r, __p);
+      return _Sp();
+    }
+
+
+
+
+  template<typename _Tp, typename _Up>
+    inline shared_ptr<_Tp>
+    reinterpret_pointer_cast(const shared_ptr<_Up>& __r) noexcept
+    {
+      using _Sp = shared_ptr<_Tp>;
+      return _Sp(__r, reinterpret_cast<typename _Sp::element_type*>(__r.get()));
+    }
+
+
+
+
+
+
+
+  template<typename _Tp, typename _Up>
+    inline shared_ptr<_Tp>
+    static_pointer_cast(shared_ptr<_Up>&& __r) noexcept
+    {
+      using _Sp = shared_ptr<_Tp>;
+      return _Sp(std::move(__r),
+   static_cast<typename _Sp::element_type*>(__r.get()));
+    }
+
+
+
+  template<typename _Tp, typename _Up>
+    inline shared_ptr<_Tp>
+    const_pointer_cast(shared_ptr<_Up>&& __r) noexcept
+    {
+      using _Sp = shared_ptr<_Tp>;
+      return _Sp(std::move(__r),
+   const_cast<typename _Sp::element_type*>(__r.get()));
+    }
+
+
+
+  template<typename _Tp, typename _Up>
+    inline shared_ptr<_Tp>
+    dynamic_pointer_cast(shared_ptr<_Up>&& __r) noexcept
+    {
+      using _Sp = shared_ptr<_Tp>;
+      if (auto* __p = dynamic_cast<typename _Sp::element_type*>(__r.get()))
+ return _Sp(std::move(__r), __p);
+      return _Sp();
+    }
+
+
+
+  template<typename _Tp, typename _Up>
+    inline shared_ptr<_Tp>
+    reinterpret_pointer_cast(shared_ptr<_Up>&& __r) noexcept
+    {
+      using _Sp = shared_ptr<_Tp>;
+      return _Sp(std::move(__r),
+   reinterpret_cast<typename _Sp::element_type*>(__r.get()));
+    }
+# 809 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr.h" 3
+  template<typename _Tp>
+    class weak_ptr : public __weak_ptr<_Tp>
+    {
+      template<typename _Arg>
+ using _Constructible = typename enable_if<
+   is_constructible<__weak_ptr<_Tp>, _Arg>::value
+ >::type;
+
+      template<typename _Arg>
+ using _Assignable = typename enable_if<
+   is_assignable<__weak_ptr<_Tp>&, _Arg>::value, weak_ptr&
+ >::type;
+
+    public:
+      constexpr weak_ptr() noexcept = default;
+
+      template<typename _Yp,
+        typename = _Constructible<const shared_ptr<_Yp>&>>
+ weak_ptr(const shared_ptr<_Yp>& __r) noexcept
+ : __weak_ptr<_Tp>(__r) { }
+
+      weak_ptr(const weak_ptr&) noexcept = default;
+
+      template<typename _Yp, typename = _Constructible<const weak_ptr<_Yp>&>>
+ weak_ptr(const weak_ptr<_Yp>& __r) noexcept
+ : __weak_ptr<_Tp>(__r) { }
+
+      weak_ptr(weak_ptr&&) noexcept = default;
+
+      template<typename _Yp, typename = _Constructible<weak_ptr<_Yp>>>
+ weak_ptr(weak_ptr<_Yp>&& __r) noexcept
+ : __weak_ptr<_Tp>(std::move(__r)) { }
+
+      weak_ptr&
+      operator=(const weak_ptr& __r) noexcept = default;
+
+      template<typename _Yp>
+ _Assignable<const weak_ptr<_Yp>&>
+ operator=(const weak_ptr<_Yp>& __r) noexcept
+ {
+   this->__weak_ptr<_Tp>::operator=(__r);
+   return *this;
+ }
+
+      template<typename _Yp>
+ _Assignable<const shared_ptr<_Yp>&>
+ operator=(const shared_ptr<_Yp>& __r) noexcept
+ {
+   this->__weak_ptr<_Tp>::operator=(__r);
+   return *this;
+ }
+
+      weak_ptr&
+      operator=(weak_ptr&& __r) noexcept = default;
+
+      template<typename _Yp>
+ _Assignable<weak_ptr<_Yp>>
+ operator=(weak_ptr<_Yp>&& __r) noexcept
+ {
+   this->__weak_ptr<_Tp>::operator=(std::move(__r));
+   return *this;
+ }
+
+      shared_ptr<_Tp>
+      lock() const noexcept
+      { return shared_ptr<_Tp>(*this, std::nothrow); }
+    };
+
+
+  template<typename _Tp>
+    weak_ptr(shared_ptr<_Tp>) -> weak_ptr<_Tp>;
+
+
+
+
+
+  template<typename _Tp>
+    inline void
+    swap(weak_ptr<_Tp>& __a, weak_ptr<_Tp>& __b) noexcept
+    { __a.swap(__b); }
+
+
+
+  template<typename _Tp = void>
+    struct owner_less;
+
+
+  template<>
+    struct owner_less<void> : _Sp_owner_less<void, void>
+    { };
+
+
+  template<typename _Tp>
+    struct owner_less<shared_ptr<_Tp>>
+    : public _Sp_owner_less<shared_ptr<_Tp>, weak_ptr<_Tp>>
+    { };
+
+
+  template<typename _Tp>
+    struct owner_less<weak_ptr<_Tp>>
+    : public _Sp_owner_less<weak_ptr<_Tp>, shared_ptr<_Tp>>
+    { };
+
+
+
+
+
+
+  template<typename _Tp>
+    class enable_shared_from_this
+    {
+    protected:
+      constexpr enable_shared_from_this() noexcept { }
+
+      enable_shared_from_this(const enable_shared_from_this&) noexcept { }
+
+      enable_shared_from_this&
+      operator=(const enable_shared_from_this&) noexcept
+      { return *this; }
+
+      ~enable_shared_from_this() { }
+
+    public:
+      shared_ptr<_Tp>
+      shared_from_this()
+      { return shared_ptr<_Tp>(this->_M_weak_this); }
+
+      shared_ptr<const _Tp>
+      shared_from_this() const
+      { return shared_ptr<const _Tp>(this->_M_weak_this); }
+
+
+
+
+
+
+      weak_ptr<_Tp>
+      weak_from_this() noexcept
+      { return this->_M_weak_this; }
+
+      weak_ptr<const _Tp>
+      weak_from_this() const noexcept
+      { return this->_M_weak_this; }
+
+
+
+    private:
+      template<typename _Tp1>
+ void
+ _M_weak_assign(_Tp1* __p, const __shared_count<>& __n) const noexcept
+ { _M_weak_this._M_assign(__p, __n); }
+
+
+      friend const enable_shared_from_this*
+      __enable_shared_from_this_base(const __shared_count<>&,
+         const enable_shared_from_this* __p)
+      { return __p; }
+
+      template<typename, _Lock_policy>
+ friend class __shared_ptr;
+
+      mutable weak_ptr<_Tp> _M_weak_this;
+    };
+# 986 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr.h" 3
+  template<typename _Tp, typename _Alloc, typename... _Args>
+    inline shared_ptr<_NonArray<_Tp>>
+    allocate_shared(const _Alloc& __a, _Args&&... __args)
+    {
+      return shared_ptr<_Tp>(_Sp_alloc_shared_tag<_Alloc>{__a},
+        std::forward<_Args>(__args)...);
+    }
+# 1001 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr.h" 3
+  template<typename _Tp, typename... _Args>
+    inline shared_ptr<_NonArray<_Tp>>
+    make_shared(_Args&&... __args)
+    {
+      using _Alloc = allocator<void>;
+      _Alloc __a;
+      return shared_ptr<_Tp>(_Sp_alloc_shared_tag<_Alloc>{__a},
+        std::forward<_Args>(__args)...);
+    }
+
+
+
+  template<typename _Tp, typename _Alloc = allocator<void>>
+    auto
+    __make_shared_arr_tag(size_t __n, const _Alloc& __a = _Alloc()) noexcept
+    {
+      using _Up = remove_all_extents_t<_Tp>;
+      using _UpAlloc = __alloc_rebind<_Alloc, _Up>;
+      size_t __s = sizeof(remove_extent_t<_Tp>) / sizeof(_Up);
+      if (__builtin_mul_overflow(__s, __n, &__n))
+ std::__throw_bad_array_new_length();
+      return _Sp_counted_array_base<_UpAlloc>{_UpAlloc(__a), __n};
+    }
+
+
+  template<typename _Tp, typename _Alloc>
+    inline shared_ptr<_UnboundedArray<_Tp>>
+    allocate_shared(const _Alloc& __a, size_t __n)
+    {
+      return shared_ptr<_Tp>(std::__make_shared_arr_tag<_Tp>(__n, __a));
+    }
+
+  template<typename _Tp>
+    inline shared_ptr<_UnboundedArray<_Tp>>
+    make_shared(size_t __n)
+    {
+      return shared_ptr<_Tp>(std::__make_shared_arr_tag<_Tp>(__n));
+    }
+
+  template<typename _Tp, typename _Alloc>
+    inline shared_ptr<_UnboundedArray<_Tp>>
+    allocate_shared(const _Alloc& __a, size_t __n,
+      const remove_extent_t<_Tp>& __u)
+    {
+      return shared_ptr<_Tp>(std::__make_shared_arr_tag<_Tp>(__n, __a),
+        std::__addressof(__u));
+    }
+
+  template<typename _Tp>
+    inline shared_ptr<_UnboundedArray<_Tp>>
+    make_shared(size_t __n, const remove_extent_t<_Tp>& __u)
+    {
+      return shared_ptr<_Tp>(std::__make_shared_arr_tag<_Tp>(__n),
+        std::__addressof(__u));
+    }
+
+
+  template<typename _Tp, typename _Alloc = allocator<void>>
+    auto
+    __make_shared_arrN_tag(const _Alloc& __a = _Alloc()) noexcept
+    {
+      using _Up = remove_all_extents_t<_Tp>;
+      using _UpAlloc = __alloc_rebind<_Alloc, _Up>;
+      size_t __n = sizeof(_Tp) / sizeof(_Up);
+      return _Sp_counted_array_base<_UpAlloc>{_UpAlloc(__a), __n};
+    }
+
+
+  template<typename _Tp, typename _Alloc>
+    inline shared_ptr<_BoundedArray<_Tp>>
+    allocate_shared(const _Alloc& __a)
+    {
+      return shared_ptr<_Tp>(std::__make_shared_arrN_tag<_Tp>(__a));
+    }
+
+  template<typename _Tp>
+    inline shared_ptr<_BoundedArray<_Tp>>
+    make_shared()
+    {
+      return shared_ptr<_Tp>(std::__make_shared_arrN_tag<_Tp>());
+    }
+
+  template<typename _Tp, typename _Alloc>
+    inline shared_ptr<_BoundedArray<_Tp>>
+    allocate_shared(const _Alloc& __a, const remove_extent_t<_Tp>& __u)
+    {
+      return shared_ptr<_Tp>(std::__make_shared_arrN_tag<_Tp>(__a),
+        std::__addressof(__u));
+    }
+
+  template<typename _Tp>
+    inline shared_ptr<_BoundedArray<_Tp>>
+    make_shared(const remove_extent_t<_Tp>& __u)
+    {
+      return shared_ptr<_Tp>(std::__make_shared_arrN_tag<_Tp>(),
+        std::__addressof(__u));
+    }
+
+
+  template<typename _Tp, typename _Alloc>
+    inline shared_ptr<_NotUnboundedArray<_Tp>>
+    allocate_shared_for_overwrite(const _Alloc& __a)
+    {
+      if constexpr (is_array_v<_Tp>)
+ return shared_ptr<_Tp>(std::__make_shared_arrN_tag<_Tp>(__a),
+          _Sp_overwrite_tag{});
+      else
+ {
+
+
+   using _Alloc2 = __alloc_rebind<_Alloc, _Sp_overwrite_tag>;
+   _Alloc2 __a2 = __a;
+   return shared_ptr<_Tp>(_Sp_alloc_shared_tag<_Alloc2>{__a2});
+ }
+    }
+
+  template<typename _Tp>
+    inline shared_ptr<_NotUnboundedArray<_Tp>>
+    make_shared_for_overwrite()
+    {
+      if constexpr (is_array_v<_Tp>)
+ return shared_ptr<_Tp>(std::__make_shared_arrN_tag<_Tp>(),
+          _Sp_overwrite_tag{});
+      else
+ {
+   using _Alloc = allocator<_Sp_overwrite_tag>;
+   return shared_ptr<_Tp>(_Sp_alloc_shared_tag<_Alloc>{{}});
+ }
+    }
+
+  template<typename _Tp, typename _Alloc>
+    inline shared_ptr<_UnboundedArray<_Tp>>
+    allocate_shared_for_overwrite(const _Alloc& __a, size_t __n)
+    {
+      return shared_ptr<_Tp>(std::__make_shared_arr_tag<_Tp>(__n, __a),
+        _Sp_overwrite_tag{});
+    }
+
+  template<typename _Tp>
+    inline shared_ptr<_UnboundedArray<_Tp>>
+    make_shared_for_overwrite(size_t __n)
+    {
+      return shared_ptr<_Tp>(std::__make_shared_arr_tag<_Tp>(__n),
+        _Sp_overwrite_tag{});
+    }
+
+
+
+
+  template<typename _Tp>
+    struct hash<shared_ptr<_Tp>>
+    : public __hash_base<size_t, shared_ptr<_Tp>>
+    {
+      size_t
+      operator()(const shared_ptr<_Tp>& __s) const noexcept
+      {
+ return std::hash<typename shared_ptr<_Tp>::element_type*>()(__s.get());
+      }
+    };
+
+
+  template<typename _Tp>
+    constexpr bool __is_shared_ptr = false;
+  template<typename _Tp>
+    constexpr bool __is_shared_ptr<shared_ptr<_Tp>> = true;
+
+
+
+
+
+
+  namespace __detail::__variant
+  {
+    template<typename> struct _Never_valueless_alt;
+
+
+
+    template<typename _Tp>
+      struct _Never_valueless_alt<std::shared_ptr<_Tp>>
+      : std::true_type
+      { };
+
+
+
+    template<typename _Tp>
+      struct _Never_valueless_alt<std::weak_ptr<_Tp>>
+      : std::true_type
+      { };
+  }
+
+
+
+}
+# 83 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/memory" 2 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr_atomic.h" 1 3
+# 33 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr_atomic.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h" 1 3
+# 39 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_lockfree_defines.h" 1 3
+# 40 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h" 2 3
+
+
+
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_wait.h" 1 3
+# 37 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_wait.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/version.h" 1 3
+# 38 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_wait.h" 2 3
+
+
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdint" 1 3
+# 47 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdint" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h" 1 3 4
+# 9 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h" 3 4
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wpedantic"
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdint.h" 1 3 4
+# 32 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdint.h" 3 4
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h" 1 3 4
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stddef.h" 1 3 4
+# 2 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h" 2 3 4
+# 33 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdint.h" 2 3 4
+
+
+typedef signed char int8_t;
+typedef unsigned char uint8_t;
+typedef short int16_t;
+typedef unsigned short uint16_t;
+typedef int int32_t;
+typedef unsigned uint32_t;
+__extension__ typedef long long int64_t;
+__extension__ typedef unsigned long long uint64_t;
+
+
+typedef signed char int_least8_t;
+typedef unsigned char uint_least8_t;
+typedef short int_least16_t;
+typedef unsigned short uint_least16_t;
+typedef int int_least32_t;
+typedef unsigned uint_least32_t;
+__extension__ typedef long long int_least64_t;
+__extension__ typedef unsigned long long uint_least64_t;
+
+
+
+
+
+typedef signed char int_fast8_t;
+typedef unsigned char uint_fast8_t;
+typedef short int_fast16_t;
+typedef unsigned short uint_fast16_t;
+typedef int int_fast32_t;
+typedef unsigned int uint_fast32_t;
+__extension__ typedef long long int_fast64_t;
+__extension__ typedef unsigned long long uint_fast64_t;
+
+
+__extension__ typedef long long intmax_t;
+__extension__ typedef unsigned long long uintmax_t;
+# 12 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h" 2 3 4
+#pragma GCC diagnostic pop
+# 48 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdint" 2 3
+
+
+namespace std
+{
+
+  using ::int8_t;
+  using ::int16_t;
+  using ::int32_t;
+  using ::int64_t;
+
+  using ::int_fast8_t;
+  using ::int_fast16_t;
+  using ::int_fast32_t;
+  using ::int_fast64_t;
+
+  using ::int_least8_t;
+  using ::int_least16_t;
+  using ::int_least32_t;
+  using ::int_least64_t;
+
+  using ::intmax_t;
+  using ::intptr_t;
+
+  using ::uint8_t;
+  using ::uint16_t;
+  using ::uint32_t;
+  using ::uint64_t;
+
+  using ::uint_fast8_t;
+  using ::uint_fast16_t;
+  using ::uint_fast32_t;
+  using ::uint_fast64_t;
+
+  using ::uint_least8_t;
+  using ::uint_least16_t;
+  using ::uint_least32_t;
+  using ::uint_least64_t;
+
+  using ::uintmax_t;
+  using ::uintptr_t;
+# 144 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdint" 3
+}
+# 41 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_wait.h" 2 3
+# 53 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_wait.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/std_mutex.h" 1 3
+# 45 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/std_mutex.h" 3
+namespace std
+{
+
+# 61 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/std_mutex.h" 3
+  class __mutex_base
+  {
+  protected:
+    typedef __gthread_mutex_t __native_type;
+
+
+
+
+
+
+    __native_type _M_mutex;
+
+    __mutex_base() noexcept
+    {
+
+      __gthread_mutex_init_function(&_M_mutex);
+    }
+
+    ~__mutex_base() noexcept { __gthread_mutex_destroy(&_M_mutex); }
+
+
+    __mutex_base(const __mutex_base&) = delete;
+    __mutex_base& operator=(const __mutex_base&) = delete;
+  };
+# 98 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/std_mutex.h" 3
+  class mutex : private __mutex_base
+  {
+  public:
+    typedef __native_type* native_handle_type;
+
+
+
+
+    mutex() noexcept = default;
+    ~mutex() = default;
+
+    mutex(const mutex&) = delete;
+    mutex& operator=(const mutex&) = delete;
+
+    void
+    lock()
+    {
+      int __e = __gthread_mutex_lock(&_M_mutex);
+
+
+      if (__e)
+ __throw_system_error(__e);
+    }
+
+    [[__nodiscard__]]
+    bool
+    try_lock() noexcept
+    {
+
+      return !__gthread_mutex_trylock(&_M_mutex);
+    }
+
+    void
+    unlock()
+    {
+
+      __gthread_mutex_unlock(&_M_mutex);
+    }
+
+    native_handle_type
+    native_handle() noexcept
+    { return &_M_mutex; }
+  };
+
+
+
+
+  class __condvar
+  {
+    using timespec = __gthread_time_t;
+
+  public:
+    __condvar() noexcept
+    {
+
+
+
+    }
+
+    ~__condvar()
+    {
+      int __e __attribute__((__unused__)) = __gthread_cond_destroy(&_M_cond);
+      do { if (__builtin_expect(!bool(__e != 16), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/std_mutex.h", 160, __PRETTY_FUNCTION__, "__e != 16"); } while (false);
+    }
+
+    __condvar(const __condvar&) = delete;
+    __condvar& operator=(const __condvar&) = delete;
+
+    __gthread_cond_t* native_handle() noexcept { return &_M_cond; }
+
+
+    void
+    wait(mutex& __m)
+    {
+      int __e __attribute__((__unused__))
+ = __gthread_cond_wait(&_M_cond, __m.native_handle());
+      do { if (__builtin_expect(!bool(__e == 0), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/std_mutex.h", 174, __PRETTY_FUNCTION__, "__e == 0"); } while (false);
+    }
+
+    void
+    wait_until(mutex& __m, timespec& __abs_time)
+    {
+      __gthread_cond_timedwait(&_M_cond, __m.native_handle(), &__abs_time);
+    }
+# 192 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/std_mutex.h" 3
+    void
+    notify_one() noexcept
+    {
+      int __e __attribute__((__unused__)) = __gthread_cond_signal(&_M_cond);
+      do { if (__builtin_expect(!bool(__e == 0), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/std_mutex.h", 196, __PRETTY_FUNCTION__, "__e == 0"); } while (false);
+    }
+
+    void
+    notify_all() noexcept
+    {
+      int __e __attribute__((__unused__)) = __gthread_cond_broadcast(&_M_cond);
+      do { if (__builtin_expect(!bool(__e == 0), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/std_mutex.h", 203, __PRETTY_FUNCTION__, "__e == 0"); } while (false);
+    }
+
+  protected:
+
+    __gthread_cond_t _M_cond = (pthread_cond_t)-1;
+
+
+
+  };
+
+
+
+
+
+  struct defer_lock_t { explicit defer_lock_t() = default; };
+
+
+  struct try_to_lock_t { explicit try_to_lock_t() = default; };
+
+
+
+  struct adopt_lock_t { explicit adopt_lock_t() = default; };
+
+
+  inline constexpr defer_lock_t defer_lock { };
+
+
+  inline constexpr try_to_lock_t try_to_lock { };
+
+
+  inline constexpr adopt_lock_t adopt_lock { };
+# 244 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/std_mutex.h" 3
+  template<typename _Mutex>
+    class lock_guard
+    {
+    public:
+      typedef _Mutex mutex_type;
+
+      [[__nodiscard__]]
+      explicit lock_guard(mutex_type& __m) : _M_device(__m)
+      { _M_device.lock(); }
+
+      [[__nodiscard__]]
+      lock_guard(mutex_type& __m, adopt_lock_t) noexcept : _M_device(__m)
+      { }
+
+      ~lock_guard()
+      { _M_device.unlock(); }
+
+      lock_guard(const lock_guard&) = delete;
+      lock_guard& operator=(const lock_guard&) = delete;
+
+    private:
+      mutex_type& _M_device;
+    };
+
+
+
+}
+# 54 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_wait.h" 2 3
+
+namespace std
+{
+
+  namespace __detail
+  {
+# 70 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_wait.h" 3
+    using __platform_wait_t = unsigned long;
+
+
+
+    inline constexpr size_t __platform_wait_alignment
+      = __alignof__(__platform_wait_t);
+
+  }
+
+  template<typename _Tp>
+    inline constexpr bool __platform_wait_uses_type
+
+
+
+
+
+      = false;
+
+
+  namespace __detail
+  {
+# 133 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_wait.h" 3
+    inline void
+    __thread_yield() noexcept
+    {
+
+     __gthread_yield();
+
+    }
+
+    inline void
+    __thread_relax() noexcept
+    {
+
+      __builtin_ia32_pause();
+
+
+
+    }
+
+    inline constexpr auto __atomic_spin_count_relax = 12;
+    inline constexpr auto __atomic_spin_count = 16;
+
+    struct __default_spin_policy
+    {
+      bool
+      operator()() const noexcept
+      { return false; }
+    };
+
+    template<typename _Pred,
+      typename _Spin = __default_spin_policy>
+      bool
+      __atomic_spin(_Pred& __pred, _Spin __spin = _Spin{ }) noexcept
+      {
+ for (auto __i = 0; __i < __atomic_spin_count; ++__i)
+   {
+     if (__pred())
+       return true;
+
+     if (__i < __atomic_spin_count_relax)
+       __detail::__thread_relax();
+     else
+       __detail::__thread_yield();
+   }
+
+ while (__spin())
+   {
+     if (__pred())
+       return true;
+   }
+
+ return false;
+      }
+
+
+    template<typename _Tp>
+      bool __atomic_compare(const _Tp& __a, const _Tp& __b)
+      {
+
+ return __builtin_memcmp(&__a, &__b, sizeof(_Tp)) == 0;
+      }
+
+    struct __waiter_pool_base
+    {
+
+
+      static constexpr auto _S_align = 64;
+
+      alignas(_S_align) __platform_wait_t _M_wait = 0;
+
+
+      mutex _M_mtx;
+
+
+      alignas(_S_align) __platform_wait_t _M_ver = 0;
+
+
+      __condvar _M_cv;
+
+      __waiter_pool_base() = default;
+
+      void
+      _M_enter_wait() noexcept
+      { __atomic_fetch_add(&_M_wait, 1, 5); }
+
+      void
+      _M_leave_wait() noexcept
+      { __atomic_fetch_sub(&_M_wait, 1, 3); }
+
+      bool
+      _M_waiting() const noexcept
+      {
+ __platform_wait_t __res;
+ __atomic_load(&_M_wait, &__res, 5);
+ return __res != 0;
+      }
+
+      void
+      _M_notify(__platform_wait_t* __addr, [[maybe_unused]] bool __all,
+  bool __bare) noexcept
+      {
+# 243 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_wait.h" 3
+ {
+   lock_guard<mutex> __l(_M_mtx);
+   __atomic_fetch_add(__addr, 1, 0);
+ }
+ if (__bare || _M_waiting())
+   _M_cv.notify_all();
+
+      }
+
+      static __waiter_pool_base&
+      _S_for(const void* __addr) noexcept
+      {
+ constexpr long long unsigned int __ct = 16;
+ static __waiter_pool_base __w[__ct];
+ auto __key = ((long long unsigned int)__addr >> 2) % __ct;
+ return __w[__key];
+      }
+    };
+
+    struct __waiter_pool : __waiter_pool_base
+    {
+      void
+      _M_do_wait(const __platform_wait_t* __addr, __platform_wait_t __old) noexcept
+      {
+
+
+
+ __platform_wait_t __val;
+ __atomic_load(__addr, &__val, 5);
+ if (__val == __old)
+   {
+     lock_guard<mutex> __l(_M_mtx);
+     __atomic_load(__addr, &__val, 0);
+     if (__val == __old)
+       _M_cv.wait(_M_mtx);
+   }
+
+      }
+    };
+
+    template<typename _Tp>
+      struct __waiter_base
+      {
+ using __waiter_type = _Tp;
+
+ __waiter_type& _M_w;
+ __platform_wait_t* _M_addr;
+
+ template<typename _Up>
+   static __platform_wait_t*
+   _S_wait_addr(const _Up* __a, __platform_wait_t* __b)
+   {
+     if constexpr (__platform_wait_uses_type<_Up>)
+       return reinterpret_cast<__platform_wait_t*>(const_cast<_Up*>(__a));
+     else
+       return __b;
+   }
+
+ static __waiter_type&
+ _S_for(const void* __addr) noexcept
+ {
+   static_assert(sizeof(__waiter_type) == sizeof(__waiter_pool_base));
+   auto& res = __waiter_pool_base::_S_for(__addr);
+   return reinterpret_cast<__waiter_type&>(res);
+ }
+
+ template<typename _Up>
+   explicit __waiter_base(const _Up* __addr) noexcept
+     : _M_w(_S_for(__addr))
+     , _M_addr(_S_wait_addr(__addr, &_M_w._M_ver))
+   { }
+
+ void
+ _M_notify(bool __all, bool __bare = false) noexcept
+ { _M_w._M_notify(_M_addr, __all, __bare); }
+
+ template<typename _Up, typename _ValFn,
+   typename _Spin = __default_spin_policy>
+   static bool
+   _S_do_spin_v(__platform_wait_t* __addr,
+         const _Up& __old, _ValFn __vfn,
+         __platform_wait_t& __val,
+         _Spin __spin = _Spin{ })
+   {
+     auto const __pred = [=]
+       { return !__detail::__atomic_compare(__old, __vfn()); };
+
+     if constexpr (__platform_wait_uses_type<_Up>)
+       {
+  __builtin_memcpy(&__val, &__old, sizeof(__val));
+       }
+     else
+       {
+  __atomic_load(__addr, &__val, 2);
+       }
+     return __atomic_spin(__pred, __spin);
+   }
+
+ template<typename _Up, typename _ValFn,
+   typename _Spin = __default_spin_policy>
+   bool
+   _M_do_spin_v(const _Up& __old, _ValFn __vfn,
+         __platform_wait_t& __val,
+         _Spin __spin = _Spin{ })
+   { return _S_do_spin_v(_M_addr, __old, __vfn, __val, __spin); }
+
+ template<typename _Pred,
+   typename _Spin = __default_spin_policy>
+   static bool
+   _S_do_spin(const __platform_wait_t* __addr,
+       _Pred __pred,
+       __platform_wait_t& __val,
+       _Spin __spin = _Spin{ })
+   {
+     __atomic_load(__addr, &__val, 2);
+     return __atomic_spin(__pred, __spin);
+   }
+
+ template<typename _Pred,
+   typename _Spin = __default_spin_policy>
+   bool
+   _M_do_spin(_Pred __pred, __platform_wait_t& __val,
+       _Spin __spin = _Spin{ })
+   { return _S_do_spin(_M_addr, __pred, __val, __spin); }
+      };
+
+    template<typename _EntersWait>
+      struct __waiter : __waiter_base<__waiter_pool>
+      {
+ using __base_type = __waiter_base<__waiter_pool>;
+
+ template<typename _Tp>
+   explicit __waiter(const _Tp* __addr) noexcept
+     : __base_type(__addr)
+   {
+     if constexpr (_EntersWait::value)
+       _M_w._M_enter_wait();
+   }
+
+ ~__waiter()
+ {
+   if constexpr (_EntersWait::value)
+     _M_w._M_leave_wait();
+ }
+
+ template<typename _Tp, typename _ValFn>
+   void
+   _M_do_wait_v(_Tp __old, _ValFn __vfn)
+   {
+     do
+       {
+  __platform_wait_t __val;
+  if (__base_type::_M_do_spin_v(__old, __vfn, __val))
+    return;
+  __base_type::_M_w._M_do_wait(__base_type::_M_addr, __val);
+       }
+     while (__detail::__atomic_compare(__old, __vfn()));
+   }
+
+ template<typename _Pred>
+   void
+   _M_do_wait(_Pred __pred) noexcept
+   {
+     do
+       {
+  __platform_wait_t __val;
+  if (__base_type::_M_do_spin(__pred, __val))
+    return;
+  __base_type::_M_w._M_do_wait(__base_type::_M_addr, __val);
+       }
+     while (!__pred());
+   }
+      };
+
+    using __enters_wait = __waiter<std::true_type>;
+    using __bare_wait = __waiter<std::false_type>;
+  }
+
+  template<typename _Tp, typename _ValFn>
+    void
+    __atomic_wait_address_v(const _Tp* __addr, _Tp __old,
+       _ValFn __vfn) noexcept
+    {
+      __detail::__enters_wait __w(__addr);
+      __w._M_do_wait_v(__old, __vfn);
+    }
+
+  template<typename _Tp, typename _Pred>
+    void
+    __atomic_wait_address(const _Tp* __addr, _Pred __pred) noexcept
+    {
+      __detail::__enters_wait __w(__addr);
+      __w._M_do_wait(__pred);
+    }
+
+
+  template<typename _Pred>
+    void
+    __atomic_wait_address_bare(const __detail::__platform_wait_t* __addr,
+          _Pred __pred) noexcept
+    {
+# 454 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_wait.h" 3
+      __detail::__bare_wait __w(__addr);
+      __w._M_do_wait(__pred);
+
+    }
+
+  template<typename _Tp>
+    void
+    __atomic_notify_address(const _Tp* __addr, bool __all) noexcept
+    {
+      __detail::__bare_wait __w(__addr);
+      __w._M_notify(__all);
+    }
+
+
+  inline void
+  __atomic_notify_address_bare(const __detail::__platform_wait_t* __addr,
+          bool __all) noexcept
+  {
+
+
+
+    __detail::__bare_wait __w(__addr);
+    __w._M_notify(__all, true);
+
+  }
+
+}
+# 44 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h" 2 3
+
+
+
+
+
+
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/version.h" 1 3
+# 51 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h" 2 3
+
+namespace std
+{
+
+# 65 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h" 3
+  enum class memory_order : int
+    {
+      relaxed,
+      consume,
+      acquire,
+      release,
+      acq_rel,
+      seq_cst
+    };
+
+  inline constexpr memory_order memory_order_relaxed = memory_order::relaxed;
+  inline constexpr memory_order memory_order_consume = memory_order::consume;
+  inline constexpr memory_order memory_order_acquire = memory_order::acquire;
+  inline constexpr memory_order memory_order_release = memory_order::release;
+  inline constexpr memory_order memory_order_acq_rel = memory_order::acq_rel;
+  inline constexpr memory_order memory_order_seq_cst = memory_order::seq_cst;
+# 94 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h" 3
+  enum __memory_order_modifier
+    {
+      __memory_order_mask = 0x0ffff,
+      __memory_order_modifier_mask = 0xffff0000,
+      __memory_order_hle_acquire = 0x10000,
+      __memory_order_hle_release = 0x20000
+    };
+
+
+  constexpr memory_order
+  operator|(memory_order __m, __memory_order_modifier __mod) noexcept
+  {
+    return memory_order(int(__m) | int(__mod));
+  }
+
+  constexpr memory_order
+  operator&(memory_order __m, __memory_order_modifier __mod) noexcept
+  {
+    return memory_order(int(__m) & int(__mod));
+  }
+
+
+
+
+  constexpr memory_order
+  __cmpexch_failure_order2(memory_order __m) noexcept
+  {
+    return __m == memory_order_acq_rel ? memory_order_acquire
+      : __m == memory_order_release ? memory_order_relaxed : __m;
+  }
+
+  constexpr memory_order
+  __cmpexch_failure_order(memory_order __m) noexcept
+  {
+    return memory_order(__cmpexch_failure_order2(__m & __memory_order_mask)
+      | __memory_order_modifier(__m & __memory_order_modifier_mask));
+  }
+
+  constexpr bool
+  __is_valid_cmpexch_failure_order(memory_order __m) noexcept
+  {
+    return (__m & __memory_order_mask) != memory_order_release
+ && (__m & __memory_order_mask) != memory_order_acq_rel;
+  }
+
+
+  template<typename _IntTp>
+    struct __atomic_base;
+
+
+
+  inline __attribute__((__always_inline__)) void
+  atomic_thread_fence(memory_order __m) noexcept
+  { __atomic_thread_fence(int(__m)); }
+
+  inline __attribute__((__always_inline__)) void
+  atomic_signal_fence(memory_order __m) noexcept
+  { __atomic_signal_fence(int(__m)); }
+
+
+  template<typename _Tp>
+    inline _Tp
+    kill_dependency(_Tp __y) noexcept
+    {
+      _Tp __ret(__y);
+      return __ret;
+    }
+# 172 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h" 3
+  template<typename _Tp>
+    struct atomic;
+
+  template<typename _Tp>
+    struct atomic<_Tp*>;
+
+
+
+    typedef bool __atomic_flag_data_type;
+# 197 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h" 3
+  extern "C" {
+
+  struct __atomic_flag_base
+  {
+    __atomic_flag_data_type _M_i = {};
+  };
+
+  }
+
+
+
+
+
+
+  struct atomic_flag : public __atomic_flag_base
+  {
+    atomic_flag() noexcept = default;
+    ~atomic_flag() noexcept = default;
+    atomic_flag(const atomic_flag&) = delete;
+    atomic_flag& operator=(const atomic_flag&) = delete;
+    atomic_flag& operator=(const atomic_flag&) volatile = delete;
+
+
+    constexpr atomic_flag(bool __i) noexcept
+      : __atomic_flag_base{ _S_init(__i) }
+    { }
+
+    inline __attribute__((__always_inline__)) bool
+    test_and_set(memory_order __m = memory_order_seq_cst) noexcept
+    {
+      return __atomic_test_and_set (&_M_i, int(__m));
+    }
+
+    inline __attribute__((__always_inline__)) bool
+    test_and_set(memory_order __m = memory_order_seq_cst) volatile noexcept
+    {
+      return __atomic_test_and_set (&_M_i, int(__m));
+    }
+
+
+    inline __attribute__((__always_inline__)) bool
+    test(memory_order __m = memory_order_seq_cst) const noexcept
+    {
+      __atomic_flag_data_type __v;
+      __atomic_load(&_M_i, &__v, int(__m));
+      return __v == 1;
+    }
+
+    inline __attribute__((__always_inline__)) bool
+    test(memory_order __m = memory_order_seq_cst) const volatile noexcept
+    {
+      __atomic_flag_data_type __v;
+      __atomic_load(&_M_i, &__v, int(__m));
+      return __v == 1;
+    }
+
+
+
+    inline __attribute__((__always_inline__)) void
+    wait(bool __old,
+ memory_order __m = memory_order_seq_cst) const noexcept
+    {
+      const __atomic_flag_data_type __v
+ = __old ? 1 : 0;
+
+      std::__atomic_wait_address_v(&_M_i, __v,
+   [__m, this] { return __atomic_load_n(&_M_i, int(__m)); });
+    }
+
+
+
+    inline __attribute__((__always_inline__)) void
+    notify_one() noexcept
+    { std::__atomic_notify_address(&_M_i, false); }
+
+
+
+    inline __attribute__((__always_inline__)) void
+    notify_all() noexcept
+    { std::__atomic_notify_address(&_M_i, true); }
+
+
+
+
+    inline __attribute__((__always_inline__)) void
+    clear(memory_order __m = memory_order_seq_cst) noexcept
+    {
+      memory_order __b __attribute__ ((__unused__))
+ = __m & __memory_order_mask;
+      do { if (__builtin_expect(!bool(__b != memory_order_consume), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h", 286, __PRETTY_FUNCTION__, "__b != memory_order_consume"); } while (false);
+      do { if (__builtin_expect(!bool(__b != memory_order_acquire), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h", 287, __PRETTY_FUNCTION__, "__b != memory_order_acquire"); } while (false);
+      do { if (__builtin_expect(!bool(__b != memory_order_acq_rel), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h", 288, __PRETTY_FUNCTION__, "__b != memory_order_acq_rel"); } while (false);
+
+      __atomic_clear (&_M_i, int(__m));
+    }
+
+    inline __attribute__((__always_inline__)) void
+    clear(memory_order __m = memory_order_seq_cst) volatile noexcept
+    {
+      memory_order __b __attribute__ ((__unused__))
+ = __m & __memory_order_mask;
+      do { if (__builtin_expect(!bool(__b != memory_order_consume), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h", 298, __PRETTY_FUNCTION__, "__b != memory_order_consume"); } while (false);
+      do { if (__builtin_expect(!bool(__b != memory_order_acquire), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h", 299, __PRETTY_FUNCTION__, "__b != memory_order_acquire"); } while (false);
+      do { if (__builtin_expect(!bool(__b != memory_order_acq_rel), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h", 300, __PRETTY_FUNCTION__, "__b != memory_order_acq_rel"); } while (false);
+
+      __atomic_clear (&_M_i, int(__m));
+    }
+
+  private:
+    static constexpr __atomic_flag_data_type
+    _S_init(bool __i)
+    { return __i ? 1 : 0; }
+  };
+# 337 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h" 3
+  template<typename _ITp>
+    struct __atomic_base
+    {
+      using value_type = _ITp;
+      using difference_type = value_type;
+
+    private:
+      typedef _ITp __int_type;
+
+      static constexpr int _S_alignment =
+ sizeof(_ITp) > alignof(_ITp) ? sizeof(_ITp) : alignof(_ITp);
+
+      alignas(_S_alignment) __int_type _M_i = 0;
+
+    public:
+      __atomic_base() noexcept = default;
+      ~__atomic_base() noexcept = default;
+      __atomic_base(const __atomic_base&) = delete;
+      __atomic_base& operator=(const __atomic_base&) = delete;
+      __atomic_base& operator=(const __atomic_base&) volatile = delete;
+
+      constexpr __atomic_base(__int_type __i) noexcept : _M_i (__i) { }
+
+      operator __int_type() const noexcept
+      { return load(); }
+
+      operator __int_type() const volatile noexcept
+      { return load(); }
+
+      __int_type
+      operator=(__int_type __i) noexcept
+      {
+ store(__i);
+ return __i;
+      }
+
+      __int_type
+      operator=(__int_type __i) volatile noexcept
+      {
+ store(__i);
+ return __i;
+      }
+
+      __int_type
+      operator++(int) noexcept
+      { return fetch_add(1); }
+
+      __int_type
+      operator++(int) volatile noexcept
+      { return fetch_add(1); }
+
+      __int_type
+      operator--(int) noexcept
+      { return fetch_sub(1); }
+
+      __int_type
+      operator--(int) volatile noexcept
+      { return fetch_sub(1); }
+
+      __int_type
+      operator++() noexcept
+      { return __atomic_add_fetch(&_M_i, 1, int(memory_order_seq_cst)); }
+
+      __int_type
+      operator++() volatile noexcept
+      { return __atomic_add_fetch(&_M_i, 1, int(memory_order_seq_cst)); }
+
+      __int_type
+      operator--() noexcept
+      { return __atomic_sub_fetch(&_M_i, 1, int(memory_order_seq_cst)); }
+
+      __int_type
+      operator--() volatile noexcept
+      { return __atomic_sub_fetch(&_M_i, 1, int(memory_order_seq_cst)); }
+
+      __int_type
+      operator+=(__int_type __i) noexcept
+      { return __atomic_add_fetch(&_M_i, __i, int(memory_order_seq_cst)); }
+
+      __int_type
+      operator+=(__int_type __i) volatile noexcept
+      { return __atomic_add_fetch(&_M_i, __i, int(memory_order_seq_cst)); }
+
+      __int_type
+      operator-=(__int_type __i) noexcept
+      { return __atomic_sub_fetch(&_M_i, __i, int(memory_order_seq_cst)); }
+
+      __int_type
+      operator-=(__int_type __i) volatile noexcept
+      { return __atomic_sub_fetch(&_M_i, __i, int(memory_order_seq_cst)); }
+
+      __int_type
+      operator&=(__int_type __i) noexcept
+      { return __atomic_and_fetch(&_M_i, __i, int(memory_order_seq_cst)); }
+
+      __int_type
+      operator&=(__int_type __i) volatile noexcept
+      { return __atomic_and_fetch(&_M_i, __i, int(memory_order_seq_cst)); }
+
+      __int_type
+      operator|=(__int_type __i) noexcept
+      { return __atomic_or_fetch(&_M_i, __i, int(memory_order_seq_cst)); }
+
+      __int_type
+      operator|=(__int_type __i) volatile noexcept
+      { return __atomic_or_fetch(&_M_i, __i, int(memory_order_seq_cst)); }
+
+      __int_type
+      operator^=(__int_type __i) noexcept
+      { return __atomic_xor_fetch(&_M_i, __i, int(memory_order_seq_cst)); }
+
+      __int_type
+      operator^=(__int_type __i) volatile noexcept
+      { return __atomic_xor_fetch(&_M_i, __i, int(memory_order_seq_cst)); }
+
+      bool
+      is_lock_free() const noexcept
+      {
+
+ return __atomic_is_lock_free(sizeof(_M_i),
+     reinterpret_cast<void *>(-_S_alignment));
+      }
+
+      bool
+      is_lock_free() const volatile noexcept
+      {
+
+ return __atomic_is_lock_free(sizeof(_M_i),
+     reinterpret_cast<void *>(-_S_alignment));
+      }
+
+      inline __attribute__((__always_inline__)) void
+      store(__int_type __i, memory_order __m = memory_order_seq_cst) noexcept
+      {
+ memory_order __b __attribute__ ((__unused__))
+   = __m & __memory_order_mask;
+ do { if (__builtin_expect(!bool(__b != memory_order_acquire), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h", 473, __PRETTY_FUNCTION__, "__b != memory_order_acquire"); } while (false);
+ do { if (__builtin_expect(!bool(__b != memory_order_acq_rel), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h", 474, __PRETTY_FUNCTION__, "__b != memory_order_acq_rel"); } while (false);
+ do { if (__builtin_expect(!bool(__b != memory_order_consume), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h", 475, __PRETTY_FUNCTION__, "__b != memory_order_consume"); } while (false);
+
+ __atomic_store_n(&_M_i, __i, int(__m));
+      }
+
+      inline __attribute__((__always_inline__)) void
+      store(__int_type __i,
+     memory_order __m = memory_order_seq_cst) volatile noexcept
+      {
+ memory_order __b __attribute__ ((__unused__))
+   = __m & __memory_order_mask;
+ do { if (__builtin_expect(!bool(__b != memory_order_acquire), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h", 486, __PRETTY_FUNCTION__, "__b != memory_order_acquire"); } while (false);
+ do { if (__builtin_expect(!bool(__b != memory_order_acq_rel), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h", 487, __PRETTY_FUNCTION__, "__b != memory_order_acq_rel"); } while (false);
+ do { if (__builtin_expect(!bool(__b != memory_order_consume), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h", 488, __PRETTY_FUNCTION__, "__b != memory_order_consume"); } while (false);
+
+ __atomic_store_n(&_M_i, __i, int(__m));
+      }
+
+      inline __attribute__((__always_inline__)) __int_type
+      load(memory_order __m = memory_order_seq_cst) const noexcept
+      {
+ memory_order __b __attribute__ ((__unused__))
+   = __m & __memory_order_mask;
+ do { if (__builtin_expect(!bool(__b != memory_order_release), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h", 498, __PRETTY_FUNCTION__, "__b != memory_order_release"); } while (false);
+ do { if (__builtin_expect(!bool(__b != memory_order_acq_rel), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h", 499, __PRETTY_FUNCTION__, "__b != memory_order_acq_rel"); } while (false);
+
+ return __atomic_load_n(&_M_i, int(__m));
+      }
+
+      inline __attribute__((__always_inline__)) __int_type
+      load(memory_order __m = memory_order_seq_cst) const volatile noexcept
+      {
+ memory_order __b __attribute__ ((__unused__))
+   = __m & __memory_order_mask;
+ do { if (__builtin_expect(!bool(__b != memory_order_release), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h", 509, __PRETTY_FUNCTION__, "__b != memory_order_release"); } while (false);
+ do { if (__builtin_expect(!bool(__b != memory_order_acq_rel), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h", 510, __PRETTY_FUNCTION__, "__b != memory_order_acq_rel"); } while (false);
+
+ return __atomic_load_n(&_M_i, int(__m));
+      }
+
+      inline __attribute__((__always_inline__)) __int_type
+      exchange(__int_type __i,
+        memory_order __m = memory_order_seq_cst) noexcept
+      {
+ return __atomic_exchange_n(&_M_i, __i, int(__m));
+      }
+
+
+      inline __attribute__((__always_inline__)) __int_type
+      exchange(__int_type __i,
+        memory_order __m = memory_order_seq_cst) volatile noexcept
+      {
+ return __atomic_exchange_n(&_M_i, __i, int(__m));
+      }
+
+      inline __attribute__((__always_inline__)) bool
+      compare_exchange_weak(__int_type& __i1, __int_type __i2,
+       memory_order __m1, memory_order __m2) noexcept
+      {
+ do { if (__builtin_expect(!bool(__is_valid_cmpexch_failure_order(__m2)), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h", 534, __PRETTY_FUNCTION__, "__is_valid_cmpexch_failure_order(__m2)"); } while (false);
+
+ return __atomic_compare_exchange_n(&_M_i, &__i1, __i2, 1,
+        int(__m1), int(__m2));
+      }
+
+      inline __attribute__((__always_inline__)) bool
+      compare_exchange_weak(__int_type& __i1, __int_type __i2,
+       memory_order __m1,
+       memory_order __m2) volatile noexcept
+      {
+ do { if (__builtin_expect(!bool(__is_valid_cmpexch_failure_order(__m2)), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h", 545, __PRETTY_FUNCTION__, "__is_valid_cmpexch_failure_order(__m2)"); } while (false);
+
+ return __atomic_compare_exchange_n(&_M_i, &__i1, __i2, 1,
+        int(__m1), int(__m2));
+      }
+
+      inline __attribute__((__always_inline__)) bool
+      compare_exchange_weak(__int_type& __i1, __int_type __i2,
+       memory_order __m = memory_order_seq_cst) noexcept
+      {
+ return compare_exchange_weak(__i1, __i2, __m,
+         __cmpexch_failure_order(__m));
+      }
+
+      inline __attribute__((__always_inline__)) bool
+      compare_exchange_weak(__int_type& __i1, __int_type __i2,
+     memory_order __m = memory_order_seq_cst) volatile noexcept
+      {
+ return compare_exchange_weak(__i1, __i2, __m,
+         __cmpexch_failure_order(__m));
+      }
+
+      inline __attribute__((__always_inline__)) bool
+      compare_exchange_strong(__int_type& __i1, __int_type __i2,
+         memory_order __m1, memory_order __m2) noexcept
+      {
+ do { if (__builtin_expect(!bool(__is_valid_cmpexch_failure_order(__m2)), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h", 571, __PRETTY_FUNCTION__, "__is_valid_cmpexch_failure_order(__m2)"); } while (false);
+
+ return __atomic_compare_exchange_n(&_M_i, &__i1, __i2, 0,
+        int(__m1), int(__m2));
+      }
+
+      inline __attribute__((__always_inline__)) bool
+      compare_exchange_strong(__int_type& __i1, __int_type __i2,
+         memory_order __m1,
+         memory_order __m2) volatile noexcept
+      {
+ do { if (__builtin_expect(!bool(__is_valid_cmpexch_failure_order(__m2)), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h", 582, __PRETTY_FUNCTION__, "__is_valid_cmpexch_failure_order(__m2)"); } while (false);
+
+ return __atomic_compare_exchange_n(&_M_i, &__i1, __i2, 0,
+        int(__m1), int(__m2));
+      }
+
+      inline __attribute__((__always_inline__)) bool
+      compare_exchange_strong(__int_type& __i1, __int_type __i2,
+         memory_order __m = memory_order_seq_cst) noexcept
+      {
+ return compare_exchange_strong(__i1, __i2, __m,
+           __cmpexch_failure_order(__m));
+      }
+
+      inline __attribute__((__always_inline__)) bool
+      compare_exchange_strong(__int_type& __i1, __int_type __i2,
+   memory_order __m = memory_order_seq_cst) volatile noexcept
+      {
+ return compare_exchange_strong(__i1, __i2, __m,
+           __cmpexch_failure_order(__m));
+      }
+
+
+      inline __attribute__((__always_inline__)) void
+      wait(__int_type __old,
+   memory_order __m = memory_order_seq_cst) const noexcept
+      {
+ std::__atomic_wait_address_v(&_M_i, __old,
+      [__m, this] { return this->load(__m); });
+      }
+
+
+
+      inline __attribute__((__always_inline__)) void
+      notify_one() noexcept
+      { std::__atomic_notify_address(&_M_i, false); }
+
+
+
+      inline __attribute__((__always_inline__)) void
+      notify_all() noexcept
+      { std::__atomic_notify_address(&_M_i, true); }
+
+
+
+
+      inline __attribute__((__always_inline__)) __int_type
+      fetch_add(__int_type __i,
+  memory_order __m = memory_order_seq_cst) noexcept
+      { return __atomic_fetch_add(&_M_i, __i, int(__m)); }
+
+      inline __attribute__((__always_inline__)) __int_type
+      fetch_add(__int_type __i,
+  memory_order __m = memory_order_seq_cst) volatile noexcept
+      { return __atomic_fetch_add(&_M_i, __i, int(__m)); }
+
+      inline __attribute__((__always_inline__)) __int_type
+      fetch_sub(__int_type __i,
+  memory_order __m = memory_order_seq_cst) noexcept
+      { return __atomic_fetch_sub(&_M_i, __i, int(__m)); }
+
+      inline __attribute__((__always_inline__)) __int_type
+      fetch_sub(__int_type __i,
+  memory_order __m = memory_order_seq_cst) volatile noexcept
+      { return __atomic_fetch_sub(&_M_i, __i, int(__m)); }
+
+      inline __attribute__((__always_inline__)) __int_type
+      fetch_and(__int_type __i,
+  memory_order __m = memory_order_seq_cst) noexcept
+      { return __atomic_fetch_and(&_M_i, __i, int(__m)); }
+
+      inline __attribute__((__always_inline__)) __int_type
+      fetch_and(__int_type __i,
+  memory_order __m = memory_order_seq_cst) volatile noexcept
+      { return __atomic_fetch_and(&_M_i, __i, int(__m)); }
+
+      inline __attribute__((__always_inline__)) __int_type
+      fetch_or(__int_type __i,
+        memory_order __m = memory_order_seq_cst) noexcept
+      { return __atomic_fetch_or(&_M_i, __i, int(__m)); }
+
+      inline __attribute__((__always_inline__)) __int_type
+      fetch_or(__int_type __i,
+        memory_order __m = memory_order_seq_cst) volatile noexcept
+      { return __atomic_fetch_or(&_M_i, __i, int(__m)); }
+
+      inline __attribute__((__always_inline__)) __int_type
+      fetch_xor(__int_type __i,
+  memory_order __m = memory_order_seq_cst) noexcept
+      { return __atomic_fetch_xor(&_M_i, __i, int(__m)); }
+
+      inline __attribute__((__always_inline__)) __int_type
+      fetch_xor(__int_type __i,
+  memory_order __m = memory_order_seq_cst) volatile noexcept
+      { return __atomic_fetch_xor(&_M_i, __i, int(__m)); }
+    };
+
+
+
+  template<typename _PTp>
+    struct __atomic_base<_PTp*>
+    {
+    private:
+      typedef _PTp* __pointer_type;
+
+      __pointer_type _M_p = nullptr;
+
+      static constexpr ptrdiff_t
+      _S_type_size(ptrdiff_t __d)
+      { return __d * sizeof(_PTp); }
+
+    public:
+      __atomic_base() noexcept = default;
+      ~__atomic_base() noexcept = default;
+      __atomic_base(const __atomic_base&) = delete;
+      __atomic_base& operator=(const __atomic_base&) = delete;
+      __atomic_base& operator=(const __atomic_base&) volatile = delete;
+
+
+      constexpr __atomic_base(__pointer_type __p) noexcept : _M_p (__p) { }
+
+      operator __pointer_type() const noexcept
+      { return load(); }
+
+      operator __pointer_type() const volatile noexcept
+      { return load(); }
+
+      __pointer_type
+      operator=(__pointer_type __p) noexcept
+      {
+ store(__p);
+ return __p;
+      }
+
+      __pointer_type
+      operator=(__pointer_type __p) volatile noexcept
+      {
+ store(__p);
+ return __p;
+      }
+
+      __pointer_type
+      operator++(int) noexcept
+      { return fetch_add(1); }
+
+      __pointer_type
+      operator++(int) volatile noexcept
+      { return fetch_add(1); }
+
+      __pointer_type
+      operator--(int) noexcept
+      { return fetch_sub(1); }
+
+      __pointer_type
+      operator--(int) volatile noexcept
+      { return fetch_sub(1); }
+
+      __pointer_type
+      operator++() noexcept
+      { return __atomic_add_fetch(&_M_p, _S_type_size(1),
+      int(memory_order_seq_cst)); }
+
+      __pointer_type
+      operator++() volatile noexcept
+      { return __atomic_add_fetch(&_M_p, _S_type_size(1),
+      int(memory_order_seq_cst)); }
+
+      __pointer_type
+      operator--() noexcept
+      { return __atomic_sub_fetch(&_M_p, _S_type_size(1),
+      int(memory_order_seq_cst)); }
+
+      __pointer_type
+      operator--() volatile noexcept
+      { return __atomic_sub_fetch(&_M_p, _S_type_size(1),
+      int(memory_order_seq_cst)); }
+
+      __pointer_type
+      operator+=(ptrdiff_t __d) noexcept
+      { return __atomic_add_fetch(&_M_p, _S_type_size(__d),
+      int(memory_order_seq_cst)); }
+
+      __pointer_type
+      operator+=(ptrdiff_t __d) volatile noexcept
+      { return __atomic_add_fetch(&_M_p, _S_type_size(__d),
+      int(memory_order_seq_cst)); }
+
+      __pointer_type
+      operator-=(ptrdiff_t __d) noexcept
+      { return __atomic_sub_fetch(&_M_p, _S_type_size(__d),
+      int(memory_order_seq_cst)); }
+
+      __pointer_type
+      operator-=(ptrdiff_t __d) volatile noexcept
+      { return __atomic_sub_fetch(&_M_p, _S_type_size(__d),
+      int(memory_order_seq_cst)); }
+
+      bool
+      is_lock_free() const noexcept
+      {
+
+ return __atomic_is_lock_free(sizeof(_M_p),
+     reinterpret_cast<void *>(-__alignof(_M_p)));
+      }
+
+      bool
+      is_lock_free() const volatile noexcept
+      {
+
+ return __atomic_is_lock_free(sizeof(_M_p),
+     reinterpret_cast<void *>(-__alignof(_M_p)));
+      }
+
+      inline __attribute__((__always_inline__)) void
+      store(__pointer_type __p,
+     memory_order __m = memory_order_seq_cst) noexcept
+      {
+ memory_order __b __attribute__ ((__unused__))
+   = __m & __memory_order_mask;
+
+ do { if (__builtin_expect(!bool(__b != memory_order_acquire), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h", 802, __PRETTY_FUNCTION__, "__b != memory_order_acquire"); } while (false);
+ do { if (__builtin_expect(!bool(__b != memory_order_acq_rel), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h", 803, __PRETTY_FUNCTION__, "__b != memory_order_acq_rel"); } while (false);
+ do { if (__builtin_expect(!bool(__b != memory_order_consume), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h", 804, __PRETTY_FUNCTION__, "__b != memory_order_consume"); } while (false);
+
+ __atomic_store_n(&_M_p, __p, int(__m));
+      }
+
+      inline __attribute__((__always_inline__)) void
+      store(__pointer_type __p,
+     memory_order __m = memory_order_seq_cst) volatile noexcept
+      {
+ memory_order __b __attribute__ ((__unused__))
+   = __m & __memory_order_mask;
+ do { if (__builtin_expect(!bool(__b != memory_order_acquire), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h", 815, __PRETTY_FUNCTION__, "__b != memory_order_acquire"); } while (false);
+ do { if (__builtin_expect(!bool(__b != memory_order_acq_rel), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h", 816, __PRETTY_FUNCTION__, "__b != memory_order_acq_rel"); } while (false);
+ do { if (__builtin_expect(!bool(__b != memory_order_consume), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h", 817, __PRETTY_FUNCTION__, "__b != memory_order_consume"); } while (false);
+
+ __atomic_store_n(&_M_p, __p, int(__m));
+      }
+
+      inline __attribute__((__always_inline__)) __pointer_type
+      load(memory_order __m = memory_order_seq_cst) const noexcept
+      {
+ memory_order __b __attribute__ ((__unused__))
+   = __m & __memory_order_mask;
+ do { if (__builtin_expect(!bool(__b != memory_order_release), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h", 827, __PRETTY_FUNCTION__, "__b != memory_order_release"); } while (false);
+ do { if (__builtin_expect(!bool(__b != memory_order_acq_rel), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h", 828, __PRETTY_FUNCTION__, "__b != memory_order_acq_rel"); } while (false);
+
+ return __atomic_load_n(&_M_p, int(__m));
+      }
+
+      inline __attribute__((__always_inline__)) __pointer_type
+      load(memory_order __m = memory_order_seq_cst) const volatile noexcept
+      {
+ memory_order __b __attribute__ ((__unused__))
+   = __m & __memory_order_mask;
+ do { if (__builtin_expect(!bool(__b != memory_order_release), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h", 838, __PRETTY_FUNCTION__, "__b != memory_order_release"); } while (false);
+ do { if (__builtin_expect(!bool(__b != memory_order_acq_rel), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h", 839, __PRETTY_FUNCTION__, "__b != memory_order_acq_rel"); } while (false);
+
+ return __atomic_load_n(&_M_p, int(__m));
+      }
+
+      inline __attribute__((__always_inline__)) __pointer_type
+      exchange(__pointer_type __p,
+        memory_order __m = memory_order_seq_cst) noexcept
+      {
+ return __atomic_exchange_n(&_M_p, __p, int(__m));
+      }
+
+
+      inline __attribute__((__always_inline__)) __pointer_type
+      exchange(__pointer_type __p,
+        memory_order __m = memory_order_seq_cst) volatile noexcept
+      {
+ return __atomic_exchange_n(&_M_p, __p, int(__m));
+      }
+
+      inline __attribute__((__always_inline__)) bool
+      compare_exchange_weak(__pointer_type& __p1, __pointer_type __p2,
+       memory_order __m1,
+       memory_order __m2) noexcept
+      {
+ do { if (__builtin_expect(!bool(__is_valid_cmpexch_failure_order(__m2)), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h", 864, __PRETTY_FUNCTION__, "__is_valid_cmpexch_failure_order(__m2)"); } while (false);
+
+ return __atomic_compare_exchange_n(&_M_p, &__p1, __p2, 1,
+        int(__m1), int(__m2));
+      }
+
+      inline __attribute__((__always_inline__)) bool
+      compare_exchange_weak(__pointer_type& __p1, __pointer_type __p2,
+       memory_order __m1,
+       memory_order __m2) volatile noexcept
+      {
+ do { if (__builtin_expect(!bool(__is_valid_cmpexch_failure_order(__m2)), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h", 875, __PRETTY_FUNCTION__, "__is_valid_cmpexch_failure_order(__m2)"); } while (false);
+
+ return __atomic_compare_exchange_n(&_M_p, &__p1, __p2, 1,
+        int(__m1), int(__m2));
+      }
+
+      inline __attribute__((__always_inline__)) bool
+      compare_exchange_strong(__pointer_type& __p1, __pointer_type __p2,
+         memory_order __m1,
+         memory_order __m2) noexcept
+      {
+ do { if (__builtin_expect(!bool(__is_valid_cmpexch_failure_order(__m2)), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h", 886, __PRETTY_FUNCTION__, "__is_valid_cmpexch_failure_order(__m2)"); } while (false);
+
+ return __atomic_compare_exchange_n(&_M_p, &__p1, __p2, 0,
+        int(__m1), int(__m2));
+      }
+
+      inline __attribute__((__always_inline__)) bool
+      compare_exchange_strong(__pointer_type& __p1, __pointer_type __p2,
+         memory_order __m1,
+         memory_order __m2) volatile noexcept
+      {
+ do { if (__builtin_expect(!bool(__is_valid_cmpexch_failure_order(__m2)), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h", 897, __PRETTY_FUNCTION__, "__is_valid_cmpexch_failure_order(__m2)"); } while (false);
+
+ return __atomic_compare_exchange_n(&_M_p, &__p1, __p2, 0,
+        int(__m1), int(__m2));
+      }
+
+
+      inline __attribute__((__always_inline__)) void
+      wait(__pointer_type __old,
+    memory_order __m = memory_order_seq_cst) const noexcept
+      {
+ std::__atomic_wait_address_v(&_M_p, __old,
+         [__m, this]
+         { return this->load(__m); });
+      }
+
+
+
+      inline __attribute__((__always_inline__)) void
+      notify_one() const noexcept
+      { std::__atomic_notify_address(&_M_p, false); }
+
+
+
+      inline __attribute__((__always_inline__)) void
+      notify_all() const noexcept
+      { std::__atomic_notify_address(&_M_p, true); }
+
+
+
+
+      inline __attribute__((__always_inline__)) __pointer_type
+      fetch_add(ptrdiff_t __d,
+  memory_order __m = memory_order_seq_cst) noexcept
+      { return __atomic_fetch_add(&_M_p, _S_type_size(__d), int(__m)); }
+
+      inline __attribute__((__always_inline__)) __pointer_type
+      fetch_add(ptrdiff_t __d,
+  memory_order __m = memory_order_seq_cst) volatile noexcept
+      { return __atomic_fetch_add(&_M_p, _S_type_size(__d), int(__m)); }
+
+      inline __attribute__((__always_inline__)) __pointer_type
+      fetch_sub(ptrdiff_t __d,
+  memory_order __m = memory_order_seq_cst) noexcept
+      { return __atomic_fetch_sub(&_M_p, _S_type_size(__d), int(__m)); }
+
+      inline __attribute__((__always_inline__)) __pointer_type
+      fetch_sub(ptrdiff_t __d,
+  memory_order __m = memory_order_seq_cst) volatile noexcept
+      { return __atomic_fetch_sub(&_M_p, _S_type_size(__d), int(__m)); }
+    };
+
+  namespace __atomic_impl
+  {
+
+
+    template<typename _Tp>
+      constexpr bool
+      __maybe_has_padding()
+      {
+
+
+
+ return !__has_unique_object_representations(_Tp)
+   && !is_same<_Tp, float>::value && !is_same<_Tp, double>::value;
+
+
+
+      }
+
+    template<typename _Tp>
+      inline __attribute__((__always_inline__)) constexpr _Tp*
+      __clear_padding(_Tp& __val) noexcept
+      {
+ auto* __ptr = std::__addressof(__val);
+
+ if constexpr (__atomic_impl::__maybe_has_padding<_Tp>())
+   __builtin_clear_padding(__ptr);
+
+ return __ptr;
+      }
+
+
+    template<typename _Tp>
+      using _Val = typename remove_volatile<_Tp>::type;
+
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wc++17-extensions"
+
+    template<bool _AtomicRef = false, typename _Tp>
+      inline __attribute__((__always_inline__)) bool
+      __compare_exchange(_Tp& __val, _Val<_Tp>& __e, _Val<_Tp>& __i,
+    bool __is_weak,
+    memory_order __s, memory_order __f) noexcept
+      {
+ do { if (__builtin_expect(!bool(__is_valid_cmpexch_failure_order(__f)), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h", 992, __PRETTY_FUNCTION__, "__is_valid_cmpexch_failure_order(__f)"); } while (false);
+
+ using _Vp = _Val<_Tp>;
+ _Tp* const __pval = std::__addressof(__val);
+
+ if constexpr (!__atomic_impl::__maybe_has_padding<_Vp>())
+   {
+     return __atomic_compare_exchange(__pval, std::__addressof(__e),
+          std::__addressof(__i), __is_weak,
+          int(__s), int(__f));
+   }
+ else if constexpr (!_AtomicRef)
+   {
+
+     _Vp* const __pi = __atomic_impl::__clear_padding(__i);
+
+     _Vp __exp = __e;
+
+     _Vp* const __pexp = __atomic_impl::__clear_padding(__exp);
+
+
+
+     if (__atomic_compare_exchange(__pval, __pexp, __pi,
+       __is_weak, int(__s), int(__f)))
+       return true;
+
+     __builtin_memcpy(std::__addressof(__e), __pexp, sizeof(_Vp));
+     return false;
+   }
+ else
+   {
+
+     _Vp* const __pi = __atomic_impl::__clear_padding(__i);
+
+
+     _Vp __exp = __e;
+
+
+     _Vp* const __pexp = __atomic_impl::__clear_padding(__exp);
+# 1042 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h" 3
+     while (true)
+       {
+
+  _Vp __orig = __exp;
+
+  if (__atomic_compare_exchange(__pval, __pexp, __pi,
+           __is_weak, int(__s), int(__f)))
+    return true;
+
+
+  _Vp __curr = __exp;
+
+
+  if (__builtin_memcmp(__atomic_impl::__clear_padding(__orig),
+         __atomic_impl::__clear_padding(__curr),
+         sizeof(_Vp)))
+    {
+
+      __builtin_memcpy(std::__addressof(__e), __pexp,
+         sizeof(_Vp));
+      return false;
+    }
+       }
+   }
+      }
+#pragma GCC diagnostic pop
+  }
+
+
+
+  namespace __atomic_impl
+  {
+
+    template<typename _Tp>
+      using _Diff = __conditional_t<is_pointer_v<_Tp>, ptrdiff_t, _Val<_Tp>>;
+
+    template<size_t _Size, size_t _Align>
+      inline __attribute__((__always_inline__)) bool
+      is_lock_free() noexcept
+      {
+
+ return __atomic_is_lock_free(_Size, reinterpret_cast<void *>(-_Align));
+      }
+
+    template<typename _Tp>
+      inline __attribute__((__always_inline__)) void
+      store(_Tp* __ptr, _Val<_Tp> __t, memory_order __m) noexcept
+      {
+ __atomic_store(__ptr, __atomic_impl::__clear_padding(__t), int(__m));
+      }
+
+    template<typename _Tp>
+      inline __attribute__((__always_inline__)) _Val<_Tp>
+      load(const _Tp* __ptr, memory_order __m) noexcept
+      {
+ alignas(_Tp) unsigned char __buf[sizeof(_Tp)];
+ auto* __dest = reinterpret_cast<_Val<_Tp>*>(__buf);
+ __atomic_load(__ptr, __dest, int(__m));
+ return *__dest;
+      }
+
+    template<typename _Tp>
+      inline __attribute__((__always_inline__)) _Val<_Tp>
+      exchange(_Tp* __ptr, _Val<_Tp> __desired, memory_order __m) noexcept
+      {
+        alignas(_Tp) unsigned char __buf[sizeof(_Tp)];
+ auto* __dest = reinterpret_cast<_Val<_Tp>*>(__buf);
+ __atomic_exchange(__ptr, __atomic_impl::__clear_padding(__desired),
+     __dest, int(__m));
+ return *__dest;
+      }
+
+    template<bool _AtomicRef = false, typename _Tp>
+      inline __attribute__((__always_inline__)) bool
+      compare_exchange_weak(_Tp* __ptr, _Val<_Tp>& __expected,
+       _Val<_Tp> __desired, memory_order __success,
+       memory_order __failure) noexcept
+      {
+ return __atomic_impl::__compare_exchange<_AtomicRef>(
+     *__ptr, __expected, __desired, true, __success, __failure);
+      }
+
+    template<bool _AtomicRef = false, typename _Tp>
+      inline __attribute__((__always_inline__)) bool
+      compare_exchange_strong(_Tp* __ptr, _Val<_Tp>& __expected,
+         _Val<_Tp> __desired, memory_order __success,
+         memory_order __failure) noexcept
+      {
+ return __atomic_impl::__compare_exchange<_AtomicRef>(
+     *__ptr, __expected, __desired, false, __success, __failure);
+      }
+
+
+    template<typename _Tp>
+      inline __attribute__((__always_inline__)) void
+      wait(const _Tp* __ptr, _Val<_Tp> __old,
+    memory_order __m = memory_order_seq_cst) noexcept
+      {
+ std::__atomic_wait_address_v(__ptr, __old,
+     [__ptr, __m]() { return __atomic_impl::load(__ptr, __m); });
+      }
+
+
+
+    template<typename _Tp>
+      inline __attribute__((__always_inline__)) void
+      notify_one(const _Tp* __ptr) noexcept
+      { std::__atomic_notify_address(__ptr, false); }
+
+
+
+    template<typename _Tp>
+      inline __attribute__((__always_inline__)) void
+      notify_all(const _Tp* __ptr) noexcept
+      { std::__atomic_notify_address(__ptr, true); }
+
+
+
+
+    template<typename _Tp>
+      inline __attribute__((__always_inline__)) _Tp
+      fetch_add(_Tp* __ptr, _Diff<_Tp> __i, memory_order __m) noexcept
+      { return __atomic_fetch_add(__ptr, __i, int(__m)); }
+
+    template<typename _Tp>
+      inline __attribute__((__always_inline__)) _Tp
+      fetch_sub(_Tp* __ptr, _Diff<_Tp> __i, memory_order __m) noexcept
+      { return __atomic_fetch_sub(__ptr, __i, int(__m)); }
+
+    template<typename _Tp>
+      inline __attribute__((__always_inline__)) _Tp
+      fetch_and(_Tp* __ptr, _Val<_Tp> __i, memory_order __m) noexcept
+      { return __atomic_fetch_and(__ptr, __i, int(__m)); }
+
+    template<typename _Tp>
+      inline __attribute__((__always_inline__)) _Tp
+      fetch_or(_Tp* __ptr, _Val<_Tp> __i, memory_order __m) noexcept
+      { return __atomic_fetch_or(__ptr, __i, int(__m)); }
+
+    template<typename _Tp>
+      inline __attribute__((__always_inline__)) _Tp
+      fetch_xor(_Tp* __ptr, _Val<_Tp> __i, memory_order __m) noexcept
+      { return __atomic_fetch_xor(__ptr, __i, int(__m)); }
+
+    template<typename _Tp>
+      inline __attribute__((__always_inline__)) _Tp
+      __add_fetch(_Tp* __ptr, _Diff<_Tp> __i) noexcept
+      { return __atomic_add_fetch(__ptr, __i, 5); }
+
+    template<typename _Tp>
+      inline __attribute__((__always_inline__)) _Tp
+      __sub_fetch(_Tp* __ptr, _Diff<_Tp> __i) noexcept
+      { return __atomic_sub_fetch(__ptr, __i, 5); }
+
+    template<typename _Tp>
+      inline __attribute__((__always_inline__)) _Tp
+      __and_fetch(_Tp* __ptr, _Val<_Tp> __i) noexcept
+      { return __atomic_and_fetch(__ptr, __i, 5); }
+
+    template<typename _Tp>
+      inline __attribute__((__always_inline__)) _Tp
+      __or_fetch(_Tp* __ptr, _Val<_Tp> __i) noexcept
+      { return __atomic_or_fetch(__ptr, __i, 5); }
+
+    template<typename _Tp>
+      inline __attribute__((__always_inline__)) _Tp
+      __xor_fetch(_Tp* __ptr, _Val<_Tp> __i) noexcept
+      { return __atomic_xor_fetch(__ptr, __i, 5); }
+
+    template<typename _Tp>
+      concept __atomic_fetch_addable
+ = requires (_Tp __t) { __atomic_fetch_add(&__t, __t, 0); };
+
+    template<typename _Tp>
+      _Tp
+      __fetch_add_flt(_Tp* __ptr, _Val<_Tp> __i, memory_order __m) noexcept
+      {
+ if constexpr (__atomic_fetch_addable<_Tp>)
+   return __atomic_fetch_add(__ptr, __i, int(__m));
+ else
+   {
+     _Val<_Tp> __oldval = load (__ptr, memory_order_relaxed);
+     _Val<_Tp> __newval = __oldval + __i;
+     while (!compare_exchange_weak (__ptr, __oldval, __newval, __m,
+        memory_order_relaxed))
+       __newval = __oldval + __i;
+     return __oldval;
+   }
+      }
+
+    template<typename _Tp>
+      concept __atomic_fetch_subtractable
+ = requires (_Tp __t) { __atomic_fetch_sub(&__t, __t, 0); };
+
+    template<typename _Tp>
+      _Tp
+      __fetch_sub_flt(_Tp* __ptr, _Val<_Tp> __i, memory_order __m) noexcept
+      {
+ if constexpr (__atomic_fetch_subtractable<_Tp>)
+   return __atomic_fetch_sub(__ptr, __i, int(__m));
+ else
+   {
+     _Val<_Tp> __oldval = load (__ptr, memory_order_relaxed);
+     _Val<_Tp> __newval = __oldval - __i;
+     while (!compare_exchange_weak (__ptr, __oldval, __newval, __m,
+        memory_order_relaxed))
+       __newval = __oldval - __i;
+     return __oldval;
+   }
+      }
+
+    template<typename _Tp>
+      concept __atomic_add_fetchable
+ = requires (_Tp __t) { __atomic_add_fetch(&__t, __t, 0); };
+
+    template<typename _Tp>
+      _Tp
+      __add_fetch_flt(_Tp* __ptr, _Val<_Tp> __i) noexcept
+      {
+ if constexpr (__atomic_add_fetchable<_Tp>)
+   return __atomic_add_fetch(__ptr, __i, 5);
+ else
+   {
+     _Val<_Tp> __oldval = load (__ptr, memory_order_relaxed);
+     _Val<_Tp> __newval = __oldval + __i;
+     while (!compare_exchange_weak (__ptr, __oldval, __newval,
+        memory_order_seq_cst,
+        memory_order_relaxed))
+       __newval = __oldval + __i;
+     return __newval;
+   }
+      }
+
+    template<typename _Tp>
+      concept __atomic_sub_fetchable
+ = requires (_Tp __t) { __atomic_sub_fetch(&__t, __t, 0); };
+
+    template<typename _Tp>
+      _Tp
+      __sub_fetch_flt(_Tp* __ptr, _Val<_Tp> __i) noexcept
+      {
+ if constexpr (__atomic_sub_fetchable<_Tp>)
+   return __atomic_sub_fetch(__ptr, __i, 5);
+ else
+   {
+     _Val<_Tp> __oldval = load (__ptr, memory_order_relaxed);
+     _Val<_Tp> __newval = __oldval - __i;
+     while (!compare_exchange_weak (__ptr, __oldval, __newval,
+        memory_order_seq_cst,
+        memory_order_relaxed))
+       __newval = __oldval - __i;
+     return __newval;
+   }
+      }
+  }
+
+
+  template<typename _Fp>
+    struct __atomic_float
+    {
+      static_assert(is_floating_point_v<_Fp>);
+
+      static constexpr size_t _S_alignment = __alignof__(_Fp);
+
+    public:
+      using value_type = _Fp;
+      using difference_type = value_type;
+
+      static constexpr bool is_always_lock_free
+ = __atomic_always_lock_free(sizeof(_Fp), 0);
+
+      __atomic_float() = default;
+
+      constexpr
+      __atomic_float(_Fp __t) : _M_fp(__t)
+      { __atomic_impl::__clear_padding(_M_fp); }
+
+      __atomic_float(const __atomic_float&) = delete;
+      __atomic_float& operator=(const __atomic_float&) = delete;
+      __atomic_float& operator=(const __atomic_float&) volatile = delete;
+
+      _Fp
+      operator=(_Fp __t) volatile noexcept
+      {
+ this->store(__t);
+ return __t;
+      }
+
+      _Fp
+      operator=(_Fp __t) noexcept
+      {
+ this->store(__t);
+ return __t;
+      }
+
+      bool
+      is_lock_free() const volatile noexcept
+      { return __atomic_impl::is_lock_free<sizeof(_Fp), _S_alignment>(); }
+
+      bool
+      is_lock_free() const noexcept
+      { return __atomic_impl::is_lock_free<sizeof(_Fp), _S_alignment>(); }
+
+      void
+      store(_Fp __t, memory_order __m = memory_order_seq_cst) volatile noexcept
+      { __atomic_impl::store(&_M_fp, __t, __m); }
+
+      void
+      store(_Fp __t, memory_order __m = memory_order_seq_cst) noexcept
+      { __atomic_impl::store(&_M_fp, __t, __m); }
+
+      _Fp
+      load(memory_order __m = memory_order_seq_cst) const volatile noexcept
+      { return __atomic_impl::load(&_M_fp, __m); }
+
+      _Fp
+      load(memory_order __m = memory_order_seq_cst) const noexcept
+      { return __atomic_impl::load(&_M_fp, __m); }
+
+      operator _Fp() const volatile noexcept { return this->load(); }
+      operator _Fp() const noexcept { return this->load(); }
+
+      _Fp
+      exchange(_Fp __desired,
+        memory_order __m = memory_order_seq_cst) volatile noexcept
+      { return __atomic_impl::exchange(&_M_fp, __desired, __m); }
+
+      _Fp
+      exchange(_Fp __desired,
+        memory_order __m = memory_order_seq_cst) noexcept
+      { return __atomic_impl::exchange(&_M_fp, __desired, __m); }
+
+      bool
+      compare_exchange_weak(_Fp& __expected, _Fp __desired,
+       memory_order __success,
+       memory_order __failure) noexcept
+      {
+ return __atomic_impl::compare_exchange_weak(&_M_fp,
+          __expected, __desired,
+          __success, __failure);
+      }
+
+      bool
+      compare_exchange_weak(_Fp& __expected, _Fp __desired,
+       memory_order __success,
+       memory_order __failure) volatile noexcept
+      {
+ return __atomic_impl::compare_exchange_weak(&_M_fp,
+          __expected, __desired,
+          __success, __failure);
+      }
+
+      bool
+      compare_exchange_strong(_Fp& __expected, _Fp __desired,
+         memory_order __success,
+         memory_order __failure) noexcept
+      {
+ return __atomic_impl::compare_exchange_strong(&_M_fp,
+            __expected, __desired,
+            __success, __failure);
+      }
+
+      bool
+      compare_exchange_strong(_Fp& __expected, _Fp __desired,
+         memory_order __success,
+         memory_order __failure) volatile noexcept
+      {
+ return __atomic_impl::compare_exchange_strong(&_M_fp,
+            __expected, __desired,
+            __success, __failure);
+      }
+
+      bool
+      compare_exchange_weak(_Fp& __expected, _Fp __desired,
+       memory_order __order = memory_order_seq_cst)
+      noexcept
+      {
+ return compare_exchange_weak(__expected, __desired, __order,
+                                     __cmpexch_failure_order(__order));
+      }
+
+      bool
+      compare_exchange_weak(_Fp& __expected, _Fp __desired,
+       memory_order __order = memory_order_seq_cst)
+      volatile noexcept
+      {
+ return compare_exchange_weak(__expected, __desired, __order,
+                                     __cmpexch_failure_order(__order));
+      }
+
+      bool
+      compare_exchange_strong(_Fp& __expected, _Fp __desired,
+         memory_order __order = memory_order_seq_cst)
+      noexcept
+      {
+ return compare_exchange_strong(__expected, __desired, __order,
+           __cmpexch_failure_order(__order));
+      }
+
+      bool
+      compare_exchange_strong(_Fp& __expected, _Fp __desired,
+         memory_order __order = memory_order_seq_cst)
+      volatile noexcept
+      {
+ return compare_exchange_strong(__expected, __desired, __order,
+           __cmpexch_failure_order(__order));
+      }
+
+
+      inline __attribute__((__always_inline__)) void
+      wait(_Fp __old, memory_order __m = memory_order_seq_cst) const noexcept
+      { __atomic_impl::wait(&_M_fp, __old, __m); }
+
+
+
+      inline __attribute__((__always_inline__)) void
+      notify_one() const noexcept
+      { __atomic_impl::notify_one(&_M_fp); }
+
+
+
+      inline __attribute__((__always_inline__)) void
+      notify_all() const noexcept
+      { __atomic_impl::notify_all(&_M_fp); }
+
+
+
+
+      value_type
+      fetch_add(value_type __i,
+  memory_order __m = memory_order_seq_cst) noexcept
+      { return __atomic_impl::__fetch_add_flt(&_M_fp, __i, __m); }
+
+      value_type
+      fetch_add(value_type __i,
+  memory_order __m = memory_order_seq_cst) volatile noexcept
+      { return __atomic_impl::__fetch_add_flt(&_M_fp, __i, __m); }
+
+      value_type
+      fetch_sub(value_type __i,
+  memory_order __m = memory_order_seq_cst) noexcept
+      { return __atomic_impl::__fetch_sub_flt(&_M_fp, __i, __m); }
+
+      value_type
+      fetch_sub(value_type __i,
+  memory_order __m = memory_order_seq_cst) volatile noexcept
+      { return __atomic_impl::__fetch_sub_flt(&_M_fp, __i, __m); }
+
+      value_type
+      operator+=(value_type __i) noexcept
+      { return __atomic_impl::__add_fetch_flt(&_M_fp, __i); }
+
+      value_type
+      operator+=(value_type __i) volatile noexcept
+      { return __atomic_impl::__add_fetch_flt(&_M_fp, __i); }
+
+      value_type
+      operator-=(value_type __i) noexcept
+      { return __atomic_impl::__sub_fetch_flt(&_M_fp, __i); }
+
+      value_type
+      operator-=(value_type __i) volatile noexcept
+      { return __atomic_impl::__sub_fetch_flt(&_M_fp, __i); }
+
+    private:
+      alignas(_S_alignment) _Fp _M_fp = 0;
+    };
+
+
+  template<typename _Tp,
+           bool = is_integral_v<_Tp> && !is_same_v<_Tp, bool>,
+           bool = is_floating_point_v<_Tp>>
+    struct __atomic_ref;
+
+
+  template<typename _Tp>
+    struct __atomic_ref<_Tp, false, false>
+    {
+      static_assert(is_trivially_copyable_v<_Tp>);
+
+
+      static constexpr int _S_min_alignment
+ = (sizeof(_Tp) & (sizeof(_Tp) - 1)) || sizeof(_Tp) > 16
+ ? 0 : sizeof(_Tp);
+
+    public:
+      using value_type = _Tp;
+
+      static constexpr bool is_always_lock_free
+ = __atomic_always_lock_free(sizeof(_Tp), 0);
+
+      static constexpr size_t required_alignment
+ = _S_min_alignment > alignof(_Tp) ? _S_min_alignment : alignof(_Tp);
+
+      __atomic_ref& operator=(const __atomic_ref&) = delete;
+
+      explicit
+      __atomic_ref(_Tp& __t) : _M_ptr(std::__addressof(__t))
+      {
+ do { if (__builtin_expect(!bool(((long long unsigned int)_M_ptr % required_alignment) == 0), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h", 1541, __PRETTY_FUNCTION__, "((long long unsigned int)_M_ptr % required_alignment) == 0"); } while (false);
+      }
+
+      __atomic_ref(const __atomic_ref&) noexcept = default;
+
+      _Tp
+      operator=(_Tp __t) const noexcept
+      {
+ this->store(__t);
+ return __t;
+      }
+
+      operator _Tp() const noexcept { return this->load(); }
+
+      bool
+      is_lock_free() const noexcept
+      { return __atomic_impl::is_lock_free<sizeof(_Tp), required_alignment>(); }
+
+      void
+      store(_Tp __t, memory_order __m = memory_order_seq_cst) const noexcept
+      { __atomic_impl::store(_M_ptr, __t, __m); }
+
+      _Tp
+      load(memory_order __m = memory_order_seq_cst) const noexcept
+      { return __atomic_impl::load(_M_ptr, __m); }
+
+      _Tp
+      exchange(_Tp __desired, memory_order __m = memory_order_seq_cst)
+      const noexcept
+      { return __atomic_impl::exchange(_M_ptr, __desired, __m); }
+
+      bool
+      compare_exchange_weak(_Tp& __expected, _Tp __desired,
+       memory_order __success,
+       memory_order __failure) const noexcept
+      {
+ return __atomic_impl::compare_exchange_weak<true>(
+   _M_ptr, __expected, __desired, __success, __failure);
+      }
+
+      bool
+      compare_exchange_strong(_Tp& __expected, _Tp __desired,
+       memory_order __success,
+       memory_order __failure) const noexcept
+      {
+ return __atomic_impl::compare_exchange_strong<true>(
+   _M_ptr, __expected, __desired, __success, __failure);
+      }
+
+      bool
+      compare_exchange_weak(_Tp& __expected, _Tp __desired,
+       memory_order __order = memory_order_seq_cst)
+      const noexcept
+      {
+ return compare_exchange_weak(__expected, __desired, __order,
+                                     __cmpexch_failure_order(__order));
+      }
+
+      bool
+      compare_exchange_strong(_Tp& __expected, _Tp __desired,
+         memory_order __order = memory_order_seq_cst)
+      const noexcept
+      {
+ return compare_exchange_strong(__expected, __desired, __order,
+           __cmpexch_failure_order(__order));
+      }
+
+
+      inline __attribute__((__always_inline__)) void
+      wait(_Tp __old, memory_order __m = memory_order_seq_cst) const noexcept
+      { __atomic_impl::wait(_M_ptr, __old, __m); }
+
+
+
+      inline __attribute__((__always_inline__)) void
+      notify_one() const noexcept
+      { __atomic_impl::notify_one(_M_ptr); }
+
+
+
+      inline __attribute__((__always_inline__)) void
+      notify_all() const noexcept
+      { __atomic_impl::notify_all(_M_ptr); }
+
+
+
+
+    private:
+      _Tp* _M_ptr;
+    };
+
+
+  template<typename _Tp>
+    struct __atomic_ref<_Tp, true, false>
+    {
+      static_assert(is_integral_v<_Tp>);
+
+    public:
+      using value_type = _Tp;
+      using difference_type = value_type;
+
+      static constexpr bool is_always_lock_free
+ = __atomic_always_lock_free(sizeof(_Tp), 0);
+
+      static constexpr size_t required_alignment
+ = sizeof(_Tp) > alignof(_Tp) ? sizeof(_Tp) : alignof(_Tp);
+
+      __atomic_ref() = delete;
+      __atomic_ref& operator=(const __atomic_ref&) = delete;
+
+      explicit
+      __atomic_ref(_Tp& __t) : _M_ptr(&__t)
+      {
+ do { if (__builtin_expect(!bool(((long long unsigned int)_M_ptr % required_alignment) == 0), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h", 1654, __PRETTY_FUNCTION__, "((long long unsigned int)_M_ptr % required_alignment) == 0"); } while (false);
+      }
+
+      __atomic_ref(const __atomic_ref&) noexcept = default;
+
+      _Tp
+      operator=(_Tp __t) const noexcept
+      {
+ this->store(__t);
+ return __t;
+      }
+
+      operator _Tp() const noexcept { return this->load(); }
+
+      bool
+      is_lock_free() const noexcept
+      {
+ return __atomic_impl::is_lock_free<sizeof(_Tp), required_alignment>();
+      }
+
+      void
+      store(_Tp __t, memory_order __m = memory_order_seq_cst) const noexcept
+      { __atomic_impl::store(_M_ptr, __t, __m); }
+
+      _Tp
+      load(memory_order __m = memory_order_seq_cst) const noexcept
+      { return __atomic_impl::load(_M_ptr, __m); }
+
+      _Tp
+      exchange(_Tp __desired,
+        memory_order __m = memory_order_seq_cst) const noexcept
+      { return __atomic_impl::exchange(_M_ptr, __desired, __m); }
+
+      bool
+      compare_exchange_weak(_Tp& __expected, _Tp __desired,
+       memory_order __success,
+       memory_order __failure) const noexcept
+      {
+ return __atomic_impl::compare_exchange_weak<true>(
+   _M_ptr, __expected, __desired, __success, __failure);
+      }
+
+      bool
+      compare_exchange_strong(_Tp& __expected, _Tp __desired,
+         memory_order __success,
+         memory_order __failure) const noexcept
+      {
+ return __atomic_impl::compare_exchange_strong<true>(
+   _M_ptr, __expected, __desired, __success, __failure);
+      }
+
+      bool
+      compare_exchange_weak(_Tp& __expected, _Tp __desired,
+       memory_order __order = memory_order_seq_cst)
+      const noexcept
+      {
+ return compare_exchange_weak(__expected, __desired, __order,
+                                     __cmpexch_failure_order(__order));
+      }
+
+      bool
+      compare_exchange_strong(_Tp& __expected, _Tp __desired,
+         memory_order __order = memory_order_seq_cst)
+      const noexcept
+      {
+ return compare_exchange_strong(__expected, __desired, __order,
+           __cmpexch_failure_order(__order));
+      }
+
+
+      inline __attribute__((__always_inline__)) void
+      wait(_Tp __old, memory_order __m = memory_order_seq_cst) const noexcept
+      { __atomic_impl::wait(_M_ptr, __old, __m); }
+
+
+
+      inline __attribute__((__always_inline__)) void
+      notify_one() const noexcept
+      { __atomic_impl::notify_one(_M_ptr); }
+
+
+
+      inline __attribute__((__always_inline__)) void
+      notify_all() const noexcept
+      { __atomic_impl::notify_all(_M_ptr); }
+
+
+
+
+      value_type
+      fetch_add(value_type __i,
+  memory_order __m = memory_order_seq_cst) const noexcept
+      { return __atomic_impl::fetch_add(_M_ptr, __i, __m); }
+
+      value_type
+      fetch_sub(value_type __i,
+  memory_order __m = memory_order_seq_cst) const noexcept
+      { return __atomic_impl::fetch_sub(_M_ptr, __i, __m); }
+
+      value_type
+      fetch_and(value_type __i,
+  memory_order __m = memory_order_seq_cst) const noexcept
+      { return __atomic_impl::fetch_and(_M_ptr, __i, __m); }
+
+      value_type
+      fetch_or(value_type __i,
+        memory_order __m = memory_order_seq_cst) const noexcept
+      { return __atomic_impl::fetch_or(_M_ptr, __i, __m); }
+
+      value_type
+      fetch_xor(value_type __i,
+  memory_order __m = memory_order_seq_cst) const noexcept
+      { return __atomic_impl::fetch_xor(_M_ptr, __i, __m); }
+
+      inline __attribute__((__always_inline__)) value_type
+      operator++(int) const noexcept
+      { return fetch_add(1); }
+
+      inline __attribute__((__always_inline__)) value_type
+      operator--(int) const noexcept
+      { return fetch_sub(1); }
+
+      value_type
+      operator++() const noexcept
+      { return __atomic_impl::__add_fetch(_M_ptr, value_type(1)); }
+
+      value_type
+      operator--() const noexcept
+      { return __atomic_impl::__sub_fetch(_M_ptr, value_type(1)); }
+
+      value_type
+      operator+=(value_type __i) const noexcept
+      { return __atomic_impl::__add_fetch(_M_ptr, __i); }
+
+      value_type
+      operator-=(value_type __i) const noexcept
+      { return __atomic_impl::__sub_fetch(_M_ptr, __i); }
+
+      value_type
+      operator&=(value_type __i) const noexcept
+      { return __atomic_impl::__and_fetch(_M_ptr, __i); }
+
+      value_type
+      operator|=(value_type __i) const noexcept
+      { return __atomic_impl::__or_fetch(_M_ptr, __i); }
+
+      value_type
+      operator^=(value_type __i) const noexcept
+      { return __atomic_impl::__xor_fetch(_M_ptr, __i); }
+
+    private:
+      _Tp* _M_ptr;
+    };
+
+
+  template<typename _Fp>
+    struct __atomic_ref<_Fp, false, true>
+    {
+      static_assert(is_floating_point_v<_Fp>);
+
+    public:
+      using value_type = _Fp;
+      using difference_type = value_type;
+
+      static constexpr bool is_always_lock_free
+ = __atomic_always_lock_free(sizeof(_Fp), 0);
+
+      static constexpr size_t required_alignment = __alignof__(_Fp);
+
+      __atomic_ref() = delete;
+      __atomic_ref& operator=(const __atomic_ref&) = delete;
+
+      explicit
+      __atomic_ref(_Fp& __t) : _M_ptr(&__t)
+      {
+ do { if (__builtin_expect(!bool(((long long unsigned int)_M_ptr % required_alignment) == 0), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h", 1829, __PRETTY_FUNCTION__, "((long long unsigned int)_M_ptr % required_alignment) == 0"); } while (false);
+      }
+
+      __atomic_ref(const __atomic_ref&) noexcept = default;
+
+      _Fp
+      operator=(_Fp __t) const noexcept
+      {
+ this->store(__t);
+ return __t;
+      }
+
+      operator _Fp() const noexcept { return this->load(); }
+
+      bool
+      is_lock_free() const noexcept
+      {
+ return __atomic_impl::is_lock_free<sizeof(_Fp), required_alignment>();
+      }
+
+      void
+      store(_Fp __t, memory_order __m = memory_order_seq_cst) const noexcept
+      { __atomic_impl::store(_M_ptr, __t, __m); }
+
+      _Fp
+      load(memory_order __m = memory_order_seq_cst) const noexcept
+      { return __atomic_impl::load(_M_ptr, __m); }
+
+      _Fp
+      exchange(_Fp __desired,
+        memory_order __m = memory_order_seq_cst) const noexcept
+      { return __atomic_impl::exchange(_M_ptr, __desired, __m); }
+
+      bool
+      compare_exchange_weak(_Fp& __expected, _Fp __desired,
+       memory_order __success,
+       memory_order __failure) const noexcept
+      {
+ return __atomic_impl::compare_exchange_weak<true>(
+   _M_ptr, __expected, __desired, __success, __failure);
+      }
+
+      bool
+      compare_exchange_strong(_Fp& __expected, _Fp __desired,
+         memory_order __success,
+         memory_order __failure) const noexcept
+      {
+ return __atomic_impl::compare_exchange_strong<true>(
+   _M_ptr, __expected, __desired, __success, __failure);
+      }
+
+      bool
+      compare_exchange_weak(_Fp& __expected, _Fp __desired,
+       memory_order __order = memory_order_seq_cst)
+      const noexcept
+      {
+ return compare_exchange_weak(__expected, __desired, __order,
+                                     __cmpexch_failure_order(__order));
+      }
+
+      bool
+      compare_exchange_strong(_Fp& __expected, _Fp __desired,
+         memory_order __order = memory_order_seq_cst)
+      const noexcept
+      {
+ return compare_exchange_strong(__expected, __desired, __order,
+           __cmpexch_failure_order(__order));
+      }
+
+
+      inline __attribute__((__always_inline__)) void
+      wait(_Fp __old, memory_order __m = memory_order_seq_cst) const noexcept
+      { __atomic_impl::wait(_M_ptr, __old, __m); }
+
+
+
+      inline __attribute__((__always_inline__)) void
+      notify_one() const noexcept
+      { __atomic_impl::notify_one(_M_ptr); }
+
+
+
+      inline __attribute__((__always_inline__)) void
+      notify_all() const noexcept
+      { __atomic_impl::notify_all(_M_ptr); }
+
+
+
+
+      value_type
+      fetch_add(value_type __i,
+  memory_order __m = memory_order_seq_cst) const noexcept
+      { return __atomic_impl::__fetch_add_flt(_M_ptr, __i, __m); }
+
+      value_type
+      fetch_sub(value_type __i,
+  memory_order __m = memory_order_seq_cst) const noexcept
+      { return __atomic_impl::__fetch_sub_flt(_M_ptr, __i, __m); }
+
+      value_type
+      operator+=(value_type __i) const noexcept
+      { return __atomic_impl::__add_fetch_flt(_M_ptr, __i); }
+
+      value_type
+      operator-=(value_type __i) const noexcept
+      { return __atomic_impl::__sub_fetch_flt(_M_ptr, __i); }
+
+    private:
+      _Fp* _M_ptr;
+    };
+
+
+  template<typename _Tp>
+    struct __atomic_ref<_Tp*, false, false>
+    {
+    public:
+      using value_type = _Tp*;
+      using difference_type = ptrdiff_t;
+
+      static constexpr bool is_always_lock_free = 2 == 2;
+
+      static constexpr size_t required_alignment = __alignof__(_Tp*);
+
+      __atomic_ref() = delete;
+      __atomic_ref& operator=(const __atomic_ref&) = delete;
+
+      explicit
+      __atomic_ref(_Tp*& __t) : _M_ptr(std::__addressof(__t))
+      {
+ do { if (__builtin_expect(!bool(((long long unsigned int)_M_ptr % required_alignment) == 0), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h", 1958, __PRETTY_FUNCTION__, "((long long unsigned int)_M_ptr % required_alignment) == 0"); } while (false);
+      }
+
+      __atomic_ref(const __atomic_ref&) noexcept = default;
+
+      _Tp*
+      operator=(_Tp* __t) const noexcept
+      {
+ this->store(__t);
+ return __t;
+      }
+
+      operator _Tp*() const noexcept { return this->load(); }
+
+      bool
+      is_lock_free() const noexcept
+      {
+ return __atomic_impl::is_lock_free<sizeof(_Tp*), required_alignment>();
+      }
+
+      void
+      store(_Tp* __t, memory_order __m = memory_order_seq_cst) const noexcept
+      { __atomic_impl::store(_M_ptr, __t, __m); }
+
+      _Tp*
+      load(memory_order __m = memory_order_seq_cst) const noexcept
+      { return __atomic_impl::load(_M_ptr, __m); }
+
+      _Tp*
+      exchange(_Tp* __desired,
+        memory_order __m = memory_order_seq_cst) const noexcept
+      { return __atomic_impl::exchange(_M_ptr, __desired, __m); }
+
+      bool
+      compare_exchange_weak(_Tp*& __expected, _Tp* __desired,
+       memory_order __success,
+       memory_order __failure) const noexcept
+      {
+ return __atomic_impl::compare_exchange_weak<true>(
+   _M_ptr, __expected, __desired, __success, __failure);
+      }
+
+      bool
+      compare_exchange_strong(_Tp*& __expected, _Tp* __desired,
+       memory_order __success,
+       memory_order __failure) const noexcept
+      {
+ return __atomic_impl::compare_exchange_strong<true>(
+   _M_ptr, __expected, __desired, __success, __failure);
+      }
+
+      bool
+      compare_exchange_weak(_Tp*& __expected, _Tp* __desired,
+       memory_order __order = memory_order_seq_cst)
+      const noexcept
+      {
+ return compare_exchange_weak(__expected, __desired, __order,
+                                     __cmpexch_failure_order(__order));
+      }
+
+      bool
+      compare_exchange_strong(_Tp*& __expected, _Tp* __desired,
+         memory_order __order = memory_order_seq_cst)
+      const noexcept
+      {
+ return compare_exchange_strong(__expected, __desired, __order,
+           __cmpexch_failure_order(__order));
+      }
+
+
+      inline __attribute__((__always_inline__)) void
+      wait(_Tp* __old, memory_order __m = memory_order_seq_cst) const noexcept
+      { __atomic_impl::wait(_M_ptr, __old, __m); }
+
+
+
+      inline __attribute__((__always_inline__)) void
+      notify_one() const noexcept
+      { __atomic_impl::notify_one(_M_ptr); }
+
+
+
+      inline __attribute__((__always_inline__)) void
+      notify_all() const noexcept
+      { __atomic_impl::notify_all(_M_ptr); }
+
+
+
+
+      inline __attribute__((__always_inline__)) value_type
+      fetch_add(difference_type __d,
+  memory_order __m = memory_order_seq_cst) const noexcept
+      { return __atomic_impl::fetch_add(_M_ptr, _S_type_size(__d), __m); }
+
+      inline __attribute__((__always_inline__)) value_type
+      fetch_sub(difference_type __d,
+  memory_order __m = memory_order_seq_cst) const noexcept
+      { return __atomic_impl::fetch_sub(_M_ptr, _S_type_size(__d), __m); }
+
+      value_type
+      operator++(int) const noexcept
+      { return fetch_add(1); }
+
+      value_type
+      operator--(int) const noexcept
+      { return fetch_sub(1); }
+
+      value_type
+      operator++() const noexcept
+      {
+ return __atomic_impl::__add_fetch(_M_ptr, _S_type_size(1));
+      }
+
+      value_type
+      operator--() const noexcept
+      {
+ return __atomic_impl::__sub_fetch(_M_ptr, _S_type_size(1));
+      }
+
+      value_type
+      operator+=(difference_type __d) const noexcept
+      {
+ return __atomic_impl::__add_fetch(_M_ptr, _S_type_size(__d));
+      }
+
+      value_type
+      operator-=(difference_type __d) const noexcept
+      {
+ return __atomic_impl::__sub_fetch(_M_ptr, _S_type_size(__d));
+      }
+
+    private:
+      static constexpr ptrdiff_t
+      _S_type_size(ptrdiff_t __d) noexcept
+      {
+ static_assert(is_object_v<_Tp>);
+ return __d * sizeof(_Tp);
+      }
+
+      _Tp** _M_ptr;
+    };
+
+
+
+
+
+
+
+}
+# 34 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr_atomic.h" 2 3
+# 62 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr_atomic.h" 3
+namespace std
+{
+
+# 74 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr_atomic.h" 3
+  struct _Sp_locker
+  {
+    _Sp_locker(const _Sp_locker&) = delete;
+    _Sp_locker& operator=(const _Sp_locker&) = delete;
+
+
+    explicit
+    _Sp_locker(const void*) noexcept;
+    _Sp_locker(const void*, const void*) noexcept;
+    ~_Sp_locker();
+
+  private:
+    unsigned char _M_key1;
+    unsigned char _M_key2;
+
+
+
+  };
+# 101 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr_atomic.h" 3
+  template<typename _Tp, _Lock_policy _Lp>
+    __attribute__ ((__deprecated__ ("use '" "std::atomic<std::shared_ptr<T>>" "' instead")))
+    inline bool
+    atomic_is_lock_free(const __shared_ptr<_Tp, _Lp>*)
+    {
+
+      return __gthread_active_p() == 0;
+
+
+
+    }
+
+  template<typename _Tp>
+    __attribute__ ((__deprecated__ ("use '" "std::atomic<std::shared_ptr<T>>" "' instead")))
+    inline bool
+    atomic_is_lock_free(const shared_ptr<_Tp>* __p)
+    { return std::atomic_is_lock_free<_Tp, __default_lock_policy>(__p); }
+# 130 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr_atomic.h" 3
+  template<typename _Tp>
+    __attribute__ ((__deprecated__ ("use '" "std::atomic<std::shared_ptr<T>>" "' instead")))
+    inline shared_ptr<_Tp>
+    atomic_load_explicit(const shared_ptr<_Tp>* __p, memory_order)
+    {
+      _Sp_locker __lock{__p};
+      return *__p;
+    }
+
+  template<typename _Tp>
+    __attribute__ ((__deprecated__ ("use '" "std::atomic<std::shared_ptr<T>>" "' instead")))
+    inline shared_ptr<_Tp>
+    atomic_load(const shared_ptr<_Tp>* __p)
+    { return std::atomic_load_explicit(__p, memory_order_seq_cst); }
+
+  template<typename _Tp, _Lock_policy _Lp>
+    __attribute__ ((__deprecated__ ("use '" "std::atomic<std::shared_ptr<T>>" "' instead")))
+    inline __shared_ptr<_Tp, _Lp>
+    atomic_load_explicit(const __shared_ptr<_Tp, _Lp>* __p, memory_order)
+    {
+      _Sp_locker __lock{__p};
+      return *__p;
+    }
+
+  template<typename _Tp, _Lock_policy _Lp>
+    __attribute__ ((__deprecated__ ("use '" "std::atomic<std::shared_ptr<T>>" "' instead")))
+    inline __shared_ptr<_Tp, _Lp>
+    atomic_load(const __shared_ptr<_Tp, _Lp>* __p)
+    { return std::atomic_load_explicit(__p, memory_order_seq_cst); }
+# 170 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr_atomic.h" 3
+  template<typename _Tp>
+    __attribute__ ((__deprecated__ ("use '" "std::atomic<std::shared_ptr<T>>" "' instead")))
+    inline void
+    atomic_store_explicit(shared_ptr<_Tp>* __p, shared_ptr<_Tp> __r,
+     memory_order)
+    {
+      _Sp_locker __lock{__p};
+      __p->swap(__r);
+    }
+
+  template<typename _Tp>
+    __attribute__ ((__deprecated__ ("use '" "std::atomic<std::shared_ptr<T>>" "' instead")))
+    inline void
+    atomic_store(shared_ptr<_Tp>* __p, shared_ptr<_Tp> __r)
+    { std::atomic_store_explicit(__p, std::move(__r), memory_order_seq_cst); }
+
+  template<typename _Tp, _Lock_policy _Lp>
+    __attribute__ ((__deprecated__ ("use '" "std::atomic<std::shared_ptr<T>>" "' instead")))
+    inline void
+    atomic_store_explicit(__shared_ptr<_Tp, _Lp>* __p,
+     __shared_ptr<_Tp, _Lp> __r,
+     memory_order)
+    {
+      _Sp_locker __lock{__p};
+      __p->swap(__r);
+    }
+
+  template<typename _Tp, _Lock_policy _Lp>
+    __attribute__ ((__deprecated__ ("use '" "std::atomic<std::shared_ptr<T>>" "' instead")))
+    inline void
+    atomic_store(__shared_ptr<_Tp, _Lp>* __p, __shared_ptr<_Tp, _Lp> __r)
+    { std::atomic_store_explicit(__p, std::move(__r), memory_order_seq_cst); }
+# 211 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr_atomic.h" 3
+  template<typename _Tp>
+    __attribute__ ((__deprecated__ ("use '" "std::atomic<std::shared_ptr<T>>" "' instead")))
+    inline shared_ptr<_Tp>
+    atomic_exchange_explicit(shared_ptr<_Tp>* __p, shared_ptr<_Tp> __r,
+        memory_order)
+    {
+      _Sp_locker __lock{__p};
+      __p->swap(__r);
+      return __r;
+    }
+
+  template<typename _Tp>
+    __attribute__ ((__deprecated__ ("use '" "std::atomic<std::shared_ptr<T>>" "' instead")))
+    inline shared_ptr<_Tp>
+    atomic_exchange(shared_ptr<_Tp>* __p, shared_ptr<_Tp> __r)
+    {
+      return std::atomic_exchange_explicit(__p, std::move(__r),
+        memory_order_seq_cst);
+    }
+
+  template<typename _Tp, _Lock_policy _Lp>
+    __attribute__ ((__deprecated__ ("use '" "std::atomic<std::shared_ptr<T>>" "' instead")))
+    inline __shared_ptr<_Tp, _Lp>
+    atomic_exchange_explicit(__shared_ptr<_Tp, _Lp>* __p,
+        __shared_ptr<_Tp, _Lp> __r,
+        memory_order)
+    {
+      _Sp_locker __lock{__p};
+      __p->swap(__r);
+      return __r;
+    }
+
+  template<typename _Tp, _Lock_policy _Lp>
+    __attribute__ ((__deprecated__ ("use '" "std::atomic<std::shared_ptr<T>>" "' instead")))
+    inline __shared_ptr<_Tp, _Lp>
+    atomic_exchange(__shared_ptr<_Tp, _Lp>* __p, __shared_ptr<_Tp, _Lp> __r)
+    {
+      return std::atomic_exchange_explicit(__p, std::move(__r),
+        memory_order_seq_cst);
+    }
+# 264 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr_atomic.h" 3
+  template<typename _Tp>
+    __attribute__ ((__deprecated__ ("use '" "std::atomic<std::shared_ptr<T>>" "' instead")))
+    bool
+    atomic_compare_exchange_strong_explicit(shared_ptr<_Tp>* __p,
+         shared_ptr<_Tp>* __v,
+         shared_ptr<_Tp> __w,
+         memory_order,
+         memory_order)
+    {
+      shared_ptr<_Tp> __x;
+      _Sp_locker __lock{__p, __v};
+      owner_less<shared_ptr<_Tp>> __less;
+      if (*__p == *__v && !__less(*__p, *__v) && !__less(*__v, *__p))
+ {
+   __x = std::move(*__p);
+   *__p = std::move(__w);
+   return true;
+ }
+      __x = std::move(*__v);
+      *__v = *__p;
+      return false;
+    }
+
+  template<typename _Tp>
+    __attribute__ ((__deprecated__ ("use '" "std::atomic<std::shared_ptr<T>>" "' instead")))
+    inline bool
+    atomic_compare_exchange_strong(shared_ptr<_Tp>* __p, shared_ptr<_Tp>* __v,
+     shared_ptr<_Tp> __w)
+    {
+      return std::atomic_compare_exchange_strong_explicit(__p, __v,
+   std::move(__w), memory_order_seq_cst, memory_order_seq_cst);
+    }
+
+  template<typename _Tp>
+    __attribute__ ((__deprecated__ ("use '" "std::atomic<std::shared_ptr<T>>" "' instead")))
+    inline bool
+    atomic_compare_exchange_weak_explicit(shared_ptr<_Tp>* __p,
+       shared_ptr<_Tp>* __v,
+       shared_ptr<_Tp> __w,
+       memory_order __success,
+       memory_order __failure)
+    {
+      return std::atomic_compare_exchange_strong_explicit(__p, __v,
+   std::move(__w), __success, __failure);
+    }
+
+  template<typename _Tp>
+    __attribute__ ((__deprecated__ ("use '" "std::atomic<std::shared_ptr<T>>" "' instead")))
+    inline bool
+    atomic_compare_exchange_weak(shared_ptr<_Tp>* __p, shared_ptr<_Tp>* __v,
+     shared_ptr<_Tp> __w)
+    {
+      return std::atomic_compare_exchange_weak_explicit(__p, __v,
+   std::move(__w), memory_order_seq_cst, memory_order_seq_cst);
+    }
+
+  template<typename _Tp, _Lock_policy _Lp>
+    __attribute__ ((__deprecated__ ("use '" "std::atomic<std::shared_ptr<T>>" "' instead")))
+    bool
+    atomic_compare_exchange_strong_explicit(__shared_ptr<_Tp, _Lp>* __p,
+         __shared_ptr<_Tp, _Lp>* __v,
+         __shared_ptr<_Tp, _Lp> __w,
+         memory_order,
+         memory_order)
+    {
+      __shared_ptr<_Tp, _Lp> __x;
+      _Sp_locker __lock{__p, __v};
+      owner_less<__shared_ptr<_Tp, _Lp>> __less;
+      if (*__p == *__v && !__less(*__p, *__v) && !__less(*__v, *__p))
+ {
+   __x = std::move(*__p);
+   *__p = std::move(__w);
+   return true;
+ }
+      __x = std::move(*__v);
+      *__v = *__p;
+      return false;
+    }
+
+  template<typename _Tp, _Lock_policy _Lp>
+    __attribute__ ((__deprecated__ ("use '" "std::atomic<std::shared_ptr<T>>" "' instead")))
+    inline bool
+    atomic_compare_exchange_strong(__shared_ptr<_Tp, _Lp>* __p,
+       __shared_ptr<_Tp, _Lp>* __v,
+       __shared_ptr<_Tp, _Lp> __w)
+    {
+      return std::atomic_compare_exchange_strong_explicit(__p, __v,
+   std::move(__w), memory_order_seq_cst, memory_order_seq_cst);
+    }
+
+  template<typename _Tp, _Lock_policy _Lp>
+    __attribute__ ((__deprecated__ ("use '" "std::atomic<std::shared_ptr<T>>" "' instead")))
+    inline bool
+    atomic_compare_exchange_weak_explicit(__shared_ptr<_Tp, _Lp>* __p,
+       __shared_ptr<_Tp, _Lp>* __v,
+       __shared_ptr<_Tp, _Lp> __w,
+       memory_order __success,
+       memory_order __failure)
+    {
+      return std::atomic_compare_exchange_strong_explicit(__p, __v,
+   std::move(__w), __success, __failure);
+    }
+
+  template<typename _Tp, _Lock_policy _Lp>
+    __attribute__ ((__deprecated__ ("use '" "std::atomic<std::shared_ptr<T>>" "' instead")))
+    inline bool
+    atomic_compare_exchange_weak(__shared_ptr<_Tp, _Lp>* __p,
+     __shared_ptr<_Tp, _Lp>* __v,
+     __shared_ptr<_Tp, _Lp> __w)
+    {
+      return std::atomic_compare_exchange_weak_explicit(__p, __v,
+   std::move(__w), memory_order_seq_cst, memory_order_seq_cst);
+    }
+
+
+
+
+
+  template<typename _Tp>
+    struct atomic;
+
+
+
+
+
+
+
+  template<typename _Tp>
+    class _Sp_atomic
+    {
+      using value_type = _Tp;
+
+      friend struct atomic<_Tp>;
+
+
+
+      struct _Atomic_count
+      {
+
+ using __count_type = decltype(_Tp::_M_refcount);
+ using uintptr_t = long long unsigned int;
+
+
+ using pointer = decltype(__count_type::_M_pi);
+
+
+ static_assert(alignof(remove_pointer_t<pointer>) > 1);
+
+ constexpr _Atomic_count() noexcept = default;
+
+ explicit
+ _Atomic_count(__count_type&& __c) noexcept
+ : _M_val(reinterpret_cast<uintptr_t>(__c._M_pi))
+ {
+   __c._M_pi = nullptr;
+ }
+
+ ~_Atomic_count()
+ {
+   auto __val = _M_val.load(memory_order_relaxed);
+   ;
+   do { if (__builtin_expect(!bool(!(__val & _S_lock_bit)), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr_atomic.h", 425, __PRETTY_FUNCTION__, "!(__val & _S_lock_bit)"); } while (false);
+   if (auto __pi = reinterpret_cast<pointer>(__val))
+     {
+       if constexpr (__is_shared_ptr<_Tp>)
+  __pi->_M_release();
+       else
+  __pi->_M_weak_release();
+     }
+ }
+
+ _Atomic_count(const _Atomic_count&) = delete;
+ _Atomic_count& operator=(const _Atomic_count&) = delete;
+
+
+
+ pointer
+ lock(memory_order __o) const noexcept
+ {
+
+
+   auto __current = _M_val.load(memory_order_relaxed);
+   while (__current & _S_lock_bit)
+     {
+
+       __detail::__thread_relax();
+
+       __current = _M_val.load(memory_order_relaxed);
+     }
+
+   ;
+
+   while (!_M_val.compare_exchange_strong(__current,
+       __current | _S_lock_bit,
+       __o,
+       memory_order_relaxed))
+     {
+       ;
+
+       __detail::__thread_relax();
+
+       __current = __current & ~_S_lock_bit;
+       ;
+     }
+   ;
+   return reinterpret_cast<pointer>(__current);
+ }
+
+
+ void
+ unlock(memory_order __o) const noexcept
+ {
+   ;
+   _M_val.fetch_sub(1, __o);
+   ;
+ }
+
+
+
+ void
+ _M_swap_unlock(__count_type& __c, memory_order __o) noexcept
+ {
+   if (__o != memory_order_seq_cst)
+     __o = memory_order_release;
+   auto __x = reinterpret_cast<uintptr_t>(__c._M_pi);
+   ;
+   __x = _M_val.exchange(__x, __o);
+   ;
+   __c._M_pi = reinterpret_cast<pointer>(__x & ~_S_lock_bit);
+ }
+
+
+
+ void
+ _M_wait_unlock(memory_order __o) const noexcept
+ {
+   ;
+   auto __v = _M_val.fetch_sub(1, memory_order_relaxed);
+   ;
+   _M_val.wait(__v & ~_S_lock_bit, __o);
+ }
+
+ void
+ notify_one() noexcept
+ {
+   ;
+   _M_val.notify_one();
+   ;
+ }
+
+ void
+ notify_all() noexcept
+ {
+   ;
+   _M_val.notify_all();
+   ;
+ }
+
+
+      private:
+ mutable __atomic_base<uintptr_t> _M_val{0};
+ static constexpr uintptr_t _S_lock_bit{1};
+      };
+
+      typename _Tp::element_type* _M_ptr = nullptr;
+      _Atomic_count _M_refcount;
+
+      static typename _Atomic_count::pointer
+      _S_add_ref(typename _Atomic_count::pointer __p)
+      {
+ if (__p)
+   {
+     if constexpr (__is_shared_ptr<_Tp>)
+       __p->_M_add_ref_copy();
+     else
+       __p->_M_weak_add_ref();
+   }
+ return __p;
+      }
+
+      constexpr _Sp_atomic() noexcept = default;
+
+      explicit
+      _Sp_atomic(value_type __r) noexcept
+      : _M_ptr(__r._M_ptr), _M_refcount(std::move(__r._M_refcount))
+      { }
+
+      ~_Sp_atomic() = default;
+
+      _Sp_atomic(const _Sp_atomic&) = delete;
+      void operator=(const _Sp_atomic&) = delete;
+
+      value_type
+      load(memory_order __o) const noexcept
+      {
+ do { if (__builtin_expect(!bool(__o != memory_order_release && __o != memory_order_acq_rel), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr_atomic.h", 559, __PRETTY_FUNCTION__, "__o != memory_order_release && __o != memory_order_acq_rel"); } while (false)
+                                     ;
+
+
+ if (__o != memory_order_seq_cst)
+   __o = memory_order_acquire;
+
+ value_type __ret;
+ auto __pi = _M_refcount.lock(__o);
+ __ret._M_ptr = _M_ptr;
+ __ret._M_refcount._M_pi = _S_add_ref(__pi);
+ _M_refcount.unlock(memory_order_relaxed);
+ return __ret;
+      }
+
+      void
+      swap(value_type& __r, memory_order __o) noexcept
+      {
+ _M_refcount.lock(memory_order_acquire);
+ std::swap(_M_ptr, __r._M_ptr);
+ _M_refcount._M_swap_unlock(__r._M_refcount, __o);
+      }
+
+      bool
+      compare_exchange_strong(value_type& __expected, value_type __desired,
+         memory_order __o, memory_order __o2) noexcept
+      {
+ bool __result = true;
+ auto __pi = _M_refcount.lock(memory_order_acquire);
+ if (_M_ptr == __expected._M_ptr
+       && __pi == __expected._M_refcount._M_pi)
+   {
+     _M_ptr = __desired._M_ptr;
+     _M_refcount._M_swap_unlock(__desired._M_refcount, __o);
+   }
+ else
+   {
+     _Tp __sink = std::move(__expected);
+     __expected._M_ptr = _M_ptr;
+     __expected._M_refcount._M_pi = _S_add_ref(__pi);
+     _M_refcount.unlock(__o2);
+     __result = false;
+   }
+ return __result;
+      }
+
+
+      void
+      wait(value_type __old, memory_order __o) const noexcept
+      {
+ auto __pi = _M_refcount.lock(memory_order_acquire);
+ if (_M_ptr == __old._M_ptr && __pi == __old._M_refcount._M_pi)
+   _M_refcount._M_wait_unlock(__o);
+ else
+   _M_refcount.unlock(memory_order_relaxed);
+      }
+
+      void
+      notify_one() noexcept
+      {
+ _M_refcount.notify_one();
+      }
+
+      void
+      notify_all() noexcept
+      {
+ _M_refcount.notify_all();
+      }
+
+    };
+
+  template<typename _Tp>
+    struct atomic<shared_ptr<_Tp>>
+    {
+    public:
+      using value_type = shared_ptr<_Tp>;
+
+      static constexpr bool is_always_lock_free = false;
+
+      bool
+      is_lock_free() const noexcept
+      { return false; }
+
+      constexpr atomic() noexcept = default;
+
+
+
+      constexpr atomic(nullptr_t) noexcept : atomic() { }
+
+      atomic(shared_ptr<_Tp> __r) noexcept
+      : _M_impl(std::move(__r))
+      { }
+
+      atomic(const atomic&) = delete;
+      void operator=(const atomic&) = delete;
+
+      shared_ptr<_Tp>
+      load(memory_order __o = memory_order_seq_cst) const noexcept
+      { return _M_impl.load(__o); }
+
+      operator shared_ptr<_Tp>() const noexcept
+      { return _M_impl.load(memory_order_seq_cst); }
+
+      void
+      store(shared_ptr<_Tp> __desired,
+     memory_order __o = memory_order_seq_cst) noexcept
+      { _M_impl.swap(__desired, __o); }
+
+      void
+      operator=(shared_ptr<_Tp> __desired) noexcept
+      { _M_impl.swap(__desired, memory_order_seq_cst); }
+
+
+
+      void
+      operator=(nullptr_t) noexcept
+      { store(nullptr); }
+
+      shared_ptr<_Tp>
+      exchange(shared_ptr<_Tp> __desired,
+        memory_order __o = memory_order_seq_cst) noexcept
+      {
+ _M_impl.swap(__desired, __o);
+ return __desired;
+      }
+
+      bool
+      compare_exchange_strong(shared_ptr<_Tp>& __expected,
+         shared_ptr<_Tp> __desired,
+         memory_order __o, memory_order __o2) noexcept
+      {
+ return _M_impl.compare_exchange_strong(__expected, __desired, __o, __o2);
+      }
+
+      bool
+      compare_exchange_strong(value_type& __expected, value_type __desired,
+         memory_order __o = memory_order_seq_cst) noexcept
+      {
+ memory_order __o2;
+ switch (__o)
+ {
+ case memory_order_acq_rel:
+   __o2 = memory_order_acquire;
+   break;
+ case memory_order_release:
+   __o2 = memory_order_relaxed;
+   break;
+ default:
+   __o2 = __o;
+ }
+ return compare_exchange_strong(__expected, std::move(__desired),
+           __o, __o2);
+      }
+
+      bool
+      compare_exchange_weak(value_type& __expected, value_type __desired,
+       memory_order __o, memory_order __o2) noexcept
+      {
+ return compare_exchange_strong(__expected, std::move(__desired),
+           __o, __o2);
+      }
+
+      bool
+      compare_exchange_weak(value_type& __expected, value_type __desired,
+       memory_order __o = memory_order_seq_cst) noexcept
+      {
+ return compare_exchange_strong(__expected, std::move(__desired), __o);
+      }
+
+
+      void
+      wait(value_type __old,
+    memory_order __o = memory_order_seq_cst) const noexcept
+      {
+ _M_impl.wait(std::move(__old), __o);
+      }
+
+      void
+      notify_one() noexcept
+      {
+ _M_impl.notify_one();
+      }
+
+      void
+      notify_all() noexcept
+      {
+ _M_impl.notify_all();
+      }
+
+
+    private:
+      _Sp_atomic<shared_ptr<_Tp>> _M_impl;
+    };
+
+  template<typename _Tp>
+    struct atomic<weak_ptr<_Tp>>
+    {
+    public:
+      using value_type = weak_ptr<_Tp>;
+
+      static constexpr bool is_always_lock_free = false;
+
+      bool
+      is_lock_free() const noexcept
+      { return false; }
+
+      constexpr atomic() noexcept = default;
+
+      atomic(weak_ptr<_Tp> __r) noexcept
+     : _M_impl(move(__r))
+      { }
+
+      atomic(const atomic&) = delete;
+      void operator=(const atomic&) = delete;
+
+      weak_ptr<_Tp>
+      load(memory_order __o = memory_order_seq_cst) const noexcept
+      { return _M_impl.load(__o); }
+
+      operator weak_ptr<_Tp>() const noexcept
+      { return _M_impl.load(memory_order_seq_cst); }
+
+      void
+      store(weak_ptr<_Tp> __desired,
+     memory_order __o = memory_order_seq_cst) noexcept
+      { _M_impl.swap(__desired, __o); }
+
+      void
+      operator=(weak_ptr<_Tp> __desired) noexcept
+      { _M_impl.swap(__desired, memory_order_seq_cst); }
+
+      weak_ptr<_Tp>
+      exchange(weak_ptr<_Tp> __desired,
+        memory_order __o = memory_order_seq_cst) noexcept
+      {
+ _M_impl.swap(__desired, __o);
+ return __desired;
+      }
+
+      bool
+      compare_exchange_strong(weak_ptr<_Tp>& __expected,
+         weak_ptr<_Tp> __desired,
+         memory_order __o, memory_order __o2) noexcept
+      {
+ return _M_impl.compare_exchange_strong(__expected, __desired, __o, __o2);
+      }
+
+      bool
+      compare_exchange_strong(value_type& __expected, value_type __desired,
+         memory_order __o = memory_order_seq_cst) noexcept
+      {
+ memory_order __o2;
+ switch (__o)
+ {
+ case memory_order_acq_rel:
+   __o2 = memory_order_acquire;
+   break;
+ case memory_order_release:
+   __o2 = memory_order_relaxed;
+   break;
+ default:
+   __o2 = __o;
+ }
+ return compare_exchange_strong(__expected, std::move(__desired),
+           __o, __o2);
+      }
+
+      bool
+      compare_exchange_weak(value_type& __expected, value_type __desired,
+       memory_order __o, memory_order __o2) noexcept
+      {
+ return compare_exchange_strong(__expected, std::move(__desired),
+           __o, __o2);
+      }
+
+      bool
+      compare_exchange_weak(value_type& __expected, value_type __desired,
+       memory_order __o = memory_order_seq_cst) noexcept
+      {
+ return compare_exchange_strong(__expected, std::move(__desired), __o);
+      }
+
+
+      void
+      wait(value_type __old,
+    memory_order __o = memory_order_seq_cst) const noexcept
+      {
+ _M_impl.wait(std::move(__old), __o);
+      }
+
+      void
+      notify_one() noexcept
+      {
+ _M_impl.notify_one();
+      }
+
+      void
+      notify_all() noexcept
+      {
+ _M_impl.notify_all();
+      }
+
+
+    private:
+      _Sp_atomic<weak_ptr<_Tp>> _M_impl;
+    };
+
+
+
+
+}
+# 84 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/memory" 2 3
+
+
+
+
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward/auto_ptr.h" 1 3
+# 36 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward/auto_ptr.h" 3
+namespace std
+{
+
+# 47 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward/auto_ptr.h" 3
+  template<typename _Tp1>
+    struct auto_ptr_ref
+    {
+      _Tp1* _M_ptr;
+
+      explicit
+      auto_ptr_ref(_Tp1* __p): _M_ptr(__p) { }
+    } __attribute__ ((__deprecated__));
+
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
+# 92 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward/auto_ptr.h" 3
+  template<typename _Tp>
+    class auto_ptr
+    {
+    private:
+      _Tp* _M_ptr;
+
+    public:
+
+      typedef _Tp element_type;
+
+
+
+
+
+
+
+      explicit
+      auto_ptr(element_type* __p = 0) throw() : _M_ptr(__p) { }
+# 118 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward/auto_ptr.h" 3
+      auto_ptr(auto_ptr& __a) throw() : _M_ptr(__a.release()) { }
+# 130 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward/auto_ptr.h" 3
+      template<typename _Tp1>
+        auto_ptr(auto_ptr<_Tp1>& __a) throw() : _M_ptr(__a.release()) { }
+# 141 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward/auto_ptr.h" 3
+      auto_ptr&
+      operator=(auto_ptr& __a) throw()
+      {
+ reset(__a.release());
+ return *this;
+      }
+# 158 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward/auto_ptr.h" 3
+      template<typename _Tp1>
+        auto_ptr&
+        operator=(auto_ptr<_Tp1>& __a) throw()
+        {
+   reset(__a.release());
+   return *this;
+ }
+# 176 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward/auto_ptr.h" 3
+      ~auto_ptr() { delete _M_ptr; }
+# 186 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward/auto_ptr.h" 3
+      element_type&
+      operator*() const throw()
+      {
+ do { if (__builtin_expect(!bool(_M_ptr != 0), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward/auto_ptr.h", 189, __PRETTY_FUNCTION__, "_M_ptr != 0"); } while (false);
+ return *_M_ptr;
+      }
+
+
+
+
+
+
+
+      element_type*
+      operator->() const throw()
+      {
+ do { if (__builtin_expect(!bool(_M_ptr != 0), false)) std::__glibcxx_assert_fail("C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward/auto_ptr.h", 202, __PRETTY_FUNCTION__, "_M_ptr != 0"); } while (false);
+ return _M_ptr;
+      }
+# 216 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward/auto_ptr.h" 3
+      element_type*
+      get() const throw() { return _M_ptr; }
+# 230 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward/auto_ptr.h" 3
+      element_type*
+      release() throw()
+      {
+ element_type* __tmp = _M_ptr;
+ _M_ptr = 0;
+ return __tmp;
+      }
+# 245 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward/auto_ptr.h" 3
+      void
+      reset(element_type* __p = 0) throw()
+      {
+ if (__p != _M_ptr)
+   {
+     delete _M_ptr;
+     _M_ptr = __p;
+   }
+      }
+# 270 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward/auto_ptr.h" 3
+      auto_ptr(auto_ptr_ref<element_type> __ref) throw()
+      : _M_ptr(__ref._M_ptr) { }
+
+      auto_ptr&
+      operator=(auto_ptr_ref<element_type> __ref) throw()
+      {
+ if (__ref._M_ptr != this->get())
+   {
+     delete _M_ptr;
+     _M_ptr = __ref._M_ptr;
+   }
+ return *this;
+      }
+
+      template<typename _Tp1>
+        operator auto_ptr_ref<_Tp1>() throw()
+        { return auto_ptr_ref<_Tp1>(this->release()); }
+
+      template<typename _Tp1>
+        operator auto_ptr<_Tp1>() throw()
+        { return auto_ptr<_Tp1>(this->release()); }
+    } __attribute__ ((__deprecated__ ("use '" "std::unique_ptr" "' instead")));
+
+
+
+  template<>
+    class auto_ptr<void>
+    {
+    public:
+      typedef void element_type;
+    } __attribute__ ((__deprecated__));
+
+
+
+  template<_Lock_policy _Lp>
+  template<typename _Tp>
+    inline
+    __shared_count<_Lp>::__shared_count(std::auto_ptr<_Tp>&& __r)
+    : _M_pi(new _Sp_counted_ptr<_Tp*, _Lp>(__r.get()))
+    { __r.release(); }
+
+  template<typename _Tp, _Lock_policy _Lp>
+  template<typename _Tp1, typename>
+    inline
+    __shared_ptr<_Tp, _Lp>::__shared_ptr(std::auto_ptr<_Tp1>&& __r)
+    : _M_ptr(__r.get()), _M_refcount()
+    {
+     
+      static_assert( sizeof(_Tp1) > 0, "incomplete type" );
+      _Tp1* __tmp = __r.get();
+      _M_refcount = __shared_count<_Lp>(std::move(__r));
+      _M_enable_shared_from_this_with(__tmp);
+    }
+
+  template<typename _Tp>
+  template<typename _Tp1, typename>
+    inline
+    shared_ptr<_Tp>::shared_ptr(std::auto_ptr<_Tp1>&& __r)
+    : __shared_ptr<_Tp>(std::move(__r)) { }
+
+
+  template<typename _Tp, typename _Dp>
+  template<typename _Up, typename>
+    inline
+    unique_ptr<_Tp, _Dp>::unique_ptr(auto_ptr<_Up>&& __u) noexcept
+    : _M_t(__u.release(), deleter_type()) { }
+
+
+#pragma GCC diagnostic pop
+
+
+}
+# 89 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/memory" 2 3
+
+
+
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_uninitialized.h" 1 3
+# 36 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_uninitialized.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_algobase.h" 1 3
+# 44 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_algobase.h" 3
+namespace std
+{
+
+namespace ranges
+{
+  namespace __detail
+  {
+    template<typename _Tp>
+      constexpr inline bool __is_normal_iterator = false;
+
+    template<typename _Iterator, typename _Container>
+      constexpr inline bool
+ __is_normal_iterator<__gnu_cxx::__normal_iterator<_Iterator,
+         _Container>> = true;
+
+    template<typename _Tp>
+      constexpr inline bool __is_reverse_iterator = false;
+
+    template<typename _Iterator>
+      constexpr inline bool
+ __is_reverse_iterator<reverse_iterator<_Iterator>> = true;
+
+    template<typename _Tp>
+      constexpr inline bool __is_move_iterator = false;
+
+    template<typename _Iterator>
+      constexpr inline bool
+ __is_move_iterator<move_iterator<_Iterator>> = true;
+  }
+# 97 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_algobase.h" 3
+  struct __equal_fn
+  {
+    template<input_iterator _Iter1, sentinel_for<_Iter1> _Sent1,
+      input_iterator _Iter2, sentinel_for<_Iter2> _Sent2,
+      typename _Pred = ranges::equal_to,
+      typename _Proj1 = identity, typename _Proj2 = identity>
+      requires indirectly_comparable<_Iter1, _Iter2, _Pred, _Proj1, _Proj2>
+      constexpr bool
+      operator()(_Iter1 __first1, _Sent1 __last1,
+   _Iter2 __first2, _Sent2 __last2, _Pred __pred = {},
+   _Proj1 __proj1 = {}, _Proj2 __proj2 = {}) const
+      {
+
+
+ if constexpr (__detail::__is_normal_iterator<_Iter1>
+        && same_as<_Iter1, _Sent1>)
+   return (*this)(__first1.base(), __last1.base(),
+    std::move(__first2), std::move(__last2),
+    std::move(__pred),
+    std::move(__proj1), std::move(__proj2));
+ else if constexpr (__detail::__is_normal_iterator<_Iter2>
+      && same_as<_Iter2, _Sent2>)
+   return (*this)(std::move(__first1), std::move(__last1),
+    __first2.base(), __last2.base(),
+    std::move(__pred),
+    std::move(__proj1), std::move(__proj2));
+ else if constexpr (sized_sentinel_for<_Sent1, _Iter1>
+      && sized_sentinel_for<_Sent2, _Iter2>)
+   {
+     auto __d1 = ranges::distance(__first1, __last1);
+     auto __d2 = ranges::distance(__first2, __last2);
+     if (__d1 != __d2)
+       return false;
+
+     using _ValueType1 = iter_value_t<_Iter1>;
+     constexpr bool __use_memcmp
+       = ((is_integral_v<_ValueType1> || is_pointer_v<_ValueType1>)
+   && __memcmpable<_Iter1, _Iter2>::__value
+   && is_same_v<_Pred, ranges::equal_to>
+   && is_same_v<_Proj1, identity>
+   && is_same_v<_Proj2, identity>);
+     if constexpr (__use_memcmp)
+       {
+  if (const size_t __len = (__last1 - __first1))
+    return !std::__memcmp(__first1, __first2, __len);
+  return true;
+       }
+     else
+       {
+  for (; __first1 != __last1; ++__first1, (void)++__first2)
+    if (!(bool)std::__invoke(__pred,
+        std::__invoke(__proj1, *__first1),
+        std::__invoke(__proj2, *__first2)))
+      return false;
+  return true;
+       }
+   }
+ else
+   {
+     for (; __first1 != __last1 && __first2 != __last2;
+   ++__first1, (void)++__first2)
+       if (!(bool)std::__invoke(__pred,
+           std::__invoke(__proj1, *__first1),
+           std::__invoke(__proj2, *__first2)))
+  return false;
+     return __first1 == __last1 && __first2 == __last2;
+   }
+      }
+
+    template<input_range _Range1, input_range _Range2,
+      typename _Pred = ranges::equal_to,
+      typename _Proj1 = identity, typename _Proj2 = identity>
+      requires indirectly_comparable<iterator_t<_Range1>, iterator_t<_Range2>,
+         _Pred, _Proj1, _Proj2>
+      constexpr bool
+      operator()(_Range1&& __r1, _Range2&& __r2, _Pred __pred = {},
+   _Proj1 __proj1 = {}, _Proj2 __proj2 = {}) const
+      {
+
+
+ if constexpr (sized_range<_Range1>)
+   if constexpr (sized_range<_Range2>)
+     if (ranges::distance(__r1) != ranges::distance(__r2))
+       return false;
+
+ return (*this)(ranges::begin(__r1), ranges::end(__r1),
+         ranges::begin(__r2), ranges::end(__r2),
+         std::move(__pred),
+         std::move(__proj1), std::move(__proj2));
+      }
+  };
+
+  inline constexpr __equal_fn equal{};
+
+namespace __detail
+{
+  template<bool _IsMove, typename _OutIter, typename _InIter>
+    [[__gnu__::__always_inline__]]
+    constexpr void
+    __assign_one(_OutIter& ___out, _InIter& ___in)
+    {
+      if constexpr (_IsMove)
+ *___out = ranges::iter_move(___in);
+      else
+ *___out = *___in;
+    }
+}
+
+  template<typename _Iter, typename _Out>
+    struct in_out_result
+    {
+      [[no_unique_address]] _Iter in;
+      [[no_unique_address]] _Out out;
+
+      template<typename _Iter2, typename _Out2>
+ requires convertible_to<const _Iter&, _Iter2>
+   && convertible_to<const _Out&, _Out2>
+ constexpr
+ operator in_out_result<_Iter2, _Out2>() const &
+ { return {in, out}; }
+
+      template<typename _Iter2, typename _Out2>
+ requires convertible_to<_Iter, _Iter2>
+   && convertible_to<_Out, _Out2>
+ constexpr
+ operator in_out_result<_Iter2, _Out2>() &&
+ { return {std::move(in), std::move(out)}; }
+    };
+
+  template<typename _Iter, typename _Out>
+    using copy_result = in_out_result<_Iter, _Out>;
+
+  template<typename _Iter, typename _Out>
+    using move_result = in_out_result<_Iter, _Out>;
+
+  template<typename _Iter1, typename _Iter2>
+    using move_backward_result = in_out_result<_Iter1, _Iter2>;
+
+  template<typename _Iter1, typename _Iter2>
+    using copy_backward_result = in_out_result<_Iter1, _Iter2>;
+
+  template<bool _IsMove,
+    bidirectional_iterator _Iter, sentinel_for<_Iter> _Sent,
+    bidirectional_iterator _Out>
+    requires (_IsMove
+       ? indirectly_movable<_Iter, _Out>
+       : indirectly_copyable<_Iter, _Out>)
+    constexpr __conditional_t<_IsMove,
+         move_backward_result<_Iter, _Out>,
+         copy_backward_result<_Iter, _Out>>
+    __copy_or_move_backward(_Iter __first, _Sent __last, _Out __result);
+
+  template<bool _IsMove,
+    input_iterator _Iter, sentinel_for<_Iter> _Sent,
+    weakly_incrementable _Out>
+    requires (_IsMove
+       ? indirectly_movable<_Iter, _Out>
+       : indirectly_copyable<_Iter, _Out>)
+    constexpr __conditional_t<_IsMove,
+         move_result<_Iter, _Out>,
+         copy_result<_Iter, _Out>>
+    __copy_or_move(_Iter __first, _Sent __last, _Out __result)
+    {
+
+
+      using __detail::__is_move_iterator;
+      using __detail::__is_reverse_iterator;
+      using __detail::__is_normal_iterator;
+      if constexpr (__is_move_iterator<_Iter> && same_as<_Iter, _Sent>)
+ {
+   auto [___in, ___out]
+     = ranges::__copy_or_move<true>(std::move(__first).base(),
+        std::move(__last).base(),
+        std::move(__result));
+   return {move_iterator{std::move(___in)}, std::move(___out)};
+ }
+      else if constexpr (__is_reverse_iterator<_Iter> && same_as<_Iter, _Sent>
+    && __is_reverse_iterator<_Out>)
+ {
+   auto [___in,___out]
+     = ranges::__copy_or_move_backward<_IsMove>(std::move(__last).base(),
+             std::move(__first).base(),
+             std::move(__result).base());
+   return {reverse_iterator{std::move(___in)},
+    reverse_iterator{std::move(___out)}};
+ }
+      else if constexpr (__is_normal_iterator<_Iter> && same_as<_Iter, _Sent>)
+ {
+   auto [___in,___out]
+     = ranges::__copy_or_move<_IsMove>(__first.base(), __last.base(),
+           std::move(__result));
+   return {decltype(__first){___in}, std::move(___out)};
+ }
+      else if constexpr (__is_normal_iterator<_Out>)
+ {
+   auto [___in,___out]
+     = ranges::__copy_or_move<_IsMove>(std::move(__first), __last, __result.base());
+   return {std::move(___in), decltype(__result){___out}};
+ }
+      else if constexpr (sized_sentinel_for<_Sent, _Iter>)
+ {
+   if (!std::__is_constant_evaluated())
+     {
+       if constexpr (__memcpyable<_Out, _Iter>::__value)
+  {
+    using _ValueTypeI = iter_value_t<_Iter>;
+    auto __num = __last - __first;
+    if (__num > 1) [[likely]]
+      __builtin_memmove(__result, __first,
+          sizeof(_ValueTypeI) * __num);
+    else if (__num == 1)
+      __detail::__assign_one<_IsMove>(__result, __first);
+    return {__first + __num, __result + __num};
+  }
+     }
+
+   for (auto __n = __last - __first; __n > 0; --__n)
+     {
+       __detail::__assign_one<_IsMove>(__result, __first);
+       ++__first;
+       ++__result;
+     }
+   return {std::move(__first), std::move(__result)};
+ }
+      else
+ {
+   while (__first != __last)
+     {
+       __detail::__assign_one<_IsMove>(__result, __first);
+       ++__first;
+       ++__result;
+     }
+   return {std::move(__first), std::move(__result)};
+ }
+    }
+
+  struct __copy_fn
+  {
+    template<input_iterator _Iter, sentinel_for<_Iter> _Sent,
+      weakly_incrementable _Out>
+      requires indirectly_copyable<_Iter, _Out>
+      constexpr copy_result<_Iter, _Out>
+      operator()(_Iter __first, _Sent __last, _Out __result) const
+      {
+ return ranges::__copy_or_move<false>(std::move(__first),
+          std::move(__last),
+          std::move(__result));
+      }
+
+    template<input_range _Range, weakly_incrementable _Out>
+      requires indirectly_copyable<iterator_t<_Range>, _Out>
+      constexpr copy_result<borrowed_iterator_t<_Range>, _Out>
+      operator()(_Range&& __r, _Out __result) const
+      {
+ return (*this)(ranges::begin(__r), ranges::end(__r),
+         std::move(__result));
+      }
+  };
+
+  inline constexpr __copy_fn copy{};
+
+  struct __move_fn
+  {
+    template<input_iterator _Iter, sentinel_for<_Iter> _Sent,
+      weakly_incrementable _Out>
+      requires indirectly_movable<_Iter, _Out>
+      constexpr move_result<_Iter, _Out>
+      operator()(_Iter __first, _Sent __last, _Out __result) const
+      {
+ return ranges::__copy_or_move<true>(std::move(__first),
+         std::move(__last),
+         std::move(__result));
+      }
+
+    template<input_range _Range, weakly_incrementable _Out>
+      requires indirectly_movable<iterator_t<_Range>, _Out>
+      constexpr move_result<borrowed_iterator_t<_Range>, _Out>
+      operator()(_Range&& __r, _Out __result) const
+      {
+ return (*this)(ranges::begin(__r), ranges::end(__r),
+         std::move(__result));
+      }
+  };
+
+  inline constexpr __move_fn move{};
+
+  template<bool _IsMove,
+    bidirectional_iterator _Iter, sentinel_for<_Iter> _Sent,
+    bidirectional_iterator _Out>
+    requires (_IsMove
+       ? indirectly_movable<_Iter, _Out>
+       : indirectly_copyable<_Iter, _Out>)
+    constexpr __conditional_t<_IsMove,
+         move_backward_result<_Iter, _Out>,
+         copy_backward_result<_Iter, _Out>>
+    __copy_or_move_backward(_Iter __first, _Sent __last, _Out __result)
+    {
+
+
+      using __detail::__is_reverse_iterator;
+      using __detail::__is_normal_iterator;
+      if constexpr (__is_reverse_iterator<_Iter> && same_as<_Iter, _Sent>
+      && __is_reverse_iterator<_Out>)
+ {
+   auto [___in,___out]
+     = ranges::__copy_or_move<_IsMove>(std::move(__last).base(),
+           std::move(__first).base(),
+           std::move(__result).base());
+   return {reverse_iterator{std::move(___in)},
+    reverse_iterator{std::move(___out)}};
+ }
+      else if constexpr (__is_normal_iterator<_Iter> && same_as<_Iter, _Sent>)
+ {
+   auto [___in,___out]
+     = ranges::__copy_or_move_backward<_IsMove>(__first.base(),
+             __last.base(),
+             std::move(__result));
+   return {decltype(__first){___in}, std::move(___out)};
+ }
+      else if constexpr (__is_normal_iterator<_Out>)
+ {
+   auto [___in,___out]
+     = ranges::__copy_or_move_backward<_IsMove>(std::move(__first),
+             std::move(__last),
+             __result.base());
+   return {std::move(___in), decltype(__result){___out}};
+ }
+      else if constexpr (sized_sentinel_for<_Sent, _Iter>)
+ {
+   if (!std::__is_constant_evaluated())
+     {
+       if constexpr (__memcpyable<_Out, _Iter>::__value)
+  {
+    using _ValueTypeI = iter_value_t<_Iter>;
+    auto __num = __last - __first;
+    __result -= __num;
+    if (__num > 1) [[likely]]
+      __builtin_memmove(__result, __first,
+          sizeof(_ValueTypeI) * __num);
+    else if (__num == 1)
+      __detail::__assign_one<_IsMove>(__result, __first);
+    return {__first + __num, __result};
+  }
+     }
+
+   auto __lasti = ranges::next(__first, __last);
+   auto __tail = __lasti;
+
+   for (auto __n = __last - __first; __n > 0; --__n)
+     {
+       --__tail;
+       --__result;
+       __detail::__assign_one<_IsMove>(__result, __tail);
+     }
+   return {std::move(__lasti), std::move(__result)};
+ }
+      else
+ {
+   auto __lasti = ranges::next(__first, __last);
+   auto __tail = __lasti;
+
+   while (__first != __tail)
+     {
+       --__tail;
+       --__result;
+       __detail::__assign_one<_IsMove>(__result, __tail);
+     }
+   return {std::move(__lasti), std::move(__result)};
+ }
+    }
+
+  struct __copy_backward_fn
+  {
+    template<bidirectional_iterator _Iter1, sentinel_for<_Iter1> _Sent1,
+      bidirectional_iterator _Iter2>
+      requires indirectly_copyable<_Iter1, _Iter2>
+      constexpr copy_backward_result<_Iter1, _Iter2>
+      operator()(_Iter1 __first, _Sent1 __last, _Iter2 __result) const
+      {
+ return ranges::__copy_or_move_backward<false>(std::move(__first),
+            std::move(__last),
+            std::move(__result));
+      }
+
+    template<bidirectional_range _Range, bidirectional_iterator _Iter>
+      requires indirectly_copyable<iterator_t<_Range>, _Iter>
+      constexpr copy_backward_result<borrowed_iterator_t<_Range>, _Iter>
+      operator()(_Range&& __r, _Iter __result) const
+      {
+ return (*this)(ranges::begin(__r), ranges::end(__r),
+         std::move(__result));
+      }
+  };
+
+  inline constexpr __copy_backward_fn copy_backward{};
+
+  struct __move_backward_fn
+  {
+    template<bidirectional_iterator _Iter1, sentinel_for<_Iter1> _Sent1,
+      bidirectional_iterator _Iter2>
+      requires indirectly_movable<_Iter1, _Iter2>
+      constexpr move_backward_result<_Iter1, _Iter2>
+      operator()(_Iter1 __first, _Sent1 __last, _Iter2 __result) const
+      {
+ return ranges::__copy_or_move_backward<true>(std::move(__first),
+           std::move(__last),
+           std::move(__result));
+      }
+
+    template<bidirectional_range _Range, bidirectional_iterator _Iter>
+      requires indirectly_movable<iterator_t<_Range>, _Iter>
+      constexpr move_backward_result<borrowed_iterator_t<_Range>, _Iter>
+      operator()(_Range&& __r, _Iter __result) const
+      {
+ return (*this)(ranges::begin(__r), ranges::end(__r),
+         std::move(__result));
+      }
+  };
+
+  inline constexpr __move_backward_fn move_backward{};
+
+  template<typename _Iter, typename _Out>
+    using copy_n_result = in_out_result<_Iter, _Out>;
+
+  struct __copy_n_fn
+  {
+    template<input_iterator _Iter, weakly_incrementable _Out>
+      requires indirectly_copyable<_Iter, _Out>
+      constexpr copy_n_result<_Iter, _Out>
+      operator()(_Iter __first, iter_difference_t<_Iter> __n,
+   _Out __result) const
+      {
+ if constexpr (random_access_iterator<_Iter>)
+   {
+     if (__n > 0)
+       return ranges::copy(__first, __first + __n, std::move(__result));
+   }
+ else
+   {
+     for (; __n > 0; --__n, (void)++__result, (void)++__first)
+       *__result = *__first;
+   }
+ return {std::move(__first), std::move(__result)};
+      }
+  };
+
+  inline constexpr __copy_n_fn copy_n{};
+
+  struct __fill_n_fn
+  {
+    template<typename _Out,
+      typename _Tp >
+      requires output_iterator<_Out, const _Tp&>
+      constexpr _Out
+      operator()(_Out __first, iter_difference_t<_Out> __n,
+   const _Tp& __value) const
+      {
+
+
+ if (__n <= 0)
+   return __first;
+
+ if constexpr (is_scalar_v<_Tp>)
+   {
+
+     if constexpr (is_pointer_v<_Out>
+
+     && __is_byte<remove_pointer_t<_Out>>::__value
+     && integral<_Tp>)
+       {
+  if (!std::__is_constant_evaluated())
+    {
+      __builtin_memset(__first,
+         static_cast<unsigned char>(__value),
+         __n);
+      return __first + __n;
+    }
+       }
+
+     const auto __tmp = __value;
+     for (; __n > 0; --__n, (void)++__first)
+       *__first = __tmp;
+     return __first;
+   }
+ else
+   {
+     for (; __n > 0; --__n, (void)++__first)
+       *__first = __value;
+     return __first;
+   }
+      }
+  };
+
+  inline constexpr __fill_n_fn fill_n{};
+
+  struct __fill_fn
+  {
+    template<typename _Out,
+      sentinel_for<_Out> _Sent,
+      typename _Tp >
+      requires output_iterator<_Out, const _Tp&>
+      constexpr _Out
+      operator()(_Out __first, _Sent __last, const _Tp& __value) const
+      {
+
+
+ if constexpr (sized_sentinel_for<_Sent, _Out>)
+   {
+     const auto __len = __last - __first;
+     return ranges::fill_n(std::move(__first), __len, __value);
+   }
+ else if constexpr (is_scalar_v<_Tp>)
+   {
+     const auto __tmp = __value;
+     for (; __first != __last; ++__first)
+       *__first = __tmp;
+     return __first;
+   }
+ else
+   {
+     for (; __first != __last; ++__first)
+       *__first = __value;
+     return __first;
+   }
+      }
+
+    template<typename _Range,
+      typename _Tp >
+      requires output_range<_Range, const _Tp&>
+      constexpr borrowed_iterator_t<_Range>
+      operator()(_Range&& __r, const _Tp& __value) const
+      {
+ return (*this)(ranges::begin(__r), ranges::end(__r), __value);
+      }
+  };
+
+  inline constexpr __fill_fn fill{};
+}
+
+}
+# 37 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ranges_uninitialized.h" 2 3
+
+namespace std
+{
+
+namespace ranges
+{
+  namespace __detail
+  {
+    template<typename _Tp>
+      constexpr void*
+      __voidify(_Tp& __obj) noexcept
+      {
+ return const_cast<void*>
+   (static_cast<const volatile void*>(std::__addressof(__obj)));
+      }
+
+    template<typename _Iter>
+      concept __nothrow_input_iterator
+ = (input_iterator<_Iter>
+    && is_lvalue_reference_v<iter_reference_t<_Iter>>
+    && same_as<remove_cvref_t<iter_reference_t<_Iter>>,
+        iter_value_t<_Iter>>);
+
+    template<typename _Sent, typename _Iter>
+      concept __nothrow_sentinel = sentinel_for<_Sent, _Iter>;
+
+    template<typename _Range>
+      concept __nothrow_input_range
+ = (range<_Range>
+    && __nothrow_input_iterator<iterator_t<_Range>>
+    && __nothrow_sentinel<sentinel_t<_Range>, iterator_t<_Range>>);
+
+    template<typename _Iter>
+      concept __nothrow_forward_iterator
+ = (__nothrow_input_iterator<_Iter>
+    && forward_iterator<_Iter>
+    && __nothrow_sentinel<_Iter, _Iter>);
+
+    template<typename _Range>
+      concept __nothrow_forward_range
+ = (__nothrow_input_range<_Range>
+    && __nothrow_forward_iterator<iterator_t<_Range>>);
+  }
+
+  struct __destroy_fn
+  {
+    template<__detail::__nothrow_input_iterator _Iter,
+      __detail::__nothrow_sentinel<_Iter> _Sent>
+      requires destructible<iter_value_t<_Iter>>
+      constexpr _Iter
+      operator()(_Iter __first, _Sent __last) const noexcept;
+
+    template<__detail::__nothrow_input_range _Range>
+      requires destructible<range_value_t<_Range>>
+      constexpr borrowed_iterator_t<_Range>
+      operator()(_Range&& __r) const noexcept;
+  };
+
+  inline constexpr __destroy_fn destroy{};
+
+  namespace __detail
+  {
+    template<typename _Iter>
+      requires destructible<iter_value_t<_Iter>>
+      struct _DestroyGuard
+      {
+      private:
+ _Iter _M_first;
+ const _Iter* _M_cur;
+
+      public:
+ constexpr
+ explicit
+ _DestroyGuard(const _Iter& __iter)
+   : _M_first(__iter), _M_cur(std::__addressof(__iter))
+ { }
+
+ constexpr
+ void
+ release() noexcept
+ { _M_cur = nullptr; }
+
+ constexpr
+ ~_DestroyGuard()
+ {
+   if (_M_cur != nullptr)
+     ranges::destroy(std::move(_M_first), *_M_cur);
+ }
+      };
+
+    template<typename _Iter>
+      requires destructible<iter_value_t<_Iter>>
+ && is_trivially_destructible_v<iter_value_t<_Iter>>
+      struct _DestroyGuard<_Iter>
+      {
+ constexpr
+ explicit
+ _DestroyGuard(const _Iter&)
+ { }
+
+ constexpr
+ void
+ release() noexcept
+ { }
+      };
+  }
+
+  struct __uninitialized_default_construct_fn
+  {
+    template<__detail::__nothrow_forward_iterator _Iter,
+      __detail::__nothrow_sentinel<_Iter> _Sent>
+      requires default_initializable<iter_value_t<_Iter>>
+     
+      _Iter
+      operator()(_Iter __first, _Sent __last) const
+      {
+ using _ValueType = remove_reference_t<iter_reference_t<_Iter>>;
+ if constexpr (is_trivially_default_constructible_v<_ValueType>)
+   return ranges::next(__first, __last);
+ else
+   {
+     auto __guard = __detail::_DestroyGuard(__first);
+     for (; __first != __last; ++__first)
+       ::new (__detail::__voidify(*__first)) _ValueType;
+     __guard.release();
+     return __first;
+   }
+      }
+
+    template<__detail::__nothrow_forward_range _Range>
+      requires default_initializable<range_value_t<_Range>>
+     
+      borrowed_iterator_t<_Range>
+      operator()(_Range&& __r) const
+      {
+ return (*this)(ranges::begin(__r), ranges::end(__r));
+      }
+  };
+
+  inline constexpr __uninitialized_default_construct_fn
+    uninitialized_default_construct{};
+
+  struct __uninitialized_default_construct_n_fn
+  {
+    template<__detail::__nothrow_forward_iterator _Iter>
+      requires default_initializable<iter_value_t<_Iter>>
+     
+      _Iter
+      operator()(_Iter __first, iter_difference_t<_Iter> __n) const
+      {
+ using _ValueType = remove_reference_t<iter_reference_t<_Iter>>;
+ if constexpr (is_trivially_default_constructible_v<_ValueType>)
+   return ranges::next(__first, __n);
+ else
+   {
+     auto __guard = __detail::_DestroyGuard(__first);
+     for (; __n > 0; ++__first, (void) --__n)
+       ::new (__detail::__voidify(*__first)) _ValueType;
+     __guard.release();
+     return __first;
+   }
+      }
+  };
+
+  inline constexpr __uninitialized_default_construct_n_fn
+    uninitialized_default_construct_n;
+
+  struct __uninitialized_value_construct_fn
+  {
+    template<__detail::__nothrow_forward_iterator _Iter,
+      __detail::__nothrow_sentinel<_Iter> _Sent>
+      requires default_initializable<iter_value_t<_Iter>>
+     
+      _Iter
+      operator()(_Iter __first, _Sent __last) const
+      {
+ using _ValueType = remove_reference_t<iter_reference_t<_Iter>>;
+ if constexpr (is_trivially_default_constructible_v<_ValueType>
+        && is_trivially_copy_assignable_v<_ValueType>)
+   return ranges::fill(__first, __last, _ValueType());
+ else
+   {
+     auto __guard = __detail::_DestroyGuard(__first);
+     for (; __first != __last; ++__first)
+       ::new (__detail::__voidify(*__first)) _ValueType();
+     __guard.release();
+     return __first;
+   }
+      }
+
+    template<__detail::__nothrow_forward_range _Range>
+      requires default_initializable<range_value_t<_Range>>
+     
+      borrowed_iterator_t<_Range>
+      operator()(_Range&& __r) const
+      {
+ return (*this)(ranges::begin(__r), ranges::end(__r));
+      }
+  };
+
+  inline constexpr __uninitialized_value_construct_fn
+    uninitialized_value_construct{};
+
+  struct __uninitialized_value_construct_n_fn
+  {
+    template<__detail::__nothrow_forward_iterator _Iter>
+      requires default_initializable<iter_value_t<_Iter>>
+     
+      _Iter
+      operator()(_Iter __first, iter_difference_t<_Iter> __n) const
+      {
+ using _ValueType = remove_reference_t<iter_reference_t<_Iter>>;
+ if constexpr (is_trivially_default_constructible_v<_ValueType>
+        && is_trivially_copy_assignable_v<_ValueType>)
+   return ranges::fill_n(__first, __n, _ValueType());
+ else
+   {
+     auto __guard = __detail::_DestroyGuard(__first);
+     for (; __n > 0; ++__first, (void) --__n)
+       ::new (__detail::__voidify(*__first)) _ValueType();
+     __guard.release();
+     return __first;
+   }
+      }
+  };
+
+  inline constexpr __uninitialized_value_construct_n_fn
+    uninitialized_value_construct_n;
+
+  template<typename _Iter, typename _Out>
+    using uninitialized_copy_result = in_out_result<_Iter, _Out>;
+
+  struct __uninitialized_copy_fn
+  {
+    template<input_iterator _Iter, sentinel_for<_Iter> _ISent,
+      __detail::__nothrow_forward_iterator _Out,
+      __detail::__nothrow_sentinel<_Out> _OSent>
+      requires constructible_from<iter_value_t<_Out>, iter_reference_t<_Iter>>
+     
+      uninitialized_copy_result<_Iter, _Out>
+      operator()(_Iter __ifirst, _ISent __ilast,
+   _Out __ofirst, _OSent __olast) const
+      {
+ using _OutType = remove_reference_t<iter_reference_t<_Out>>;
+ if constexpr (sized_sentinel_for<_ISent, _Iter>
+        && sized_sentinel_for<_OSent, _Out>
+        && is_trivially_constructible_v<_OutType, iter_reference_t<_Iter>>
+        && is_trivially_default_constructible_v<_OutType>
+        && is_trivially_assignable_v<_OutType&,
+       iter_reference_t<_Iter>>)
+   {
+     auto __d = __ilast - __ifirst;
+     if (auto __d2 = __olast - __ofirst; __d2 < __d)
+       __d = static_cast<iter_difference_t<_Iter>>(__d2);
+     return ranges::copy_n(std::move(__ifirst), __d, __ofirst);
+   }
+ else
+   {
+     auto __guard = __detail::_DestroyGuard(__ofirst);
+     for (; __ifirst != __ilast && __ofirst != __olast;
+   ++__ofirst, (void)++__ifirst)
+       ::new (__detail::__voidify(*__ofirst)) _OutType(*__ifirst);
+     __guard.release();
+     return {std::move(__ifirst), __ofirst};
+   }
+      }
+
+    template<input_range _IRange, __detail::__nothrow_forward_range _ORange>
+      requires constructible_from<range_value_t<_ORange>,
+      range_reference_t<_IRange>>
+     
+      uninitialized_copy_result<borrowed_iterator_t<_IRange>,
+    borrowed_iterator_t<_ORange>>
+      operator()(_IRange&& __inr, _ORange&& __outr) const
+      {
+ return (*this)(ranges::begin(__inr), ranges::end(__inr),
+         ranges::begin(__outr), ranges::end(__outr));
+      }
+  };
+
+  inline constexpr __uninitialized_copy_fn uninitialized_copy{};
+
+  template<typename _Iter, typename _Out>
+    using uninitialized_copy_n_result = in_out_result<_Iter, _Out>;
+
+  struct __uninitialized_copy_n_fn
+  {
+    template<input_iterator _Iter, __detail::__nothrow_forward_iterator _Out,
+      __detail::__nothrow_sentinel<_Out> _Sent>
+      requires constructible_from<iter_value_t<_Out>, iter_reference_t<_Iter>>
+     
+      uninitialized_copy_n_result<_Iter, _Out>
+      operator()(_Iter __ifirst, iter_difference_t<_Iter> __n,
+   _Out __ofirst, _Sent __olast) const
+      {
+ using _OutType = remove_reference_t<iter_reference_t<_Out>>;
+ if constexpr (sized_sentinel_for<_Sent, _Out>
+        && is_trivially_constructible_v<_OutType, iter_reference_t<_Iter>>
+        && is_trivially_default_constructible_v<_OutType>
+        && is_trivially_assignable_v<_OutType&,
+       iter_reference_t<_Iter>>)
+   {
+     if (auto __d = __olast - __ofirst; __d < __n)
+       __n = static_cast<iter_difference_t<_Iter>>(__d);
+     return ranges::copy_n(std::move(__ifirst), __n, __ofirst);
+   }
+ else
+   {
+     auto __guard = __detail::_DestroyGuard(__ofirst);
+     for (; __n > 0 && __ofirst != __olast;
+   ++__ofirst, (void)++__ifirst, (void)--__n)
+       ::new (__detail::__voidify(*__ofirst)) _OutType(*__ifirst);
+     __guard.release();
+     return {std::move(__ifirst), __ofirst};
+   }
+      }
+  };
+
+  inline constexpr __uninitialized_copy_n_fn uninitialized_copy_n{};
+
+  template<typename _Iter, typename _Out>
+    using uninitialized_move_result = in_out_result<_Iter, _Out>;
+
+  struct __uninitialized_move_fn
+  {
+    template<input_iterator _Iter, sentinel_for<_Iter> _ISent,
+      __detail::__nothrow_forward_iterator _Out,
+      __detail::__nothrow_sentinel<_Out> _OSent>
+      requires constructible_from<iter_value_t<_Out>,
+      iter_rvalue_reference_t<_Iter>>
+     
+      uninitialized_move_result<_Iter, _Out>
+      operator()(_Iter __ifirst, _ISent __ilast,
+   _Out __ofirst, _OSent __olast) const
+      {
+ using _OutType = remove_reference_t<iter_reference_t<_Out>>;
+ if constexpr (sized_sentinel_for<_ISent, _Iter>
+        && sized_sentinel_for<_OSent, _Out>
+        && is_trivially_constructible_v<_OutType, iter_rvalue_reference_t<_Iter>>
+        && is_trivially_default_constructible_v<_OutType>
+        && is_trivially_assignable_v<_OutType&,
+       iter_rvalue_reference_t<_Iter>>)
+   {
+     auto __d = __ilast - __ifirst;
+     if (auto __d2 = __olast - __ofirst; __d2 < __d)
+       __d = static_cast<iter_difference_t<_Iter>>(__d2);
+     auto [___in, ___out]
+       = ranges::copy_n(std::make_move_iterator(std::move(__ifirst)),
+          __d, __ofirst);
+     return {std::move(___in).base(), ___out};
+   }
+ else
+   {
+     auto __guard = __detail::_DestroyGuard(__ofirst);
+     for (; __ifirst != __ilast && __ofirst != __olast;
+   ++__ofirst, (void)++__ifirst)
+       ::new (__detail::__voidify(*__ofirst))
+      _OutType(ranges::iter_move(__ifirst));
+     __guard.release();
+     return {std::move(__ifirst), __ofirst};
+   }
+      }
+
+    template<input_range _IRange, __detail::__nothrow_forward_range _ORange>
+      requires constructible_from<range_value_t<_ORange>,
+        range_rvalue_reference_t<_IRange>>
+     
+      uninitialized_move_result<borrowed_iterator_t<_IRange>,
+    borrowed_iterator_t<_ORange>>
+      operator()(_IRange&& __inr, _ORange&& __outr) const
+      {
+ return (*this)(ranges::begin(__inr), ranges::end(__inr),
+         ranges::begin(__outr), ranges::end(__outr));
+      }
+  };
+
+  inline constexpr __uninitialized_move_fn uninitialized_move{};
+
+  template<typename _Iter, typename _Out>
+    using uninitialized_move_n_result = in_out_result<_Iter, _Out>;
+
+  struct __uninitialized_move_n_fn
+  {
+    template<input_iterator _Iter, __detail::__nothrow_forward_iterator _Out,
+      __detail::__nothrow_sentinel<_Out> _Sent>
+ requires constructible_from<iter_value_t<_Out>,
+        iter_rvalue_reference_t<_Iter>>
+     
+      uninitialized_move_n_result<_Iter, _Out>
+      operator()(_Iter __ifirst, iter_difference_t<_Iter> __n,
+   _Out __ofirst, _Sent __olast) const
+      {
+ using _OutType = remove_reference_t<iter_reference_t<_Out>>;
+ if constexpr (sized_sentinel_for<_Sent, _Out>
+        && is_trivially_constructible_v<_OutType, iter_rvalue_reference_t<_Iter>>
+        && is_trivially_default_constructible_v<_OutType>
+        && is_trivially_assignable_v<_OutType&,
+       iter_rvalue_reference_t<_Iter>>)
+   {
+     if (auto __d = __olast - __ofirst; __d < __n)
+       __n = static_cast<iter_difference_t<_Iter>>(__d);
+     auto [___in, ___out]
+       = ranges::copy_n(std::make_move_iterator(std::move(__ifirst)),
+          __n, __ofirst);
+     return {std::move(___in).base(), ___out};
+   }
+ else
+   {
+     auto __guard = __detail::_DestroyGuard(__ofirst);
+     for (; __n > 0 && __ofirst != __olast;
+   ++__ofirst, (void)++__ifirst, (void)--__n)
+       ::new (__detail::__voidify(*__ofirst))
+      _OutType(ranges::iter_move(__ifirst));
+     __guard.release();
+     return {std::move(__ifirst), __ofirst};
+   }
+      }
+  };
+
+  inline constexpr __uninitialized_move_n_fn uninitialized_move_n{};
+
+  struct __uninitialized_fill_fn
+  {
+    template<__detail::__nothrow_forward_iterator _Iter,
+      __detail::__nothrow_sentinel<_Iter> _Sent, typename _Tp>
+      requires constructible_from<iter_value_t<_Iter>, const _Tp&>
+     
+      _Iter
+      operator()(_Iter __first, _Sent __last, const _Tp& __x) const
+      {
+ using _ValueType = remove_reference_t<iter_reference_t<_Iter>>;
+ if constexpr (is_trivially_constructible_v<_ValueType, const _Tp&>
+        && is_trivially_assignable_v<_ValueType&, const _Tp&>)
+   return ranges::fill(__first, __last, __x);
+ else
+   {
+     auto __guard = __detail::_DestroyGuard(__first);
+     for (; __first != __last; ++__first)
+       ::new (__detail::__voidify(*__first)) _ValueType(__x);
+     __guard.release();
+     return __first;
+   }
+      }
+
+    template<__detail::__nothrow_forward_range _Range, typename _Tp>
+      requires constructible_from<range_value_t<_Range>, const _Tp&>
+     
+      borrowed_iterator_t<_Range>
+      operator()(_Range&& __r, const _Tp& __x) const
+      {
+ return (*this)(ranges::begin(__r), ranges::end(__r), __x);
+      }
+  };
+
+  inline constexpr __uninitialized_fill_fn uninitialized_fill{};
+
+  struct __uninitialized_fill_n_fn
+  {
+    template<__detail::__nothrow_forward_iterator _Iter, typename _Tp>
+      requires constructible_from<iter_value_t<_Iter>, const _Tp&>
+     
+      _Iter
+      operator()(_Iter __first, iter_difference_t<_Iter> __n,
+   const _Tp& __x) const
+      {
+ using _ValueType = remove_reference_t<iter_reference_t<_Iter>>;
+ if constexpr (is_trivially_constructible_v<_ValueType, const _Tp&>
+        && is_trivially_assignable_v<_ValueType&, const _Tp&>)
+   return ranges::fill_n(__first, __n, __x);
+ else
+   {
+     auto __guard = __detail::_DestroyGuard(__first);
+     for (; __n > 0; ++__first, (void)--__n)
+       ::new (__detail::__voidify(*__first)) _ValueType(__x);
+     __guard.release();
+     return __first;
+   }
+      }
+  };
+
+  inline constexpr __uninitialized_fill_n_fn uninitialized_fill_n{};
+
+  struct __construct_at_fn
+  {
+    template<typename _Tp, typename... _Args>
+      requires requires {
+ ::new (std::declval<void*>()) _Tp(std::declval<_Args>()...);
+      }
+      constexpr _Tp*
+      operator()(_Tp* __location, _Args&&... __args) const
+      noexcept(noexcept(std::construct_at(__location,
+       std::forward<_Args>(__args)...)))
+      {
+ return std::construct_at(__location,
+     std::forward<_Args>(__args)...);
+      }
+  };
+
+  inline constexpr __construct_at_fn construct_at{};
+
+  struct __destroy_at_fn
+  {
+    template<destructible _Tp>
+      constexpr void
+      operator()(_Tp* __location) const noexcept
+      {
+ if constexpr (is_array_v<_Tp>)
+   ranges::destroy(ranges::begin(*__location), ranges::end(*__location));
+ else
+   __location->~_Tp();
+      }
+  };
+
+  inline constexpr __destroy_at_fn destroy_at{};
+
+  template<__detail::__nothrow_input_iterator _Iter,
+    __detail::__nothrow_sentinel<_Iter> _Sent>
+    requires destructible<iter_value_t<_Iter>>
+    constexpr _Iter
+    __destroy_fn::operator()(_Iter __first, _Sent __last) const noexcept
+    {
+      if constexpr (is_trivially_destructible_v<iter_value_t<_Iter>>)
+ return ranges::next(std::move(__first), __last);
+      else
+ {
+   for (; __first != __last; ++__first)
+     ranges::destroy_at(std::__addressof(*__first));
+   return __first;
+ }
+    }
+
+  template<__detail::__nothrow_input_range _Range>
+    requires destructible<range_value_t<_Range>>
+    constexpr borrowed_iterator_t<_Range>
+    __destroy_fn::operator()(_Range&& __r) const noexcept
+    {
+      return (*this)(ranges::begin(__r), ranges::end(__r));
+    }
+
+  struct __destroy_n_fn
+  {
+    template<__detail::__nothrow_input_iterator _Iter>
+      requires destructible<iter_value_t<_Iter>>
+      constexpr _Iter
+      operator()(_Iter __first, iter_difference_t<_Iter> __n) const noexcept
+      {
+ if constexpr (is_trivially_destructible_v<iter_value_t<_Iter>>)
+   return ranges::next(std::move(__first), __n);
+ else
+   {
+     for (; __n > 0; ++__first, (void)--__n)
+       ranges::destroy_at(std::__addressof(*__first));
+     return __first;
+   }
+      }
+  };
+
+  inline constexpr __destroy_n_fn destroy_n{};
+}
+
+}
+# 93 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/memory" 2 3
+# 118 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/memory" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/version.h" 1 3
+# 119 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/memory" 2 3
+
+
+namespace std
+{
+
+# 139 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/memory" 3
+enum class pointer_safety { relaxed, preferred, strict };
+
+
+inline void
+declare_reachable(void*) { }
+
+
+template <typename _Tp>
+  inline _Tp*
+  undeclare_reachable(_Tp* __p) { return __p; }
+
+
+inline void
+declare_no_pointers(char*, size_t) { }
+
+
+inline void
+undeclare_no_pointers(char*, size_t) { }
+
+
+inline pointer_safety
+get_pointer_safety() noexcept { return pointer_safety::relaxed; }
+
+
+
+}
+# 174 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/memory" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/pstl/glue_memory_defs.h" 1 3
+# 13 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/pstl/glue_memory_defs.h" 3
+# 1 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/pstl/execution_defs.h" 1 3
+# 15 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/pstl/execution_defs.h" 3
+namespace __pstl
+{
+namespace execution
+{
+inline namespace v1
+{
+
+
+class sequenced_policy
+{
+};
+
+
+class parallel_policy
+{
+};
+
+
+class parallel_unsequenced_policy
+{
+};
+
+class unsequenced_policy
+{
+};
+
+
+inline constexpr sequenced_policy seq{};
+inline constexpr parallel_policy par{};
+inline constexpr parallel_unsequenced_policy par_unseq{};
+inline constexpr unsequenced_policy unseq{};
+
+
+template <class _Tp>
+struct is_execution_policy : std::false_type
+{
+};
+
+template <>
+struct is_execution_policy<__pstl::execution::sequenced_policy> : std::true_type
+{
+};
+template <>
+struct is_execution_policy<__pstl::execution::parallel_policy> : std::true_type
+{
+};
+template <>
+struct is_execution_policy<__pstl::execution::parallel_unsequenced_policy> : std::true_type
+{
+};
+template <>
+struct is_execution_policy<__pstl::execution::unsequenced_policy> : std::true_type
+{
+};
+
+
+template <class _Tp>
+constexpr bool is_execution_policy_v = __pstl::execution::is_execution_policy<_Tp>::value;
+
+
+}
+}
+
+namespace __internal
+{
+template <class _ExecPolicy, class _Tp>
+
+using __enable_if_execution_policy =
+    typename std::enable_if<__pstl::execution::is_execution_policy<std::__remove_cvref_t<_ExecPolicy>>::value,
+                            _Tp>::type;
+
+
+
+
+
+
+template <class _IsVector>
+struct __serial_tag;
+template <class _IsVector>
+struct __parallel_tag;
+
+}
+
+}
+# 14 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/pstl/glue_memory_defs.h" 2 3
+
+namespace std
+{
+
+
+
+template <class _ExecutionPolicy, class _InputIterator, class _ForwardIterator>
+__pstl::__internal::__enable_if_execution_policy<_ExecutionPolicy, _ForwardIterator>
+uninitialized_copy(_ExecutionPolicy&& __exec, _InputIterator __first, _InputIterator __last, _ForwardIterator __result);
+
+template <class _ExecutionPolicy, class _InputIterator, class _Size, class _ForwardIterator>
+__pstl::__internal::__enable_if_execution_policy<_ExecutionPolicy, _ForwardIterator>
+uninitialized_copy_n(_ExecutionPolicy&& __exec, _InputIterator __first, _Size __n, _ForwardIterator __result);
+
+
+
+template <class _ExecutionPolicy, class _InputIterator, class _ForwardIterator>
+__pstl::__internal::__enable_if_execution_policy<_ExecutionPolicy, _ForwardIterator>
+uninitialized_move(_ExecutionPolicy&& __exec, _InputIterator __first, _InputIterator __last, _ForwardIterator __result);
+
+template <class _ExecutionPolicy, class _InputIterator, class _Size, class _ForwardIterator>
+__pstl::__internal::__enable_if_execution_policy<_ExecutionPolicy, _ForwardIterator>
+uninitialized_move_n(_ExecutionPolicy&& __exec, _InputIterator __first, _Size __n, _ForwardIterator __result);
+
+
+
+template <class _ExecutionPolicy, class _ForwardIterator, class _Tp>
+__pstl::__internal::__enable_if_execution_policy<_ExecutionPolicy, void>
+uninitialized_fill(_ExecutionPolicy&& __exec, _ForwardIterator __first, _ForwardIterator __last, const _Tp& __value);
+
+template <class _ExecutionPolicy, class _ForwardIterator, class _Size, class _Tp>
+__pstl::__internal::__enable_if_execution_policy<_ExecutionPolicy, _ForwardIterator>
+uninitialized_fill_n(_ExecutionPolicy&& __exec, _ForwardIterator __first, _Size __n, const _Tp& __value);
+
+
+
+template <class _ExecutionPolicy, class _ForwardIterator>
+__pstl::__internal::__enable_if_execution_policy<_ExecutionPolicy, void>
+destroy(_ExecutionPolicy&& __exec, _ForwardIterator __first, _ForwardIterator __last);
+
+template <class _ExecutionPolicy, class _ForwardIterator, class _Size>
+__pstl::__internal::__enable_if_execution_policy<_ExecutionPolicy, _ForwardIterator>
+destroy_n(_ExecutionPolicy&& __exec, _ForwardIterator __first, _Size __n);
+
+
+
+template <class _ExecutionPolicy, class _ForwardIterator>
+__pstl::__internal::__enable_if_execution_policy<_ExecutionPolicy, void>
+uninitialized_default_construct(_ExecutionPolicy&& __exec, _ForwardIterator __first, _ForwardIterator __last);
+
+template <class _ExecutionPolicy, class _ForwardIterator, class _Size>
+__pstl::__internal::__enable_if_execution_policy<_ExecutionPolicy, _ForwardIterator>
+uninitialized_default_construct_n(_ExecutionPolicy&& __exec, _ForwardIterator __first, _Size __n);
+
+
+
+template <class _ExecutionPolicy, class _ForwardIterator>
+__pstl::__internal::__enable_if_execution_policy<_ExecutionPolicy, void>
+uninitialized_value_construct(_ExecutionPolicy&& __exec, _ForwardIterator __first, _ForwardIterator __last);
+
+template <class _ExecutionPolicy, class _ForwardIterator, class _Size>
+__pstl::__internal::__enable_if_execution_policy<_ExecutionPolicy, _ForwardIterator>
+uninitialized_value_construct_n(_ExecutionPolicy&& __exec, _ForwardIterator __first, _Size __n);
+
+}
+# 175 "C:/Users/benre/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/memory" 2 3
+# 11 "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/playerDeck.h" 2
+
+
+# 12 "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/playerDeck.h"
 class playerDeck {
 
 public:
@@ -46658,17 +56211,17 @@ public:
     card* getCard(int);
     std::vector<card*> getHand();
     std::vector<card*> getDeck();
-
+    void load(const std::string&);
 
     void show();
 
 private:
     bool moveCard(std::vector<card*>& from, std::vector<card*>& to, card* );
-    std::vector<card> deck;
+    std::vector<std::unique_ptr<card>> owned;
     std::vector<card*> drawpile;
     std::vector<card*> hand;
 };
-# 7 "C:/Users/ZPEE016/CLionProjects/EE2010-CW/Player.h" 2
+# 7 "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/Player.h" 2
 
 class Player: public info, public playerDeck {
 public:
@@ -46682,7 +56235,7 @@ private:
     playerDeck deck;
 
 };
-# 3 "C:/Users/ZPEE016/CLionProjects/EE2010-CW/Player.cpp" 2
+# 3 "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/Player.cpp" 2
 
 
 Player::Player(int health) : info(health) {

@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/ZPEE016/CLionProjects/EE2010-CW/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target EE2010_CW
 
@@ -49,14 +49,14 @@ cmake_ninja_workdir = C$:/Users/ZPEE016/CLionProjects/EE2010-CW/cmake-build-debu
 
 build cmake_object_order_depends_target_EE2010_CW: phony || .
 
-build CMakeFiles/EE2010_CW.dir/main.cpp.obj.ddi: CXX_SCAN__EE2010_CW_Debug C$:/Users/ZPEE016/CLionProjects/EE2010-CW/main.cpp || cmake_object_order_depends_target_EE2010_CW
+build CMakeFiles/EE2010_CW.dir/main.cpp.obj.ddi: CXX_SCAN__EE2010_CW_Debug C$:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/main.cpp || cmake_object_order_depends_target_EE2010_CW
   DEP_FILE = CMakeFiles\EE2010_CW.dir\main.cpp.obj.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles\EE2010_CW.dir\main.cpp.obj.ddi
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJ_FILE = CMakeFiles\EE2010_CW.dir\main.cpp.obj
   PREPROCESSED_OUTPUT_FILE = CMakeFiles\EE2010_CW.dir\main.cpp.obj.ddi.i
 
-build CMakeFiles/EE2010_CW.dir/main.cpp.obj: CXX_COMPILER__EE2010_CW_scanned_Debug C$:/Users/ZPEE016/CLionProjects/EE2010-CW/main.cpp | CMakeFiles/EE2010_CW.dir/main.cpp.obj.modmap || cmake_object_order_depends_target_EE2010_CW CMakeFiles/EE2010_CW.dir/CXX.dd
+build CMakeFiles/EE2010_CW.dir/main.cpp.obj: CXX_COMPILER__EE2010_CW_scanned_Debug C$:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/main.cpp | CMakeFiles/EE2010_CW.dir/main.cpp.obj.modmap || cmake_object_order_depends_target_EE2010_CW CMakeFiles/EE2010_CW.dir/CXX.dd
   CONFIG = Debug
   DEP_FILE = CMakeFiles\EE2010_CW.dir\main.cpp.obj.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles\EE2010_CW.dir\main.cpp.obj.modmap
@@ -66,14 +66,14 @@ build CMakeFiles/EE2010_CW.dir/main.cpp.obj: CXX_COMPILER__EE2010_CW_scanned_Deb
   TARGET_SUPPORT_DIR = CMakeFiles\EE2010_CW.dir
   dyndep = CMakeFiles/EE2010_CW.dir/CXX.dd
 
-build CMakeFiles/EE2010_CW.dir/card.cpp.obj.ddi: CXX_SCAN__EE2010_CW_Debug C$:/Users/ZPEE016/CLionProjects/EE2010-CW/card.cpp || cmake_object_order_depends_target_EE2010_CW
+build CMakeFiles/EE2010_CW.dir/card.cpp.obj.ddi: CXX_SCAN__EE2010_CW_Debug C$:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/card.cpp || cmake_object_order_depends_target_EE2010_CW
   DEP_FILE = CMakeFiles\EE2010_CW.dir\card.cpp.obj.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles\EE2010_CW.dir\card.cpp.obj.ddi
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJ_FILE = CMakeFiles\EE2010_CW.dir\card.cpp.obj
   PREPROCESSED_OUTPUT_FILE = CMakeFiles\EE2010_CW.dir\card.cpp.obj.ddi.i
 
-build CMakeFiles/EE2010_CW.dir/card.cpp.obj: CXX_COMPILER__EE2010_CW_scanned_Debug C$:/Users/ZPEE016/CLionProjects/EE2010-CW/card.cpp | CMakeFiles/EE2010_CW.dir/card.cpp.obj.modmap || cmake_object_order_depends_target_EE2010_CW CMakeFiles/EE2010_CW.dir/CXX.dd
+build CMakeFiles/EE2010_CW.dir/card.cpp.obj: CXX_COMPILER__EE2010_CW_scanned_Debug C$:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/card.cpp | CMakeFiles/EE2010_CW.dir/card.cpp.obj.modmap || cmake_object_order_depends_target_EE2010_CW CMakeFiles/EE2010_CW.dir/CXX.dd
   CONFIG = Debug
   DEP_FILE = CMakeFiles\EE2010_CW.dir\card.cpp.obj.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles\EE2010_CW.dir\card.cpp.obj.modmap
@@ -83,14 +83,14 @@ build CMakeFiles/EE2010_CW.dir/card.cpp.obj: CXX_COMPILER__EE2010_CW_scanned_Deb
   TARGET_SUPPORT_DIR = CMakeFiles\EE2010_CW.dir
   dyndep = CMakeFiles/EE2010_CW.dir/CXX.dd
 
-build CMakeFiles/EE2010_CW.dir/cardGeneration.cpp.obj.ddi: CXX_SCAN__EE2010_CW_Debug C$:/Users/ZPEE016/CLionProjects/EE2010-CW/cardGeneration.cpp || cmake_object_order_depends_target_EE2010_CW
+build CMakeFiles/EE2010_CW.dir/cardGeneration.cpp.obj.ddi: CXX_SCAN__EE2010_CW_Debug C$:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/cardGeneration.cpp || cmake_object_order_depends_target_EE2010_CW
   DEP_FILE = CMakeFiles\EE2010_CW.dir\cardGeneration.cpp.obj.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles\EE2010_CW.dir\cardGeneration.cpp.obj.ddi
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJ_FILE = CMakeFiles\EE2010_CW.dir\cardGeneration.cpp.obj
   PREPROCESSED_OUTPUT_FILE = CMakeFiles\EE2010_CW.dir\cardGeneration.cpp.obj.ddi.i
 
-build CMakeFiles/EE2010_CW.dir/cardGeneration.cpp.obj: CXX_COMPILER__EE2010_CW_scanned_Debug C$:/Users/ZPEE016/CLionProjects/EE2010-CW/cardGeneration.cpp | CMakeFiles/EE2010_CW.dir/cardGeneration.cpp.obj.modmap || cmake_object_order_depends_target_EE2010_CW CMakeFiles/EE2010_CW.dir/CXX.dd
+build CMakeFiles/EE2010_CW.dir/cardGeneration.cpp.obj: CXX_COMPILER__EE2010_CW_scanned_Debug C$:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/cardGeneration.cpp | CMakeFiles/EE2010_CW.dir/cardGeneration.cpp.obj.modmap || cmake_object_order_depends_target_EE2010_CW CMakeFiles/EE2010_CW.dir/CXX.dd
   CONFIG = Debug
   DEP_FILE = CMakeFiles\EE2010_CW.dir\cardGeneration.cpp.obj.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles\EE2010_CW.dir\cardGeneration.cpp.obj.modmap
@@ -100,14 +100,14 @@ build CMakeFiles/EE2010_CW.dir/cardGeneration.cpp.obj: CXX_COMPILER__EE2010_CW_s
   TARGET_SUPPORT_DIR = CMakeFiles\EE2010_CW.dir
   dyndep = CMakeFiles/EE2010_CW.dir/CXX.dd
 
-build CMakeFiles/EE2010_CW.dir/enemy.cpp.obj.ddi: CXX_SCAN__EE2010_CW_Debug C$:/Users/ZPEE016/CLionProjects/EE2010-CW/enemy.cpp || cmake_object_order_depends_target_EE2010_CW
+build CMakeFiles/EE2010_CW.dir/enemy.cpp.obj.ddi: CXX_SCAN__EE2010_CW_Debug C$:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/enemy.cpp || cmake_object_order_depends_target_EE2010_CW
   DEP_FILE = CMakeFiles\EE2010_CW.dir\enemy.cpp.obj.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles\EE2010_CW.dir\enemy.cpp.obj.ddi
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJ_FILE = CMakeFiles\EE2010_CW.dir\enemy.cpp.obj
   PREPROCESSED_OUTPUT_FILE = CMakeFiles\EE2010_CW.dir\enemy.cpp.obj.ddi.i
 
-build CMakeFiles/EE2010_CW.dir/enemy.cpp.obj: CXX_COMPILER__EE2010_CW_scanned_Debug C$:/Users/ZPEE016/CLionProjects/EE2010-CW/enemy.cpp | CMakeFiles/EE2010_CW.dir/enemy.cpp.obj.modmap || cmake_object_order_depends_target_EE2010_CW CMakeFiles/EE2010_CW.dir/CXX.dd
+build CMakeFiles/EE2010_CW.dir/enemy.cpp.obj: CXX_COMPILER__EE2010_CW_scanned_Debug C$:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/enemy.cpp | CMakeFiles/EE2010_CW.dir/enemy.cpp.obj.modmap || cmake_object_order_depends_target_EE2010_CW CMakeFiles/EE2010_CW.dir/CXX.dd
   CONFIG = Debug
   DEP_FILE = CMakeFiles\EE2010_CW.dir\enemy.cpp.obj.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles\EE2010_CW.dir\enemy.cpp.obj.modmap
@@ -117,14 +117,14 @@ build CMakeFiles/EE2010_CW.dir/enemy.cpp.obj: CXX_COMPILER__EE2010_CW_scanned_De
   TARGET_SUPPORT_DIR = CMakeFiles\EE2010_CW.dir
   dyndep = CMakeFiles/EE2010_CW.dir/CXX.dd
 
-build CMakeFiles/EE2010_CW.dir/info.cpp.obj.ddi: CXX_SCAN__EE2010_CW_Debug C$:/Users/ZPEE016/CLionProjects/EE2010-CW/info.cpp || cmake_object_order_depends_target_EE2010_CW
+build CMakeFiles/EE2010_CW.dir/info.cpp.obj.ddi: CXX_SCAN__EE2010_CW_Debug C$:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/info.cpp || cmake_object_order_depends_target_EE2010_CW
   DEP_FILE = CMakeFiles\EE2010_CW.dir\info.cpp.obj.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles\EE2010_CW.dir\info.cpp.obj.ddi
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJ_FILE = CMakeFiles\EE2010_CW.dir\info.cpp.obj
   PREPROCESSED_OUTPUT_FILE = CMakeFiles\EE2010_CW.dir\info.cpp.obj.ddi.i
 
-build CMakeFiles/EE2010_CW.dir/info.cpp.obj: CXX_COMPILER__EE2010_CW_scanned_Debug C$:/Users/ZPEE016/CLionProjects/EE2010-CW/info.cpp | CMakeFiles/EE2010_CW.dir/info.cpp.obj.modmap || cmake_object_order_depends_target_EE2010_CW CMakeFiles/EE2010_CW.dir/CXX.dd
+build CMakeFiles/EE2010_CW.dir/info.cpp.obj: CXX_COMPILER__EE2010_CW_scanned_Debug C$:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/info.cpp | CMakeFiles/EE2010_CW.dir/info.cpp.obj.modmap || cmake_object_order_depends_target_EE2010_CW CMakeFiles/EE2010_CW.dir/CXX.dd
   CONFIG = Debug
   DEP_FILE = CMakeFiles\EE2010_CW.dir\info.cpp.obj.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles\EE2010_CW.dir\info.cpp.obj.modmap
@@ -134,14 +134,14 @@ build CMakeFiles/EE2010_CW.dir/info.cpp.obj: CXX_COMPILER__EE2010_CW_scanned_Deb
   TARGET_SUPPORT_DIR = CMakeFiles\EE2010_CW.dir
   dyndep = CMakeFiles/EE2010_CW.dir/CXX.dd
 
-build CMakeFiles/EE2010_CW.dir/Player.cpp.obj.ddi: CXX_SCAN__EE2010_CW_Debug C$:/Users/ZPEE016/CLionProjects/EE2010-CW/Player.cpp || cmake_object_order_depends_target_EE2010_CW
+build CMakeFiles/EE2010_CW.dir/Player.cpp.obj.ddi: CXX_SCAN__EE2010_CW_Debug C$:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/Player.cpp || cmake_object_order_depends_target_EE2010_CW
   DEP_FILE = CMakeFiles\EE2010_CW.dir\Player.cpp.obj.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles\EE2010_CW.dir\Player.cpp.obj.ddi
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJ_FILE = CMakeFiles\EE2010_CW.dir\Player.cpp.obj
   PREPROCESSED_OUTPUT_FILE = CMakeFiles\EE2010_CW.dir\Player.cpp.obj.ddi.i
 
-build CMakeFiles/EE2010_CW.dir/Player.cpp.obj: CXX_COMPILER__EE2010_CW_scanned_Debug C$:/Users/ZPEE016/CLionProjects/EE2010-CW/Player.cpp | CMakeFiles/EE2010_CW.dir/Player.cpp.obj.modmap || cmake_object_order_depends_target_EE2010_CW CMakeFiles/EE2010_CW.dir/CXX.dd
+build CMakeFiles/EE2010_CW.dir/Player.cpp.obj: CXX_COMPILER__EE2010_CW_scanned_Debug C$:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/Player.cpp | CMakeFiles/EE2010_CW.dir/Player.cpp.obj.modmap || cmake_object_order_depends_target_EE2010_CW CMakeFiles/EE2010_CW.dir/CXX.dd
   CONFIG = Debug
   DEP_FILE = CMakeFiles\EE2010_CW.dir\Player.cpp.obj.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles\EE2010_CW.dir\Player.cpp.obj.modmap
@@ -151,14 +151,14 @@ build CMakeFiles/EE2010_CW.dir/Player.cpp.obj: CXX_COMPILER__EE2010_CW_scanned_D
   TARGET_SUPPORT_DIR = CMakeFiles\EE2010_CW.dir
   dyndep = CMakeFiles/EE2010_CW.dir/CXX.dd
 
-build CMakeFiles/EE2010_CW.dir/playerDeck.cpp.obj.ddi: CXX_SCAN__EE2010_CW_Debug C$:/Users/ZPEE016/CLionProjects/EE2010-CW/playerDeck.cpp || cmake_object_order_depends_target_EE2010_CW
+build CMakeFiles/EE2010_CW.dir/playerDeck.cpp.obj.ddi: CXX_SCAN__EE2010_CW_Debug C$:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/playerDeck.cpp || cmake_object_order_depends_target_EE2010_CW
   DEP_FILE = CMakeFiles\EE2010_CW.dir\playerDeck.cpp.obj.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles\EE2010_CW.dir\playerDeck.cpp.obj.ddi
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJ_FILE = CMakeFiles\EE2010_CW.dir\playerDeck.cpp.obj
   PREPROCESSED_OUTPUT_FILE = CMakeFiles\EE2010_CW.dir\playerDeck.cpp.obj.ddi.i
 
-build CMakeFiles/EE2010_CW.dir/playerDeck.cpp.obj: CXX_COMPILER__EE2010_CW_scanned_Debug C$:/Users/ZPEE016/CLionProjects/EE2010-CW/playerDeck.cpp | CMakeFiles/EE2010_CW.dir/playerDeck.cpp.obj.modmap || cmake_object_order_depends_target_EE2010_CW CMakeFiles/EE2010_CW.dir/CXX.dd
+build CMakeFiles/EE2010_CW.dir/playerDeck.cpp.obj: CXX_COMPILER__EE2010_CW_scanned_Debug C$:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/playerDeck.cpp | CMakeFiles/EE2010_CW.dir/playerDeck.cpp.obj.modmap || cmake_object_order_depends_target_EE2010_CW CMakeFiles/EE2010_CW.dir/CXX.dd
   CONFIG = Debug
   DEP_FILE = CMakeFiles\EE2010_CW.dir\playerDeck.cpp.obj.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles\EE2010_CW.dir\playerDeck.cpp.obj.modmap
@@ -168,7 +168,24 @@ build CMakeFiles/EE2010_CW.dir/playerDeck.cpp.obj: CXX_COMPILER__EE2010_CW_scann
   TARGET_SUPPORT_DIR = CMakeFiles\EE2010_CW.dir
   dyndep = CMakeFiles/EE2010_CW.dir/CXX.dd
 
-build CMakeFiles/EE2010_CW.dir/CXX.dd | CMakeFiles/EE2010_CW.dir/CXXModules.json CMakeFiles/EE2010_CW.dir/main.cpp.obj.modmap CMakeFiles/EE2010_CW.dir/card.cpp.obj.modmap CMakeFiles/EE2010_CW.dir/cardGeneration.cpp.obj.modmap CMakeFiles/EE2010_CW.dir/enemy.cpp.obj.modmap CMakeFiles/EE2010_CW.dir/info.cpp.obj.modmap CMakeFiles/EE2010_CW.dir/Player.cpp.obj.modmap CMakeFiles/EE2010_CW.dir/playerDeck.cpp.obj.modmap: CXX_DYNDEP__EE2010_CW_Debug CMakeFiles/EE2010_CW.dir/main.cpp.obj.ddi CMakeFiles/EE2010_CW.dir/card.cpp.obj.ddi CMakeFiles/EE2010_CW.dir/cardGeneration.cpp.obj.ddi CMakeFiles/EE2010_CW.dir/enemy.cpp.obj.ddi CMakeFiles/EE2010_CW.dir/info.cpp.obj.ddi CMakeFiles/EE2010_CW.dir/Player.cpp.obj.ddi CMakeFiles/EE2010_CW.dir/playerDeck.cpp.obj.ddi | C$:/Users/ZPEE016/CLionProjects/EE2010-CW/cmake-build-debug/CMakeFiles/EE2010_CW.dir/CXXDependInfo.json
+build CMakeFiles/EE2010_CW.dir/enemyGeneration.cpp.obj.ddi: CXX_SCAN__EE2010_CW_Debug C$:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/enemyGeneration.cpp || cmake_object_order_depends_target_EE2010_CW
+  DEP_FILE = CMakeFiles\EE2010_CW.dir\enemyGeneration.cpp.obj.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\EE2010_CW.dir\enemyGeneration.cpp.obj.ddi
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJ_FILE = CMakeFiles\EE2010_CW.dir\enemyGeneration.cpp.obj
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles\EE2010_CW.dir\enemyGeneration.cpp.obj.ddi.i
+
+build CMakeFiles/EE2010_CW.dir/enemyGeneration.cpp.obj: CXX_COMPILER__EE2010_CW_scanned_Debug C$:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/enemyGeneration.cpp | CMakeFiles/EE2010_CW.dir/enemyGeneration.cpp.obj.modmap || cmake_object_order_depends_target_EE2010_CW CMakeFiles/EE2010_CW.dir/CXX.dd
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\EE2010_CW.dir\enemyGeneration.cpp.obj.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles\EE2010_CW.dir\enemyGeneration.cpp.obj.modmap
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\EE2010_CW.dir
+  OBJECT_FILE_DIR = CMakeFiles\EE2010_CW.dir
+  TARGET_SUPPORT_DIR = CMakeFiles\EE2010_CW.dir
+  dyndep = CMakeFiles/EE2010_CW.dir/CXX.dd
+
+build CMakeFiles/EE2010_CW.dir/CXX.dd | CMakeFiles/EE2010_CW.dir/CXXModules.json CMakeFiles/EE2010_CW.dir/main.cpp.obj.modmap CMakeFiles/EE2010_CW.dir/card.cpp.obj.modmap CMakeFiles/EE2010_CW.dir/cardGeneration.cpp.obj.modmap CMakeFiles/EE2010_CW.dir/enemy.cpp.obj.modmap CMakeFiles/EE2010_CW.dir/info.cpp.obj.modmap CMakeFiles/EE2010_CW.dir/Player.cpp.obj.modmap CMakeFiles/EE2010_CW.dir/playerDeck.cpp.obj.modmap CMakeFiles/EE2010_CW.dir/enemyGeneration.cpp.obj.modmap: CXX_DYNDEP__EE2010_CW_Debug CMakeFiles/EE2010_CW.dir/main.cpp.obj.ddi CMakeFiles/EE2010_CW.dir/card.cpp.obj.ddi CMakeFiles/EE2010_CW.dir/cardGeneration.cpp.obj.ddi CMakeFiles/EE2010_CW.dir/enemy.cpp.obj.ddi CMakeFiles/EE2010_CW.dir/info.cpp.obj.ddi CMakeFiles/EE2010_CW.dir/Player.cpp.obj.ddi CMakeFiles/EE2010_CW.dir/playerDeck.cpp.obj.ddi CMakeFiles/EE2010_CW.dir/enemyGeneration.cpp.obj.ddi | C$:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/cmake-build-debug/CMakeFiles/EE2010_CW.dir/CXXDependInfo.json
 
 
 # =============================================================================
@@ -178,7 +195,7 @@ build CMakeFiles/EE2010_CW.dir/CXX.dd | CMakeFiles/EE2010_CW.dir/CXXModules.json
 #############################################
 # Link the executable EE2010_CW.exe
 
-build EE2010_CW.exe: CXX_EXECUTABLE_LINKER__EE2010_CW_Debug CMakeFiles/EE2010_CW.dir/main.cpp.obj CMakeFiles/EE2010_CW.dir/card.cpp.obj CMakeFiles/EE2010_CW.dir/cardGeneration.cpp.obj CMakeFiles/EE2010_CW.dir/enemy.cpp.obj CMakeFiles/EE2010_CW.dir/info.cpp.obj CMakeFiles/EE2010_CW.dir/Player.cpp.obj CMakeFiles/EE2010_CW.dir/playerDeck.cpp.obj
+build EE2010_CW.exe: CXX_EXECUTABLE_LINKER__EE2010_CW_Debug CMakeFiles/EE2010_CW.dir/main.cpp.obj CMakeFiles/EE2010_CW.dir/card.cpp.obj CMakeFiles/EE2010_CW.dir/cardGeneration.cpp.obj CMakeFiles/EE2010_CW.dir/enemy.cpp.obj CMakeFiles/EE2010_CW.dir/info.cpp.obj CMakeFiles/EE2010_CW.dir/Player.cpp.obj CMakeFiles/EE2010_CW.dir/playerDeck.cpp.obj CMakeFiles/EE2010_CW.dir/enemyGeneration.cpp.obj
   CONFIG = Debug
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
@@ -195,7 +212,7 @@ build EE2010_CW.exe: CXX_EXECUTABLE_LINKER__EE2010_CW_Debug CMakeFiles/EE2010_CW
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\ZPEE016\CLionProjects\EE2010-CW\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2026.2.4.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\windows\system32\cmd.exe /C "cd /D C:\Users\benre\Downloads\EE2010-CW-clion-ver\EE2010-CW-clion-ver\cmake-build-debug && C:\Users\benre\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -206,7 +223,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\ZPEE016\CLionProjects\EE2010-CW\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2026.2.4.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\ZPEE016\CLionProjects\EE2010-CW -BC:\Users\ZPEE016\CLionProjects\EE2010-CW\cmake-build-debug"
+  COMMAND = C:\windows\system32\cmd.exe /C "cd /D C:\Users\benre\Downloads\EE2010-CW-clion-ver\EE2010-CW-clion-ver\cmake-build-debug && C:\Users\benre\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -SC:\Users\benre\Downloads\EE2010-CW-clion-ver\EE2010-CW-clion-ver -BC:\Users\benre\Downloads\EE2010-CW-clion-ver\EE2010-CW-clion-ver\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -224,14 +241,14 @@ build EE2010_CW: phony EE2010_CW.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/ZPEE016/CLionProjects/EE2010-CW/cmake-build-debug
+# Folder: C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/cmake-build-debug
 
 build codegen: phony
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/ZPEE016/CLionProjects/EE2010-CW/cmake-build-debug
+# Folder: C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/cmake-build-debug
 
 build all: phony EE2010_CW.exe
 
@@ -242,14 +259,14 @@ build all: phony EE2010_CW.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja C$:/Users/ZPEE016/CLionProjects/EE2010-CW/cmake-build-debug/cmake_install.cmake: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/Internal/CMakeCLinkerInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/Linker/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/Linker/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/Linker/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/Linker/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/Linker/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/WindowsPaths.cmake C$:/Users/ZPEE016/CLionProjects/EE2010-CW/CMakeLists.txt CMakeCache.txt CMakeFiles/4.3.1/CMakeCCompiler.cmake CMakeFiles/4.3.1/CMakeCXXCompiler.cmake CMakeFiles/4.3.1/CMakeRCCompiler.cmake CMakeFiles/4.3.1/CMakeSystem.cmake
+build build.ninja C$:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/cmake-build-debug/cmake_install.cmake: RERUN_CMAKE | C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeCInformation.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeCXXInformation.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeGenericSystem.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeInitializeConfigs.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeLanguageInformation.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeRCInformation.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/Compiler/GNU-C.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/Compiler/GNU-CXX.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/Compiler/GNU.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/Internal/CMakeCLinkerInformation.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/Linker/GNU-C.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/Linker/GNU-CXX.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/Linker/GNU.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/Linker/GNU.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/Linker/Windows-GNU.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/Windows-GNU-C.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/Windows-GNU.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/Windows-Initialize.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/Windows-windres.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/Windows.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/WindowsPaths.cmake C$:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/CMakeLists.txt CMakeCache.txt CMakeFiles/4.3.1/CMakeCCompiler.cmake CMakeFiles/4.3.1/CMakeCXXCompiler.cmake CMakeFiles/4.3.1/CMakeRCCompiler.cmake CMakeFiles/4.3.1/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/Internal/CMakeCLinkerInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/Linker/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/Linker/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/Linker/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/Linker/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/Linker/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.2.4.1/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/WindowsPaths.cmake C$:/Users/ZPEE016/CLionProjects/EE2010-CW/CMakeLists.txt CMakeCache.txt CMakeFiles/4.3.1/CMakeCCompiler.cmake CMakeFiles/4.3.1/CMakeCXXCompiler.cmake CMakeFiles/4.3.1/CMakeRCCompiler.cmake CMakeFiles/4.3.1/CMakeSystem.cmake: phony
+build C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeCInformation.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeCXXInformation.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeGenericSystem.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeInitializeConfigs.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeLanguageInformation.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeRCInformation.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/Compiler/GNU-C.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/Compiler/GNU-CXX.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/Compiler/GNU.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/Internal/CMakeCLinkerInformation.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/Linker/GNU-C.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/Linker/GNU-CXX.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/Linker/GNU.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/Linker/GNU.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/Linker/Windows-GNU.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/Windows-GNU-C.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/Windows-GNU.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/Windows-Initialize.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/Windows-windres.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/Windows.cmake C$:/Users/benre/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.3/Modules/Platform/WindowsPaths.cmake C$:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/CMakeLists.txt CMakeCache.txt CMakeFiles/4.3.1/CMakeCCompiler.cmake CMakeFiles/4.3.1/CMakeCXXCompiler.cmake CMakeFiles/4.3.1/CMakeRCCompiler.cmake CMakeFiles/4.3.1/CMakeSystem.cmake: phony
 
 
 #############################################

@@ -11,7 +11,7 @@ int main() {
 
     Player p(10);
 
-    std::vector<card> allCards = loadEnemy("src/cards.txt");
+    std::vector<card> allCards = loadCards("src/cards.txt");
     for (card& c : allCards) {
         p.addCard(&c);
     }

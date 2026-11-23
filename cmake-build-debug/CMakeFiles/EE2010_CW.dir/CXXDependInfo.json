@@ -6,52 +6,57 @@
 	"config" : "Debug",
 	"cxx-modules" : {},
 	"database-info" : null,
-	"dir-cur-bld" : "C:/Users/ZPEE016/CLionProjects/EE2010-CW/cmake-build-debug",
-	"dir-cur-src" : "C:/Users/ZPEE016/CLionProjects/EE2010-CW",
-	"dir-top-bld" : "C:/Users/ZPEE016/CLionProjects/EE2010-CW/cmake-build-debug",
-	"dir-top-src" : "C:/Users/ZPEE016/CLionProjects/EE2010-CW",
+	"dir-cur-bld" : "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/cmake-build-debug",
+	"dir-cur-src" : "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver",
+	"dir-top-bld" : "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/cmake-build-debug",
+	"dir-top-src" : "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver",
 	"exports" : [],
 	"forward-modules-from-target-dirs" : [],
 	"include-dirs" : [],
 	"language" : "CXX",
 	"linked-target-dirs" : [],
-	"module-dir" : "C:/Users/ZPEE016/CLionProjects/EE2010-CW/cmake-build-debug/CMakeFiles/EE2010_CW.dir",
+	"module-dir" : "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/cmake-build-debug/CMakeFiles/EE2010_CW.dir",
 	"sources" : 
 	{
 		"CMakeFiles/EE2010_CW.dir/Player.cpp.obj" : 
 		{
 			"language" : "CXX",
-			"source" : "C:/Users/ZPEE016/CLionProjects/EE2010-CW/Player.cpp"
+			"source" : "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/Player.cpp"
 		},
 		"CMakeFiles/EE2010_CW.dir/card.cpp.obj" : 
 		{
 			"language" : "CXX",
-			"source" : "C:/Users/ZPEE016/CLionProjects/EE2010-CW/card.cpp"
+			"source" : "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/card.cpp"
 		},
 		"CMakeFiles/EE2010_CW.dir/cardGeneration.cpp.obj" : 
 		{
 			"language" : "CXX",
-			"source" : "C:/Users/ZPEE016/CLionProjects/EE2010-CW/cardGeneration.cpp"
+			"source" : "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/cardGeneration.cpp"
 		},
 		"CMakeFiles/EE2010_CW.dir/enemy.cpp.obj" : 
 		{
 			"language" : "CXX",
-			"source" : "C:/Users/ZPEE016/CLionProjects/EE2010-CW/enemy.cpp"
+			"source" : "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/enemy.cpp"
+		},
+		"CMakeFiles/EE2010_CW.dir/enemyGeneration.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/enemyGeneration.cpp"
 		},
 		"CMakeFiles/EE2010_CW.dir/info.cpp.obj" : 
 		{
 			"language" : "CXX",
-			"source" : "C:/Users/ZPEE016/CLionProjects/EE2010-CW/info.cpp"
+			"source" : "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/info.cpp"
 		},
 		"CMakeFiles/EE2010_CW.dir/main.cpp.obj" : 
 		{
 			"language" : "CXX",
-			"source" : "C:/Users/ZPEE016/CLionProjects/EE2010-CW/main.cpp"
+			"source" : "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/main.cpp"
 		},
 		"CMakeFiles/EE2010_CW.dir/playerDeck.cpp.obj" : 
 		{
 			"language" : "CXX",
-			"source" : "C:/Users/ZPEE016/CLionProjects/EE2010-CW/playerDeck.cpp"
+			"source" : "C:/Users/benre/Downloads/EE2010-CW-clion-ver/EE2010-CW-clion-ver/playerDeck.cpp"
 		}
 	}
 }

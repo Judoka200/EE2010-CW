@@ -28,8 +28,8 @@ public:
 
 private:
     bool moveCard(std::vector<card*>& from, std::vector<card*>& to, card* );
-    std::vector<std::unique_ptr<card>> owned;
-    std::vector<card*> drawpile;
+    std::vector<std::unique_ptr<card>> owned; // location of one copy of every card the object was originally loaded with
+    std::vector<card*> drawpile; // 
     std::vector<card*> hand; //vector of class pointers
 };
 

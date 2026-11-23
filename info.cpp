@@ -39,13 +39,13 @@ void info::setHealth(int value){
 //reaname to activate turn effects??
 void info::activateTurnStart(){
     // perform poison calc
-    activateStatus();
+    activateStatus(0);
     //reset block
     block = 0;
 }
 
-void info::activateStatus() {
-    if (poison) {
+void info::activateStatus(int type) {
+    if (type == 0) {
         damage(poison); // deal damage equal to poison
         poison -= 1; // decrement by 1
         if(poison < 0){
@@ -53,24 +53,21 @@ void info::activateStatus() {
         }
     }
 
-    if (bleeding) {
-        damage(bleeding); // deal damage equal to poison
+    if (type == 1) {
+        damage(bleeding); // deal damage equal to bleeding
         bleeding -= 1; // decrement by 1
         if(bleeding < 0){
             bleeding = 0;
         }
     }
 
-    if (madness) {
-        damage(madness); // deal damage equal to poison
-        madness -= 1; // decrement by 1
-        if(madness < 0){
-            madness = 0;
-        }
+    if (type == 2) {
+        damage((madness * 2)); // deal damage equal to madness * 2
+        madness = 0; //madness sets to 0
     }
 
-    if (burning) {
-        damage(burning); // deal damage equal to poison
+    if (type == 3) {
+        damage(burning); // deal damage equal to burning
         burning -= 1; // decrement by 1
         if(burning < 0){
             burning = 0;

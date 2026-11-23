@@ -19,4 +19,5 @@ add_executable(EE2010_CW main.cpp
         playerDeck.h
         uiBlocks.h
         enemyGeneration.cpp
-        enemyGeneration.h)
+        enemyGeneration.h
+)
