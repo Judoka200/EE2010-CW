@@ -5,6 +5,8 @@
 #include <iostream>
 #include <map>
 #include <optional>
+#include <random>
+#include <sstream>
 #include <string>
 #include <vector>
 
@@ -12,8 +14,6 @@
 //-1 card = your action slot is empty
 //-1 target = the enemy action slot is empty
 //duh
-#include <SFML/Graphics.hpp>
-#include <cmath>
 
 //big ups https://gist.github.com/Wesxdz/e8667fb20ce5864f758d39685d6547ce
 class RoundedRectangle : public sf::Shape {
@@ -109,6 +109,12 @@ struct Slot {
 //determining card slot size (80x80 square u can adapt it)
 static const sf::Vector2f kSlotSize(80.f, 80.f); //every slot uses this : )
 
+//the window is split in 2: the game area on the left and the battle log on the right
+static const float kWindowW = 1280.f;
+static const float kWindowH = 720.f;
+static const float kLogWidth = 280.f;
+static const float kGameW = kWindowW - kLogWidth;
+
 //centering the text onto a still point for cards
 //so its in the middle of the card
 //CHANGE
@@ -117,6 +123,80 @@ static void centerText(sf::Text& t, sf::Vector2f center) {
     sf::FloatRect b = t.getLocalBounds();
     t.setOrigin({b.position.x + b.size.x / 2.f, b.position.y + b.size.y / 2.f});
     t.setPosition(center);
+}
+
+//splits a string into lines that fit inside maxWidth (word wrap)
+//used by the battle log
+//now long messages dont run off the side
+static std::vector<std::string> wrapText(const sf::Font& font, const std::string& s,
+                                         unsigned int size, float maxWidth) {
+    std::vector<std::string> lines;
+    std::istringstream words(s);
+    std::string word, line;
+    while (words >> word) {
+        std::string test = line.empty() ? word : line + " " + word;
+        sf::Text t(font, test, size);
+        if (t.getLocalBounds().size.x > maxWidth && !line.empty()) {
+            lines.push_back(line);
+            line = word;
+        } else {
+            line = test;
+        }
+    }
+    if (!line.empty()) lines.push_back(line);
+    if (lines.empty()) lines.push_back("");  //keeps blank entries as a blank line
+    return lines;
+}
+
+//draws the battlelog panel on the right
+//black rectangle, "Battle Log" title at the top, then the log entries underneath
+//newest entry is at the bottom
+//old ones scroll off the top when it fills up
+static void drawBattleLog(sf::RenderWindow& window, const sf::Font& font,
+                          const std::vector<std::string>& entries) {
+    const float pad = 14.f;
+    const unsigned int textSize = 16;
+    const float lineHeight = 22.f;
+
+    //longass black rectangle
+    sf::RectangleShape panel({kLogWidth, kWindowH});
+    panel.setPosition({kGameW, 0.f});
+    panel.setFillColor(sf::Color::Black);
+    window.draw(panel);
+
+    //rectangle left outline
+    sf::RectangleShape edge({3.f, kWindowH});
+    edge.setPosition({kGameW, 0.f});
+    edge.setFillColor(sf::Color(90, 90, 90));
+    window.draw(edge);
+
+    //battle log text n line
+    sf::Text title(font, "Battle Log", 26);
+    title.setFillColor(sf::Color::White);
+    centerText(title, {kGameW + kLogWidth / 2.f, 30.f});
+    window.draw(title);
+    sf::RectangleShape divider({kLogWidth - pad * 2.f, 2.f});
+    divider.setPosition({kGameW + pad, 56.f});
+    divider.setFillColor(sf::Color(90, 90, 90));
+    window.draw(divider);
+
+    //wrap every entry
+    //boots the oldest text out
+    std::vector<std::string> lines;
+    for (const std::string& e : entries) {
+        std::vector<std::string> wrapped = wrapText(font, e, textSize, kLogWidth - pad * 2.f);
+        lines.insert(lines.end(), wrapped.begin(), wrapped.end());
+    }
+    const float top = 68.f;
+    const int maxLines = static_cast<int>((kWindowH - top - pad) / lineHeight);
+    int first = std::max(0, static_cast<int>(lines.size()) - maxLines);
+
+    for (int i = first; i < static_cast<int>(lines.size()); ++i) {
+        sf::Text t(font, lines[i], textSize);
+        t.setFillColor(sf::Color(220, 220, 220));  //CHANGE text color here
+        t.setPosition({kGameW + pad, top + static_cast<float>(i - first) * lineHeight});
+        window.draw(t);
+    }
 }
 
 //loops over the slots and builds the rectangle around each one
@@ -320,8 +400,6 @@ static void drawArcArrow(sf::RenderWindow& window, sf::Vector2f start, sf::Vecto
 
 
 
-
-
 //main
 int main() {
     sf::RenderWindow window(sf::VideoMode({1280, 720}), "Card Game UI");
@@ -332,21 +410,30 @@ int main() {
         return 1;
     }
     sf::Texture caveTexture;
-    if (!caveTexture.loadFromFile("assets/cave.png")) { //cave bg scaled to screen
+    if (!caveTexture.loadFromFile("assets/cave.png")) { //cave bg scaled to the game area (not under the log)
         std::cerr << "Could not load assets/cave.png. Make sure it is copied next to the executable.\n";
         return 1;
     }
     caveTexture.setSmooth(true);
     sf::Sprite cave(caveTexture);
-    cave.setScale({1280.f / static_cast<float>(caveTexture.getSize().x),
-                   720.f / static_cast<float>(caveTexture.getSize().y)});
+    cave.setScale({kGameW / static_cast<float>(caveTexture.getSize().x),
+                   kWindowH / static_cast<float>(caveTexture.getSize().y)});
 
-    //put a black rectangle behind the deck/energy and stuff so its more readable
-    //CHANGE after to something better
-    const float panelTop = 530.f;
-    sf::RectangleShape bottomPanel({1280.f, 720.f - panelTop});
-    bottomPanel.setPosition({0.f, panelTop});
-    bottomPanel.setFillColor(sf::Color::Black);
+    //card backgrounds (card-bg1.png, card-bg2.png, card-bg3.png)
+    //each card gets one of these picked at random
+    //keep this vector alive for the whole program, dont resize it after loading
+    std::vector<sf::Texture> cardTextures(3);
+    for (int i = 0; i < 3; ++i) {
+        std::string path = "assets/card-textures/card-bg" + std::to_string(i + 1) + ".png";
+        if (!cardTextures[i].loadFromFile(path)) {
+            std::cerr << "Could not load " << path << ". Make sure it is copied next to the executable.\n";
+            return 1;
+        }
+        cardTextures[i].setSmooth(true);
+    }
+    std::mt19937 rng(std::random_device{}());
+    std::uniform_int_distribution<int> pickBg(0, 2);
+    std::map<int, int> cardBg;  //card id -> which background (0-2), picked once so it sticks
 
     //CHANGE to real backend values later
     //isaac and vivek n diya this where u do it
@@ -360,9 +447,17 @@ int main() {
     float playerShownHp = static_cast<float>(playerHp);  //ghost bars start full
     float enemyShownHp = static_cast<float>(enemyHp);
 
-    // character positions
-    const sf::Vector2f playerPos(180.f, 240.f);
-    const sf::Vector2f enemyPos(960.f, 240.f);
+    //BATTLE LOG TEXT
+    //each string is one entry in the log, newest at the bottom
+    //edit these or push_back new ones from the backend whenever something happens
+    //eg. battleLog.push_back("Player used Card 3 on Enemy for 10 damage");
+    //starts empty so nothing shows until u add something
+    //  battleLog.push_back("write your log text here");
+    std::vector<std::string> battleLog;
+
+    // character positions (relative to battlelog)
+    const sf::Vector2f playerPos(130.f, 240.f);
+    const sf::Vector2f enemyPos(730.f, 240.f);
     const sf::Color blue(70, 120, 220);
     const sf::Color red(220, 70, 70);
 
@@ -395,14 +490,20 @@ int main() {
     //your hand (card numbers)
     //CHANGE - placeholders 1-6
     std::vector<int> hand = {1, 2, 3, 4, 5, 6};
+    //gives every card in the starting hand a random background
+    //if u add card drawing later do this for each new card too:
+    //if (!cardBg.count(id)) cardBg[id] = pickBg(rng);
+    for (int id : hand) cardBg[id] = pickBg(rng);
+
     const sf::Vector2f cardSize(130.f, 180.f);
-    const float cardStep = 90.f;   //distance between card left edges (reduce for more overlap)
+    const float cardStep = 75.f;   //distance between card left edges (reduce for more overlap)
     const float cardLift = 40.f;   //how far hovered card rises
     const float handY = 720.f - cardSize.y - 10.f;
+    const float handCenterX = 450.f;  //hand sits between the energy circle and the turn button
 
     auto handStartX = [&]() {
         float w = cardStep * (static_cast<float>(hand.size()) - 1.f) + cardSize.x;
-        return (1280.f - w) / 2.f;
+        return handCenterX - w / 2.f;
     };
 
     //checks which cards under the point (right to left)
@@ -416,8 +517,10 @@ int main() {
     };
 
     //begin turn button
-    sf::RectangleShape turnButton({280.f, 70.f});
-    turnButton.setPosition({960.f, 610.f});
+    const sf::Vector2f turnButtonPos(740.f, 610.f);
+    const sf::Vector2f turnButtonSize(240.f, 70.f);
+    sf::RectangleShape turnButton(turnButtonSize);
+    turnButton.setPosition(turnButtonPos);
     turnButton.setOutlineThickness(3.f);
     turnButton.setOutlineColor(sf::Color::Black);
 
@@ -569,9 +672,6 @@ int main() {
             drawSlot(window, font, enemySlots[i], red, false, i == hoveredEnemySlot);
         }
 
-        //black area bottom of screen
-        window.draw(bottomPanel);
-
         //your hand
         //show order normal cards < selected card < hovered card
         float startX = handStartX();
@@ -594,12 +694,21 @@ int main() {
                 //rounded corners (size, corner radius, points per corner)
                 RoundedRectangle card(size, 5.f, 8);
                 card.setPosition({startX + i * cardStep - (size.x - cardSize.x) / 2.f, top});
-                if (isSelected) {
-                    card.setFillColor(sf::Color(205, 203, 190));  // selected cards are tinted
-                } else {
-                    //washed out gray, a bit lighter when hovered
-                    card.setFillColor(isHovered ? sf::Color(195, 195, 200) : sf::Color(168, 168, 174));
-                }
+
+                //background art for this card (random pick, stays with the card id)
+                //stretched 2 cards current animated size
+                const sf::Texture& tex = cardTextures[cardBg[hand[i]]];
+                sf::Sprite art(tex);
+                art.setPosition(card.getPosition());
+                art.setScale({size.x / static_cast<float>(tex.getSize().x),
+                              size.y / static_cast<float>(tex.getSize().y)});
+                //tint keeps the old hover/selected feedback (white = full brightness)
+                art.setColor(isSelected ? sf::Color(255, 255, 235)
+                                        : (isHovered ? sf::Color(235, 235, 235) : sf::Color(210, 210, 210)));
+                window.draw(art);
+
+                //the rounded shape now only draws the outline on top
+                card.setFillColor(sf::Color::Transparent);
                 card.setOutlineThickness(isSelected ? 6.f : (isHovered ? 5.f : 3.f));
                 card.setOutlineColor(raised ? sf::Color(255, 200, 40) : sf::Color(30, 30, 30));
                 window.draw(card);
@@ -621,9 +730,9 @@ int main() {
         //begin turn button
         turnButton.setFillColor(overButton ? sf::Color(255, 255, 255) : sf::Color(235, 235, 235));
         window.draw(turnButton);
-        sf::Text turnText(font, "Begin Turn " + std::to_string(turnNumber), 30);
+        sf::Text turnText(font, "Begin Turn " + std::to_string(turnNumber), 28);
         turnText.setFillColor(sf::Color::Black);
-        centerText(turnText, {960.f + 140.f, 610.f + 35.f});
+        centerText(turnText, turnButtonPos + turnButtonSize / 2.f);
         window.draw(turnText);
 
         //arrows in drawn order (yellow, red, orange)
@@ -636,6 +745,10 @@ int main() {
                 drawArcArrow(window, from, to, arrowColors[k % 3]);
             }
         }
+
+        //battle log goes last //do not move this it needs to go last
+        drawBattleLog(window, font, battleLog);
+
         window.display();
     }
     return 0;
