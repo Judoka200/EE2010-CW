@@ -10,11 +10,6 @@
 #include <string>
 #include <vector>
 
-//card slot id for holding cards in action slots
-//-1 card = your action slot is empty
-//-1 target = the enemy action slot is empty
-//duh
-
 //big ups https://gist.github.com/Wesxdz/e8667fb20ce5864f758d39685d6547ce
 class RoundedRectangle : public sf::Shape {
 public:
@@ -99,7 +94,6 @@ private:
     float m_anglePerPoint;
 };
 
-//hi vivek =.)
 struct Slot {
     sf::Vector2f pos;
     int card = -1;
@@ -109,12 +103,12 @@ struct Slot {
 //determining card slot size (80x80 square u can adapt it)
 static const sf::Vector2f kSlotSize(80.f, 80.f); //every slot uses this : )
 
-//the window is split in 2: the game area on the left and the battle log on the right
-//change kLogWidth to make the log wider/thinner (game area shrinks to fit)
+//the window is split in 2
+//the game area on the left and the battle log on the right
 static const float kWindowW = 1280.f;
 static const float kWindowH = 720.f;
 static const float kLogWidth = 280.f;
-static const float kGameW = kWindowW - kLogWidth;  //everything else lives in 0..kGameW
+static const float kGameW = kWindowW - kLogWidth;
 
 //centering the text onto a still point for cards
 //so its in the middle of the card
@@ -144,26 +138,28 @@ static std::vector<std::string> wrapText(const sf::Font& font, const std::string
         }
     }
     if (!line.empty()) lines.push_back(line);
-    if (lines.empty()) lines.push_back("");  //keeps blank entries as a blank line
+    if (lines.empty()) lines.push_back("");  //keeps blank entries as empty line
     return lines;
 }
 
 //draws the battle log panel on the right
-//black rectangle, "Battle Log" title at the top, then the log entries underneath
-//newest entry is at the bottom, old ones scroll off the top when it fills up
+//black rectangle (CHANGE semitransparent?)
+//"Battle Log" title at the top and the log entries underneath
+//newest entry is at the bottom
+//old ones scroll off the top when it fills up
 static void drawBattleLog(sf::RenderWindow& window, const sf::Font& font,
                           const std::vector<std::string>& entries) {
     const float pad = 14.f;
     const unsigned int textSize = 16;
     const float lineHeight = 22.f;
 
-    //the long black rectangle
+    //long ugly black rectangle (thx vivek)
     sf::RectangleShape panel({kLogWidth, kWindowH});
     panel.setPosition({kGameW, 0.f});
     panel.setFillColor(sf::Color::Black);
     window.draw(panel);
 
-    //thin outline on the left edge so it separates from the game
+    //line on left edge
     sf::RectangleShape edge({3.f, kWindowH});
     edge.setPosition({kGameW, 0.f});
     edge.setFillColor(sf::Color(90, 90, 90));
@@ -175,13 +171,13 @@ static void drawBattleLog(sf::RenderWindow& window, const sf::Font& font,
     centerText(title, {kGameW + kLogWidth / 2.f, 30.f});
     window.draw(title);
 
-    //line under the title
+    //line under title
     sf::RectangleShape divider({kLogWidth - pad * 2.f, 2.f});
     divider.setPosition({kGameW + pad, 56.f});
     divider.setFillColor(sf::Color(90, 90, 90));
     window.draw(divider);
 
-    //wrap every entry then only keep the last lines that fit
+    //wraps every entry then only keep the last lines that fit
     std::vector<std::string> lines;
     for (const std::string& e : entries) {
         std::vector<std::string> wrapped = wrapText(font, e, textSize, kLogWidth - pad * 2.f);
@@ -254,14 +250,10 @@ static void drawHealthBar(sf::RenderWindow& window, const sf::Font& font,
     window.draw(label);
 }
 
-//i played deadlock today
-//didnt really understand it and it took forever
-//wonder why marvel rivals fell off?
-
 //small square status icons (poison, strength, slash etc.) shown in a row under the hp bar
-//an icon is just its png name without .png, eg. "poison" or "slash"
-//unknown names / pngs that failed to load are skipped so it never crashes
-static const float kIconSize = 28.f;  //icons are squashed to this square size
+//max 6, u can CHANGE
+//call it only by [name], not [name].png
+static const float kIconSize = 28.f;  //icons are sqinched to this square size
 static const float kIconGap = 4.f;
 static void drawIcons(sf::RenderWindow& window, const std::map<std::string, sf::Texture>& textures,
                       const std::vector<std::string>& icons, float centerX, float top) {
@@ -306,8 +298,7 @@ static void drawCharacter(sf::RenderWindow& window, const sf::Font& font,
     box.setOutlineColor(sf::Color::Black);
     window.draw(box); //CHANGE^ this when sprites are made
 
-    //everything now sits ABOVE the character, top to bottom:
-    //name, hp bar, icon row, then the character box
+    //name, hp bar, icon row, character box
     const float centerX = topLeft.x + size.x / 2.f;
     const float iconTop = topLeft.y - 8.f - kIconSize;  //icon row sits just above the character
     const float barTop = iconTop - 6.f - 22.f;          //22 = health bar height
@@ -330,9 +321,6 @@ static void drawCharacter(sf::RenderWindow& window, const sf::Font& font,
     //status icons under the hp bar (see drawIcons)
     drawIcons(window, iconTextures, icons, centerX, iconTop);
 }
-
-//is it pingu or pengu?
-//noot noot!
 
 //draws an action slot
 static void drawSlot(sf::RenderWindow& window, const sf::Font& font, const Slot& slot,
@@ -831,7 +819,6 @@ int main() {
             }
         }
 
-        //battle log goes last so nothing can draw over it
         drawBattleLog(window, font, battleLog);
 
         window.display();
