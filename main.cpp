@@ -2,6 +2,7 @@
 #include <SFML/Graphics.hpp>
 #include <algorithm>
 #include <cmath>
+#include <cstdint>
 #include <iostream>
 #include <map>
 #include <optional>
@@ -93,11 +94,12 @@ private:
     unsigned int m_cornerPointCount;
     float m_anglePerPoint;
 };
-
 struct Slot {
     sf::Vector2f pos;
     int card = -1;
     int target = -1;
+    bool arriving = false;  //true while a card is still flying in (slot draws as empty until it lands)
+    float arrowT = 0.f;     //0 -> 1 as the target arrow draws itself out
 };
 
 //determining card slot size (80x80 square u can adapt it)
@@ -195,6 +197,58 @@ static void drawBattleLog(sf::RenderWindow& window, const sf::Font& font,
     }
 }
 
+//size of a card sitting in your hand @ bottom
+//flying cards grow or shrink between this and the action slot size
+static const sf::Vector2f kHandCardSize(130.f, 180.f);
+static const float kPi = 3.14159265f;
+
+//card thats currently animating between your hand and an action slot
+//toSlot = true is card travelling to ur action slot from ur hand
+//toSlot = false is card travelling back 2 ur hand
+//fromPos/fromSize = where it started
+//t goes 0 -> 1 over the animation
+struct FlyingCard {
+    int id;
+    bool toSlot;
+    int slot;
+    sf::Vector2f fromPos;
+    sf::Vector2f fromSize;
+    float t = 0.f;
+};
+
+static float easeOutCubic(float t) {
+    float u = 1.f - t;
+    return 1.f - u * u * u;
+}
+
+//draws one card at any size
+//used only while a card is flying
+static void drawFlyingCard(sf::RenderWindow& window, const sf::Font& font, const sf::Texture& tex,
+                           int id, sf::Vector2f topLeft, sf::Vector2f size, sf::Color tint,
+                           sf::Color outlineColor, float outlineThickness) {
+    sf::Sprite art(tex);
+    art.setPosition(topLeft);
+    art.setScale({size.x / static_cast<float>(tex.getSize().x),
+                  size.y / static_cast<float>(tex.getSize().y)});
+    art.setColor(tint);
+    window.draw(art);
+
+    RoundedRectangle card(size, 5.f, 8);
+    card.setPosition(topLeft);
+    card.setFillColor(sf::Color::Transparent);
+    card.setOutlineThickness(outlineThickness);
+    card.setOutlineColor(outlineColor);
+    window.draw(card);
+
+    //label shrinks with the card
+    //20 is the card in hand size
+    unsigned int fontSize = std::max(12u, static_cast<unsigned int>(20.f * size.x / kHandCardSize.x));
+    sf::Text label(font, "Card " + std::to_string(id), fontSize);
+    label.setFillColor(sf::Color::Black);
+    centerText(label, {topLeft.x + size.x / 2.f, topLeft.y + 25.f * size.y / kHandCardSize.y});
+    window.draw(label);
+}
+
 //loops over the slots and builds the rectangle around each one
 //you better be actually reading my comments
 //im spending a lot of time on these
@@ -213,7 +267,7 @@ static void drawHealthBar(sf::RenderWindow& window, const sf::Font& font,
                           sf::Vector2f topLeft, float width, int hp, float shownHp, int maxHp) {
     const float height = 22.f;
 
-    //creates a black rectangle that is black
+    //creates a black rectangle that is black and is a rectangle aswell
     //as the backing for the health bar
     sf::RectangleShape back({width, height});
     back.setPosition(topLeft);
@@ -251,7 +305,7 @@ static void drawHealthBar(sf::RenderWindow& window, const sf::Font& font,
 }
 
 //small square status icons (poison, strength, slash etc.) shown in a row under the hp bar
-//max 6, u can CHANGE
+//max 6, u can CHANGE this if u want
 //call it only by [name], not [name].png
 static const float kIconSize = 28.f;  //icons are sqinched to this square size
 static const float kIconGap = 4.f;
@@ -315,7 +369,7 @@ static void drawCharacter(sf::RenderWindow& window, const sf::Font& font,
 
     //draws the health bar
     //makes the heath bar a litte wider than the character asw
-    //keep this part i like it
+    //keep this part i like it :))
     drawHealthBar(window, font, {topLeft.x - 10.f, barTop}, size.x + 20.f, hp, shownHp, maxHp);
 
     //status icons under the hp bar (see drawIcons)
@@ -329,7 +383,7 @@ static void drawSlot(sf::RenderWindow& window, const sf::Font& font, const Slot&
     box.setPosition(slot.pos);
 
     //if the slot is filled, the color is solid and shows its full
-    bool filled = slot.card != -1;
+    bool filled = slot.card != -1 && !slot.arriving;  //arriving = card still flying in, so show it empty
     sf::Color fill = base;
     //if the slot is not filled, the color is transparent and shows its empy
     if (!filled) fill.a = 110;
@@ -361,7 +415,15 @@ static void drawSlot(sf::RenderWindow& window, const sf::Font& font, const Slot&
 
 //draws an arced arrow above everything so
 //u can see what each things connected to
-static void drawArcArrow(sf::RenderWindow& window, sf::Vector2f start, sf::Vector2f end, sf::Color color) {
+
+//i animated it now! yay!
+//progress of the animation is how much of the arrow is drawn
+//0 = nothing, 1 = full arrow
+//the arrowhead remains on the left edge of drawn arrow while it grows
+static void drawArcArrow(sf::RenderWindow& window, sf::Vector2f start, sf::Vector2f end, sf::Color color,
+                         float progress = 1.f) {
+    progress = std::min(1.f, progress);
+    if (progress <= 0.f) return;
     const float headLen = 22.f;
     const float headHalfWidth = 12.f;
     const float thickness = 5.f;
@@ -384,15 +446,10 @@ static void drawArcArrow(sf::RenderWindow& window, sf::Vector2f start, sf::Vecto
     //takes 49 sample points adapt if not smooth enough
     std::vector<sf::Vector2f> pts;
     for (int i = 0; i <= segments; ++i) {
-        float t = static_cast<float>(i) / segments;
+        float t = progress * static_cast<float>(i) / segments;  //only samples the part drawn so far
         float u = 1.f - t;
         pts.push_back(start * (u * u) + ctrl * (2.f * u * t) + lineEnd * (t * t)); //curve formula
     }
-
-    //oh my godddd im bored
-    //blablabla we want colored arrows and outlines!
-    //mason YOU work out how to do it
-    //one day im going to Snap.
 
     //basically lines are not allowed to be thick in sfml so u have to do this
     //uses strips to thicken it out like a ribbon
@@ -403,7 +460,7 @@ static void drawArcArrow(sf::RenderWindow& window, sf::Vector2f start, sf::Vecto
             sf::Vector2f b = pts[std::min(i + 1, pts.size() - 1)];
             sf::Vector2f dir = b - a;
             float l = std::sqrt(dir.x * dir.x + dir.y * dir.y);
-            dir /= l;
+            if (l > 0.0001f) dir /= l; else dir = d;  //guards the first few frames when the arrow is tiny
             sf::Vector2f normal(-dir.y, dir.x);
 
             strip[2 * i].position = pts[i] + normal * (width / 2.f);
@@ -418,17 +475,31 @@ static void drawArcArrow(sf::RenderWindow& window, sf::Vector2f start, sf::Vecto
 
     // draws the triangular arrowhead
     // CHANGE so outline doesnt cut into fill
-    sf::Vector2f perp(-d.y, d.x);
+    //while growing, the head sits on the end of the drawn line and points along the curve there
+    //it also scales up over the first bit so it doesnt just pop in
+    sf::Vector2f tip = end;
+    sf::Vector2f base = lineEnd;
+    sf::Vector2f headDir = d;
+    float headScale = 1.f;
+    if (progress < 1.f) {
+        float t = progress;
+        sf::Vector2f tangent = (ctrl - start) * (2.f * (1.f - t)) + (lineEnd - ctrl) * (2.f * t);
+        float tl = std::sqrt(tangent.x * tangent.x + tangent.y * tangent.y);
+        if (tl > 0.0001f) headDir = tangent / tl;
+        headScale = std::min(1.f, progress / 0.15f);  //0.15 = how quickly the head grows to full size
+        base = pts.back();
+        tip = base + headDir * (headLen * headScale);
+    }
+    sf::Vector2f perp(-headDir.y, headDir.x);
     sf::ConvexShape head(3);
-    head.setPoint(0, end);
-    head.setPoint(1, lineEnd + perp * headHalfWidth);
-    head.setPoint(2, lineEnd - perp * headHalfWidth);
+    head.setPoint(0, tip);
+    head.setPoint(1, base + perp * (headHalfWidth * headScale));
+    head.setPoint(2, base - perp * (headHalfWidth * headScale));
     head.setFillColor(color);
     head.setOutlineThickness(outline);
     head.setOutlineColor(sf::Color(20, 20, 20));
     window.draw(head);
 }
-
 
 
 //main
@@ -489,9 +560,6 @@ int main() {
     std::map<int, int> cardBg;  //card id -> which background (0-2), picked once so it sticks
 
     //CHANGE to real backend values later
-    //isaac and vivek n diya this where u do it
-    //backend unite!
-    //sorry
     int energy = 4;
     int maxEnergy = 4;
     int turnNumber = 1;
@@ -512,17 +580,16 @@ int main() {
     //edit these or push_back new ones from the backend whenever something happens
     //eg. battleLog.push_back("Player used Card 3 on Enemy for 10 damage");
     //starts empty so nothing shows until u add something
-    //  battleLog.push_back("write your log text here");
+    //battleLog.push_back("write your log text here");
     std::vector<std::string> battleLog;
 
-    // character positions (squeezed in so everything fits left of the log)
-    //y pushed down to 280 to make room for the name + hp + icons above them
+    //character positions (squeezed in so everything fits left of the log)
     const sf::Vector2f playerPos(130.f, 280.f);
     const sf::Vector2f enemyPos(730.f, 280.f);
     const sf::Color blue(70, 120, 220);
     const sf::Color red(220, 70, 70);
 
-    // calls 3 action slots above each char
+    //calls 3 action slots above each char
     const float slotY = 100.f;
     const float slotGap = 20.f;
     auto makeSlots = [&](float centerX) {
@@ -556,7 +623,7 @@ int main() {
     //if (!cardBg.count(id)) cardBg[id] = pickBg(rng);
     for (int id : hand) cardBg[id] = pickBg(rng);
 
-    const sf::Vector2f cardSize(130.f, 180.f);
+    const sf::Vector2f cardSize = kHandCardSize;
     const float cardStep = 75.f;   //distance between card left edges (reduce for more overlap)
     const float cardLift = 40.f;   //how far hovered card rises
     const float handY = 720.f - cardSize.y - 10.f;
@@ -586,18 +653,37 @@ int main() {
     turnButton.setOutlineColor(sf::Color::Black);
 
     //energy circle
-    sf::CircleShape energyCircle(70.f);
-    energyCircle.setPosition({40.f, 540.f});
+    const float energyRadius = 50.f;
+    const sf::Vector2f energyPos(40.f, 540.f + (70.f - energyRadius));
+    sf::CircleShape energyCircle(energyRadius);
+    energyCircle.setPosition(energyPos);
     energyCircle.setFillColor(sf::Color(255, 244, 163));  // pastel yellow
     energyCircle.setOutlineThickness(4.f);
     energyCircle.setOutlineColor(sf::Color(30, 30, 30));
 
     //card lift animation
     //each card (by id) remembers the raise height its @
-    //every frame it moves a fraction of the way to where it should be
+    //every frame it moves like a fraction of the way to where it should be
     std::map<int, float> liftAmount;
     const float cardAnimSpeed = 18.f;  //increase num for faster //duh
     sf::Clock clock;
+
+    //card flight animation
+    //playing a card = it flies from your hand and SLAMS! into the slot
+    //right clicking a played card = returns to ur hand = animated to come back
+    std::vector<FlyingCard> flights;
+    const float slamTime = 0.32f;     //seconds for hand -> slot
+    const float returnTime = 0.28f;   //seconds for slot -> hand
+    const float arrowTime = 0.3f;     //seconds for a target arrow to draw out
+
+    //true while this card is mid-flight back 2 ur hand
+    //so hand skips drawing it so it isnt doubled
+    auto isReturning = [&](int id) {
+        for (const FlyingCard& f : flights) {
+            if (!f.toSlot && f.id == id) return true;
+        }
+        return false;
+    };
 
     while (window.isOpen()) {
         //events
@@ -638,13 +724,31 @@ int main() {
                         int es = slotAt(enemySlots, m);
 
                         if (c != -1) {
+                            //if this card was still gliding back to your hand just let it land instantly
+                            int clickedId = hand[c];
+                            flights.erase(std::remove_if(flights.begin(), flights.end(),
+                                              [&](const FlyingCard& f) { return !f.toSlot && f.id == clickedId; }),
+                                          flights.end());
                             //clicking a card selects it (right click for deselect)
                             selectedCard = (c == selectedCard) ? -1 : c;
                             selectedSlot = -1;
                         } else if (ps != -1) {
-                            if (selectedCard != -1 && playerSlots[ps].card == -1) {
+                            if (playerSlots[ps].arriving) {
+                                //card is still flying into this slot, ignore clicks on it
+                            } else if (selectedCard != -1 && playerSlots[ps].card == -1) {
+                                //works out where the card is drawn right now (with its lift + grow an bs)
+                                //so the flight starts exactly from there
+                                int id = hand[selectedCard];
+                                float lift = liftAmount[id];
+                                sf::Vector2f sz = cardSize * (1.f + 0.1f * (lift / cardLift));
+                                sf::Vector2f from(handStartX() + selectedCard * cardStep - (sz.x - cardSize.x) / 2.f,
+                                                  handY - lift - (sz.y - cardSize.y));
+                                flights.push_back(FlyingCard{id, true, ps, from, sz, 0.f});
+                                liftAmount[id] = 0.f;  //so it starts at rest if it comes back later
+
                                 //places the card into a box if it is empty
                                 playerSlots[ps].card = hand[selectedCard];
+                                playerSlots[ps].arriving = true;  //slot looks empty until the card lands
                                 hand.erase(hand.begin() + selectedCard);
                                 selectedCard = -1;
                                 selectedSlot = -1;
@@ -657,6 +761,7 @@ int main() {
                             //clicking an enemy slot selects it if ur holding a filled action box
                             if (selectedSlot != -1 && playerSlots[selectedSlot].card != -1) {
                                 playerSlots[selectedSlot].target = es;
+                                playerSlots[selectedSlot].arrowT = 0.f;  //arrow draws itself out again (also when re-aiming)
                                 //rmbr when this arrow was first drawn (re-aiming keeps its color)
                                 if (std::find(arrowOrder.begin(), arrowOrder.end(), selectedSlot) == arrowOrder.end()) {
                                     arrowOrder.push_back(selectedSlot);
@@ -671,11 +776,15 @@ int main() {
                 } else if (click->button == sf::Mouse::Button::Right) {
                     //right clicking returns it to your hand n undoes the action box
                     int ps = slotAt(playerSlots, m);
-                    if (ps != -1 && playerSlots[ps].card != -1) {
+                    if (ps != -1 && playerSlots[ps].card != -1 && !playerSlots[ps].arriving) {
+                        //card goes from the acition slot back to its spot in your hand
+                        flights.push_back(FlyingCard{playerSlots[ps].card, false, ps, playerSlots[ps].pos, kSlotSize, 0.f});
+                        liftAmount[playerSlots[ps].card] = 0.f;
                         hand.push_back(playerSlots[ps].card);
                         std::sort(hand.begin(), hand.end());
                         playerSlots[ps].card = -1;
                         playerSlots[ps].target = -1;
+                        playerSlots[ps].arrowT = 0.f;
                         arrowOrder.erase(std::remove(arrowOrder.begin(), arrowOrder.end(), ps), arrowOrder.end());
                         if (selectedSlot == ps) selectedSlot = -1;
                         selectedCard = -1;  //removes card selection
@@ -704,6 +813,27 @@ int main() {
             float liftTarget = raisedNow ? cardLift : 0.f;
             float& current = liftAmount[hand[i]];  //starts at 0 the first time a card is seen
             current += (liftTarget - current) * blend;
+        }
+
+        //animate flying cards
+        for (std::size_t i = 0; i < flights.size();) {
+            FlyingCard& f = flights[i];
+            f.t += dt / (f.toSlot ? slamTime : returnTime);
+            if (f.t >= 1.f) {
+                if (f.toSlot) {
+                    playerSlots[f.slot].arriving = false;  //landed: slot fills in
+                }
+                flights.erase(flights.begin() + static_cast<int>(i));
+            } else {
+                ++i;
+            }
+        }
+
+        //animate target arrows drawing out from the player slot
+        for (Slot& s : playerSlots) {
+            if (s.card != -1 && s.target != -1 && s.arrowT < 1.f) {
+                s.arrowT = std::min(1.f, s.arrowT + dt / arrowTime);
+            }
         }
 
         //animate health bar drain
@@ -752,6 +882,7 @@ int main() {
                 bool isSelected = (i == selectedCard);
                 int priority = isHovered ? 2 : (isSelected ? 1 : 0);
                 if (priority != pass) continue;
+                if (isReturning(hand[i])) continue;  //its flying back, drawn below instead
 
                 bool raised = isHovered || isSelected;
                 float y = handY - liftAmount[hand[i]];  //animated height instead of a hard jump
@@ -791,11 +922,51 @@ int main() {
             }
         }
 
+        //flying cards (drawn over the hand and slots)
+        for (const FlyingCard& f : flights) {
+            float t = std::min(f.t, 1.f);
+            sf::Vector2f fromCenter = f.fromPos + f.fromSize / 2.f;
+            sf::Vector2f toCenter, toSize;
+            sf::Color tint, outlineColor;
+            float outlineThickness, p, bump;
+
+            if (f.toSlot) {
+                //slam so its like a quick start then it speeds up into the slot
+                //bump makes the card bigger toward the camera mid-flight then go back down
+                toSize = kSlotSize;
+                toCenter = playerSlots[f.slot].pos + kSlotSize / 2.f;
+                p = 0.25f * t + 0.75f * t * t * t;
+                bump = 1.f + 0.35f * std::sin(kPi * t);
+                tint = sf::Color(255, 255, 235);
+                outlineColor = sf::Color(255, 200, 40);
+                outlineThickness = 5.f;
+            } else {
+                //return js makes it return to ur hand w no bump
+                auto it = std::find(hand.begin(), hand.end(), f.id);
+                if (it == hand.end()) continue;
+                int idx = static_cast<int>(it - hand.begin());
+                toSize = cardSize;
+                toCenter = {startX + idx * cardStep + cardSize.x / 2.f, handY + cardSize.y / 2.f};
+                p = easeOutCubic(t);
+                bump = 1.f + 0.15f * std::sin(kPi * t);
+                tint = sf::Color(210, 210, 210);
+                outlineColor = sf::Color(30, 30, 30);
+                outlineThickness = 3.f;
+            }
+
+            //card scales from the center
+            sf::Vector2f size = (f.fromSize + (toSize - f.fromSize) * p) * bump;
+            sf::Vector2f center = fromCenter + (toCenter - fromCenter) * p;
+            drawFlyingCard(window, font, cardTextures[cardBg[f.id]], f.id, center - size / 2.f, size,
+                           tint, outlineColor, outlineThickness);
+        }
+
         //energy circle
         window.draw(energyCircle);
-        sf::Text energyText(font, std::to_string(energy) + "/" + std::to_string(maxEnergy), 48);
+        sf::Text energyText(font, std::to_string(energy) + "/" + std::to_string(maxEnergy),
+                            static_cast<unsigned int>(energyRadius * 48.f / 70.f));
         energyText.setFillColor(sf::Color::Black);
-        centerText(energyText, {40.f + 70.f, 540.f + 70.f});
+        centerText(energyText, energyPos + sf::Vector2f(energyRadius, energyRadius));
         window.draw(energyText);
 
         //begin turn button
@@ -813,7 +984,7 @@ int main() {
                 sf::Vector2f from(s.pos.x + kSlotSize.x / 2.f, s.pos.y - 2.f);
                 sf::Vector2f to(enemySlots[s.target].pos.x + kSlotSize.x / 2.f,
                                 enemySlots[s.target].pos.y - 4.f);
-                drawArcArrow(window, from, to, arrowColors[k % 3]);
+                drawArcArrow(window, from, to, arrowColors[k % 3], easeOutCubic(s.arrowT));  //eased so it shoots out fast then settles
             }
         }
 
