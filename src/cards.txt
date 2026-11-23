@@ -13,14 +13,6 @@ BleedingVal: 0
 SpecialProperty: 0
 SpecialPropertyVal: 0
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
->>>>>>> 8fe6950 (reformatted cards.txt to correct)
-=======
-
->>>>>>> 37ebec5 (	modified:   src/cards.txt)
 [card]
 ID: 2
 Name: Thrust
@@ -192,15 +184,7 @@ Name: Still Life
 Exclusive: FALSE
 EnergyCost: 2
 AttackVal: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
-AttackRange: 11
-=======
 AttackRange:	 1
->>>>>>> 8fe6950 (reformatted cards.txt to correct)
-=======
-AttackRange: 11
->>>>>>> 37ebec5 (	modified:   src/cards.txt)
 attackType: stab
 PoisonVal: 0
 MadnessVal: 4
@@ -245,30 +229,12 @@ Name: Grotesque
 Exclusive: TRUE
 EnergyCost: 4
 AttackVal: 6
-<<<<<<< HEAD
-<<<<<<< HEAD
-AttackRange: 10
-=======
 AttackRange:	 0
->>>>>>> 8fe6950 (reformatted cards.txt to correct)
-=======
-AttackRange: 10
->>>>>>> 37ebec5 (	modified:   src/cards.txt)
 attackType: strike
 PoisonVal: 0
 MadnessVal: 5
 BurningVal: 0
 BleedingVal: 0
 SpecialProperty: 3
-<<<<<<< HEAD
-<<<<<<< HEAD
-SpecialPropertyVal: 10
-
-=======
 
 SpecialPropertyVal: 10
->>>>>>> 8fe6950 (reformatted cards.txt to correct)
-=======
-SpecialPropertyVal: 10
-
->>>>>>> 37ebec5 (	modified:   src/cards.txt)
