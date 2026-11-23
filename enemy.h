@@ -8,13 +8,12 @@
 #include "info.h"
 #include "playerDeck.h"
 
-class enemy : public info, public playerDeck {
+class enemy: public info, public playerDeck {
 public:
     enemy(std::string,int,std::string); //name,startingHealth, cardsource
     std::string getname(); //returns the name of the enemy
-
+    virtual void drawCard() override;
 private:
-    playerDeck Edeck;
     std::string name;
 };
 
