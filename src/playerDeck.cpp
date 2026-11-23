@@ -46,21 +46,23 @@ std::vector<card*> playerDeck::getHand(){
         return hand;
     }
 
+
+    
 //returns vector<card*> of the drawpile and hand
 std::vector<card*> playerDeck::getDeck(){
-    std::vector<card*> deck = drawpile;
-    deck.insert(deck.end(),hand.begin(),hand.end());
-    return deck;
+    std::vector<card*> all = drawpile;
+    all.insert(all.end(), hand.begin(), hand.end());
+    return all;
 }
 
 
 // show all current cards within the drawpile and hand 
 void playerDeck::show(){
-    std::cout<<"drawpile:\n";
+    std::cout<<"\e[1;33m drawpile:\n\e[22m";
     for(card* c : drawpile){
         std::cout<< c-> getName()<<std::endl;
     }
-    std::cout<< "hand\n";
+    std::cout<< "\e[1;32m hand\n\e[22m";
     for (card* c : hand){
         std::cout << c-> getName()<<std::endl;
     }

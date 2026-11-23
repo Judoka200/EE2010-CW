@@ -6,4 +6,5 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 
 file(GLOB SOURCES CONFIGURE_DEPENDS src/*.cpp)
-add_executable(main ${SOURCES})
+add_executable(main ${SOURCES}
+    src/cardGeneration.h)

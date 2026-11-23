@@ -14,6 +14,8 @@ class Player: public info, public playerDeck {
         void turnStart(); //runs strat of tuns stuff such as energy resetting and info's activateTurnStart
     private:
         int energy;
+        playerDeck deck;
+
 };
 
 
