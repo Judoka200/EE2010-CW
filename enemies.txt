@@ -1,28 +1,14 @@
-ID 1
-NAME grunt
-HEALTH 5
-CARDS:
-1
-1
-1
-1
-4
-4
-5
+EC1.txt
+NAME: grunt
+HEALTH: 5
 
-ID 2
-NAME not a grunt
-HEALTH 50
-CARDS:
-5
-5
-7
-7
+EC2.txt
+NAME: not a grunt
+HEALTH: 50
 
-ID 3
-NAME punchingBag
-HEALTH 2000
-CARDS: 
-5
+EC3.txt
+NAME: punchingBag
+HEALTH: 2000
+
 
 EOF
