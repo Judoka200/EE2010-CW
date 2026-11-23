@@ -110,10 +110,11 @@ struct Slot {
 static const sf::Vector2f kSlotSize(80.f, 80.f); //every slot uses this : )
 
 //the window is split in 2: the game area on the left and the battle log on the right
+//change kLogWidth to make the log wider/thinner (game area shrinks to fit)
 static const float kWindowW = 1280.f;
 static const float kWindowH = 720.f;
 static const float kLogWidth = 280.f;
-static const float kGameW = kWindowW - kLogWidth;
+static const float kGameW = kWindowW - kLogWidth;  //everything else lives in 0..kGameW
 
 //centering the text onto a still point for cards
 //so its in the middle of the card
@@ -126,8 +127,7 @@ static void centerText(sf::Text& t, sf::Vector2f center) {
 }
 
 //splits a string into lines that fit inside maxWidth (word wrap)
-//used by the battle log
-//now long messages dont run off the side
+//used by the battle log so long messages dont run off the side
 static std::vector<std::string> wrapText(const sf::Font& font, const std::string& s,
                                          unsigned int size, float maxWidth) {
     std::vector<std::string> lines;
@@ -148,40 +148,40 @@ static std::vector<std::string> wrapText(const sf::Font& font, const std::string
     return lines;
 }
 
-//draws the battlelog panel on the right
+//draws the battle log panel on the right
 //black rectangle, "Battle Log" title at the top, then the log entries underneath
-//newest entry is at the bottom
-//old ones scroll off the top when it fills up
+//newest entry is at the bottom, old ones scroll off the top when it fills up
 static void drawBattleLog(sf::RenderWindow& window, const sf::Font& font,
                           const std::vector<std::string>& entries) {
     const float pad = 14.f;
     const unsigned int textSize = 16;
     const float lineHeight = 22.f;
 
-    //longass black rectangle
+    //the long black rectangle
     sf::RectangleShape panel({kLogWidth, kWindowH});
     panel.setPosition({kGameW, 0.f});
     panel.setFillColor(sf::Color::Black);
     window.draw(panel);
 
-    //rectangle left outline
+    //thin outline on the left edge so it separates from the game
     sf::RectangleShape edge({3.f, kWindowH});
     edge.setPosition({kGameW, 0.f});
     edge.setFillColor(sf::Color(90, 90, 90));
     window.draw(edge);
 
-    //battle log text n line
+    //title
     sf::Text title(font, "Battle Log", 26);
     title.setFillColor(sf::Color::White);
     centerText(title, {kGameW + kLogWidth / 2.f, 30.f});
     window.draw(title);
+
+    //line under the title
     sf::RectangleShape divider({kLogWidth - pad * 2.f, 2.f});
     divider.setPosition({kGameW + pad, 56.f});
     divider.setFillColor(sf::Color(90, 90, 90));
     window.draw(divider);
 
-    //wrap every entry
-    //boots the oldest text out
+    //wrap every entry then only keep the last lines that fit
     std::vector<std::string> lines;
     for (const std::string& e : entries) {
         std::vector<std::string> wrapped = wrapText(font, e, textSize, kLogWidth - pad * 2.f);
@@ -193,7 +193,7 @@ static void drawBattleLog(sf::RenderWindow& window, const sf::Font& font,
 
     for (int i = first; i < static_cast<int>(lines.size()); ++i) {
         sf::Text t(font, lines[i], textSize);
-        t.setFillColor(sf::Color(220, 220, 220));  //CHANGE text color here
+        t.setFillColor(sf::Color(220, 220, 220));  //CHANGE text colour here
         t.setPosition({kGameW + pad, top + static_cast<float>(i - first) * lineHeight});
         window.draw(t);
     }
@@ -258,12 +258,46 @@ static void drawHealthBar(sf::RenderWindow& window, const sf::Font& font,
 //didnt really understand it and it took forever
 //wonder why marvel rivals fell off?
 
+//small square status icons (poison, strength, slash etc.) shown in a row under the hp bar
+//an icon is just its png name without .png, eg. "poison" or "slash"
+//unknown names / pngs that failed to load are skipped so it never crashes
+static const float kIconSize = 28.f;  //icons are squashed to this square size
+static const float kIconGap = 4.f;
+static void drawIcons(sf::RenderWindow& window, const std::map<std::string, sf::Texture>& textures,
+                      const std::vector<std::string>& icons, float centerX, float top) {
+    if (icons.empty()) return;
+    float n = static_cast<float>(icons.size());
+    float totalWidth = n * kIconSize + (n - 1.f) * kIconGap;
+    float x = centerX - totalWidth / 2.f;  //row is centered under the hp bar
+    for (const std::string& name : icons) {
+        auto it = textures.find(name);
+        if (it == textures.end()) continue;
+
+        //dark backing so light icons still read on the cave bg
+        sf::RectangleShape backing({kIconSize, kIconSize});
+        backing.setPosition({x, top});
+        backing.setFillColor(sf::Color(0, 0, 0, 140));
+        backing.setOutlineThickness(2.f);
+        backing.setOutlineColor(sf::Color::Black);
+        window.draw(backing);
+
+        sf::Sprite icon(it->second);
+        icon.setPosition({x, top});
+        icon.setScale({kIconSize / static_cast<float>(it->second.getSize().x),
+                       kIconSize / static_cast<float>(it->second.getSize().y)});
+        window.draw(icon);
+        x += kIconSize + kIconGap;
+    }
+}
+
 //it draws the placeholder for the character
 //CHANGE
 //remove this when the actual drawings for the character are made and sub those in
 static void drawCharacter(sf::RenderWindow& window, const sf::Font& font,
                           sf::Vector2f topLeft, sf::Color colour,
-                          const std::string& name, int hp, float shownHp, int maxHp) {
+                          const std::string& name, int hp, float shownHp, int maxHp,
+                          const std::vector<std::string>& icons,
+                          const std::map<std::string, sf::Texture>& iconTextures) {
     const sf::Vector2f size(140.f, 220.f);
     sf::RectangleShape box(size);
     box.setPosition(topLeft);
@@ -272,20 +306,29 @@ static void drawCharacter(sf::RenderWindow& window, const sf::Font& font,
     box.setOutlineColor(sf::Color::Black);
     window.draw(box); //CHANGE^ this when sprites are made
 
-    //draws the name of the character under it
+    //everything now sits ABOVE the character, top to bottom:
+    //name, hp bar, icon row, then the character box
+    const float centerX = topLeft.x + size.x / 2.f;
+    const float iconTop = topLeft.y - 8.f - kIconSize;  //icon row sits just above the character
+    const float barTop = iconTop - 6.f - 22.f;          //22 = health bar height
+
+    //draws the name of the character above the hp bar
     //remove if u dont want names idk
     //id adapt the colors of the name to the characters as wel
     sf::Text nameText(font, name, 22);
     nameText.setFillColor(sf::Color::White);
     nameText.setOutlineColor(sf::Color::Black);
     nameText.setOutlineThickness(3.f);
-    centerText(nameText, {topLeft.x + size.x / 2.f, topLeft.y + size.y + 22.f});
+    centerText(nameText, {centerX, barTop - 18.f});
     window.draw(nameText);
 
     //draws the health bar
     //makes the heath bar a litte wider than the character asw
     //keep this part i like it
-    drawHealthBar(window, font, {topLeft.x - 10.f, topLeft.y + size.y + 42.f}, size.x + 20.f, hp, shownHp, maxHp);
+    drawHealthBar(window, font, {topLeft.x - 10.f, barTop}, size.x + 20.f, hp, shownHp, maxHp);
+
+    //status icons under the hp bar (see drawIcons)
+    drawIcons(window, iconTextures, icons, centerX, iconTop);
 }
 
 //is it pingu or pengu?
@@ -400,6 +443,8 @@ static void drawArcArrow(sf::RenderWindow& window, sf::Vector2f start, sf::Vecto
 
 
 
+
+
 //main
 int main() {
     sf::RenderWindow window(sf::VideoMode({1280, 720}), "Card Game UI");
@@ -431,6 +476,28 @@ int main() {
         }
         cardTextures[i].setSmooth(true);
     }
+    //status icons: assets/effects/*.png and assets/attack-types/*.png
+    //stored by file name (no .png) so u call them by name
+    std::map<std::string, sf::Texture> iconTextures;
+    const std::vector<std::pair<std::string, std::string>> iconFiles = {
+        {"effects", "bleed"},   {"effects", "burn"},     {"effects", "madness"},
+        {"effects", "minushp"}, {"effects", "plague"},   {"effects", "plushp"},
+        {"effects", "poison"},  {"effects", "strength"}, {"effects", "vulnerable"},
+        {"attack-types", "defend"}, {"attack-types", "slash"},
+        {"attack-types", "stab"},   {"attack-types", "strike"},
+    };
+    for (const auto& f : iconFiles) {
+        std::string path = "assets/" + f.first + "/" + f.second + ".png";
+        if (iconTextures[f.second].loadFromFile(path)) {
+            iconTextures[f.second].setSmooth(true);
+        } else {
+            std::cerr << "Could not load " << path << " (icon skipped)\n";
+            iconTextures.erase(f.second);
+        }
+    }
+    std::vector<std::string> iconNames;  //only used by the test keys below
+    for (const auto& entry : iconTextures) iconNames.push_back(entry.first);
+
     std::mt19937 rng(std::random_device{}());
     std::uniform_int_distribution<int> pickBg(0, 2);
     std::map<int, int> cardBg;  //card id -> which background (0-2), picked once so it sticks
@@ -447,6 +514,13 @@ int main() {
     float playerShownHp = static_cast<float>(playerHp);  //ghost bars start full
     float enemyShownHp = static_cast<float>(enemyHp);
 
+    //icons currently showing under each character's hp bar
+    //CHANGE backend: push_back a name to show an icon, erase it to hide it
+    //eg. enemyIcons.push_back("poison");  playerIcons.push_back("strength");
+    std::vector<std::string> playerIcons;
+    std::vector<std::string> enemyIcons;
+    std::size_t nextTestIcon = 0;
+
     //BATTLE LOG TEXT
     //each string is one entry in the log, newest at the bottom
     //edit these or push_back new ones from the backend whenever something happens
@@ -455,14 +529,15 @@ int main() {
     //  battleLog.push_back("write your log text here");
     std::vector<std::string> battleLog;
 
-    // character positions (relative to battlelog)
-    const sf::Vector2f playerPos(130.f, 240.f);
-    const sf::Vector2f enemyPos(730.f, 240.f);
+    // character positions (squeezed in so everything fits left of the log)
+    //y pushed down to 280 to make room for the name + hp + icons above them
+    const sf::Vector2f playerPos(130.f, 280.f);
+    const sf::Vector2f enemyPos(730.f, 280.f);
     const sf::Color blue(70, 120, 220);
     const sf::Color red(220, 70, 70);
 
     // calls 3 action slots above each char
-    const float slotY = 110.f;
+    const float slotY = 100.f;
     const float slotGap = 20.f;
     auto makeSlots = [&](float centerX) {
         std::vector<Slot> slots(3);
@@ -554,6 +629,16 @@ int main() {
                 if (key->code == sf::Keyboard::Key::H) {
                     enemyHp = enemyMaxHp;
                     playerHp = playerMaxHp;
+                }
+                //test keys for the icons DELETE THESE TOO
+                //E = adds the next icon to the enemy, P = adds it to the player, C = clears all icons
+                if (!iconNames.empty() && (key->code == sf::Keyboard::Key::E || key->code == sf::Keyboard::Key::P)) {
+                    std::vector<std::string>& target = (key->code == sf::Keyboard::Key::E) ? enemyIcons : playerIcons;
+                    if (target.size() < 6) target.push_back(iconNames[nextTestIcon++ % iconNames.size()]);
+                }
+                if (key->code == sf::Keyboard::Key::C) {
+                    playerIcons.clear();
+                    enemyIcons.clear();
                 }
             }
             if (const auto* click = event->getIf<sf::Event::MouseButtonPressed>()) {
@@ -663,8 +748,8 @@ int main() {
         window.draw(hintText);
 
         //drawing characters
-        drawCharacter(window, font, playerPos, blue, "Player", playerHp, playerShownHp, playerMaxHp);
-        drawCharacter(window, font, enemyPos, red, "Enemy", enemyHp, enemyShownHp, enemyMaxHp);
+        drawCharacter(window, font, playerPos, blue, "Player", playerHp, playerShownHp, playerMaxHp, playerIcons, iconTextures);
+        drawCharacter(window, font, enemyPos, red, "Enemy", enemyHp, enemyShownHp, enemyMaxHp, enemyIcons, iconTextures);
 
         //action slots
         for (int i = 0; i < 3; ++i) {
@@ -746,7 +831,7 @@ int main() {
             }
         }
 
-        //battle log goes last //do not move this it needs to go last
+        //battle log goes last so nothing can draw over it
         drawBattleLog(window, font, battleLog);
 
         window.display();
