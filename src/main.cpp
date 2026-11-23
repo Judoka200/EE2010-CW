@@ -1,21 +1,22 @@
 #include <iostream>
 #include "card.h"
-#include "playerDeck.h"
+// #include "playerDeck.h"
+#include "cardGeneration.h"
+#include "Player.h"
 
+using namespace std;
 
 int main() {
 // card testCard(1,"slashsd", 4);
 
-playerDeck deck;
+    Player p(10);
 
-    card test(2,"stabs",3,1,1,ATKTYPE::slash,2);
+    std::vector<card> allCards = loadCards("src/cards.txt");  
+    for (card& c : allCards) {
+        p.addCard(&c);
+    }
 
-    deck.addCard(&test);
-    deck.show();
-
-    deck.addCardToHand(&test);
-
-    deck.show();
+    p.show();
 }
 
 
