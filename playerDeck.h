@@ -18,12 +18,11 @@ public:
     void addCardToHand(card* ); //adds card to hand from drawpile. throw error message if card is not in drawpile
     void returnCardToDeck(card* ); //add card to drawpile from hand. throw error message if card is not in hand
     void clearHand(); //puts entire hand in drawpile for easier referencing.
-    void drawCard(); //draws one random card from drawpile to hand. does noting if drawpile is empty
+    virtual void drawCard(); //draws card from drawpile to hand. does nothing if drawpile is empty
     card* getCard(int); //returns pointer to card.
     std::vector<card*> getHand(); //returns array/vector of pointers to hand
     std::vector<card*> getDeck(); //returns array/vector of pointers to entire deck
     void load(const std::string&); // loads cards from file into the drawpile
-
     void show();
 
 private:
@@ -32,6 +31,7 @@ private:
     std::vector<card*> drawpile; // 
     std::vector<card*> hand; //vector of class pointers
 };
+
 
 
 #endif
