@@ -1,11 +1,7 @@
 - replace card texture outline
-
 - fix card text placement w image placements on it (square sprites)
-
 - make energy circle actually work
-
 - display card energy in corner of cards
-
 - change character placeholder rects to placeholder images
-
+- make sprites move and fight during clashes
 - code CHANGEs (backend ctrl f CHANGE into the ui)
