@@ -140,7 +140,7 @@ static void centerText(sf::Text& t, sf::Vector2f center) {
 //splits a string into lines that fit inside maxWidth (word wrap)
 //used by the battle log
 //now long messages dont run off the side
-static std::vector<std::string> wrapText(const sf::Font& font, const std::string& s,
+static std::vector<std::string> wrapText(sf::Font& font, const std::string& s,
                                          unsigned int size, float maxWidth) {
     std::vector<std::string> lines;
     std::istringstream words(s);
@@ -164,7 +164,7 @@ static std::vector<std::string> wrapText(const sf::Font& font, const std::string
 //black rectangle, "Battle Log" title at the top, then the log entries underneath
 //newest entry is at the bottom
 //old ones scroll off the top when it fills up
-static void drawBattleLog(sf::RenderWindow& window, const sf::Font& font,
+static void drawBattleLog(sf::RenderWindow& window, sf::Font& font,
                           const std::vector<std::string>& entries) {
     const float pad = 14.f;
     const unsigned int textSize = 16;
@@ -225,7 +225,7 @@ static int slotAt(const std::vector<Slot>& slots, sf::Vector2f p) {
 //draws the. health bar. obv
 //i feel like i wrote my code pretty clearly
 //like is all this necessary
-static void drawHealthBar(sf::RenderWindow& window, const sf::Font& font,
+static void drawHealthBar(sf::RenderWindow& window, sf::Font& font,
                           sf::Vector2f topLeft, float width, int hp, float shownHp, int maxHp) {
     const float height = 22.f;
 
@@ -273,7 +273,7 @@ static void drawHealthBar(sf::RenderWindow& window, const sf::Font& font,
 //it draws the placeholder for the character
 //CHANGE
 //remove this when the actual drawings for the character are made and sub those in
-static void drawCharacter(sf::RenderWindow& window, const sf::Font& font,
+static void drawCharacter(sf::RenderWindow& window, sf::Font& font,
                           sf::Vector2f topLeft, sf::Color colour,
                           const std::string& name, int hp, float shownHp, int maxHp) {
     const sf::Vector2f size(140.f, 220.f);
@@ -304,7 +304,7 @@ static void drawCharacter(sf::RenderWindow& window, const sf::Font& font,
 //noot noot!
 
 //draws an action slot
-static void drawSlot(sf::RenderWindow& window, const sf::Font& font, const Slot& slot,
+static void drawSlot(sf::RenderWindow& window, sf::Font& font, const Slot& slot,
                      sf::Color base, bool selected, bool highlighted) {
     sf::RectangleShape box(kSlotSize);
     box.setPosition(slot.pos);
@@ -424,6 +424,8 @@ int main() {
     p.drawCard();
     p.drawCard();
     p.drawCard();
+    p.drawCard();
+    p.drawCard();
 
     p.show();
 
@@ -431,7 +433,7 @@ int main() {
     sf::RenderWindow window(sf::VideoMode({1280, 720}), "Card Game UI");
     window.setFramerateLimit(60);
     sf::Font font;
-    if (!font.openFromFile("/usr/share/fonts/adwaita-sans-fonts/AdwaitaSans-Regular.ttf")) {
+    if (!font.openFromFile("assets/JandaSillyMonkey-opYV.ttf")) {
         std::cerr << "Could not load font. Check the path in main.cpp\n";
             return 1;
     }
@@ -572,7 +574,7 @@ int main() {
 
     while (window.isOpen()) { 
         //events
-        while (const std::optional event = window.pollEvent()) {
+        while (std::optional event = window.pollEvent()) {
             if (event->is<sf::Event::Closed>()) {
                 window.close();
             }
@@ -597,6 +599,7 @@ int main() {
                         p.playCard(playerSlots[0].c,e);
                     turnNumber++;  // CHANGE placeholder later this will run the queued actions
 
+                    // if (playerSlots[0].c->getAttackType() == enemySlots[playerSlots[0].target].c->getAttackType()){}
                     } else {
                         int c = cardAt(m);
                         int ps = slotAt(playerSlots, m);
