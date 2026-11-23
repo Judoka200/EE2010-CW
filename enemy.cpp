@@ -12,12 +12,8 @@ enemy::enemy(std::string enemyName, int health) : info(health) {
 
 // randomly selects a card from the enemy's deck
 card* enemy::enemyact() {
-    if (deck.empty()) {
-        return nullptr;
-    }
-
-    int randomIndex = rand() % deck.size();
-    return deck[randomIndex];
+    int randomIndex = rand() % Edeck.getDeck().size();
+    return Edeck.getDeck()[randomIndex];
 }
 
 // returns the enemy's name
@@ -27,6 +23,5 @@ std::string enemy::getname() {
 
 // adds a card to the enemy's deck
 void enemy::addcard(card* newCard) {
-    deck.push_back(newCard);
+    Edeck.getDeck().push_back(newCard);
 }
-

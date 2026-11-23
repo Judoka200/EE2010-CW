@@ -6,9 +6,9 @@
 #define EE2010_CW_ENEMY_H
 #include <vector>
 #include "info.h"
-#include "card.h"
+#include "playerDeck.h"
 
-class enemy : public info {
+class enemy : public info, public playerDeck {
 public:
     enemy(std::string,int); //name,startingHealth
     card* enemyact(); // returns a pointer to the random card the enemy is using
@@ -16,7 +16,7 @@ public:
     void addcard(card* card); //adds a card pointer to the enemy's deck array
 
 private:
-    std::vector<card*> deck;
+    playerDeck Edeck;
     std::string name;
 };
 
