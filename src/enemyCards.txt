@@ -1,0 +1,14 @@
+[card]
+ID: 1
+Name: Strike
+Exclusive: FALSE
+EnergyCost: 1
+AttackVal: 3
+AttackRange: 3
+attackType: strike
+PoisonVal: 0
+MadnessVal: 0
+BurningVal: 0
+BleedingVal: 0
+SpecialProperty: 0
+SpecialPropertyVal: 0
