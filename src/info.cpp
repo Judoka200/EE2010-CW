@@ -4,6 +4,7 @@
 
 #include "info.h"
 
+
 info::info(int base_Health){
     //set max health value and then create with full health
     maxHealth = base_Health;    
@@ -29,7 +30,6 @@ if ((health-value) > 0) {
     health = 0;
 }
 }
-
 //overwrites current health value ignoring maximum
 //- will get limited to maximum on heal()
 void info::setHealth(int value){
@@ -41,6 +41,7 @@ void info::activateTurnStart(){
     // perform poison calc
     activateStatus();
     //reset block
+    
     block = 0; 
 }
 
@@ -103,3 +104,7 @@ int info::getMadness() const {return madness;}
 int info::getBurning() const {return burning;}
 int info::getBleed() const {return bleeding;}
 int info::getBlock() const {return block;}
+
+void info::showInfo(){
+    std::cout << "health: "<< getHealth() << std::endl;
+}

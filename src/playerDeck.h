@@ -7,6 +7,7 @@
 #include "card.h"
 #include <vector>
 #include <iostream>
+#include <memory>
 
 class playerDeck {
 
@@ -21,13 +22,13 @@ class playerDeck {
     card* getCard(int); //returns pointer to card.
     std::vector<card*> getHand(); //returns array/vector of pointers to hand
     std::vector<card*> getDeck(); //returns array/vector of pointers to entire deck
-    
+    void load(const std::string&); // loads cards from file into the drawpile
 
     void show();
 
     private:
     bool moveCard(std::vector<card*>& from, std::vector<card*>& to, card* );
-    std::vector<card> deck;
+    std::vector<std::unique_ptr<card>> owned;
     std::vector<card*> drawpile;
     std::vector<card*> hand; //vector of class pointers
 };

@@ -4,8 +4,16 @@
 
 #include "playerDeck.h"
 #include "card.h"
+#include "cardGeneration.h"
+#include <cstdlib>
 
 
+void playerDeck::load(const std::string& filename) {
+    for (card& c : loadCards(filename)) {              // :: = the global function, not this method
+        owned.push_back(std::make_unique<card>(c));      // deck now owns a copy
+        drawpile.push_back(owned.back().get());          // drawpile just points at it
+    }
+}
 
 // append a card to the end of the drawpile vector
 void playerDeck::addCard(card* cd) { drawpile.push_back(cd); }
@@ -42,6 +50,20 @@ void playerDeck::clearHand(){
     hand.clear();
 }
 
+void playerDeck::drawCard(){
+    if (drawpile.empty()){      // check to see if drawpile empty first to stop accessing a card that doesnt exist
+        std::cout<<"drawpile empty\n";
+        return;
+    }
+std::srand(12); //temporary seed
+
+    // move a random card from the drawpile to the hand 
+    int randomIndex = rand() % drawpile.size();
+
+    moveCard(drawpile, hand, drawpile[randomIndex]);
+}
+
+
 std::vector<card*> playerDeck::getHand(){
         return hand;
     }
@@ -66,6 +88,7 @@ void playerDeck::show(){
     for (card* c : hand){
         std::cout << c-> getName()<<std::endl;
     }
+    std::cout<<"\e[0m";
 }
 
 
