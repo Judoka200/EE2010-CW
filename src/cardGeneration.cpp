@@ -1,6 +1,7 @@
 #include "cardGeneration.h"
 #include <fstream>
 #include <sstream>
+#include <iostream>
 #include <map>
 #include <algorithm>
 #include "arcaneKnowledgeRepository.h"
@@ -26,10 +27,12 @@ static ATKTYPE toAttackType(const std::string& s)
 // build one card from the collected key:value data
 static card makeCard(std::map<std::string, std::string>& data)
 {
+    
     // file says TRUE/FALSE, so lowercase it before comparing
     std::string ex = data["Exclusive"];
     std::transform(ex.begin(), ex.end(), ex.begin(), ::tolower);
-
+    
+    std::cout<<data["Name"]<<std::endl;
     return card(
         toInt(data, "ID"),
         data["Name"],
