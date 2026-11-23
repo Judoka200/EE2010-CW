@@ -18,6 +18,10 @@
 #include <string>
 #include <vector>
 
+
+/* ----- UI DRAWING FUNCTIONS ----- */
+
+
 //card slot id for holding cards in action slots
 //-1 card = your action slot is empty
 //-1 target = the enemy action slot is empty
@@ -410,7 +414,9 @@ static void drawArcArrow(sf::RenderWindow& window, sf::Vector2f start, sf::Vecto
 
 //main
 int main() {
-        Player p(16);
+
+    //initialise player and enemy 
+    Player p(16);
     enemy e("grunt",100);
     
     p.load("cards.txt");
@@ -421,7 +427,7 @@ int main() {
 
     p.show();
 
-
+    // create game window 
     sf::RenderWindow window(sf::VideoMode({1280, 720}), "Card Game UI");
     window.setFramerateLimit(60);
     sf::Font font;
@@ -430,11 +436,14 @@ int main() {
             return 1;
     }
     
+    //load background texture 
     sf::Texture caveTexture;
     if (!caveTexture.loadFromFile("assets/cave.png")) { //cave bg scaled to the game area (not under the log)
         std::cerr << "Could not load assets/cave.png. Make sure it is copied next to the executable.\n";
         return 1;
     }
+
+    //load card texture 
     caveTexture.setSmooth(true);
     sf::Sprite cave(caveTexture);
     cave.setScale({kGameW / static_cast<float>(caveTexture.getSize().x),
@@ -456,10 +465,7 @@ int main() {
     std::uniform_int_distribution<int> pickBg(0, 2);
     std::map<int, int> cardBg;  //card id -> which background (0-2), picked once so it sticks
 
-    //CHANGE to real backend values later
-    //isaac and vivek n diya this where u do it
-    //backend unite!
-    //sorry
+    // load player an enemy health values
     int maxEnergy = p.getEnergy();
     int turnNumber = 1;
     int playerMaxHp = p.getMaxHealth();
@@ -492,7 +498,9 @@ int main() {
         }
         return slots;
     };
-    std::vector<Slot> playerSlots = makeSlots(playerPos.x + 70.f);
+
+    //generate player and enemy slots 
+    std::vector<Slot> playerSlots = makeSlots(playerPos.x + 70.f); //70.f is horizontal offset
     std::vector<Slot> enemySlots = makeSlots(enemyPos.x + 70.f);
     int selectedCard = -1;  //card thats selected (-1=none)
     int selectedSlot = -1;  //slot thats selected (-1=none)
@@ -507,21 +515,23 @@ int main() {
         sf::Color(255, 150, 30),   // orange
     };
 
-    //your hand (card numbers)
-    //CHANGE - placeholders 1-6
-    std::vector<card *> hand;
-    auto syncHand = [&](){
+    //your hand (card pointers)
+    std::vector<card *> hand; //stores pointers of current cards in hand 
+    
+    // refresh the hand vector based on player's hand 
+    auto syncHand = [&](){ 
         hand = p.getHand(); 
     }; 
-    syncHand();
+    
+    syncHand(); 
 
-    // for (int id : hand) cardBg[id] = pickBg(rng);
-
+    // for (card* c : hand) cardBg[c->iD()] = pickBg(rng);
     const sf::Vector2f cardSize(130.f, 180.f);
     const float cardStep = 75.f;   //distance between card left edges (reduce for more overlap)
     const float cardLift = 40.f;   //how far hovered card rises
     const float handY = 720.f - cardSize.y - 10.f;
     const float handCenterX = 450.f;  //hand sits between the energy circle and the turn button
+
 
     auto handStartX = [&]() {
         float w = cardStep * (static_cast<float>(hand.size()) - 1.f) + cardSize.x;
@@ -560,7 +570,7 @@ int main() {
     const float cardAnimSpeed = 18.f;  //increase num for faster //duh
     sf::Clock clock;
 
-    while (window.isOpen()) {
+    while (window.isOpen()) { 
         //events
         while (const std::optional event = window.pollEvent()) {
             if (event->is<sf::Event::Closed>()) {
@@ -582,7 +592,7 @@ int main() {
                 sf::Vector2f m = window.mapPixelToCoords(click->position);
                 if (click->button == sf::Mouse::Button::Left) {
                     if (turnButton.getGlobalBounds().contains(m)) {
-                        #pragma region TURN start
+                        #pragma region TURN start DO DAMAGE
                         
                         p.playCard(playerSlots[0].c,e);
                     turnNumber++;  // CHANGE placeholder later this will run the queued actions
