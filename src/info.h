@@ -5,6 +5,7 @@
 #ifndef EE2010_CW_INFO_H
 #define EE2010_CW_INFO_H
 
+#include <iostream>
 
 class info {
     public:
@@ -26,6 +27,8 @@ class info {
     int getBurning() const; //returns burning total
     int getBleed() const; //returns bleed total
     int getBlock() const; //returns block total
+
+    void showInfo();
     private:
     int health, maxHealth, poison, madness, burning, bleeding, block; //all default to 0 except maxhealth and health.
 };
