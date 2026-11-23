@@ -5,6 +5,8 @@
 #include "playerDeck.h"
 #include "card.h"
 #include "cardGeneration.h"
+#include <cstdlib>
+
 
 void playerDeck::load(const std::string& filename) {
     for (card& c : loadCards(filename)) {              // :: = the global function, not this method
@@ -47,6 +49,20 @@ void playerDeck::clearHand(){
     drawpile.insert(drawpile.end(), hand.begin(), hand.end());
     hand.clear();
 }
+
+void playerDeck::drawCard(){
+    if (drawpile.empty()){      // check to see if drawpile empty first to stop accessing a card that doesnt exist
+        std::cout<<"drawpile empty\n";
+        return;
+    }
+std::srand(12); //temporary seed
+
+    // move a random card from the drawpile to the hand 
+    int randomIndex = rand() % drawpile.size();
+
+    moveCard(drawpile, hand, drawpile[randomIndex]);
+}
+
 
 std::vector<card*> playerDeck::getHand(){
         return hand;
