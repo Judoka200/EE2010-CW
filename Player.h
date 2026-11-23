@@ -12,6 +12,7 @@ public:
     void setEnergy(int); //sets energy to specified value
     int getEnergy(); //returns current energy value
     void turnStart(); //runs strat of tuns stuff such as energy resetting and info's activateTurnStart
+virtual void drawCard() override; //altered drawCard for player.
 private:
     int energy;
     playerDeck deck;
@@ -20,3 +21,4 @@ private:
 
 
 #endif //EE2010_CW_PLAYER_H
+
