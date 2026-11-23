@@ -105,6 +105,10 @@ int info::getBurning() const {return burning;}
 int info::getBleed() const {return bleeding;}
 int info::getBlock() const {return block;}
 
+int info::getMaxHealth(){
+    return maxHealth;
+}
+
 void info::showInfo(){
     std::cout << "health: "<< getHealth() << std::endl;
 }

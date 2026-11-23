@@ -27,6 +27,7 @@ class info {
     int getBurning() const; //returns burning total
     int getBleed() const; //returns bleed total
     int getBlock() const; //returns block total
+    int getMaxHealth(); 
 
     void showInfo();
     private:
