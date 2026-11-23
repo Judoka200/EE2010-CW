@@ -12,9 +12,11 @@ class Player: public info, public playerDeck {
         void setEnergy(int); //sets energy to specified value
         int getEnergy(); //returns current energy value
         void turnStart(); //runs strat of tuns stuff such as energy resetting and info's activateTurnStart
-    private:
+        bool playCard(card* , info&);
+
+        
+        private:
         int energy;
-        playerDeck deck;
 
 };
 
