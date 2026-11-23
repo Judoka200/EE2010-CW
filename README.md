@@ -6,26 +6,19 @@
 
 ![image](Documentation/classDiagram.png)
 
+to run please download the file and open it as a project. after this then create a new cmake application run/debug configuration and the fields should be autofilled.
 
-09/11/26: TASK LIST
+
+23/11/26: TASK LIST
 
 **vivek:** 
-*drafting turn flow*
-- what happens where in the turn 
-- death checks, card draws etc
+testing
 
 **mason & laurie:**
-*sfml exmaple*
-- layout of ui 
-- click detection 
-- hover detection?
-- opening window to view deck
+sms and related
 
 **Diya:**
-*final classes*
-- complete player and enemy class cpp files 
+report and presentation
 
 **Reuben**
-*card designs (not garphical)* 
-garphical lol
-- make list of cards 
+get code to read and output new enemies
