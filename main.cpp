@@ -431,8 +431,6 @@ static void drawArcArrow(sf::RenderWindow& window, sf::Vector2f start, sf::Vecto
 
 
 
-
-
 //main
 int main() {
     sf::RenderWindow window(sf::VideoMode({1280, 720}), "Card Game UI");
