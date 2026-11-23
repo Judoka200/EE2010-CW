@@ -1,12 +1,17 @@
-- replace card texture with plain card backing image
+- replace card texture outline
+
 - fix card text placement w image placements on it (square sprites)
+
 - card placement animation
-- battle log (clear space to the side)
-- fix ugly black panel behind cards
+
 - make energy circle actually work
-- display card energy in corner
-- update start turn rectangle to show turn progress
+
+- display card energy in corner of cards
+
 - move hp bar above character icon and name above hp bar (leave space below)
+
 - change character placeholder rects to placeholder images
+
 - status icons below the hp bar
+
 - code CHANGEs (backend ctrl f CHANGE into the ui)
