@@ -343,36 +343,47 @@ static void drawIcons(sf::RenderWindow& window, const std::map<std::string, sf::
 static void drawCharacter(sf::RenderWindow& window, const sf::Font& font,
                           sf::Vector2f topLeft, sf::Color colour,
                           const std::string& name, int hp, float shownHp, int maxHp,
+                          int block,
                           const std::vector<std::string>& icons,
                           const std::map<std::string, sf::Texture>& iconTextures) {
+
     const sf::Vector2f size(140.f, 220.f);
     sf::RectangleShape box(size);
     box.setPosition(topLeft);
     box.setFillColor(colour);
     box.setOutlineThickness(3.f);
     box.setOutlineColor(sf::Color::Black);
-    window.draw(box); //CHANGE^ this when sprites are made
- 
-    //name, hp bar, icon row, character box
+    window.draw(box);
+
     const float centerX = topLeft.x + size.x / 2.f;
     const float iconTop = topLeft.y - 8.f - kIconSize;  //icon row sits just above the character
     const float barTop = iconTop - 6.f - 22.f;          //22 = health bar height
- 
-    //draws the name of the character above the hp bar
+
+    // draws the name of the character above the hp bar
     sf::Text nameText(font, name, 22);
     nameText.setFillColor(sf::Color::White);
     nameText.setOutlineColor(sf::Color::Black);
     nameText.setOutlineThickness(3.f);
     centerText(nameText, {centerX, barTop - 18.f});
     window.draw(nameText);
- 
-    //health bar a little wider than the character
-    drawHealthBar(window, font, {topLeft.x - 10.f, barTop}, size.x + 20.f, hp, shownHp, maxHp);
- 
-    //status icons (see drawIcons)
+
+    //health bar a little wider than the character    
+    drawHealthBar(window, font, {topLeft.x - 10.f, barTop},
+                  size.x + 20.f, hp, shownHp, maxHp);
+
+    // Block value
+    sf::Text blockText(font, "Block: " + std::to_string(block), 18);
+    blockText.setFillColor(sf::Color(100, 180, 255));
+    blockText.setOutlineColor(sf::Color::Black);
+    blockText.setOutlineThickness(2.f);
+
+    centerText(blockText, {centerX, barTop + 32.f});
+    window.draw(blockText);
+
+    // Status icons
     drawIcons(window, iconTextures, icons, centerX, iconTop);
 }
- 
+
 //draws an action slot (with the name of the card in it)
 static void drawSlot(sf::RenderWindow& window, const sf::Font& font, const Slot& slot,
                      sf::Color base, bool selected, bool highlighted) {
@@ -519,7 +530,7 @@ int main() {
     p.deck().load("assets/card_lists/cards.txt");
     e.deck().load("assets/card_lists/enemyCards.txt");
     for (int i = 0; i < 5; ++i) p.deck().drawCard();
- 1
+ 
     p.deck().show();
  
     // create game window
@@ -799,7 +810,9 @@ int main() {
                                             //only do damage to player if target attack is greater than defend
                                             if(playerTarget->getAttack() >  playerCard->getAttack()){
                                                 p.damage(playerTarget->getAttack() - playerCard->getAttack());
-                                            } else {}
+                                                
+                                            } else {
+                                                p.addBlock(playerCard->getAttack()-playerTarget->getAttack());}
                                         
                                         } else {
                                             // if enemy has the defend card 
@@ -833,6 +846,8 @@ int main() {
                             //clicking a card selects it (right click for deselect)
                             selectedCard = (c == selectedCard) ? -1 : c;
                             selectedSlot = -1;
+
+
                         } else if (ps != -1) {
                             if (playerSlots[ps].arriving) {
                                 //card is still flying into this slot, ignore clicks on it
@@ -968,9 +983,9 @@ int main() {
         window.draw(hintText);
  
         //drawing characters (status icons come from the real poison/madness/burning/bleed/block values)
-        drawCharacter(window, font, playerPos, blue, "Player", p.getHealth(), playerShownHp, playerMaxHp,
+        drawCharacter(window, font, playerPos, blue, "Player", p.getHealth(), playerShownHp, playerMaxHp,p.getBlock(),
                       playerIcons, iconTextures);
-        drawCharacter(window, font, enemyPos, red, e.getname(), e.getHealth(), enemyShownHp, enemyMaxHp,
+        drawCharacter(window, font, enemyPos, red, e.getname(), e.getHealth(), enemyShownHp, enemyMaxHp,p.getBlock(),
                       enemyIcons, iconTextures);
  
         //action slots

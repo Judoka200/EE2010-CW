@@ -21,13 +21,26 @@ void info::heal(int value){
     health = (health += value >= maxHealth)? health = maxHealth : health += value;
 }
 
-void info::damage(int value){
+void info::damage(int value) {
 
-    // should we do death checks here??
-    if ((health - value) > 0){
-        health -= value;
-    } else {
-        health = 0;
+    // Block damage 
+    if (block >= value) {
+        block -= value;
+    }
+    else {
+        // damage after block
+        int remainingDamage = value - block;
+
+        // Remove all remaining block
+        block = 0;
+
+        // do damage to health 
+        if (health - remainingDamage > 0) {
+            health -= remainingDamage;
+        }
+        else {
+            health = 0;
+        }
     }
 }
 //overwrites current health value ignoring maximum
