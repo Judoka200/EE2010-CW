@@ -516,10 +516,10 @@ int main() {
     Player p(16);
     enemy e("grunt", 100);
  
-    p.deck().load("cards.txt");
-    e.deck().load("enemyCards.txt");
+    p.deck().load("assets/card_lists/cards.txt");
+    e.deck().load("assets/card_lists/enemyCards.txt");
     for (int i = 0; i < 5; ++i) p.deck().drawCard();
- 
+ 1
     p.deck().show();
  
     // create game window
