@@ -1,21 +1,6 @@
 [card]
 ID: 1
-Name: Strike1
-Exclusive: FALSE
-EnergyCost: 1
-AttackVal: 1
-AttackRange: 3
-attackType: strike
-PoisonVal: 0
-MadnessVal: 0
-BurningVal: 0
-BleedingVal: 0
-SpecialProperty: 0
-SpecialPropertyVal: 0
-
-[card]
-ID: 2
-Name: Strike2
+Name: Weak Strike
 Exclusive: FALSE
 EnergyCost: 1
 AttackVal: 2
@@ -29,23 +14,8 @@ SpecialProperty: 0
 SpecialPropertyVal: 0
 
 [card]
-ID: 3
-Name: Strike3
-Exclusive: FALSE
-EnergyCost: 1
-AttackVal: 3
-AttackRange: 3
-attackType: strike
-PoisonVal: 0
-MadnessVal: 0
-BurningVal: 0
-BleedingVal: 0
-SpecialProperty: 0
-SpecialPropertyVal: 0
-
-[card]
-ID: 4
-Name: Strike4
+ID: 2
+Name: Normal Strike
 Exclusive: FALSE
 EnergyCost: 1
 AttackVal: 4
@@ -59,13 +29,58 @@ SpecialProperty: 0
 SpecialPropertyVal: 0
 
 [card]
-ID: 5
-Name: Strike5
+ID: 3
+Name: Strong Strike
 Exclusive: FALSE
-EnergyCost: 1
-AttackVal: 5
+EnergyCost: 2
+AttackVal: 7
 AttackRange: 3
 attackType: strike
+PoisonVal: 0
+MadnessVal: 0
+BurningVal: 0
+BleedingVal: 0
+SpecialProperty: 0
+SpecialPropertyVal: 0
+
+[card]
+ID: 4
+Name: Weak Defend
+Exclusive: FALSE
+EnergyCost: 1
+AttackVal: 2
+AttackRange: 3
+attackType: def
+PoisonVal: 0
+MadnessVal: 0
+BurningVal: 0
+BleedingVal: 0
+SpecialProperty: 0
+SpecialPropertyVal: 0
+
+[card]
+ID: 5
+Name: Normal Defend
+Exclusive: FALSE
+EnergyCost: 1
+AttackVal: 4
+AttackRange: 3
+attackType: def
+PoisonVal: 0
+MadnessVal: 0
+BurningVal: 0
+BleedingVal: 0
+SpecialProperty: 0
+SpecialPropertyVal: 0
+
+[card]
+ID: 6
+Name: Strong Defend
+Exclusive: FALSE
+EnergyCost: 2
+AttackVal: 7
+AttackRange: 3
+attackType: def
 PoisonVal: 0
 MadnessVal: 0
 BurningVal: 0

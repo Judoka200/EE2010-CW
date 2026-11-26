@@ -26,7 +26,9 @@ add_library(game STATIC ${SOURCES})
 target_include_directories(game PUBLIC src)
 
 # ---- SFML UI (src/main.cpp) ----
-add_executable(main src/main.cpp)
+add_executable(main src/main.cpp
+    src/combat.cpp
+    src/combat.h)
 target_link_libraries(main PRIVATE game SFML::Graphics)
 
 add_custom_command(TARGET main POST_BUILD

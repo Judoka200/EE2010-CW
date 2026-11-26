@@ -2,7 +2,9 @@
 #include "cardGeneration.h"
 #include "enemy.h"
 #include "Player.h"
- 
+#include "combat.h"
+
+
 //hi welcome to my cooool ui
 #include <SFML/Graphics.hpp>
 #include <algorithm>
@@ -102,27 +104,30 @@ private:
     unsigned int m_cornerPointCount;
     float m_anglePerPoint;
 };
- 
+
+#pragma region SLOT 
 //card slot for holding cards in action slots
 //c == nullptr -> the slot is empty
 //target == -1 -> no enemy slot targeted yet
 struct Slot {
     sf::Vector2f pos;
-    card* c = nullptr;
-    int target = -1;
+    card* c = nullptr;  // card in slot 
+    int target = -1;    // currentl selected target number
     bool arriving = false;  //true while a card is still flying in (slot draws as empty until it lands)
     float arrowT = 0.f;     //0 -> 1 as the target arrow draws itself out
 };
  
 //determining card slot size (80x80 square u can adapt it)
 static const sf::Vector2f kSlotSize(80.f, 80.f); //every slot uses this : )
- 
+ #pragma endregion
+
 //the window is split in 2: the game area on the left and the battle log on the right
 static const float kWindowW = 1280.f;
 static const float kWindowH = 720.f;
 static const float kLogWidth = 280.f;
 static const float kGameW = kWindowW - kLogWidth;
- 
+
+#pragma region text format
 //centering the text onto a still point for cards
 //so its in the middle of the card
 static void centerText(sf::Text& t, sf::Vector2f center) {
@@ -158,7 +163,9 @@ static std::vector<std::string> wrapText(const sf::Font& font, const std::string
     if (lines.empty()) lines.push_back("");  //keeps blank entries as a blank line
     return lines;
 }
- 
+#pragma endregion
+
+#pragma region Battlelog
 //draws the battle log panel on the right
 //black rectangle, "Battle Log" title at the top, then the log entries underneath
 //newest entry is at the bottom, old ones scroll off the top when it fills up
@@ -209,7 +216,9 @@ static void drawBattleLog(sf::RenderWindow& window, const sf::Font& font,
         window.draw(t);
     }
 }
- 
+#pragma endregion
+
+#pragma region anims
 //size of a card sitting in your hand @ bottom
 //flying cards grow or shrink between this and the action slot size
 static const sf::Vector2f kHandCardSize(130.f, 180.f);
@@ -261,7 +270,9 @@ static void drawFlyingCard(sf::RenderWindow& window, const sf::Font& font, const
     shrinkToFit(label, size.x - 16.f * size.x / kHandCardSize.x);
     window.draw(label);
 }
- 
+#pragma endregion
+
+
 //loops over the slots and builds the rectangle around each one
 //basically this is how it chooses what slot ur hovering
 static int slotAt(const std::vector<Slot>& slots, sf::Vector2f p) {
@@ -271,6 +282,7 @@ static int slotAt(const std::vector<Slot>& slots, sf::Vector2f p) {
     return -1;
 }
  
+#pragma region Draw info
 //draws the. health bar. obv
 static void drawHealthBar(sf::RenderWindow& window, const sf::Font& font,
                           sf::Vector2f topLeft, float width, int hp, float shownHp, int maxHp) {
@@ -419,7 +431,8 @@ static void drawSlot(sf::RenderWindow& window, const sf::Font& font, const Slot&
         window.draw(label);
     }
 }
- 
+#pragma endregion
+
 //draws an arced arrow above everything so u can see what each thing is connected to
 //progress of the animation is how much of the arrow is drawn (0 = nothing, 1 = full arrow)
 //the arrowhead remains on the leading edge of the drawn arrow while it grows
@@ -500,21 +513,7 @@ static void drawArcArrow(sf::RenderWindow& window, sf::Vector2f start, sf::Vecto
  
 
 
-int parseAttack(card* playerCard, card* enemyCard){
-    ATKTYPE ptype = playerCard->getAttackType();
-    ATKTYPE etype = enemyCard->getAttackType();
 
-    if (ptype != ATKTYPE::def &&  etype != ATKTYPE::def){
-        return 1;
-    }
-    else if (ptype == ATKTYPE::def && etype == ATKTYPE::def){
-        return 2; 
-    } 
-    else if ((ptype != ATKTYPE::def) ^ (etype != ATKTYPE::def) ){
-        return 3;
-    }
-    return 0;
-}
 
 
 //main
@@ -599,7 +598,7 @@ int main() {
         if (!cardBg.count(id)) cardBg[id] = pickBg(rng);
         return cardBg[id];
     };
- 
+    #pragma region pos, slot, stat definitions 
     // load player an enemy health values
     int maxEnergy = p.getEnergy();
     int turnNumber = 1;
@@ -649,7 +648,9 @@ int main() {
         sf::Color(235, 50, 50),    // red
         sf::Color(255, 150, 30),   // orange
     };
- 
+    #pragma endregion
+
+    #pragma region  En turn
     auto enemyTurn = [&](enemy& en) {
         for (int i = 0; i < 3; i++) {
             if (enemySlots[i].c != nullptr) {
@@ -663,8 +664,10 @@ int main() {
             }
             enemySlots[i].c = enemyCard;
             en.deck().returnCardToDeck(enemyCard);
+            
         }
     };
+    #pragma endregion
         enemyTurn(e);
  
     std::vector<card*> hand;    //shortcut variale  
@@ -673,6 +676,60 @@ int main() {
         hand = p.deck().getHand();
     };
     syncHand();
+
+    // turn logic 
+    auto resolveTurn = [&](){   
+        bool enemyUsed[3] = {false, false, false}; //enemies three action slots
+    const std::string pName = "Player";
+    const std::string eName = e.getname();
+
+    // trigger player slots form left to right 
+    for (int i = 0; i < 3; ++i) {
+        card* playerCard = playerSlots[i].c;
+        if (!playerCard) continue;
+
+        int target = playerSlots[i].target;
+        card* enemyCard = (target >= 0 && target < 3) ? enemySlots[target].c : nullptr;
+
+        // battle log stuffs 
+        // damage calc etc is done in resolveClash()
+        if (enemyCard) {
+            battleLog.push_back(resolveClash(playerCard, enemyCard, p, e, pName, eName));
+            enemyUsed[target] = true;
+        } else {
+            battleLog.push_back(resolveUnopposed(playerCard, p, e, pName, eName));
+        }
+    }
+
+    // untargeted enemy cards 
+    for (int i = 0; i < 3; ++i) {
+        if (enemySlots[i].c && !enemyUsed[i])
+            battleLog.push_back(resolveUnopposed(enemySlots[i].c, e, p, eName, pName));
+    }
+
+    // 3. clean up: played cards go back to the deck, slots empty
+    // send used cards back to deck 
+    for (Slot& slot : playerSlots) {
+        if (slot.c) {
+            p.deck().returnCardToDeck(slot.c);
+        }
+        slot.c = nullptr; slot.target = -1; slot.arrowT = 0.f; slot.arriving = false;
+    }
+
+    for (Slot& slot : enemySlots){
+        slot.c = nullptr; slot.target = -1; 
+    }
+    arrowOrder.clear();
+    selectedCard = -1;  //reset to unselected 
+    selectedSlot = -1;
+
+    //start of next turn prep
+    e.activateTurnStart();   // poison etc. + resets enemy block
+    p.turnStart();           // energy back to 3, status effects, draws a card
+    enemyTurn(e);            // refill enemy slots
+    syncHand();
+    };
+
  
     const sf::Vector2f cardSize = kHandCardSize;
     const float cardStep = 75.f;   //distance between card left edges (reduce for more overlap)
@@ -770,67 +827,7 @@ int main() {
                     if (turnButton.getGlobalBounds().contains(m)) {
 
                         // Check that the player has actually played a card
-                        if (playerSlots[0].c != nullptr) {
-
-                            // Check that the player has selected a valid enemy target
-                            int targetIndex = playerSlots[0].target;
-
-                            if (targetIndex >= 0 &&
-                                targetIndex < static_cast<int>(enemySlots.size())) {
-
-                                card* playerCard = playerSlots[0].c;
-                                card* playerTarget = enemySlots[targetIndex].c;
-
-                                // Make sure the enemy slot actually contains a card
-                                if (playerTarget != nullptr) {
-
-                                    // p.playCard(playerCard, e);
-
-                                    switch (parseAttack(playerCard, playerTarget)) {
-
-                                    case 1: // Both attacks 
-                                        if (playerCard->getAttack() > playerTarget->getAttack()) {
-                                            e.damage(playerCard->getAttack() - playerTarget->getAttack());
-                                        }
-                                        else {
-                                            p.damage(playerTarget->getAttack() - playerCard->getAttack());
-                                        }
-                                        break;
-
-                                    case 2: // both Defends
-
-                                        p.addBlock(playerCard->getAttack());
-                                        e.addBlock(playerTarget->getAttack());
-                                        break;
-
-                                    case 3: // one attack one defend 
-
-                                        // if player has the defend card 
-                                        if (playerCard->getAttackType() == ATKTYPE::def){
-                                            //only do damage to player if target attack is greater than defend
-                                            if(playerTarget->getAttack() >  playerCard->getAttack()){
-                                                p.damage(playerTarget->getAttack() - playerCard->getAttack());
-                                                
-                                            } else {
-                                                p.addBlock(playerCard->getAttack()-playerTarget->getAttack());}
-                                        
-                                        } else {
-                                            // if enemy has the defend card 
-                                            if(playerCard->getAttack() > playerTarget->getAttack()){
-                                                e.damage(playerCard->getAttack() - playerTarget->getAttack());
-                                            }
-                                        }
-
-                                        break;
-                                    default:
-                                        break;
-                                    }
-
-                                }
-                            }
-                        }
-
-                        enemyTurn(e);
+                        resolveTurn();
                         turnNumber++;
                     } else {
                         int c = cardAt(m);
@@ -851,9 +848,13 @@ int main() {
                         } else if (ps != -1) {
                             if (playerSlots[ps].arriving) {
                                 //card is still flying into this slot, ignore clicks on it
-                            } else if (selectedCard != -1 && playerSlots[ps].c == nullptr) {
+
+                            } else if (selectedCard != -1 && playerSlots[ps].c == nullptr && p.getEnergy() >= hand[selectedCard]->getCost()) {
                                 //works out where the card is drawn right now (with its lift + grow)
                                 //so the flight starts exactly from there
+                                p.removEnergy(hand[selectedCard]->getCost());    //remove energy 
+                                
+
                                 card* played = hand[selectedCard];
                                 float lift = liftAmount[played];
                                 sf::Vector2f sz = cardSize * (1.f + 0.1f * (lift / cardLift));
@@ -898,6 +899,7 @@ int main() {
                         flights.push_back(FlyingCard{returned, false, ps, playerSlots[ps].pos, kSlotSize, 0.f});
                         liftAmount[returned] = 0.f;
                         hand.push_back(returned);
+                        p.setEnergy(p.getEnergy() + playerSlots[ps].c->getCost());
                         //sort by card id (sorting the raw pointers would order by memory address)
                         std::sort(hand.begin(), hand.end(),
                                   [](card* a, card* b) { return a->iD() < b->iD(); });
@@ -985,13 +987,14 @@ int main() {
         //drawing characters (status icons come from the real poison/madness/burning/bleed/block values)
         drawCharacter(window, font, playerPos, blue, "Player", p.getHealth(), playerShownHp, playerMaxHp,p.getBlock(),
                       playerIcons, iconTextures);
-        drawCharacter(window, font, enemyPos, red, e.getname(), e.getHealth(), enemyShownHp, enemyMaxHp,p.getBlock(),
+        drawCharacter(window, font, enemyPos, red, e.getname(), e.getHealth(), enemyShownHp, enemyMaxHp,e.getBlock(),
                       enemyIcons, iconTextures);
  
         //action slots
         for (int i = 0; i < 3; ++i) {
-            drawSlot(window, font, playerSlots[i], blue, i == selectedSlot, i == hoveredPlayerSlot);
             drawSlot(window, font, enemySlots[i], red, false, i == hoveredEnemySlot);
+            drawSlot(window, font, playerSlots[i], blue, i == selectedSlot, i == hoveredPlayerSlot);
+        
         }
  
         //your hand
@@ -1133,4 +1136,3 @@ int main() {
     }
     return 0;
 }
- 
