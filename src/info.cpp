@@ -24,11 +24,11 @@ void info::heal(int value){
 void info::damage(int value){
 
     // should we do death checks here??
-if ((health-value) > 0) {
-    health -= value;
-} else {
-    health = 0;
-}
+    if ((health - value) > 0){
+        health -= value;
+    } else {
+        health = 0;
+    }
 }
 //overwrites current health value ignoring maximum
 //- will get limited to maximum on heal()

@@ -8,12 +8,13 @@
 #include "info.h"
 #include "playerDeck.h"
 
-class enemy : public info, public playerDeck {
+class enemy : public info {
     public:
     enemy(std::string,int); //name,startingHealth
     card* enemyact(); // returns a pointer to the random card the enemy is using
     std::string getname(); //returns the name of the enemy
     void addcard(card* card); //adds a card pointer to the enemy's deck array
+    playerDeck& deck() { return Edeck; }
 
     private:
     playerDeck Edeck;

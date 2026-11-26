@@ -6,6 +6,7 @@ Player::Player(int health) : info(health) {
     energy = 3;
 }
 
+
 // removes energy from the player
 void Player::removEnergy(int amount) {
     energy -= amount;
@@ -26,13 +27,13 @@ int Player::getEnergy() {
 void Player::turnStart() {
     energy = 3;
     activateTurnStart();
-    drawCard();
+    Pdeck.drawCard();
 }
 
 bool Player::playCard(card* c, info& target){
     //check if card is in hand first
     bool inHand = false;
-    for (card* check : getHand()){
+    for (card* check : Pdeck.getHand()){
         if(check == c){inHand = true;
         break;}
 
@@ -51,6 +52,8 @@ bool Player::playCard(card* c, info& target){
         addBlock(c->getAttack());
     }
     else{
+
+
 
     //quick debug stuffs    
     std::cout << "Target health: " << target.getHealth() << std::endl;

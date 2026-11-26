@@ -5,7 +5,7 @@
 #include "info.h"
 #include "playerDeck.h"
 
-class Player: public info, public playerDeck {
+class Player: public info {
     public:
         Player(int); //health
         void removEnergy(int); //removes specified amount of energy from total
@@ -13,9 +13,10 @@ class Player: public info, public playerDeck {
         int getEnergy(); //returns current energy value
         void turnStart(); //runs strat of tuns stuff such as energy resetting and info's activateTurnStart
         bool playCard(card* , info&);
-
+        playerDeck& deck() {return Pdeck;}
         
         private:
+        playerDeck Pdeck;
         int energy;
 
 };

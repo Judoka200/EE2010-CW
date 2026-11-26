@@ -12,9 +12,13 @@ enemy::enemy(std::string enemyName, int health) : info(health) {
 
 // randomly selects a card from the enemy's deck
 card* enemy::enemyact() {
-    int randomIndex = rand() % Edeck.getDeck().size();
-    return Edeck.getDeck()[randomIndex];
+        if (Edeck.getHand().empty()) {
+        Edeck.drawCard();
+    }
+    int randomIndex = rand() % Edeck.getHand().size();
+    return Edeck.getHand()[randomIndex];
 }
+
 
 // returns the enemy's name
 std::string enemy::getname() {

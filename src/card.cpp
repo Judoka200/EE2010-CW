@@ -28,7 +28,7 @@
 
 int card::getAttack() const { return attackVal; }
 int card::getRange() const { return attackRange; }
-int card::getAttackType() const { return attackType;}
+ATKTYPE card::getAttackType() const { return attackType;}
 int card::getEff(int type)  const  {  // returns effect values based on input
     if (type == 1) {
         return poisonVal;

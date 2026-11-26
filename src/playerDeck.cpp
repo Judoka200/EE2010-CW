@@ -55,7 +55,6 @@ void playerDeck::drawCard(){
         std::cout<<"drawpile empty\n";
         return;
     }
-std::srand(12); //temporary seed
 
     // move a random card from the drawpile to the hand 
     int randomIndex = rand() % drawpile.size();
