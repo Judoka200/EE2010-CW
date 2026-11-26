@@ -3,7 +3,8 @@
 
 // constructor - sets player health and starting energy
 Player::Player(int health) : info(health) {
-    energy = 3;
+    energy = 10;
+    maxEnergy = 10;
 }
 
 
@@ -23,14 +24,21 @@ int Player::getEnergy() {
     return energy;
 }
 
+int Player::getMaxEnergy(){
+    return maxEnergy;
+}
+
 // runs at the start of each turn
 void Player::turnStart() {
-    energy = 3;
+    energy = maxEnergy;
     activateTurnStart();
+    Pdeck.drawCard();
+    Pdeck.drawCard();
     Pdeck.drawCard();
 }
 
-bool Player::playCard(card* c, info& target){
+[[depreaceated]]
+bool Player::playCard(card* c, info& target){   
     //check if card is in hand first
     bool inHand = false;
     for (card* check : Pdeck.getHand()){
