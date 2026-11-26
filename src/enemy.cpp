@@ -15,7 +15,9 @@ card* enemy::enemyact() {
         if (Edeck.getHand().empty()) {
         Edeck.drawCard();
     }
+    if(Edeck.getHand().empty()){return nullptr;}
     int randomIndex = rand() % Edeck.getHand().size();
+
     return Edeck.getHand()[randomIndex];
 }
 
