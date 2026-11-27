@@ -1,0 +1,16 @@
+[ENEMY]
+FILENAME: enemyCards.txt
+NAME: grunt
+HEALTH: 5
+
+[ENEMY]
+FILENAME: enemyCards.txt
+NAME: not a grunt
+HEALTH: 50
+
+[ENEMY]
+FILENAME: enemyCards.txt
+NAME: punchingBag
+HEALTH: 2000
+
+EOF
